@@ -1,0 +1,13 @@
+# suggested by Emoto-san
+# but if I put it in place, all accessed become not found
+# I will look into this later when I move it to the
+# right place 
+RedirectMatch 404 /\.git
+RedirectMatch 404 ^/xsig-html/
+
+AddHandler myphp-script .html
+Action myphp-script php-HH8dfu8kl-213p.cgi
+
+DirectoryIndex index.html .ht
+
+
