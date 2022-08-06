@@ -21,9 +21,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
  var c_lTabs=3;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "$BK\A*%i%&%s%I>\:Y(B";
- c_rgszSh[1] = "$BF@E@(B";
- c_rgszSh[2] = "$B%A!<%`L>I=(B";
+ c_rgszSh[0] = "本選ラウンド詳細";
+ c_rgszSh[1] = "得点";
+ c_rgszSh[2] = "チーム名表";
 
 
 
@@ -91,7 +91,7 @@ function fnBuildTabStrip()
  szHTML =
   "<html><head>"+
   "<style>A:link,A:visited,A:active {text-decoration:none;"+"color:"+c_rgszClr[3]+";}"+
-  ".clTab {cursor:hand;background:"+c_rgszClr[1]+";font:9pt $B#M#S(B $B#P%4%7%C%/(B;padding-left:3px;padding-right:3px;text-align:center;}"+
+  ".clTab {cursor:hand;background:"+c_rgszClr[1]+";font:9pt ＭＳ Ｐゴシック;padding-left:3px;padding-right:3px;text-align:center;}"+
   ".clBorder {background:"+c_rgszClr[2]+";font:1pt;}"+
   "</style></head><body onload=\"parent.fnInit();\" onselectstart=\"event.returnValue=false;\" ondragstart=\"event.returnValue=false;\" bgcolor="+c_rgszClr[4]+
   " topmargin=0 leftmargin=0><table id=tbTabs cellpadding=0 cellspacing=0>";
@@ -301,15 +301,15 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>$BK\A*%i%&%s%I>\:Y(B</x:Name>
+    <x:Name>本選ラウンド詳細</x:Name>
     <x:WorksheetSource HRef="honsen.files/sheet001.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>$BF@E@(B</x:Name>
+    <x:Name>得点</x:Name>
     <x:WorksheetSource HRef="honsen.files/sheet002.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>$B%A!<%`L>I=(B</x:Name>
+    <x:Name>チーム名表</x:Name>
     <x:WorksheetSource HRef="honsen.files/sheet003.html"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
@@ -330,7 +330,7 @@ function fnSetActiveSheet(iSh)
  <frame src="honsen.files/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
-   <p>$B$3$N%Z!<%8$G(B$B;HMQ$9$k%U%l!<%`$O!"$*;H$$$N%V%i%&%6$G$O%5%]!<%H$5$l$F$$$^$;$s!#(B</p>
+   <p>このページで使用するフレームは、お使いのブラウザではサポートされていません。</p>
   </body>
  </noframes>
 </frameset>

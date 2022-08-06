@@ -13,94 +13,94 @@
 
 <body class="contents">
 
-<h1>$B5,Dj2]Bj(B</h1>
+<h1>規定課題</h1>
 
 <p>Cell Challenge 2009
-$B$N5,Dj2]Bj$O!V(B<strong>$BJ8;zNs$NJT=85wN%7W;;(B</strong>$B!W$G$9!%(B</p>
+の規定課題は「<strong>文字列の編集距離計算</strong>」です．</p>
 
 <ul>
  <!-- li><a href="#faq"     >Q &amp; A</a></li -->
- <!-- li><a href="#ref"     >$B;29M;qNA(B</a></li -->
- <li><a href="#abstract">$B35MW(B</a></li>
- <li><a href="#detail"  >$BM=A*2]Bj>\:Y(B</a></li>
+ <!-- li><a href="#ref"     >参考資料</a></li -->
+ <li><a href="#abstract">概要</a></li>
+ <li><a href="#detail"  >予選課題詳細</a></li>
 </ul>
 
 <!-- h2><a name="faq">Q &amp; A</a></h2>
 
-<p>$B"*!V(B<a href="qanda.html">Q&amp;A$B$N%Z!<%8(B</a>$B!W$K0\F0$7$^$7$?!#(B</p -->
+<p>→「<a href="qanda.html">Q&amp;Aのページ</a>」に移動しました。</p -->
 
-<!-- h2><a name="ref">$B;29M;qNA(B</a></h2 -->
+<!-- h2><a name="ref">参考資料</a></h2 -->
 
 <!-- ul>
- <li>$BLdBj:n@.(BWG $B:n@.!V5,Dj2]Bj;29M;qNA!W(B
+ <li>問題作成WG 作成「規定課題参考資料」
    (<a href="download/reference.ppt">ppt</a> / <a href="download/reference.pdf">pdf</a>)</li>
 </ul -->
 
-<h2><a name="abstract">$B35MW(B</a></h2>
-<p>2$B$D$NJ8;zNs$N6a$5$r7W$k$?$a$KJRJ}$K<!$NA`:n$r7+$jJV$7E,MQ$7$F!$(B
-$B$b$&0lJ}$NJ8;zNs$rF@$k$?$a$NA`:n2s?t$N:G>.CM$,!$$=$N(B2$B$D$NJ8;zNs$N(B
-<strong>$BJT=85wN%(B</strong>$B$G$9!#;HMQ2DG=$JA`:n$O0J2<$N(B3$B<oN`$G$9!#(B</p>
+<h2><a name="abstract">概要</a></h2>
+<p>2つの文字列の近さを計るために片方に次の操作を繰り返し適用して，
+もう一方の文字列を得るための操作回数の最小値が，その2つの文字列の
+<strong>編集距離</strong>です。使用可能な操作は以下の3種類です。</p>
 
 <ol>
- <li>$B:o=|!'(B1$B$D$NJ8;z$r<h$j=|$/(B</li>
- <li>$BA^F~!'(B1$B$D$NJ8;z$r?7$?$KIU$12C$($k(B</li>
- <li>$BCV49!'(B1$B$D$NJ8;z$rJL$NJ8;z$GCV$-49$($k(B</li>
+ <li>削除：1つの文字を取り除く</li>
+ <li>挿入：1つの文字を新たに付け加える</li>
+ <li>置換：1つの文字を別の文字で置き換える</li>
 </ol>
 
-<p>$BNc$($P!V(Bweight$B!W$H!V(Bwrite$B!W$NJT=85wN%$r9M$($k$H$-!$<!$N$h$&$KA`:n$r(B
-$B7+$jJV$7E,MQ$9$k$H!$$3$N(B2$B$D$NJT=85wN%$,(B 4$B0J2<(B $B$G$"$k$3$H$,J,$+$j$^$9!#(B</p>
+<p>例えば「weight」と「write」の編集距離を考えるとき，次のように操作を
+繰り返し適用すると，この2つの編集距離が 4以下 であることが分かります。</p>
 
 <img style="float: right;" src="img/wrighte.png">
 
 <ul>
  <li>weight</li>
- <li>weight<strong>e</strong> ($BA^F~!'(Be)</li>
- <li>w<strong>r</strong>ighte ($BCV49!'(Be $B"*(B r)</li>
- <li>wrihte ($B:o=|!'(Bg)</li>
- <li>write ($B:o=|!'(Bh)</li>
+ <li>weight<strong>e</strong> (挿入：e)</li>
+ <li>w<strong>r</strong>ighte (置換：e → r)</li>
+ <li>wrihte (削除：g)</li>
+ <li>write (削除：h)</li>
 </ul>
 
-<p style="clear: both;">$B$^$?!$(B3$B2s0J2<$NA`:n$NE,MQ$G$O!V(Bweight$B!W$r!V(Bwrite$B!W$K$9$k$3$H$,(B
-$B<B$O$G$-$J$$$N$G!$!V(Bweight$B!W$H!V(Bwrite$B!W$NJT=85wN%$O(B 4 $B$K$J$j$^$9!#(B
-$B:o=|!$A^F~!$CV49$OJ8;zNs$NCf$N$I$N0LCV$G9T$C$F$b$h$$$G$9!#(B</p>
+<p style="clear: both;">また，3回以下の操作の適用では「weight」を「write」にすることが
+実はできないので，「weight」と「write」の編集距離は 4 になります。
+削除，挿入，置換は文字列の中のどの位置で行ってもよいです。</p>
 
-<h2><a name="detail">$BM=A*2]Bj>\:Y(B</a></h2>
+<h2><a name="detail">予選課題詳細</a></h2>
 
-<!-- p>$B8=:_:n@.Cf$G$9!#(B</p -->
+<!-- p>現在作成中です。</p -->
 
 <!-- dl class="attention">
-<dt>$B$4Cm0U(B</dt>
-<dd>$B7h>!LdBj$O!$;vA0$K8x3+$$$?$7$^$;$s!#$^$?!$M=A*LdBj$H(B
-  $BN`;w$N@-<A$NLdBj$,=P$kJ]>Z$O$"$j$^$;$s!#(B</dd>
+<dt>ご注意</dt>
+<dd>決勝問題は，事前に公開いたしません。また，予選問題と
+  類似の性質の問題が出る保証はありません。</dd>
 </dl -->
 
-<p>$B6qBNE*$K2r$$$FD:$/$N$O0J2<7A<0$G=PBj$5$l$kLdBj$G$9!#(B</p>
+<p>具体的に解いて頂くのは以下形式で出題される問題です。</p>
 
 <dl class="problem">
-<dt>$B%f!<%6$N<BAu$9$k4X?t(B</dt>
+<dt>ユーザの実装する関数</dt>
 <dd style="background-color: #000; color: #fff; padding: 2pt;">
 <span style="color: #98fb98;">void</span> <span style="color: #87cefa;">ppe_user</span>(<span style="color: #98fb98;">unsigned int</span> *<span style="color: #eedd82;">str1</span>, <span style="color: #98fb98;">unsigned int</span> *<span style="color: #eedd82;">str2</span>, <span style="color: #98fb98;">unsigned int</span> *<span style="color: #eedd82;">ans</span>, <span style="color: #98fb98;">int</span> <span style="color: #eedd82;">num1</span>, <span style="color: #98fb98;">int</span> <span style="color: #eedd82;">num2</span>);
 </dd>
-<dd>$B3F%]%$%s%?$NCM$O(B128$B%P%$%H6-3&$K%"%i%$%a%s%H$5$l$F$$$k$3$H$,J]>Z$5$l$^$9!#(B
-ppe.c$B$K<BAu$5$l$F$$$kNc$r;29M$K9bB.2=$7$F$/$@$5$$!#(B</dd>
- <dt>$BJ8;zNs(B</dt>
- <dd>1$BJ8;z$O(B1$B%P%$%H$G(B1$B!A(B255$B$NCM$r;}$D!#(BNULL('\0')$B$,=*C<!#(B<br>
-   $BJ8;zNs$O(Bstr1, str2$B$N;X$9NN0h$KJ]B8$5$l$k!#(B<br>
-   $B$=$l$>$l$ND9$5$O(Bnum1, num2$B!#$?$@$7(B num1 * num2 $B$O(B 17179869184 (2<sup>34</sup>) $B0J2<$H$9$k!#(B<br>
-   $BJ8;zNs$ND9$5$O(B128$B$NG\?t!#(B<br>
-   $BJ8;zNs$N:GBgD9$O$=$l$>$l(B1048448$BJ8;z!J(B1M-128$B!K!#(B</dd>
- <dt>$BJT=85wN%(B</dt>
- <dd>1$B2s$NA^F~!":o=|!"CV49$NJT=85wN%$O$9$Y$F(B1$B!#(B</dd>
- <dt>$B2sEz(B</dt>
- <dd>$B;XDj$5$l$?0LCV(B(ans[0])$B$KJ]B8!#(B</dd>
- <dt>$B<B9T;~4V$NB,Dj(B</dt>
- <dd>ppe_user$B$N<B9T;~4V$rB,Dj(B</dd>
+<dd>各ポインタの値は128バイト境界にアライメントされていることが保証されます。
+ppe.cに実装されている例を参考に高速化してください。</dd>
+ <dt>文字列</dt>
+ <dd>1文字は1バイトで1〜255の値を持つ。NULL('\0')が終端。<br>
+   文字列はstr1, str2の指す領域に保存される。<br>
+   それぞれの長さはnum1, num2。ただし num1 * num2 は 17179869184 (2<sup>34</sup>) 以下とする。<br>
+   文字列の長さは128の倍数。<br>
+   文字列の最大長はそれぞれ1048448文字（1M-128）。</dd>
+ <dt>編集距離</dt>
+ <dd>1回の挿入、削除、置換の編集距離はすべて1。</dd>
+ <dt>回答</dt>
+ <dd>指定された位置(ans[0])に保存。</dd>
+ <dt>実行時間の測定</dt>
+ <dd>ppe_userの実行時間を測定</dd>
 </dl>
 
 <!-- dl>
- <dt>$B;29M?^=q!'(B</dt>
- <dd>$B1|B<@2I'Cx!V#C8@8l$K$h$k:G?7%"%k%4%j%:%`<-E5!W5;=QI>O@<R(B</dd>
- <dd>$B>.9qNOJTCx!V9TNs7W;;%=%U%H%&%(%"!<#W#S!"%9!<%Q!<%3%s!"JBNs7W;;5!!W4]A13t<02q<R(B</dd>
+ <dt>参考図書：</dt>
+ <dd>奥村晴彦著「Ｃ言語による最新アルゴリズム辞典」技術評論社</dd>
+ <dd>小国力編著「行列計算ソフトウエアーＷＳ、スーパーコン、並列計算機」丸善株式会社</dd>
 </dl -->
 
 <hr class="footer">

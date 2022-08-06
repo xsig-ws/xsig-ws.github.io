@@ -11,74 +11,74 @@
 
 <body>
 
-<h2>$B5,Dj2]Bj(B</h2>
+<h2>規定課題</h2>
 
 <p>
-GPU$B%A%c%l%s%8(B2010$B$N5,Dj2]Bj$O(B
-$B!V(B<strong>$BD>8r3J;RK!$K$h$kN.BN$N0\N.7W;;(B</strong>$B!W$G$9!%(B
+GPUチャレンジ2010の規定課題は
+「<strong>直交格子法による流体の移流計算</strong>」です．
 </p>
 <p>
-GPU$B%A%c%l%s%8<B9T0Q0w2q$,MQ0U$9$k!$(BNVIDIA$B<R(BGPU(Tesla C1060)
-$B$rEk:\$7$?7W;;5!$G!$(BCUDA$B%W%m%0%i%_%s%04D6-$rMQ$$$F%W%m%0%i%`$r(B
-$B:n@.$7$F$$$?$@$-$^$9!%(B
+GPUチャレンジ実行委員会が用意する，NVIDIA社GPU(Tesla C1060)
+を搭載した計算機で，CUDAプログラミング環境を用いてプログラムを
+作成していただきます．
 </p>
 
-<h3>$B35MW(B</h3>
+<h3>概要</h3>
 
-$BFs<!85NN0h$NN.BN$K$*$$$F!"%$%s%/$N=i4|G;EYJ,I[$HB.EY>l$,M?$($i$l$?$H$7$^$9!#(B
-$B%$%s%/$,$I$&0\F0$9$k$+(B($B0\N.7W;;(B)$B$r!"7h$a$i$l$?;~4V%9%F%C%W?t$@$1(B
-$B7W;;$7$F$/$@$5$$!#(B
+二次元領域の流体において、インクの初期濃度分布と速度場が与えられたとします。
+インクがどう移動するか(移流計算)を、決められた時間ステップ数だけ
+計算してください。
 <p>
 <img src="img/prob-ex.jpg" width="480">
 </p>
 
-<h3>$B5,Dj2]Bj%^%K%e%"%k(B</h3>
+<h3>規定課題マニュアル</h3>
 
-$B;22C%A!<%`$O5,Dj2]Bj%^%K%e%"%k$r4p$K!"%W%m%0%i%`$r:n@.(B
-$B$7$F$/$@$5$$!#(B
+参加チームは規定課題マニュアルを基に、プログラムを作成
+してください。
 
 <ul><li>
-$B5,Dj2]Bj%^%K%e%"%k(B($B%D!<%k%-%C%H(B 0.60$BBP1~HG(B):
+規定課題マニュアル(ツールキット 0.60対応版):
 <a href="./gpucmanual-0.60.ppt">gpucmanual-0.60.ppt</a>
 </li></ul>
 
-$B%^%K%e%"%k$K$O!"5,Dj2]Bj$NFbMF!"%5%s%W%k%W%m%0%i%`$N<B9TJ}K!!"(B
-$B;22C%k!<%k$J$I$,=q$+$l$F$$$^$9$N$G(B<font color="red">$B=OFI$r$*4j$$$7$^$9(B</font>$B!#(B
+マニュアルには、規定課題の内容、サンプルプログラムの実行方法、
+参加ルールなどが書かれていますので<font color="red">熟読をお願いします</font>。
 
-<h3>$B%D!<%k%-%C%H(B</h3>
+<h3>ツールキット</h3>
 
-$B%D!<%k%-%C%H$O;22C%W%m%0%i%`$r:n@.$9$k%Y!<%9$H$J$k%Q%C%1!<%8$G!"(B
-$B%5%s%W%k%W%m%0%i%`$d=PBjMQ%W%m%0%i%`(B($B%3%s%F%9%H(BAPI)$B$,4^$^$l$^$9!#(B
-$B:G?7HG$O%P!<%8%g%s(B0.60$B$G$9!%(B
+ツールキットは参加プログラムを作成するベースとなるパッケージで、
+サンプルプログラムや出題用プログラム(コンテストAPI)が含まれます。
+最新版はバージョン0.60です．
 
 <p><font color="red" size=+1>
-[$BCm0U;v9`(B] $B$9$G$K5l%P!<%8%g%s$N%D!<%k%-%C%H$r;H$$%W%m%0%i%_%s%0$7$F$$$k>l9g!$(B</font>
-$B2<5-$N%U%!%$%k$rMQ$$$k$N$G$O$J$/!$%^%K%e%"%kBh0l>O$r$4;2>H$N>e!$(B
+[注意事項] すでに旧バージョンのツールキットを使いプログラミングしている場合，</font>
+下記のファイルを用いるのではなく，マニュアル第一章をご参照の上，
 <font color="red" size=+1>
-$B!V:9J,%$%s%9%H!<%k!W$r$*$9$9$a$7$^$9(B
+「差分インストール」をおすすめします
 </font>
-($B:n@.Cf$N(Bmain.cc, gpu.cu$B$J$I$r8m$C$F>e=q$-$7$J$$$h$&$K(B!)$B!#(B
+(作成中のmain.cc, gpu.cuなどを誤って上書きしないように!)。
 </p>
 
-$B?75,%$%s%9%H!<%kMQ%D!<%k%-%C%H(B:
+新規インストール用ツールキット:
 <ul><li>
-$B%D!<%k%-%C%H(B $B%P!<%8%g%s(B0.60:
+ツールキット バージョン0.60:
 <a href="./toolkit-0.60.tgz">toolkit-0.60.tgz</a>
 </li></ul>
-$B%3%s%F%9%HMQ%^%7%s$N(B/home/pub/$B$K$bCV$+$l$F$$$^$9!#(B
+コンテスト用マシンの/home/pub/にも置かれています。
 
-<h3>$B5l%P!<%8%g%s(B</h3>
+<h3>旧バージョン</h3>
 
-<a href="./old-download.html">$B$3$A$i(B</a>
+<a href="./old-download.html">こちら</a>
 
-<h3>$BLd$$9g$o$;(B</h3>
+<h3>問い合わせ</h3>
 
-$B<ALd$d%P%0>pJs$O(B
+質問やバグ情報は
 <a href="mailto:gpu2010@matsulab.is.titech.ac.jp">
-gpu2010@matsulab.is.titech.ac.jp</a>$B$^$G$*4j$$$7$^$9!%(B
-$B$J$*D:$$$?<ALdEy$O!$$*L>A0$rIz$;$?>e$G(BQ&amp;A$B$N%Z!<%8$J$I$G(B
-$B8x3+$5$;$F$$$?$@$/$3$H$,$"$j$^$9!%(B
-$B$"$i$+$8$a$4N;>5$/$@$5$$!%(B
+gpu2010@matsulab.is.titech.ac.jp</a>までお願いします．
+なお頂いた質問等は，お名前を伏せた上でQ&amp;Aのページなどで
+公開させていただくことがあります．
+あらかじめご了承ください．
 
 </body>
 </html>

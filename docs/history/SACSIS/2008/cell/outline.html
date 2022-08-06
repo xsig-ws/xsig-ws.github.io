@@ -14,43 +14,43 @@
 
 <body class="contents">
 
-<h1>$B35MW(B</h1>
+<h1>概要</h1>
 
 <img src="img/photo_cell.jpg" style="float: right;">
-<!-- p>Intel Core Duo$B!$(BSun UltraSPARC T1 $B$J$I!$(B
-$B%^%k%A%3%"%W%m%;%C%5$,9-$/;T>l$K=P2s$j!$(B
-$B$^$?(BSCE $B$N(B PLAYSTATION3 * $B$K$O%X%F%m%8%K%"(B
-$B%9$J%^%k%A%3%"%W%m%;%C%5$G$"$k(BCell $B$,Ec:\(B
-$B$5$l$k$J$I!$%^%k%A%3%"4D6-$O$a$:$i$7$$$b(B
-$B$N$G$O$J$/$J$C$F$-$^$7$?!%(B</p -->
-<p>$B%^%k%A%3%"%W%m%;%C%5$,9-$/;T>l$K=P2s$j!$(B
-$B3t<02q<R%=%K!<!&%3%s%T%e!<%?%(%s%?%F%$%s%a%s%H$N(B
-PLAYSTATION&reg;3<sup>*</sup> $B$K$b%X%F%m%8%K%"(B
-$B%9$J%^%k%A%3%"%W%m%;%C%5(B
-Cell Broadband Engine<sup>TM</sup> (Cell/B.E.)<sup>*</sup> $B$,Ec:\(B
-$B$5$l$k$J$I!$%^%k%A%3%"4D6-$O$a$:$i$7$$$b(B
-$B$N$G$O$J$/$J$C$F$-$^$7$?!%(B</p>
-<p>$B0lJ}$G$3$N$h$&$J%^%k%A%3%"4D6-$r8zN(E*(B
-$B$KMxMQ$9$k$?$a$NJBNs2=%W%m%0%i%_%s%0$K$O!$%9%1!<%i%S%j%F%#$dJB9T%?%9%/$N(B
-$BH/8+!$@8@.!$%9%l%C%I2=$r$$$+$K9T$&$+$,2]Bj$H$J$j$^$9!%@h:"(B $B$b(B Intel $B$,JBNs2=(B
-$B=hM}MQ%i%$%V%i%j!V(BThreading Building Block $B!W$r%*!<%W%s%=!<%92=$9$k$J$I!$%^(B
-$B%k%A%3%"(B/ $B%^%k%A%9%l%C%I4D6-$K$*$1$k%"%W%j%1!<%7%g%s3+H/$,:#$^$G0J>e$K=E(B
-$BMW;k$5$l$k$H9M$($i$l$^$9!%(B</p>
+<!-- p>Intel Core Duo，Sun UltraSPARC T1 など，
+マルチコアプロセッサが広く市場に出回り，
+またSCE の PLAYSTATION3 * にはヘテロジニア
+スなマルチコアプロセッサであるCell が塔載
+されるなど，マルチコア環境はめずらしいも
+のではなくなってきました．</p -->
+<p>マルチコアプロセッサが広く市場に出回り，
+株式会社ソニー・コンピュータエンタテインメントの
+PLAYSTATION&reg;3<sup>*</sup> にもヘテロジニア
+スなマルチコアプロセッサ
+Cell Broadband Engine<sup>TM</sup> (Cell/B.E.)<sup>*</sup> が塔載
+されるなど，マルチコア環境はめずらしいも
+のではなくなってきました．</p>
+<p>一方でこのようなマルチコア環境を効率的
+に利用するための並列化プログラミングには，スケーラビリティや並行タスクの
+発見，生成，スレッド化をいかに行うかが課題となります．先頃 も Intel が並列化
+処理用ライブラリ「Threading Building Block 」をオープンソース化するなど，マ
+ルチコア/ マルチスレッド環境におけるアプリケーション開発が今まで以上に重
+要視されると考えられます．</p>
 <img src="img/photo_prise.jpg" style="float: left;">
-<p>$B$3$N$h$&$JCf!$>pJs=hM}3X2q(B $B7W;;5!%"!<%-(B
-$B%F%/%A%c8&5f2q!$AH9~$_%7%9%F%`8&5f2q!$%O%$(B
-$B%Q%U%)!<%^%s%9%3%s%T%e!<%F%#%s%08&5f2q$G$O(B
-$BA0G/!V(BCell$B%9%T!<%I%A%c%l%s%8!W$r3+:E(B
-$B$7!$B?$/$NJ}$N$4;22C$H$49%I>$r$$$?$@$-$^$7(B
-$B$?!%$3$l$r<u$1$^$7$FMhG/$b@h?JE*7W;;4pHW%7(B
-$B%9%F%`%7%s%]%8%&%`(BSACSIS2008 $B$NJ;@_4k2h$H(B
-$B$7$F!$(BCell/B.E. $B$rBP>]$H$9$k(B
-$B%^%k%A%3%"%W%m%0%i%_%s%0%3%s%F%9%H$r3+:E$5$;$F$$$?$@$/1?$S$H$J$j$^$7$?!%(B</p>
+<p>このような中，情報処理学会 計算機アーキ
+テクチャ研究会，組込みシステム研究会，ハイ
+パフォーマンスコンピューティング研究会では
+前年「Cellスピードチャレンジ」を開催
+し，多くの方のご参加とご好評をいただきまし
+た．これを受けまして来年も先進的計算基盤シ
+ステムシンポジウムSACSIS2008 の併設企画と
+して，Cell/B.E. を対象とする
+マルチコアプログラミングコンテストを開催させていただく運びとなりました．</p>
 
 <br style="clear: both;">
 <ul style="font-size: small;">
- <li>$B!H(BPLAYSTATION$B!I$O3t<02q<R%=%K!<!&%3%s%T%e!<%?%(%s%?%F%$%s%a%s%H$NEPO?>&I8$G$9!#(B</li>
- <li>$B!H(BCell Broadband Engine$B!I(B $B$O3t<02q<R%=%K!<!&%3%s%T%e!<%?%(%s%?%F%$%s%a%s%H$N>&I8$G$9!#(B</li>
+ <li>“PLAYSTATION”は株式会社ソニー・コンピュータエンタテインメントの登録商標です。</li>
+ <li>“Cell Broadband Engine” は株式会社ソニー・コンピュータエンタテインメントの商標です。</li>
 </ul>
 
 <hr class="footer">

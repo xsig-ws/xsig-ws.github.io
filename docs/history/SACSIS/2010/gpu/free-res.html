@@ -10,141 +10,141 @@
 </head>
 
 <body>
-<h2>$B<+M32]BjItLg!&7k2LH/I=(B</h2>
+<h2>自由課題部門・結果発表</h2>
 
 <p>
-$B<+M32]BjItLg$K$*$-$^$7$F$O!$Ds=P$5$l$?%l%]!<%H$K$D$-$^$7$F(B
-GPU$B%A%c%l%s%8<B9T0Q0w2q$G(B
-$B87@5$J$k?3::$r9T$$$^$7$?7k2L!$0J2<$N%A!<%`$,F~>^$7$^$7$?!%(B
-$B$*$a$G$H$&$4$6$$$^$9!%(B
+自由課題部門におきましては，提出されたレポートにつきまして
+GPUチャレンジ実行委員会で
+厳正なる審査を行いました結果，以下のチームが入賞しました．
+おめでとうございます．
 </p>
 
 <font size="+2">
 <table border=1>
 <tr>
-<td>$BBh(B1$B0L(B</td>
-<td>$B%A!<%`(B $B=);38&(B</td>
+<td>第1位</td>
+<td>チーム 秋山研</td>
 </tr>
 <tr>
 <td></td>
 <td>
-<a href="./rep-f1.pdf">GPU$B$K$h$k(BDNA$BCGJRG[Ns$N9bB.%^%C%T%s%0(B</a></td>
+<a href="./rep-f1.pdf">GPUによるDNA断片配列の高速マッピング</a></td>
 </tr>
 </table>
 </font>
 
 <br>
-$B?3::0w%3%a%s%H(B:
+審査員コメント:
 <ul>
 <li>
-DNA$BCGJRG[Ns=hM}$H$$$&!"C1=c$J?tCM7W;;$G$J$$1~MQ$K$D$$$F!"(B
-GPU$B$NJBNsMxMQ$G$N9bB.2=5Z$S%9%1!<%i%S%j%F%#$r<($7$F$$$k!#J,Ln$H$7$F(B
-$B:#8e=EMW@-$N9b$$$b$N$G$"$k$?$a!">-Mh@-$HM-MQ@-$O9b$$$H;W$o$l$k!#(B
+DNA断片配列処理という、単純な数値計算でない応用について、
+GPUの並列利用での高速化及びスケーラビリティを示している。分野として
+今後重要性の高いものであるため、将来性と有用性は高いと思われる。
 <li>
-$B%^%C%T%s%08uJdC5:w$N(BGPU$B2=$G$O=hM}$r#2CJ3,$KJ,3d$7(B
-$B%^%C%T%s%08uJd$,(B Global memory $B$+$i0n$l$k$N$r2r7h$7!"(B
-$B%"%i%$%s%a%s%H$K$h$k%9%3%"7W;;$N(BGPU$B2=$G$O!"%9%3%"(B
-$B9TNs$r(B texture $B%a%b%j>e$K$*$$$F(B cache $B$r;H$C$F$$$k!#(B 
+マッピング候補探索のGPU化では処理を２段階に分割し
+マッピング候補が Global memory から溢れるのを解決し、
+アラインメントによるスコア計算のGPU化では、スコア
+行列を texture メモリ上において cache を使っている。 
 <li>
-$B%"%k%4%j%:%`LL$G$b9)IW$9$k$3$H$K$h$j!"6H3&I8=`$N(BBLAST$B$HHf3S$7$F(B50$BG\$b$N(B
-$B9bB.2=$*$h$SJ#?t(BGPU$B$K$h$k%9%1!<%i%V%k$JJBNs2=$rC#@.$7$F$$$k!#(B
+アルゴリズム面でも工夫することにより、業界標準のBLASTと比較して50倍もの
+高速化および複数GPUによるスケーラブルな並列化を達成している。
 <li>
-$B%2%N%`2r@O$N<BMQ@-$N$"$k%"%W%j%1!<%7%g%s$GB(M-8z$J7k2L$H(B
-$B@-G=$r=P$7$F$*$j40@.EY$,9b$$!#(B
+ゲノム解析の実用性のあるアプリケーションで即有効な結果と
+性能を出しており完成度が高い。
 </ul>
 
 <font size="+2">
 <table border=1>
 <tr>
-<td>$BBh(B2$B0L(B</td>
-<td>$B%A!<%`(B Nokodai</td>
+<td>第2位</td>
+<td>チーム Nokodai</td>
 </tr>
 <tr>
 <td></td>
 <td>
 <a href="./rep-f2.pdf">
-Hilbert-Huang$BJQ49$NJBNs2=$*$h$S(BGPU$B$K$h$k9bB.2=(B</a>
+Hilbert-Huang変換の並列化およびGPUによる高速化</a>
 </td>
 </tr>
 </table>
 </font>
 
 <br>
-$B?3::0w%3%a%s%H(B:
+審査員コメント:
 <ul>
 <li>
-$B?.9f2r@O$NJ,Ln$G<BMQ@-$,$"$j!"(BGPU$B$G$N9bB.2=$KBP$7$F(B
-$B:Y$+$$EXNO$,$"$k!#(B
+信号解析の分野で実用性があり、GPUでの高速化に対して
+細かい努力がある。
 <li>
-$B9b%3%9%H$JLdBj$r(BGPU$B$K$h$C$F0B2A$K<B8=!#(B
-prefix scan $B$dO"N)J}Dx<0$N5a2r$J$I4{CN$G$O$"$k$,<o!9$N(B
-$B7W;;$rAH$_9g$o$;$?$b$N$G$"$k!#(B
+高コストな問題をGPUによって安価に実現。
+prefix scan や連立方程式の求解など既知ではあるが種々の
+計算を組み合わせたものである。
 <li>
-$B%"%W%j$H$7$F?7$7$5$,$"$j!$(BGPU $B$NFC@-$,I=$l(B
-$B$F$*$j!$@-G=$,=P$F$$$F!$%l%]!<%H$N40@.EY$,9b$$!%(B
+アプリとして新しさがあり，GPU の特性が表れ
+ており，性能が出ていて，レポートの完成度が高い．
 <li>
-$B6KCM7hDj!"%(%s%Y%m!<%W7W;;$N9)IW$rI>2A$7$^$7$?!#(B
+極値決定、エンベロープ計算の工夫を評価しました。
 </ul>
 
 <font size="+2">
 <table border=1>
 <tr>
-<td>$BBh(B3$B0L(B</td>
-<td>$B%A!<%`(B GPU$B$K$h$kCO?LGHEAGE7W;;(B</td>
+<td>第3位</td>
+<td>チーム GPUによる地震波伝播計算</td>
 </tr>
 <tr>
 <td></td>
 <td>
 <a href="./rep-f3.pdf">
-GPU$B$K$h$kCO?LGHEAGE%7%_%e%l!<%7%g%s(B</a></td>
+GPUによる地震波伝播シミュレーション</a></td>
 </tr>
 </table>
 </font>
 
 <br>
-$B?3::0w%3%a%s%H(B:
+審査員コメント:
 <ul>
 <li>
-$B%a%b%jN'B.$N:9J,K!$K$h$kCO?LGHEAGE$N7W;;$rJ#?t$G7W;;$7!"(B
-$BNN0hJ,3d$H(B MPI $BDL?.$r9T$$!"==J,9b$$%l%Y%k$K$"$k!#(B 
+メモリ律速の差分法による地震波伝播の計算を複数で計算し、
+領域分割と MPI 通信を行い、十分高いレベルにある。 
 <li>
-$BC1BN(BGPU$B$X$N<BAu$@$1$G$J$/!"Bg5,LO2=$N$?$a$N(B3$B<!85J,3d$N8!F$$b9T$$!"$=$N9M(B
-$B;!$bBEEv$G$"$k!#(B
+単体GPUへの実装だけでなく、大規模化のための3次元分割の検討も行い、その考
+察も妥当である。
 <li>
-GPU$BFb$d(BGPU$B30$K$D$$$F$N9M;!!"@dBP@-G=!";qNA$NFI$_$d$9$5$J$IA4BN$KM%$l$k!#(B
+GPU内やGPU外についての考察、絶対性能、資料の読みやすさなど全体に優れる。
 </ul>
 
 </body>
 
-<h2>$B<+M32]BjItLg!&%0%j%C%I6(5D2q6bM;J,2J2qFCJL>^(B</h2>
+<h2>自由課題部門・グリッド協議会金融分科会特別賞</h2>
 
 <p>
-$BFCJL>^$K$D$-$^$7$F$O!$%0%j%C%I6(5D2q6bM;J,2J2q$K$h$k87@5$J$k(B
-$B?3::$N7k2L!$2<5-$N%A!<%`$N<u>^$,7hDj$7$^$7$?!%(B
-$B$*$a$G$H$&$4$6$$$^$9!%(B
+特別賞につきましては，グリッド協議会金融分科会による厳正なる
+審査の結果，下記のチームの受賞が決定しました．
+おめでとうございます．
 </p>
 
 <font size="+2">
 <table border=1>
 <tr>
-<td>$BFCJL>^(B</td>
-<td>$B%A!<%`(B KLab</td></tr>
+<td>特別賞</td>
+<td>チーム KLab</td></tr>
 <tr><td></td>
-<td><a href="./rep-spe.pdf">$BFCJL>^1~Jg%l%]!<%H(B</a></td>
+<td><a href="./rep-spe.pdf">特別賞応募レポート</a></td>
 </tr>
 </table>
 </font>
 
 <br>
-$B6bM;J,2J2q%3%a%s%H(B:
+金融分科会コメント:
 <ul>
 <li>
-$BG\@:EY$N@:EY$rJ]$C$?Cf$G!"MM!9$J9bB.2=$N9)IW$r9T$$!":G$b<B9T;~4V$NC;$$(B
-$B7k2L$rF3$$$?%A!<%`$rFCJL>^<u>^<T$HH=Dj$7$?!#(B
-$BAj4X$NDc$$Mp?tNs$rJ#?t@8@.$9$k$3$H$K$h$kJBNsMp?t@8@.$r<B8=$7$F$$$k!#(B
-$B$^$?!"BP?t4X?t$r(B21$B<!6a;w<0$G7W;;$7$?$j!"=|;;$r5U?t$H$N@Q$KCV$-49$($D$D5U(B
-$B?t$rC1@:EY$N2r$r=i4|CM$K$7$FG\@:EY$N(B3$B<!%K%e!<%H%sK!$rMQ$$$?!"$H$$$C$?(B
-$B9)IW$,;\$5$l$F$$$kE@$rI>2A$7$?!#(B
+倍精度の精度を保った中で、様々な高速化の工夫を行い、最も実行時間の短い
+結果を導いたチームを特別賞受賞者と判定した。
+相関の低い乱数列を複数生成することによる並列乱数生成を実現している。
+また、対数関数を21次近似式で計算したり、除算を逆数との積に置き換えつつ逆
+数を単精度の解を初期値にして倍精度の3次ニュートン法を用いた、といった
+工夫が施されている点を評価した。
 </ul>
 
 </html>

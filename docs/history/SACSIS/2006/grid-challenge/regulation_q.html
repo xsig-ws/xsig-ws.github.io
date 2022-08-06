@@ -12,34 +12,34 @@
 </p>
 <p>
 <b><font face="sans serif" size="+2">
-�\�I�ڍ�
+予選詳細
 </font></b>
 </p>
 </center>
 
 <hr>
-<b>�\�I���[���F</b>
+<b>予選ルール：</b>
 <p>
-�\�I���Ƃ���5��̖��f�[�^�i���L�Q�Ɓj���p�ӂ���܂��D�e���f�[�^�ɂ́C�m�[�h������̈قȂ�m�[�h�W���ɂ܂�����G�b�W���iEdge Cnt�j�Ɋւ��āC����l����߂��Ă��܂��D�e���ɂ��āCEdge Cnt������l�ȓ��ƂȂ�������߁C���ʂ��o���Ă��������D�Z�o����Edge Cnt������l�ȓ��ł��邩�ǂ����́C�e���̃v���O�������Ŕ��肵�Ă��������D
+予選問題として5題の問題データ（下記参照）が用意されます．各問題データには，ノード分割後の異なるノード集合にまたがるエッジ数（Edge Cnt）に関して，上限値が定められています．各問題について，Edge Cntが上限値以内となる解を求め，結果を提出してください．算出したEdge Cntが上限値以内であるかどうかは，各自のプログラム中で判定してください．
 </p>
 
 <p>
-�S�Ă̖��f�[�^�́C�\�I�J�n����GCF��̊e�N���X�^��ɒu����܂��D�i�N���X�^��̔C�ӂ̃m�[�h�ォ��Q�Ɖ\�ł��D�j
-�Q���҂́C�N���X�^�̔C�ӂ̃m�[�h��Ŗ��擾�pAPI GetProblem()��1�񂾂����s���āC���t�@�C���̕ۑ��ꏊ���擾���Ă��������D �܂��C���f�[�^���ɒ�߂���Edge Cnt�̏���l�͉��L�u�\�I���v���Q�Ƃ��Ă��������D
+全ての問題データは，予選開始時にGCF上の各クラスタ上に置かれます．（クラスタ上の任意のノード上から参照可能です．）
+参加者は，クラスタの任意のノード上で問題取得用API GetProblem()を1回だけ実行して，問題ファイルの保存場所を取得してください． また，問題データ毎に定められるEdge Cntの上限値は下記「予選問題」を参照してください．
 </p>
 
 <hr>
-<b>�\�I���F</b>
+<b>予選問題：</b>
 
 <p>
-�\�I���́C���L��5��̖��i���ԍ�11�`15�j����Ȃ�܂��D�e���������ꍇ�́C���擾�pAPI GetProblem() �̈����iproblem_number�j�ɉ��L�̖��ԍ��i11�`15�j���w�肵�Ă��������D
+予選問題は，下記の5題の問題（問題番号11〜15）からなります．各問題を解く場合は，問題取得用API GetProblem() の引数（problem_number）に下記の問題番号（11〜15）を指定してください．
 
-���T�C�Y�́C�ł��傫�Ȗ��ŃO���t���̃m�[�h����1,500�ł��D�������ł́C����K�͂Ȗ��i�ő�m�[�h����40,000���x�j��p�ӂ���\��ł��D�\�I�ʉ߂̏����ƂȂ�Edge Cnt�̏���l�͈ȉ��̕\�̒ʂ�ł��D
+問題サイズは，最も大きな問題でグラフ中のノード数が1,500個です．決勝問題では，より大規模な問題（最大ノード数が40,000個程度）を用意する予定です．予選通過の条件となるEdge Cntの上限値は以下の表の通りです．
 
 <p>
-<b>�\�I���̏���l</b>
+<b>予選問題の上限値</b>
 <table border>
-<tr><td>���ԍ�</td><td>Edge Cnt�̏���l</td></tr>
+<tr><td>問題番号</td><td>Edge Cntの上限値</td></tr>
 <tr><td>11</td><td align="right">50</td></tr>
 <tr><td>12</td><td align="right">6</td></tr>
 <tr><td>13</td><td align="right">50</td></tr>
@@ -49,46 +49,46 @@
 </p>
 
 <hr>
-<b>�v���O�����̃R���p�C���ƃ����N�F</b>
+<b>プログラムのコンパイルとリンク：</b>
 <p>
-�\�I�̏o��API�́C�\�I�J�n���Ɋe�N���X�^�̃R���p�C���m�[�h�Ɉȉ��̒ʂ�u����܂��D�Q���҂͂����̃t�@�C���������N���ėp���Ă��������D
+予選の出題APIは，予選開始時に各クラスタのコンパイルノードに以下の通り置かれます．参加者はこれらのファイルをリンクして用いてください．
 </p>
 
 <p>
-<b>�o��API</b>
+<b>出題API</b>
 <table border>
 <tr><td>
 <pre>
 
-/home/aida/grch/include/grid_challenge_api.h (�w�b�_) 
-/home/aida/grch/lib/libgrch.a (���C�u����) 
-/home/aida/grch/lib/libcrypto.a (�Í������C�u����) 
+/home/aida/grch/include/grid_challenge_api.h (ヘッダ) 
+/home/aida/grch/lib/libgrch.a (ライブラリ) 
+/home/aida/grch/lib/libcrypto.a (暗号化ライブラリ) 
 </pre>
 </td></tr>
 </table>
 
 <p>
-C����łɂ�����libcrypto.a��OpenSSL�ɕt���̂��̂ł��邽�߁C�W���I�ȃp�X(/usr/lib��/usr/local/ssl/lib�Ȃ�)�ɂ����łɃC���X�g�[������Ă���\��������܂��D���̏ꍇ�͂ǂ���𗘗p���Ă��\���܂���D
+C言語版におけるlibcrypto.aはOpenSSLに付属のものであるため，標準的なパス(/usr/libや/usr/local/ssl/libなど)にもすでにインストールされている可能性があります．その場合はどちらを利用しても構いません．
 </p>
 
 <p>
-<font color="#cc0099"><b>���ӁF</b></font>
-�𓚗pAPI AnswerProblem() �̏o�͂��ꕔ�ύX����Ă��܂��i2006/02/13�j�D�\�I�ł͕ύX���API�̎d�l���g�p���܂��D
-�ڍׂ�<a href="regulation_detail.html#api">������</a>���Q�Ƃ��Ă��������D�܂��C�ύX���ꂽAnswerProblem()���܂ނ������L�b�g��<a href="regulation_detail.html#trialkit">���y�[�W</a>�������ł��܂��D
+<font color="#cc0099"><b>注意：</b></font>
+解答用API AnswerProblem() の出力が一部変更されています（2006/02/13）．予選では変更後のAPIの仕様を使用します．
+詳細は<a href="regulation_detail.html#api">こちら</a>を参照してください．また，変更されたAnswerProblem()を含むお試しキットも<a href="regulation_detail.html#trialkit">同ページ</a>から入手できます．
 
 </p>
 
 <hr>
-<b>�𓚂̒�o���@�F</b>
+<b>解答の提出方法：</b>
 <p>
-�𓚗pAPI AnswerProblem() �̏o�͂���𓚃`�F�b�N�p������icheck_string�j��5��S�Ă̖��ɂ��ďW�߂ċL�q�����e�L�X�g�t�@�C�����쐬���i�ȉ��̗�Q�Ɓj�Cgrid-challenge-sec [at] alab.ip.titech.ac.jp �i" [at] "��"@"�ɒu�������Ă��������D�j�܂ő��t���Ă��������D��o����e�L�X�g�t�@�C���́C���1�蕪�̉𓚃`�F�b�N�p������i<font color="#cc0099"><b>61����</b></font>�j��1�s�Ɏ��߁C���]���ȉ��s��󔒂͓���Ȃ��悤�ɒ��ӂ��C���[���̓Y�t�t�@�C���Ƃ��Ē�o���Ă��������D�܂����M���郁�[���ɂ́C�K���A�J�E���g���C�`�[�����Ƒ�\�Җ����L�����Ă��������D
+解答用API AnswerProblem() の出力する解答チェック用文字列（check_string）を5題全ての問題について集めて記述したテキストファイルを作成し（以下の例参照），grid-challenge-sec [at] alab.ip.titech.ac.jp （" [at] "を"@"に置き換えてください．）まで送付してください．提出するテキストファイルは，問題1題分の解答チェック用文字列（<font color="#cc0099"><b>61文字</b></font>）を1行に収め，かつ余分な改行や空白は入らないように注意し，メールの添付ファイルとして提出してください．また送信するメールには，必ずアカウント名，チーム名と代表者名を記入してください．
 </p>
 
-��o����e�L�X�g�t�@�C���̗�
+提出するテキストファイルの例
 <table border>
 <tr><td>
 <pre>
-01000000070000001000903837205lndlkebfehhdelbehkckcjldliidmlgp  #���ꂪ1�蕪
+01000000070000001000903837205lndlkebfehhdelbehkckcjldliidmlgp  #これが1題分
 02000000280000001001103839959efmdnmgcpccaabjkbkldmhpbonnikjef
 03000001780000001001703839980dppodknkpmiebppfefcfjnihjfokokpo
            :
@@ -97,33 +97,33 @@ C����łɂ�����libcrypto.a��OpenSSL�ɕt���̂��̂ł��邽�߁C�W���I�ȃp�X(/usr/lib
 </table>
 
 <p>
-���1��������ۂɁC�v���O��������AnswerProblem()������Ăяo���Ă��\���܂���D���̏ꍇ�́C�ł��ǂ��Ǝv���錋�ʁiEdge Cnt������l�ȓ����I�������̍ł������������́j��1�I��Œ�o���Ă��������D
+問題1題を解く際に，プログラム中でAnswerProblem()を何回呼び出しても構いません．その場合は，最も良いと思われる結果（Edge Cntが上限値以内かつ終了時刻の最も早かったもの）を1つ選んで提出してください．
 </p>
 
 <p>
-���ʒ�o�͂Ȃ�ׂ����₩�ɁC�Ō�̌��ʂ��o�Ă���x���Ƃ�����ȓ��ɍs�Ȃ��Ă��������D(���ʂ������m�肵�Ă������߁j
+結果提出はなるべく速やかに，最後の結果が出てから遅くとも一日以内に行なってください．(結果を順次確定していくため）
 </p>
 
 <hr>
-<b>���ʂ̌�����@�F</b>
+<b>順位の決定方法：</b>
 <p>
-�\�I�̏��ʂ́C��葁���Ō�̖��������I�����Q���҂���ʂƂ��ď��ʂÂ����s�Ȃ��܂��D�������C�����I���������̍���1�������ł���ꍇ�͓������Ƃ݂Ȃ��āC�ȉ��̂悤�ɔ��肵�܂��D
+予選の順位は，より早く最後の問題を解き終えた参加者を上位として順位づけを行ないます．ただし，解き終えた時刻の差が1分未満である場合は同時刻とみなして，以下のように判定します．
 <ul>
-<li>�ł������𓚋L�^����1�������̉𓚂𓯎����ł���ƌ��肷��D
-<li>���������肳��Ȃ������L�^�̒��ŁC�ł������L�^����1�������̉𓚂𓯎����Ƃ���.
-<li>�ȉ����l�ɌJ�Ԃ��D
+<li>最も早い解答記録から1分未満の解答を同時刻であると決定する．
+<li>同時刻判定されなかった記録の中で，最も早い記録から1分未満の解答を同時刻とする.
+<li>以下同様に繰返し．
 </ul>
-�Ⴆ�΁CA:"0:00:00",B:"0:00:45",C:"0:00:59",D:"0:01:00"�Ƃ���4�҂̉𓚋L�^�����������CA,B,C�͓������CD��A,B,C���x�������ƂȂ�܂��D
+例えば，A:"0:00:00",B:"0:00:45",C:"0:00:59",D:"0:01:00"という4者の解答記録があった時，A,B,Cは同時刻，DはA,B,Cより遅い時刻となります．
 </p>
 
 <p>
-�Ō�̖����������������������ƂȂ����ꍇ�C�Ōォ��2�Ԗڂ̖��ɂ��ē��l�ɔ�r���ď��ʂ����߂܂��D����ł������Ȃ瓯�l�ɁC���X�ɑS�Ă̖��ɂ��Ĕ�r���J�Ԃ��C�����Ō�܂ŏ��ʂ����Ȃ��ꍇ�͐\�����ݏ��ɂ�菇�ʂ����肵�܂��D
-�\�I�̏��ʂ́C�{�I���Ԓ��̃N���X�^��L���p���ԑт��Q���҂̊�]�ɉ����đI�ԂƂ��̗D��x�ɂȂ�܂��D��̓I�ɂ͏�ʃ`�[�������]���鎞�ԑт�I�Ԃ��Ƃ��ł��܂��D 
+最後の問題を解いた時刻が同時刻となった場合，最後から2番目の問題について同様に比較して順位を決めます．それでも同着なら同様に，順々に全ての問題について比較を繰返し，もし最後まで順位がつかない場合は申し込み順により順位を決定します．
+予選の順位は，本選期間中のクラスタ占有利用時間帯を参加者の希望に沿って選ぶときの優先度になります．具体的には上位チームから希望する時間帯を選ぶことができます． 
 </p>
 
 <hr>
 updated: 2006/2/22<br>
-�O���b�h�`�������W2006���s�ψ���
+グリッドチャレンジ2006実行委員会
 <hr>
 </body>
 </html>

@@ -11,98 +11,98 @@
 
 <body>
 
-<h2>$B5,Dj2]Bj6%5;7A<0(B</h2>
+<h2>規定課題競技形式</h2>
 
 <p>
-$B3F%A!<%`$O!$%D!<%k%-%C%H$r%Y!<%9$K%W%m%0%i%`$r:n@.$7!$(B
-$BN}=,LdBj$r@5$7$/<B9T$G$-$k$3$H$r3NG'$7$F$/$@$5$$!%(B
+各チームは，ツールキットをベースにプログラムを作成し，
+練習問題を正しく実行できることを確認してください．
 </p>
 
 <p>
-$BDs=P$9$k%W%m%0%i%`$O!$(B<strong>2009$BG/(B3$B7n(B17$BF|(B23$B;~(B59$BJ,(B</strong>
-$B$^$G$K!$%[!<%`%G%#%l%/%H%j(B<font color="red">$BD>2<(B</font>
-$B$N(B<strong>submit</strong>$B$H$$$&(B
-$BL>A0$N%G%#%l%/%H%j$KJ]B8$7$F$/$@$5$$!%(B
-submit$B%G%#%l%/%H%j$K$O!$0J2<$r4^$a$F$/$@$5$$(B
-($B%D!<%k%-%C%H$NFbMF$rF'=1$9$l$PBg>fIW$G$9$,!$%G%#%l%/%H%jL>$,(B
-"toolkit"$B$N$^$^$G$O$J$/!$(B"submit"$B$H$J$C$F$$$k$3$H$r$43NG'$/$@$5$$(B)$B!%(B
+提出するプログラムは，<strong>2009年3月17日23時59分</strong>
+までに，ホームディレクトリ<font color="red">直下</font>
+の<strong>submit</strong>という
+名前のディレクトリに保存してください．
+submitディレクトリには，以下を含めてください
+(ツールキットの内容を踏襲すれば大丈夫ですが，ディレクトリ名が
+"toolkit"のままではなく，"submit"となっていることをご確認ください)．
 <ul>
-<li>main.cc$B$r4^$`$9$Y$F$N%=!<%9%U%!%$%k$*$h$S%X%C%@(B</li>
+<li>main.ccを含むすべてのソースファイルおよびヘッダ</li>
 <li>Makefile</li>
-<li>$B%D!<%k%-%C%H$N(Blibgpuapi.a, gpucapi.h</li>
+<li>ツールキットのlibgpuapi.a, gpucapi.h</li>
 </ul>
-$B"((B submit$B%G%#%l%/%H%jFb$G(B"make"$B%3%^%s%I$r<B9T$9$k$3$H$K$h$j!$(B
-$BDs=P%W%m%0%i%`(B"main"$B$,@8@.$5$l$k$h$&$K$7$F$/$@$5$$(B.
-$B?3::$N:]$K$O!$0Q0w2q$,?3::MQ$N(Blibgpucapi.a$B$KCV$-49$($F(B
-make$B$7!$<B9T$7$^$9!%%3%s%Q%$%k$K<:GT$9$k>l9g$K$O<:3J$H(B
-$B$J$j$^$9$N$G$4Cm0U$/$@$5$$!%(B
+※ submitディレクトリ内で"make"コマンドを実行することにより，
+提出プログラム"main"が生成されるようにしてください.
+審査の際には，委員会が審査用のlibgpucapi.aに置き換えて
+makeし，実行します．コンパイルに失敗する場合には失格と
+なりますのでご注意ください．
 <br>
-$B"((B ($B86B'$H$7$F(B)$B85$N%5%s%W%k%W%m%0%i%`F1MM$K!"(B./main [$BLdBjHV9f(B]$B$G(B
-$B<B9T$,2DG=$H$7$F$/$@$5$$!%(B
+※ (原則として)元のサンプルプログラム同様に、./main [問題番号]で
+実行が可能としてください．
 <br>
-$B"((B $B>\:Y$O5,Dj2]Bj%^%K%e%"%k!V5,Dj2]BjItLg$N%W%m%0%i%_%s%0%k!<%k!W(B
-$B$N>O$b$4;2>H$/$@$5$$!%(B
+※ 詳細は規定課題マニュアル「規定課題部門のプログラミングルール」
+の章もご参照ください．
 
 </p>
 
 <a name="#shinsa">
-<h3>$B?3::$K$D$$$F(B</h3>
+<h3>審査について</h3>
 <p>
-$B?3::$N$?$a$K=`Hw$9$kJ#?t$NLdBj$rMQ$$$F!$(B
-$B$=$l$>$l$N;22C%A!<%`$N%W%m%0%i%`$rI>2A$7$^$9!%(B
-$B$J$*?3::$KMQ$$$kLdBj$O;vA0$K8x3+$$$?$7$^$;$s$,!$(B
-$B3FLdBj$N%5%$%:$O5,Dj2]Bj%^%K%e%"%k(B
-$B!V5,Dj2]BjItLg$N%W%m%0%i%_%s%0%k!<%k!W$N>O$N(B"tk_init"
-$B$N@bL@$K=>$$$^$9!%(B
+審査のために準備する複数の問題を用いて，
+それぞれの参加チームのプログラムを評価します．
+なお審査に用いる問題は事前に公開いたしませんが，
+各問題のサイズは規定課題マニュアル
+「規定課題部門のプログラミングルール」の章の"tk_init"
+の説明に従います．
 </p>
 <p>
-$B?3::MQLdBj$N$=$l$>$l$K$D$$$F!$<B9T;~4V$NB.$$%A!<%`$+$i=g$K(B
-$B0J2<$NE@?t$rM?$($^$9!%(B
+審査用問題のそれぞれについて，実行時間の速いチームから順に
+以下の点数を与えます．
 <ul>
-<li>1$B0L(B 10$BE@(B</li>
-<li>2$B0L(B 7$BE@(B</li>
-<li>3$B0L(B 5$BE@(B</li>
-<li>4$B0L(B 4$BE@(B</li>
-<li>5$B0L(B 3$BE@(B</li>
-<li>6$B0L(B 2$BE@(B</li>
-<li>7$B0L(B 1$BE@(B</li>
+<li>1位 10点</li>
+<li>2位 7点</li>
+<li>3位 5点</li>
+<li>4位 4点</li>
+<li>5位 3点</li>
+<li>6位 2点</li>
+<li>7位 1点</li>
 </ul>
 </p>
-<p>$B3FLdBj$NI>2A$K$*$$$F!$BG$A@Z$j;~4V$r@_$1$^$9!%(B
-$B0J2<$N>l9g$K$O!$Ev3:LdBj$K$D$$$F$O<:GT$H8+$J$7!$Ev3:LdBj$N(B
-$BE@?t$r(B-25$BE@$H$7$^$9!%(B
+<p>各問題の評価において，打ち切り時間を設けます．
+以下の場合には，当該問題については失敗と見なし，当該問題の
+点数を-25点とします．
 <ul>
-<li>tk_answer$B$N=PNO$,I=<($5$l$J$$>l9g(B</li>
-<li>$B2sEz$,4V0c$C$F$*$j!$?3::MQ(Btk_answer$B$N2sEz%A%'%C%/$K<:GT$9$k>l9g(B</li>
-<li>$B0Q0w2qB&$,@_Dj$7$?BG$A@Z$j;~4VFb$K7k2L$,F@$i$l$J$$>l9g(B</li>
-<li>$B;XDj7W;;J}K!(B(Cubic$B%;%_!&%i%0%i%s%8%eK!(B)$B$H?t3XE*$K0[$J$k(B
-$B7W;;J}K!$r;HMQ$7$F$$$k$HG'$a$i$l$k>l9g(B</li>
+<li>tk_answerの出力が表示されない場合</li>
+<li>回答が間違っており，審査用tk_answerの回答チェックに失敗する場合</li>
+<li>委員会側が設定した打ち切り時間内に結果が得られない場合</li>
+<li>指定計算方法(Cubicセミ・ラグランジュ法)と数学的に異なる
+計算方法を使用していると認められる場合</li>
 </ul>
-$B"((B $B0Q0w2q$O3F%A!<%`3FLdBj$4$H$K(B5$B2s%W%m%0%i%`$r<B9T$7!$(B
-$B:GB.$N<B9T;~4V$r:NMQ$7$^$9(B
+※ 委員会は各チーム各問題ごとに5回プログラムを実行し，
+最速の実行時間を採用します
 <br>
-$B"((B $B>e5-$N(B5$B2s$N<B9T$NCf$G(B1$B2s$G$b8mEz!&0[>o=*N;!&;~4VBG$A@Z$j(B
-$B$,$"$C$?>l9g$K$O!$<:GT$H8+$J$7$^$9!%(B
+※ 上記の5回の実行の中で1回でも誤答・異常終了・時間打ち切り
+があった場合には，失敗と見なします．
 </p>
 <p>
-$BA4LdBj$NF@E@$N9g7W$,B?$$%A!<%`$,M%>!$H$J$j$^$9!%(B
+全問題の得点の合計が多いチームが優勝となります．
 </p>
 
-<h3>$B6%5;7A<0$^$H$a(B</h3>
-GPU Challenge 2010$B5,Dj2]BjItLg$N?J$aJ}$r$^$H$a$k$H0J2<$N$h$&$K(B
-$B$J$j$^$9!%(B
+<h3>競技形式まとめ</h3>
+GPU Challenge 2010規定課題部門の進め方をまとめると以下のように
+なります．
 <table border=1><tr><td>
 <ul>
-<li>2010$BG/(B3$B7n(B17$BF|(B23$B;~(B59$BJ,(B $B%W%m%0%i%`Ds=P(B</li>
-<li>$B?3::MQLdBj$N<B9TB.EY$K$h$jE@?t$r3MF@(B</li>
-<li>$B9g7WF@E@$K$h$jF~>^<T$r7hDj(B</li>
+<li>2010年3月17日23時59分 プログラム提出</li>
+<li>審査用問題の実行速度により点数を獲得</li>
+<li>合計得点により入賞者を決定</li>
 </ul>
 </td></tr></table>
 
 <p>
-$B<ALd$d%P%0>pJs$O(B<a href="mailto:gpu2010@matsulab.is.titech.ac.jp">
+質問やバグ情報は<a href="mailto:gpu2010@matsulab.is.titech.ac.jp">
 gpu2010@matsulab.is.titech.ac.jp</a>
-$B$^$G$*4j$$$7$^$9!%(B
+までお願いします．
 </p>
 </body>
 </html>

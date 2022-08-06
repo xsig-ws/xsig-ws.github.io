@@ -11,77 +11,77 @@
 
 <body>
 
-<h2>$B<+M32]BjItLg!&%0%j%C%I6(5D2q6bM;J,2J2qFCJL>^(B</h2>
+<h2>自由課題部門・グリッド協議会金融分科会特別賞</h2>
 <p>
-$B<+M32]Bj$NCf$G!"%0%j%C%I6(5D2q6bM;J,2J2qFCJL>^$X$N1~Jg$rJg=8$7$^$9!#(B
-$BK\2]Bj$O!"<+M32]Bj$NOH$G$O$"$j$^$9$,!"2<5-$N2]Bj$K<h$jAH$s$@$b$N$rK\>^$N(B
-$BBP>]$HCW$7$^$9$N$G!"$4Cm0U$/$@$5$$!#(B
+自由課題の中で、グリッド協議会金融分科会特別賞への応募を募集します。
+本課題は、自由課題の枠ではありますが、下記の課題に取り組んだものを本賞の
+対象と致しますので、ご注意ください。
 </p>
-<h3>$B2]Bj(B</h3>
-$B%b%s%F%+%k%m$K$h$k%*%W%7%g%s2A3J%7%_%e%l!<%7%g%s$r(BGPU$B$rMQ$$$F9bB.2=$7$F(B
-$B$$$?$@$-$^$9!#(B
+<h3>課題</h3>
+モンテカルロによるオプション価格シミュレーションをGPUを用いて高速化して
+いただきます。
 
-<h3>$B2]Bj>\:Y(B</h3>
+<h3>課題詳細</h3>
 <p>
-$B;22C%A!<%`$KG[I[$9$k%U%!%$%k(Bmontecalro.zip $B$O!"5<;wMp?t$r(B
-$B%a%k%;%s%L!&%D%$%9%?K!(B
-$B$K$h$j@8@.$7!"%b%m!<6a;w$r;H$C$F@55,J,I[2=$7!"%b%s%F%+%k%mK!$K$h$k%*%W%7%g(B
-$B%s2A3JIU$1$rG\@:EY$G7W;;$9$k(BC$B8@8l$N%5%s%W%k%W%m%0%i%`$G$9!#(B
-10$B2/2s$N@55,Mp?t$r@8@.$7$F4|BTCM$HI8=`8m:9$r=PNO$7$F$$$^$9!#(B
-$B$J$*!"Mp?t@8@.$K$O!"(BTakuji Nishimura$B!"(B Makoto Matsumoto$BN>;a$K$h$j(B
-$B3+H/$5$l$?%=!<%9%3!<%I$r;HMQ$7$F$$$^$9!#(B
+参加チームに配布するファイルmontecalro.zip は、擬似乱数を
+メルセンヌ・ツイスタ法
+により生成し、モロー近似を使って正規分布化し、モンテカルロ法によるオプショ
+ン価格付けを倍精度で計算するC言語のサンプルプログラムです。
+10億回の正規乱数を生成して期待値と標準誤差を出力しています。
+なお、乱数生成には、Takuji Nishimura、 Makoto Matsumoto両氏により
+開発されたソースコードを使用しています。
 </p>
 <p>
-$B$3$N%W%m%0%i%`$r%Y!<%9$H$7!J%<%m$+$i:n$jBX$($k$N$b2D!K!"F1$87W;;$r(B
-GPU$B$r;H$C$F9bB.2=$7$F$$$?$@$-$^$9!#$b$A$m$s!"(BGPU$B$r;H$C$F$b!"G\@:EY$r(B
-$BJ];}$7$F$/$@$5$$!#(B
+このプログラムをベースとし（ゼロから作り替えるのも可）、同じ計算を
+GPUを使って高速化していただきます。もちろん、GPUを使っても、倍精度を
+保持してください。
 </p>
-<p>$BMxMQ$G$-$k(BGPU$B?t$O(B1$B$D$G$9!%(B</p>
+<p>利用できるGPU数は1つです．</p>
 <p>
-$B7W;;$NFbMF$K$D$$$F$O!"0J2<$N%I%-%e%a%s%H$J$I$,;29M$K$J$j$^$9!#(B
+計算の内容については、以下のドキュメントなどが参考になります。
 </p>
 <a href="http://developer.download.nvidia.com/compute/cuda/1_1/Website/projects/MonteCarlo/doc/MonteCarlo.pdf">Monte Carlo Option Pricing</a>
 <br>
-<a href="http://www.nvidia.co.jp/docs/IO/59373/VolumeII.pdf">CUDA$B%F%/%K%+%k%H%l!<%K%s%0!&(BCUDA$B%1!<%9%9%?%G%#(B</a>
+<a href="http://www.nvidia.co.jp/docs/IO/59373/VolumeII.pdf">CUDAテクニカルトレーニング・CUDAケーススタディ</a>
 <p>
-$BCm!K(BWeb$B>e$K8x3+$5$l$F$$$kB><T$,3+H/$7$?(BGPU$BMQ%=!<%9$r$=$N$^$^;HMQ$9$k$3(B
-$B$H$OIT2D$H$7$^$9!#(B
+注）Web上に公開されている他者が開発したGPU用ソースをそのまま使用するこ
+とは不可とします。
 </p>
 
-<h3>$B;22CJ}K!(B</h3>
+<h3>参加方法</h3>
 
 <p>
-<a href="invitation.html">$B;22C?=$79~$_(B</a>$B%Z!<%8$N!$!V;22C;q3J!W(B
-$B$r$4;2>H$/$@$5$$!%FCJL>^$K$D$$$F$O!$$5$i$K0J2<$N>r7o$,$"$j$^$9!%(B
+<a href="invitation.html">参加申し込み</a>ページの，「参加資格」
+をご参照ください．特別賞については，さらに以下の条件があります．
 <ul>
-<li>$B%=!<%9%3!<%I8x3+!&#B#S#D%i%$%;%s%92DG=$J$b$N!%(B
-mt19937ar$B$r2~JQ$7$F;D$9>l9g$O!"$=$N%i%$%;%s%9>r9`$K=>$&$3$H(B
-<li>$B<R2q?M!&3X@8$NJL$rLd$o$:(B
+<li>ソースコード公開・ＢＳＤライセンス可能なもの．
+mt19937arを改変して残す場合は、そのライセンス条項に従うこと
+<li>社会人・学生の別を問わず
 </ul>
 </p>
 
 <p>
-$B;XDj4|F|(B
-$B$^$G$K!$%l%]!<%H$*$h$S%W%m%0%i%`$r(B
+指定期日
+までに，レポートおよびプログラムを
 <a href="mailto:gpu2010@matsulab.is.titech.ac.jp">
 gpu2010@matsulab.is.titech.ac.jp</a>
-$B$"$F$KAwIU$7$F$/$@$5$$!%(B
-$B%l%]!<%H$O(BPDF$B7A<0$r?d>)$7$^$9$,!$(BMS-Word$B7A<0$b2DG=$G$9!%(B
-$B%W%m%0%i%`$K$D$$$F$O!$(Bzip$B$b$7$/$O(Btar.gz$B7A<0$N$b$N$rE:IU$7$F$/$@$5$$!%(B
-$B:$Fq$J>l9g$O$4AjCL$/$@$5$$!%(B
+あてに送付してください．
+レポートはPDF形式を推奨しますが，MS-Word形式も可能です．
+プログラムについては，zipもしくはtar.gz形式のものを添付してください．
+困難な場合はご相談ください．
 </p>
 <p><font color="blue">
-$BAwIU!:@Z$O(B2010$BG/(B3$B7n(B15$BF|(B23$B;~(B59$BJ,$H$7$^$9!%(B
+送付〆切は2010年3月15日23時59分とします．
 </font></p>
 <p>
-$B%0%j%C%I6(5D2q6bM;J,2J2q$,!$FCJL>^(B1$B%A!<%`$rA*Dj$7$^$9!%(B
-$B?3::$K$"$?$C$F$O6bM;J,2J2q$GMQ0U$7$?I>2AMQ%^%7%s$r;HMQ$7$^$9!%(B
-$BI>2AMQ%^%7%s$O(BCPU$B%[%9%H(B1$B$K(BGPU$B!J(BTesla C1060 4GB$B%a%b%j!K$r#1KgEk:\!#(B
-$B$J$*(BOS$B$O(BCentOS 5.3 (64bit)$B$G$"$j!$<B9T0Q0w2q=`Hw$N7W;;5!$H(B
-$BF1$8$G$9!%(B
+グリッド協議会金融分科会が，特別賞1チームを選定します．
+審査にあたっては金融分科会で用意した評価用マシンを使用します．
+評価用マシンはCPUホスト1にGPU（Tesla C1060 4GBメモリ）を１枚搭載。
+なおOSはCentOS 5.3 (64bit)であり，実行委員会準備の計算機と
+同じです．
 </p>
 <p>
-$B$J$*!$K\FCJL>^$O<+M32]BjItLg$N(B($BDL>o$N(B)$B>^$H$OFHN)$G$9!%(B
+なお，本特別賞は自由課題部門の(通常の)賞とは独立です．
 </p>
 </body>
 

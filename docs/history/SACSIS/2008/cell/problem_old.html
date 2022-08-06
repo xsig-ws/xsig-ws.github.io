@@ -14,12 +14,12 @@
 
 <body class="contents">
 
-<h1>$B5,Dj2]Bj35MW(B</h1>
+<h1>規定課題概要</h1>
 
-<p>Cell$B%9%T!<%I%A%c%l%s%8(B2008
-$B$N5,Dj2]Bj$O!V(B<strong>$BO"N)0l<!J}Dx<0$N5a2r(B</strong>$B!W$G$9!%(B</p>
-<p>$B$?$H$($P!"0J2<$N(B3$BJQ?t$K$h$kO"N)0l<!J}Dx<0$N2r$O!"(B
-$B>C5nK!$K$h$j5a$a$k$3$H$,$G$-$^$9!#(B</p>
+<p>Cellスピードチャレンジ2008
+の規定課題は「<strong>連立一次方程式の求解</strong>」です．</p>
+<p>たとえば、以下の3変数による連立一次方程式の解は、
+消去法により求めることができます。</p>
 
 <table class="matrix">
  <tr>
@@ -33,7 +33,7 @@
  </tr>
 </table>
 
-<p style="margin-left: 50pt;">$B"-(B</p>
+<p style="margin-left: 50pt;">↓</p>
 
 <table class="matrix">
  <tr>
@@ -47,7 +47,7 @@
  </tr>
 </table>
 
-<p style="margin-left: 50pt;">$B"-(B</p>
+<p style="margin-left: 50pt;">↓</p>
 
 <table class="matrix">
  <tr>
@@ -62,22 +62,22 @@
 </table>
     
   
-<p>$B0J>e$N>C5n$r!"(B<strong>$BA0?J>C5n(B</strong>$B$H8F$S$^$9!#(B</p>
+<p>以上の消去を、<strong>前進消去</strong>と呼びます。</p>
 
-<p>$B2r$O!"0J2<$N$h$&$K5a$a$k$3$H$,$G$-$^$9!#(B</p>
+<p>解は、以下のように求めることができます。</p>
 
 <ul>
- <li>$B<0(B(3)$B$h$j!"(B z = 3                 ...(4)
- <li>$B<0(B(2)$B$K!"<0(B(4)$B$rBeF~$7$F!"(By = 2   ...(5)
- <li>$B<0(B(1)$B$K!"<0(B(4)$B$H<0(B(5)$B$rBeF~$7$F!"(Bx = 1$B!#(B
+ <li>式(3)より、 z = 3                 ...(4)
+ <li>式(2)に、式(4)を代入して、y = 2   ...(5)
+ <li>式(1)に、式(4)と式(5)を代入して、x = 1。
 </ul>
 
-<p>$B0J>e$NA`:n$r!"(B<strong>$B8eB`BeF~(B</strong>$B$H8F$S$^$9!#(B</p>
+<p>以上の操作を、<strong>後退代入</strong>と呼びます。</p>
 
-<p>$BA0?J>C5n$H8eB`BeF~$J$I$rMxMQ$7$F!"M?$($i$l$?O"N)0l<!J}Dx<0$r2r$/$3$H$r!"(B
-<strong>$BO"N)0l<!J}Dx<0$N2rK!(B</strong>$B$H8F$S$^$9!#(B</p>
+<p>前進消去と後退代入などを利用して、与えられた連立一次方程式を解くことを、
+<strong>連立一次方程式の解法</strong>と呼びます。</p>
 
-<p>$B:8JU$N78?t$r9TNsI=5-!"1&JU$NCM$H2r$NJQ?t$r%Y%/%H%kI=5-$7$^$9!#$9$J$o$A!"(B</p>
+<p>左辺の係数を行列表記、右辺の値と解の変数をベクトル表記します。すなわち、</p>
 
 <table class="matrix">
  <tr>
@@ -103,31 +103,31 @@
 </table>  
 
 
-<p>$B$H$7!"O"N)0l<!J}Dx<0(B</p>
+<p>とし、連立一次方程式</p>
 
 <p class="equation"><i>A</i> <i>x</i> = <i>b</i></p>
 
-<p>$B$N2r%Y%/%H%k(B <i>x</i> $B$r5a$a$k$N$,LdBj$G$9!#(B</p>
+<p>の解ベクトル <i>x</i> を求めるのが問題です。</p>
 
-<p>$B$3$3$G!":#2s$N5,Dj2]Bj$G$O!"2r%Y%/%H%k(B <i>x</i> $B$,(B1$BK\$G$"$kJ]>Z$O$"$j$^$;$s!#(B
-$B$9$J$o$A!"(B<i>m</i> $BK\$N2r%Y%/%H%k$r$^$H$a$?9TNs(B <i>X</i> $B$r(B</p>
+<p>ここで、今回の規定課題では、解ベクトル <i>x</i> が1本である保証はありません。
+すなわち、<i>m</i> 本の解ベクトルをまとめた行列 <i>X</i> を</p>
 
 <p class="equation"><i>X</i> = (<i>x</i><sub>1</sub> <i>x</i><sub>2</sub> ... <i>x<sub>m</sub></i>) </p>
 
-<p>$B$H$7!"(B<i>m</i> $BK\$N1&JU%Y%/%H%k(B <i>b</i> $B$r$^$H$a$?9TNs(B <i>B</i> $B$r(B</p>
+<p>とし、<i>m</i> 本の右辺ベクトル <i>b</i> をまとめた行列 <i>B</i> を</p>
 
 <p class="equation"><i>B</i> = (<i>b</i><sub>1</sub> <i>b</i><sub>2</sub> ... <i>b<sub>m</sub></i>) </p>
 
-<p>$B$H$9$k$H!"(B</p>
+<p>とすると、</p>
 
 <p class="equation"><i>A</i> <i>X</i> = <i>B</i></p>
 
-<p>$B$N2r%Y%/%H%k9TNs(B <i>X</i> $B$r2r$/LdBj$HDj5A$G$-$^$9!#(B</p>
+<p>の解ベクトル行列 <i>X</i> を解く問題と定義できます。</p>
 
 <dl>
- <dt>$B;29M?^=q!'(B</dt>
- <dd>$B1|B<@2I'Cx!V#C8@8l$K$h$k:G?7%"%k%4%j%:%`<-E5!W5;=QI>O@<R(B</dd>
- <dd>$B>.9qNOJTCx!V9TNs7W;;%=%U%H%&%(%"!<#W#S!"%9!<%Q!<%3%s!"JBNs7W;;5!!W4]A13t<02q<R(B</dd>
+ <dt>参考図書：</dt>
+ <dd>奥村晴彦著「Ｃ言語による最新アルゴリズム辞典」技術評論社</dd>
+ <dd>小国力編著「行列計算ソフトウエアーＷＳ、スーパーコン、並列計算機」丸善株式会社</dd>
 </dl>
 
 <hr class="footer">

@@ -15,30 +15,30 @@
 
 <body>
 
-<h2>$B%D!<%k%-%C%H(B</h2>
+<h2>ツールキット</h2>
 
-<h3>$B99?7>pJs(B</h3>
+<h3>更新情報</h3>
 <ul>
 <li>
-2008/02/04 Version 1.0$B$r8x3+$7$^$7$?!%(B
+2008/02/04 Version 1.0を公開しました．
 </li>
 </ul>
 
-<h3>$B%@%&%s%m!<%I(B</h3>
+<h3>ダウンロード</h3>
 <ul>
 <li><a href="./toolkit-1.0.tgz">toolkit-1.0.tgz</a></li>
 </ul>
-$B%3%s%F%9%HMQ%^%7%s>e$K$bCV$$$F$"$j$^$9!%(B
+コンテスト用マシン上にも置いてあります．
 
-<h3>$B%I%-%e%a%s%H(B</h3>
+<h3>ドキュメント</h3>
 <ul>
 <li><a href="./gtoolkit10.ppt">gtoolkit10.ppt</a></li>
 </ul>
 
-<h3>$B;HMQJ}K!(B</h3>
+<h3>使用方法</h3>
 <p>
-$B%3%s%F%9%HMQ%^%7%s$K%m%0%$%s$7!$0J2<$N$h$&$K<+J,$N%[!<%`%G%#%l%/%H%j(B
-$B$N$I$3$+$XE83+$7$^$9!%(B
+コンテスト用マシンにログインし，以下のように自分のホームディレクトリ
+のどこかへ展開します．
 
 <table border=1><tr><td>
 <pre>
@@ -47,7 +47,7 @@ gt901@gpuc1:~> tar xvfz /home/pub/toolkit-1.0.tgz
 </td></tr></table>
 
 <p>
-$B%G%#%l%/%H%j(Btoolkit-1.0$B$K0\F0$7!$(Bmake$B$7$^$9!%(B
+ディレクトリtoolkit-1.0に移動し，makeします．
 
 <table border=1><tr><td>
 <pre>
@@ -57,8 +57,8 @@ gt901@gpuc1:~/toolkit-1.0> make
 </td></tr></table>
 
 <p>
-$BN}=,LdBj$r<B9T$9$k%9%/%j%W%H!$(Brun1.sh -- run9.sh$B$,MQ0U(B
-$B$5$l$F$$$^$9!%0J2<$N$h$&$K<B9T$7$^$9!%(B
+練習問題を実行するスクリプト，run1.sh -- run9.shが用意
+されています．以下のように実行します．
 
 <table border=1><tr><td>
 <pre>
@@ -74,36 +74,36 @@ SUCCESSFUL.
 </pre>
 </td></tr></table>
 <p>
-$B$U$?$D$NF~NO%U%!%$%k$NJ8;zNs$KBP$7$F=hM}$,9T$o$l$^$9!%(B
-GPU eclock$B$O(BGPU$B>e$G$N<B9T;~4V$rI=$7$^$9!%$3$N<B9T;~4V$G6%$$$^$9!%(B
+ふたつの入力ファイルの文字列に対して処理が行われます．
+GPU eclockはGPU上での実行時間を表します．この実行時間で競います．
 
-<h3>$B%U%!%$%k9=@.(B</h3>
+<h3>ファイル構成</h3>
 <dl>
-<dt><strong>main_host.cpp ($BJQ99IT2D(B)</strong></dt>
+<dt><strong>main_host.cpp (変更不可)</strong></dt>
 <dd>
-$BLdBj<hF@!$;~4V7WB,!$8!>ZMQ$N4X?t$J$I$,5-=R$5$l$?%U%!%$%k$G$9!%(B
+問題取得，時間計測，検証用の関数などが記述されたファイルです．
 </dd>
 <dt><strong>device.cu</strong></dt>
 <dd>
-GPU$B>e$G$N%W%m%0%i%`$G$9!%$^$:(Bdevice_user$B$H$$$&4X?t$,%[%9%H(B(CPU)$B>e$G(B
-$B8F$P$l$^$9$N$G!$$=$NCf$G%[%9%H%a%b%j$H(BGPU$B%a%b%j4V$NDL?.$d!$(B
-GPU$B>e$N%+!<%M%k4X?t8F$S=P$7$J$I$r9T$&I,MW$,$"$j$^$9!%(B
+GPU上でのプログラムです．まずdevice_userという関数がホスト(CPU)上で
+呼ばれますので，その中でホストメモリとGPUメモリ間の通信や，
+GPU上のカーネル関数呼び出しなどを行う必要があります．
 </dd>
 <dt><strong>Makefile</strong></dt>
 <dd>
-$B%=!<%9%3!<%I$+$i<B9T%U%!%$%k$r@8@.$9$k$?$a$N5,B'$r5-=R$7$?%U%!%$%k$G$9!#(B
-make $B%3%^%s%I$,;2>H$7$^$9!#%U%!%$%k9=@.$d%3%s%Q%$%k$N:GE,2=%*%W%7%g%s(B
-$B$J$I$rJQ99$7$J$$>l9g$K$O!$$3$N(B Makefile $B$rJQ99$9$kI,MW$O$"$j$^$;$s!#(B 
+ソースコードから実行ファイルを生成するための規則を記述したファイルです。
+make コマンドが参照します。ファイル構成やコンパイルの最適化オプション
+などを変更しない場合には，この Makefile を変更する必要はありません。 
 </dd>
 </dl>
 
-$B>\:Y$O(B<a href="./gtoolkit10.ppt">gtoolkit10.ppt</a>$B$r;2>H(B
-$B$7$F$/$@$5$$!%<ALd$d%P%0>pJs$O(B
+詳細は<a href="./gtoolkit10.ppt">gtoolkit10.ppt</a>を参照
+してください．質問やバグ情報は
 <a href="mailto:gpu2009@matsulab.is.titech.ac.jp">
-gpu2009@matsulab.is.titech.ac.jp</a>$B$^$G$*4j$$$7$^$9!%(B
-$B$J$*D:$$$?<ALdEy$O!$$*L>A0$rIz$;$?>e$G(BQ&amp;A$B$N%Z!<%8$J$I$G(B
-$B8x3+$5$;$F$$$?$@$/$3$H$,$"$j$^$9!%(B
-$B$"$i$+$8$a$4N;>5$/$@$5$$!%(B
+gpu2009@matsulab.is.titech.ac.jp</a>までお願いします．
+なお頂いた質問等は，お名前を伏せた上でQ&amp;Aのページなどで
+公開させていただくことがあります．
+あらかじめご了承ください．
 
 </body>
 </html>

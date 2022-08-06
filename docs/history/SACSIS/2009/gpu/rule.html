@@ -15,105 +15,105 @@
 
 <body>
 
-<h2>$B5,Dj2]Bj6%5;7A<0(B</h2>
+<h2>規定課題競技形式</h2>
 
 <p>
-$B%D!<%k%-%C%H$K$O!$0[$J$kFCD'$r$b$D(B5$B<oN`$NF~NO%G!<%?$,4^$^$l$F$$$^$9!%(B
-$B%D!<%k%-%C%H$K4^$^$l$k$3$l$i$NLdBj$r!V(B<strong>$BN}=,LdBj(B</strong>$B!W$H(B
-$B8F$V$3$H$K$7$^$9!%(B
+ツールキットには，異なる特徴をもつ5種類の入力データが含まれています．
+ツールキットに含まれるこれらの問題を「<strong>練習問題</strong>」と
+呼ぶことにします．
 </p>
-<font color="blue">$B"((B Cell Challenge 2009$B$H0[$J$j!$M=A*$H7h>!$K(B
-$BJ,$+$l$F$$$^$;$s!%%W%m%0%i%`$NDs=P$O0l2s$G$9!%(B
+<font color="blue">※ Cell Challenge 2009と異なり，予選と決勝に
+分かれていません．プログラムの提出は一回です．
 </font>
 <p>
-$BDs=P$9$k%W%m%0%i%`$O!$$3$l$i(B5$B<oN`$NA4$F$NN}=,LdBj$K$D$$$F@5$7$$=PNO$r(B
-$BF@$k%W%m%0%i%`$G$J$/$F$O$J$j$^$;$s!%(B 
-1$B$D$G$b!$4V0c$C$?7k2L$r@8@.$9$k>l9g$K$O!$;DG0$J$,$i!$<:3J$H(B
-$B$J$j$^$9!%(B
+提出するプログラムは，これら5種類の全ての練習問題について正しい出力を
+得るプログラムでなくてはなりません． 
+1つでも，間違った結果を生成する場合には，残念ながら，失格と
+なります．
 </p>
 
 <p>
-$BDs=P$9$k%W%m%0%i%`$O!$(B<strong>2009$BG/(B3$B7n(B25$BF|8a8e(B5$B;~(B</strong>
-$B$^$G$K!$%[!<%`%G%#%l%/%H%j2<$N(B<strong>submit</strong>$B$H$$$&(B
-$BL>A0$N%G%#%l%/%H%j$KJ]B8$7$F$/$@$5$$!%(B
-submit$B%G%#%l%/%H%j$K$O!$0J2<$r4^$a$F$/$@$5$$(B
-($B%D!<%k%-%C%H$NFbMF$rF'=1$9$l$PBg>fIW$G$9(B)$B!%(B
+提出するプログラムは，<strong>2009年3月25日午後5時</strong>
+までに，ホームディレクトリ下の<strong>submit</strong>という
+名前のディレクトリに保存してください．
+submitディレクトリには，以下を含めてください
+(ツールキットの内容を踏襲すれば大丈夫です)．
 <ul>
-<li>main_host.cpp$B$r4^$`$9$Y$F$N%=!<%9%U%!%$%k(B</li>
+<li>main_host.cppを含むすべてのソースファイル</li>
 <li>Makefile</li>
-<li>$BN}=,LdBj$N%U%!%$%k(B</li>
+<li>練習問題のファイル</li>
 </ul>
-$B$^$?!$(B"make"$B%3%^%s%I$GDs=P%W%m%0%i%`$,%3%s%Q%$%k$5$l$k$h$&$K(B
-$B$7$F$/$@$5$$(B
-($BA0$b$C$F%3%s%Q%$%k$7$?%W%m%0%i%`$r(Bsubmit$B%G%#%l%/%H%j$K(B
-$BCV$$$F$bLdBj$"$j$^$;$s$,!$0Q0w2qB&$G:FEY(Bmake$B$9$k>l9g$,$"$j$^$9(B)$B!%(B
+また，"make"コマンドで提出プログラムがコンパイルされるように
+してください
+(前もってコンパイルしたプログラムをsubmitディレクトリに
+置いても問題ありませんが，委員会側で再度makeする場合があります)．
 </p>
 
 <a name="#shinsa">
-<h3>$B?3::$K$D$$$F(B</h3>
+<h3>審査について</h3>
 <p><font color="blue">
-$B?3::J}K!$N>\:Y$K$D$$$F5-=R$rDI2C$7$^$7$?!%(B
+審査方法の詳細について記述を追加しました．
 <a href="http://www.hpcc.jp/sacsis/2009/cell/rule.html">
-Cell$B%A%c%l%s%8(B2009$B7h>!%i%&%s%I$N%k!<%k(B</a>$B$K=`5r$7$^$9!%(B
+Cellチャレンジ2009決勝ラウンドのルール</a>に準拠します．
 </font></p>
 <p>
-$B?3::$N$?$a$K=`Hw$9$k(B10$B<oN`$NLdBj$rMQ$$$F!$(B
-$B$=$l$>$l$N;22C%A!<%`$N%W%m%0%i%`$rI>2A$7$^$9!%(B
-$B$J$*?3::$KMQ$$$kLdBj$O;vA0$K8x3+$$$?$7$^$;$s$,!$(B
-Cell$B%A%c%l%s%87h>!$HF1$8LdBj$rMQ$$$^$9!%(B
+審査のために準備する10種類の問題を用いて，
+それぞれの参加チームのプログラムを評価します．
+なお審査に用いる問題は事前に公開いたしませんが，
+Cellチャレンジ決勝と同じ問題を用います．
 </p>
 <p>
-$B?3::MQLdBj$N$=$l$>$l$K$D$$$F!$<B9T;~4V$NB.$$%A!<%`$+$i=g$K(B
-$B0J2<$NE@?t$rM?$($^$9!%(B
+審査用問題のそれぞれについて，実行時間の速いチームから順に
+以下の点数を与えます．
 <ul>
-<li>1$B0L(B 10$BE@(B</li>
-<li>2$B0L(B 7$BE@(B</li>
-<li>3$B0L(B 5$BE@(B</li>
-<li>4$B0L(B 4$BE@(B</li>
-<li>5$B0L(B 3$BE@(B</li>
-<li>6$B0L(B 2$BE@(B</li>
-<li>7$B0L(B 1$BE@(B</li>
+<li>1位 10点</li>
+<li>2位 7点</li>
+<li>3位 5点</li>
+<li>4位 4点</li>
+<li>5位 3点</li>
+<li>6位 2点</li>
+<li>7位 1点</li>
 </ul>
 </p>
-<p>$B3FLdBj$NI>2A$K$*$$$F!$BG$A@Z$j;~4V$r@_$1$^$9!%(B
-$B0J2<$N>l9g$K$O!$Ev3:LdBj$K$D$$$F$O<:GT$H8+$J$7!$Ev3:LdBj$N(B
-$BE@?t$r(B-25$BE@$H$7$^$9!%(B
+<p>各問題の評価において，打ち切り時間を設けます．
+以下の場合には，当該問題については失敗と見なし，当該問題の
+点数を-25点とします．
 <ul>
-<li>$B4V0c$C$?7k2L$r=PNO$9$k>l9g(B</li>
-<li>device_user$B4X?t$,7k2L$rJV$5$:$K=*N;$9$k>l9g(B</li>
-<li>$B0Q0w2qB&$,@_Dj$7$?BG$A@Z$j;~4VFb$K7k2L$,F@$i$l$J$$>l9g(B</li>
+<li>間違った結果を出力する場合</li>
+<li>device_user関数が結果を返さずに終了する場合</li>
+<li>委員会側が設定した打ち切り時間内に結果が得られない場合</li>
 </ul>
-$B"((B $B0Q0w2q$O3F%A!<%`3FLdBj$4$H$K(B5$B2s%W%m%0%i%`$r<B9T$7!$(B
-$B:GB.$N<B9T;~4V$r:NMQ$7$^$9(B
+※ 委員会は各チーム各問題ごとに5回プログラムを実行し，
+最速の実行時間を採用します
 <br>
-$B"((B $B>e5-$N(B5$B2s$N<B9T$NCf$G(B1$B2s$G$b8mEz!&0[>o=*N;!&;~4VBG$A@Z$j(B
-$B$,$"$C$?>l9g$K$O!$<:GT$H8+$J$7$^$9!%(B
+※ 上記の5回の実行の中で1回でも誤答・異常終了・時間打ち切り
+があった場合には，失敗と見なします．
 </p>
 <p>
-$BA4LdBj$NF@E@$N9g7W$,B?$$%A!<%`$,M%>!$H$J$j$^$9!%(B
+全問題の得点の合計が多いチームが優勝となります．
 </p>
 
-<h3>$B6%5;7A<0$^$H$a(B</h3>
-GPU Challenge 2009$B5,Dj2]BjItLg$N?J$aJ}$r$^$H$a$k$H0J2<$N$h$&$K(B
-$B$J$j$^$9!%(B
+<h3>競技形式まとめ</h3>
+GPU Challenge 2009規定課題部門の進め方をまとめると以下のように
+なります．
 <table border=1><tr><td>
 <ul>
-<li>2009$BG/(B3$B7n(B25$BF|8a8e(B5$B;~(B $B%W%m%0%i%`Ds=P(B</li>
-<li>$BN}=,LdBj(B($B%D!<%k%-%C%HF1:-(B)$B$r$9$Y$F%/%j%"!)(B
+<li>2009年3月25日午後5時 プログラム提出</li>
+<li>練習問題(ツールキット同梱)をすべてクリア？
   <ul>
-  <li> No: $B<:3J!$%3%s%F%9%H=*N;(B</li>
-  <li> Yes: $B?3::MQLdBj$GI>2A$5$l$k8"Mx$r3MF@(B</li>
+  <li> No: 失格，コンテスト終了</li>
+  <li> Yes: 審査用問題で評価される権利を獲得</li>
   </ul>
 </li>
-<li>$B?3::MQLdBj$N<B9TB.EY$K$h$jE@?t$r3MF@(B</li>
-<li>$B9g7WF@E@$GM%>!<T$r7hDj(B</li>
+<li>審査用問題の実行速度により点数を獲得</li>
+<li>合計得点で優勝者を決定</li>
 </ul>
 </td></tr></table>
 
 <p>
-$B<ALd$d%P%0>pJs$O(B<a href="mailto:gpu2009@matsulab.is.titech.ac.jp">
+質問やバグ情報は<a href="mailto:gpu2009@matsulab.is.titech.ac.jp">
 gpu2009@matsulab.is.titech.ac.jp</a>
-$B$^$G$*4j$$$7$^$9!%(B
+までお願いします．
 </p>
 </body>
 </html>

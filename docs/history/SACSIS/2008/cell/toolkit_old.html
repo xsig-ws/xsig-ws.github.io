@@ -14,34 +14,34 @@
 
 <body class="contents">
 
-<h1>$B%D!<%k%-%C%H(B</h1>
+<h1>ツールキット</h1>
 
 <ul>
- <li><a href="#update"   >$B99?7>pJs(B</a></li>
- <li><a href="#document" >$B%I%-%e%a%s%H(B</a></li>
- <li><a href="#howto"    >$B;HMQJ}K!(B</a></li>
- <li><a href="#manifest" >$B%U%!%$%k9=@.(B</a></li>
+ <li><a href="#update"   >更新情報</a></li>
+ <li><a href="#document" >ドキュメント</a></li>
+ <li><a href="#howto"    >使用方法</a></li>
+ <li><a href="#manifest" >ファイル構成</a></li>
 </ul>
 
-<h2><a name="update">$B99?7>pJs(B</a></h2>
+<h2><a name="update">更新情報</a></h2>
 
 <dl class="date">
 <dt>2007/12/07</dt>
-<dd>$B;nMQHG(B Version 0.1 $B$r8x3+$7$^$7$?!#(B<a class="download" href="download/toolkit01.tar.gz">$B%@%&%s%m!<%I(B</a><br>Cell Online $B>e$K$b$"$j$^$9!#2<5-;HMQJ}K!$r$4Mw$/$@$5$$!#(B</dd>
+<dd>試用版 Version 0.1 を公開しました。<a class="download" href="download/toolkit01.tar.gz">ダウンロード</a><br>Cell Online 上にもあります。下記使用方法をご覧ください。</dd>
 </dl>
 
-<h2><a name="document">$B%I%-%e%a%s%H(B</a></h2>
+<h2><a name="document">ドキュメント</a></h2>
 
-<p>$B0J2<$N%I%-%e%a%s%H$O%D!<%k%-%C%H$K$bF1:-$5$l$F$$$^$9!#(B</p>
+<p>以下のドキュメントはツールキットにも同梱されています。</p>
 <ul>
  <li><a href="download/toolkit01.txt">toolkit01.txt</a></li>
  <li><a href="download/toolkit01.ppt">toolkit01.ppt</a></li>
 </ul>
 
-<h2><a name="howto">$B;HMQJ}K!(B</a></h2>
+<h2><a name="howto">使用方法</a></h2>
 
-<p>$B$^$:<B9T$7$F$_$^$7$g$&!#(B
-$B%D!<%k%-%C%H$r%[!<%`%G%#%l%/%H%j$K%3%T!<$7E83+$7$^$9!#(B</p>
+<p>まず実行してみましょう。
+ツールキットをホームディレクトリにコピーし展開します。</p>
 
 <pre class="command">
 [foobar@dev ~]$ <span class="command">cd</span>
@@ -49,25 +49,25 @@
 [foobar@dev ~]$ <span class="command">gtar xvzf toolkit01.tar.gz</span>
 </pre>
 
-<p>$BE83+$7$F$G$-$?%U%)%k%@(B toolkit01 $B$K0\F0$7!$(B
-Makefile $B$*$h$S(B spe.h $BFb$N(B USERNAME $B$r(B Cell Open Cafe $B$N(B
-$B%m%0%$%sL>$K=q$-49$(!$(Bmake$B$7$^$9!#(B</p>
+<p>展開してできたフォルダ toolkit01 に移動し，
+Makefile および spe.h 内の USERNAME を Cell Open Cafe の
+ログイン名に書き換え，makeします。</p>
 
 <pre class="command">
 [foobar@dev ~]$ <span class="command">cd toolkit01</span>
-<span style="color: #ff0;">$B!z$3$3$G(B Makefile, spe.h $B$N=q$-49$($,I,MW(B</span>
+<span style="color: #ff0;">★ここで Makefile, spe.h の書き換えが必要</span>
 [foobar@dev toolkit01]$ <span class="command">make</span>
 </pre>
 
-<!-- p>$B<B9TMQ%U%)%k%@$r:n@.$7!$<B9T%U%!%$%k$r%3%T!<$7$^$9!#(B</p>
+<!-- p>実行用フォルダを作成し，実行ファイルをコピーします。</p>
 
 <pre class="command">
 $ mkdir ~/speed
 $ cp main spe1 ~/speed
 </pre -->
 
-<p>make run$B$G<B9T$7$^$9!#(B
-$B@5>o$K<B9T$,40N;$9$k$H0J2<$N$h$&$J=PNO$K$J$j$^$9!#(B</p>
+<p>make runで実行します。
+正常に実行が完了すると以下のような出力になります。</p>
 
 <pre class="command">
 [foobar@dev toolkit01]$ <span class="command">make run</span>
@@ -85,47 +85,47 @@ Performance : 251.16 [MFlops]
 execute time:       391308 usec
 </pre>
 
-<h2><a name="manifest">$B%U%!%$%k9=@.(B</a></h2>
+<h2><a name="manifest">ファイル構成</a></h2>
 <dl class="manifest">
 <dt>define.h</dt>
-<dd>$BMxMQ$9$k(B SPE $B$N?t(B (1$B!A(B7)$B$r;XDj$7$^$9!#%G%U%)%k%H$G$O(B
-  1 $B$,@_Dj$5$l$F$$$^$9!#(B</dd>
+<dd>利用する SPE の数 (1〜7)を指定します。デフォルトでは
+  1 が設定されています。</dd>
 <dt>main_spe.c</dt>
-<dd>SPE $B$,<B9T$9$k%W%m%0%i%`$G$9!#(B
-$B%3%s%F%9%H;22C<T$O$3$N%U%!%$%kCf$N(B
-spe_soleqs $B4X?tFb$r=q$-49$($k$3$H$K$J$j$^$9!#(B</dd>
+<dd>SPE が実行するプログラムです。
+コンテスト参加者はこのファイル中の
+spe_soleqs 関数内を書き換えることになります。</dd>
 <dt>main_ppe.c</dt>
-<dd>PPE $B$,<B9T$9$k%W%m%0%i%`$G$9!#(B
-SPE$B%W%m%0%i%`$N(B $B5/F0!A=*N;(B $B$^$G$rC4$$$^$9!#(B
-$B<B:]$N%3%s%F%9%H$G$O!$(BPPE $B$K$h$k7W;;=hM}$r6X;_$9$k2DG=@-$,$"$j$^$9$N$G!$(B
-$B$G$-$k$+$.$j(B SPE $B$G=hM}$r9T$&$h$&$K$7$F$/$@$5$$!#(B
+<dd>PPE が実行するプログラムです。
+SPEプログラムの 起動〜終了 までを担います。
+実際のコンテストでは，PPE による計算処理を禁止する可能性がありますので，
+できるかぎり SPE で処理を行うようにしてください。
 
-$B8=:_$N%D!<%k%-%C%H$G$O!$LdBj9TNs(B n $B!$2r%Y%/%H%k$NK\?t(B m$B!$LdBj(B
-$B$N%?%$%W$O!$I8=`F~NO$+$i<u$1<h$j$^$9!#(B</dd>
+現在のツールキットでは，問題行列 n ，解ベクトルの本数 m，問題
+のタイプは，標準入力から受け取ります。</dd>
 <dt>spe.h</dt>
-<dd>$B$=$l$>$l$N(B SPE $B$,<B9T$9$k%W%m%0%i%`$N%U%!%$%kL>$r;XDj$7$^$9!#%U%!%$%kL>$O(B
-$B%f!<%6$N%G%#%l%/%H%j$+$i$N%Q%9$r;XDj$7$^$9!#(B
-$B$3$3$G$O!$$9$Y$F$N(B SPE $B$,(B spe1 $B$H$$$&L>A0$N%W%m%0%i%`$rMxMQ$9$k@_Dj$H(B
-$B$J$C$F$$$^$9!#$=$l$>$l$N(B SPE $B$,0[$J$k%W%m%0%i%`$r<B9T$7$F$b$+$^$$$^$;$s!#(B</dd>
+<dd>それぞれの SPE が実行するプログラムのファイル名を指定します。ファイル名は
+ユーザのディレクトリからのパスを指定します。
+ここでは，すべての SPE が spe1 という名前のプログラムを利用する設定と
+なっています。それぞれの SPE が異なるプログラムを実行してもかまいません。</dd>
 <dt>spe1.c</dt>
-<dd>$B;~4V7WB,!$%G!<%?E>AwMQ$N4X?t$,5-=R$5$l$?%U%!%$%k$G$9!#(B</dd>
+<dd>時間計測，データ転送用の関数が記述されたファイルです。</dd>
 <dt>lib.c</dt>
-<dd>$BDL>o$O!$(Blib.c $B$NFbMF$rJQ99$9$kI,MW$O$"$j$^$;$s!#(B
-lib.c $B$G$OLdBj9TNs$N@8@.$d2rEz$N%A%'%C%/$r9T$$$^$9$,!$(B
-$B%3%s%F%9%H$G8=:_$N(B lib.c $B$N3F%k!<%A%s$r;HMQ$9$k$H$O8B$j$^$;$s!#(B</dd>
+<dd>通常は，lib.c の内容を変更する必要はありません。
+lib.c では問題行列の生成や解答のチェックを行いますが，
+コンテストで現在の lib.c の各ルーチンを使用するとは限りません。</dd>
 <dt>Makefile</dt>
-<dd>$B%=!<%9%3!<%I$+$i<B9T%U%!%$%k$r@8@.$9$k$?$a$N5,B'$r5-=R$7$?(B
-$B%U%!%$%k$G$9!#(Bmake $B%3%^%s%I$,;2>H$7$^$9!#(B
-$B%U%!%$%k9=@.$d%3%s%Q%$%k$N:GE,2=%*%W%7%g%s$J$I$rJQ99$7$J$$>l9g$K$O!$(B
-$B$3$N(B Makefile $B$rJQ99$9$kI,MW$O$"$j$^$;$s!#(B</dd>
+<dd>ソースコードから実行ファイルを生成するための規則を記述した
+ファイルです。make コマンドが参照します。
+ファイル構成やコンパイルの最適化オプションなどを変更しない場合には，
+この Makefile を変更する必要はありません。</dd>
 </dl>
 
-<p>$B>\:Y$O%D!<%k%-%C%HCf$N(B <a href="./download/toolkit01.txt">doc/toolkit01.txt</a> $B$r;2>H$7$F$/$@$5$$!#(B
-$B<ALd$d%P%0>pJs$J$I$O(B
+<p>詳細はツールキット中の <a href="./download/toolkit01.txt">doc/toolkit01.txt</a> を参照してください。
+質問やバグ情報などは
 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#101;&#108;&#108;&#50;&#48;&#48;&#56;&#105;&#110;&#102;&#111;&#64;&#109;&#97;&#116;&#108;&#97;&#98;&#46;&#110;&#105;&#116;&#101;&#99;&#104;&#46;&#97;&#99;&#46;&#106;&#112;">&#99;&#101;&#108;&#108;&#50;&#48;&#48;&#56;&#105;&#110;&#102;&#111;&#64;&#109;&#97;&#116;&#108;&#97;&#98;&#46;&#110;&#105;&#116;&#101;&#99;&#104;&#46;&#97;&#99;&#46;&#106;&#112;</a>
-$B$^$G$*4j$$$7$^$9!#$J$*D:$$$?<ALdEy$O!$$*L>A0$rIz$;$?>e$G(B
-$B%3%_%e%K%F%#%\!<%IEy$G8x3+!&6&M-$5$;$F$$$?$@$/$3$H$,$"$j$^$9!#(B
-$BM=$a$4N;>5$/$@$5$$!#(B</p>
+までお願いします。なお頂いた質問等は，お名前を伏せた上で
+コミュニティボード等で公開・共有させていただくことがあります。
+予めご了承ください。</p>
 
 <hr class="footer">
 

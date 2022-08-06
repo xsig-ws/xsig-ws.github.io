@@ -15,109 +15,109 @@
 
 <body>
 
-<h2>$B5,Dj2]Bj(B</h2>
+<h2>規定課題</h2>
 
 <p>
-GPU Challenge 2009$B$N5,Dj2]Bj$O(B<a href="http://www.hpcc.jp/sacsis/2009/cell/" target="top">
-Cell Challenge</a>$B$HF1MM!$(B
-$B!V(B<strong>$BJ8;zNs$NJT=85wN%7W;;(B</strong>$B!W$G$9!%(B
+GPU Challenge 2009の規定課題は<a href="http://www.hpcc.jp/sacsis/2009/cell/" target="top">
+Cell Challenge</a>と同様，
+「<strong>文字列の編集距離計算</strong>」です．
 </p>
 <p>
-GPU Challenge 2009$B<B9T0Q0w2q$,MQ0U$9$k!$(BNVIDIA$B<R(BGPU(Tesla S1070-500)
-$B$rEk:\$7$?7W;;5!$G!$(BCUDA$B%W%m%0%i%_%s%04D6-$rMQ$$$F%W%m%0%i%`$r(B
-$B:n@.$7$F$$$?$@$-$^$9!%(B
+GPU Challenge 2009実行委員会が用意する，NVIDIA社GPU(Tesla S1070-500)
+を搭載した計算機で，CUDAプログラミング環境を用いてプログラムを
+作成していただきます．
 </p>
 
 <p>
 <font color="blue">
-$B"((BCell Challenge 2009$B$N2]Bj(Bweb$B%Z!<%8$NFbMF$r0zMQ!&0lIt2~JQ$7(B
-$B7G<($5$;$F$$$?$@$$$F$*$j$^$9$,!$K\%Z!<%8$K$D$$$F$N$*Ld$$9g$o$;$O(B
-GPU Challenge$B<B9T0Q0w2q$"$F$K$*4j$$$$$?$7$^$9!%(B
+※Cell Challenge 2009の課題webページの内容を引用・一部改変し
+掲示させていただいておりますが，本ページについてのお問い合わせは
+GPU Challenge実行委員会あてにお願いいたします．
 </font>
 </p>
 
-<h3>$B35MW(B</h3>
+<h3>概要</h3>
 
-2$B$D$NJ8;zNs$N6a$5$r7W$k$?$a$KJRJ}$K<!$NA`:n$r7+$jJV$7E,MQ$7$F!$(B
-$B$b$&0lJ}$NJ8;zNs$rF@$k$?$a$NA`:n2s?t$N:G>.CM$,!$$=$N(B2$B$D$NJ8;zNs$N(B
-$BJT=85wN%$G$9!#;HMQ2DG=$JA`:n$O0J2<$N(B3$B<oN`$G$9!#(B
+2つの文字列の近さを計るために片方に次の操作を繰り返し適用して，
+もう一方の文字列を得るための操作回数の最小値が，その2つの文字列の
+編集距離です。使用可能な操作は以下の3種類です。
 
 <ol>
-<li>$B:o=|!'(B1$B$D$NJ8;z$r<h$j=|$/(B</li>
-<li>$BA^F~!'(B1$B$D$NJ8;z$r?7$?$KIU$12C$($k(B </li>
-<li>$BCV49!'(B1$B$D$NJ8;z$rJL$NJ8;z$GCV$-49$($k(B</li>
+<li>削除：1つの文字を取り除く</li>
+<li>挿入：1つの文字を新たに付け加える </li>
+<li>置換：1つの文字を別の文字で置き換える</li>
 </ol>
 
-$BNc$($P!V(Bweight$B!W$H!V(Bwrite$B!W$NJT=85wN%$r9M$($k$H$-!$<!$N$h$&$K(B
-$BA`:n$r7+$jJV$7E,MQ$9$k$H!$$3$N(B2$B$D$NJT=85wN%$,(B 4$B0J2<(B $B$G$"$k$3$H$,J,$+$j$^$9!#(B
+例えば「weight」と「write」の編集距離を考えるとき，次のように
+操作を繰り返し適用すると，この2つの編集距離が 4以下 であることが分かります。
 
 <ul>
 <li>weight </li>
-<li>weight<strong>e</strong> ($BA^F~!'(Be) </li>
-<li>w<strong>r</strong>ighte ($BCV49!'(Be $B"*(B r)</li>
-<li>wrihte ($B:o=|!'(Bg)</li>
-<li>write ($B:o=|!'(Bh) </li>
+<li>weight<strong>e</strong> (挿入：e) </li>
+<li>w<strong>r</strong>ighte (置換：e → r)</li>
+<li>wrihte (削除：g)</li>
+<li>write (削除：h) </li>
 </ul>
 
-$B$^$?!$(B3$B2s0J2<$NA`:n$NE,MQ$G$O!V(Bweight$B!W$r!V(Bwrite$B!W$K$9$k$3$H$,(B
-$B<B$O$G$-$J$$$N$G!$!V(Bweight$B!W$H!V(Bwrite$B!W$NJT=85wN%$O(B 4 $B$K$J$j$^$9!#(B
-$B:o=|!$A^F~!$CV49$OJ8;zNs$NCf$N$I$N0LCV$G9T$C$F$b$h$$$G$9!#(B
+また，3回以下の操作の適用では「weight」を「write」にすることが
+実はできないので，「weight」と「write」の編集距離は 4 になります。
+削除，挿入，置換は文字列の中のどの位置で行ってもよいです。
 
-<h3>$BM=A*2]Bj>\:Y(B</h3>
+<h3>予選課題詳細</h3>
 
-$B6qBNE*$K2r$$$F$$$?$@$/$N$O0J2<7A<0$G=PBj$5$l$kLdBj$G$9!%(B
+具体的に解いていただくのは以下形式で出題される問題です．
 
 <dl>
-<dt><strong>$B%f!<%6$N<BAu$9$k4X?t(B</strong></dt>
+<dt><strong>ユーザの実装する関数</strong></dt>
 <dd>
 <table border=1><tr><td>
 <pre>
 unsigned int device_user(char *str1, int lenStr1, char *str2, int lenStr2);
 </pre>
 </td></tr></table>
-$B0z?t$H$7$FM?$($i$l$k%]%$%s%?$O$9$Y$F%[%9%H(B(CPU)$B>e$N%a%b%j$r;X$9$b$N$G(B
-$B$"$k$?$a!$(B
-$B%[%9%H$H(BGPU$B$N4V$N%G!<%?E>Aw(B(cudaMemcpy$B$J$I(B)$B$O!$(Bdevice_user$B4X?tFb(B
-$B$G9T$&I,MW$,$"$j$^$9!%(B
+引数として与えられるポインタはすべてホスト(CPU)上のメモリを指すもので
+あるため，
+ホストとGPUの間のデータ転送(cudaMemcpyなど)は，device_user関数内
+で行う必要があります．
 </dd>
-<dt><strong>$BJ8;zNs(B</strong></dt>
+<dt><strong>文字列</strong></dt>
 <dd>
-1$BJ8;z$O(B1$B%P%$%H$G(B1$B!A(B255$B$NCM$r;}$D!%(B(char)0$B$,=*C<!%(B<br>
-2$B$D$NJ8;zNs$O(Bstr1, str2$B$N;X$9NN0h$KJ]B8$5$l$k!%(B<br>
-$B$=$l$>$l$ND9$5$O(BlenStr1, lenStr2$B!%(B<br>
-$BJ8;zNs$ND9$5$O(B128$B$NG\?t!%(B<br>
-$BJ8;zNs$N:GBgD9$O$=$l$>$l(B1048448$BJ8;z(B(1M-128)$B!%(B<br>
-2$B$D$NJ8;zNsD9$N@Q(B(lenStr1*lenStr2)$B$O:GBg$G(B2$B$N(B34$B>h(B(=17,179,869,184)$B!%(B
+1文字は1バイトで1〜255の値を持つ．(char)0が終端．<br>
+2つの文字列はstr1, str2の指す領域に保存される．<br>
+それぞれの長さはlenStr1, lenStr2．<br>
+文字列の長さは128の倍数．<br>
+文字列の最大長はそれぞれ1048448文字(1M-128)．<br>
+2つの文字列長の積(lenStr1*lenStr2)は最大で2の34乗(=17,179,869,184)．
 </dd>
-<dt><strong>$BJT=85wN%(B</strong></dt>
+<dt><strong>編集距離</strong></dt>
 <dd>
-1$B2s$NA^F~!$:o=|!$CV49$NJT=85wN%$O$9$Y$F(B1$B!%(B
+1回の挿入，削除，置換の編集距離はすべて1．
 </dd>
-<dt><strong>$B2sEz(B</strong></dt>
+<dt><strong>回答</strong></dt>
 <dd>
-2$B$D$NJ8;zNs$NJT=85wN%$r!$(Bdevice_user$B4X?t$NJV$jCM$H$7$FJV$9$3$H!%(B
+2つの文字列の編集距離を，device_user関数の返り値として返すこと．
 </dd>
-<dt><strong>$B<B9T;~4V$NB,Dj(B</strong></dt>
+<dt><strong>実行時間の測定</strong></dt>
 <dd>
-device_user$B4X?t$N<B9T;~4V$,B,Dj$5$l!$=g0L7hDj$KMQ$$$i$l$^$9!%(B
+device_user関数の実行時間が測定され，順位決定に用いられます．
 </dd>
 </dl>
 
-<h3>$B%W%m%0%i%`:n@.%k!<%k(B</h3>
+<h3>プログラム作成ルール</h3>
 
 <ul>
-<li>$B;22C<T$N%W%m%0%i%`$O(B1$B$D$N(BGPU$B$N$_$rMQ$$$k$3$H!%(B
-device_user$B4X?t$NCf$G(BcudaSetDevice$B4X?t$J$I$r8F$s$G$O$$$1$J$$!%(B
-($B0Q0w2q$N=`Hw$9$k7W;;5!$K$O(B2$B$D$:$D(BGPU$B$,Ek:\$5$l$F$$$^$9$,!$(B
-$B3F%A!<%`$O$=$N$&$A$N(B1$B$D$@$1$r;H$&$3$H$K$J$j$^$9(B)
+<li>参加者のプログラムは1つのGPUのみを用いること．
+device_user関数の中でcudaSetDevice関数などを呼んではいけない．
+(委員会の準備する計算機には2つずつGPUが搭載されていますが，
+各チームはそのうちの1つだけを使うことになります)
 </li>
 <li>
-$B;22C<T$N%W%m%0%i%`$O(BCPU$B%3%"$r9b!9(B1$B$D$@$1MQ$$$k$3$H!%(B
-$B%[%9%H$H(BGPU$B$N4V$NDL?.$d(BGPU$B%+!<%M%k4X?t$N=*N;BT$A$J$I$K$b(B
-CPU$B%3%"$,;H$o$l$k$N$GCm0U$N$3$H!%(B
+参加者のプログラムはCPUコアを高々1つだけ用いること．
+ホストとGPUの間の通信やGPUカーネル関数の終了待ちなどにも
+CPUコアが使われるので注意のこと．
 </li>
 <li>
-$B$=$NB>$N%k!<%k$K$D$$$F$O%D!<%k%-%C%H$N%Z!<%8$r;2>H$N$3$H!%(B
+その他のルールについてはツールキットのページを参照のこと．
 </li>
 </ul>
 

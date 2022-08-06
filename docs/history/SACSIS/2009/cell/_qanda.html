@@ -15,26 +15,26 @@
 
 <h1>Q &amp; A</h1>
 
-<p>$B$3$N%Z!<%8$G$O!$<g$K5,Dj2]Bj$*$h$S%D!<%k%-%C%H$KBP$7$F$$$?$@$$$?(B
-$B<ALd$H$=$N2sEz$r7G:\$7$F$$$-$^$9!#(B</p>
+<p>このページでは，主に規定課題およびツールキットに対していただいた
+質問とその回答を掲載していきます。</p>
 
 <dl class="faq">
- <dt>$B!V(Bcellexec: Another job is running on Cell$B!W$H=P$F<B9T$G$-$^$;$s!#(B</dt>
- <dd>cellexec $B$r(B Ctrl-c $B$GDd;_$5$;$F$7$^$&$H5/$3$k>l9g$,$"$j$^$9!#(B
- cellunlock $B%3%^%s%I$K$h$j%m%C%/$,2r=|$G$-$^$9!#(B</dd>
- <dt>$B%m%0%$%s@h%[%9%H$rJQ99$G$-$^$9$+(B?</dt>
- <dd>$B$$$$$(!#(BCell Open Cafe $BB&$G!$%f!<%6Kh$K<+F0E*$K%[%9%H$r(B
-   $B?6$jJ,$1$k$h$&$K$J$C$F$$$^$9!#(B
-   $B%f!<%6B&$,L@<(E*$K@Z$jBX$($k$3$H$O$G$-$^$;$s!#(B</dd>
- <dt>$B;HMQ$9$k(B SPE $B$N?t$O2DJQ$G$9$+(B?</dt>
- <dd>$B$$$$$(!#(BSPE$B?t$O(B7$B8D$G8GDj$G$9!#$?$@$7!$I,$:$7$bA4$F$N(B SPE $B$r(B
- $B;HMQ$7$J$1$l$P$J$i$J$$$o$1$G$O$"$j$^$;$s!#(B</dd>
- <!-- dt>$BM=A*$G%?%$%`%"%&%H$7$?>l9g!$<:3J$K$J$j$^$9$+(B?</dt>
- <dd>$B$O$$!$<:3J$H$J$j$^$9!#$?$@$7BG$A@Z$j;~4V$N@_Dj$K$D$-$^$7$F$O6K$a$F?5=E$K9T$$(B
-   $B7k2L$r?35D$9$kM=Dj$G$9$N$G!$$40B?4$/$@$5$$!#(B</dd -->
- <dt>Cell Open Cafe $B$K%U%!%$%kE>Aw$O$G$-$J$$$N$G$7$g$&$+(B?</dt>
- <dd>$B%m%0%$%s$N>l9g$HF1MM$K!$(Bdevl.cell-hibikino.net $B$N(B 22222 $B%]!<%H$K(B
-   $BBP$7$F(B scp $B@\B3$,2DG=$G$9!#(B<br>
+ <dt>「cellexec: Another job is running on Cell」と出て実行できません。</dt>
+ <dd>cellexec を Ctrl-c で停止させてしまうと起こる場合があります。
+ cellunlock コマンドによりロックが解除できます。</dd>
+ <dt>ログイン先ホストを変更できますか?</dt>
+ <dd>いいえ。Cell Open Cafe 側で，ユーザ毎に自動的にホストを
+   振り分けるようになっています。
+   ユーザ側が明示的に切り替えることはできません。</dd>
+ <dt>使用する SPE の数は可変ですか?</dt>
+ <dd>いいえ。SPE数は7個で固定です。ただし，必ずしも全ての SPE を
+ 使用しなければならないわけではありません。</dd>
+ <!-- dt>予選でタイムアウトした場合，失格になりますか?</dt>
+ <dd>はい，失格となります。ただし打ち切り時間の設定につきましては極めて慎重に行い
+   結果を審議する予定ですので，ご安心ください。</dd -->
+ <dt>Cell Open Cafe にファイル転送はできないのでしょうか?</dt>
+ <dd>ログインの場合と同様に，devl.cell-hibikino.net の 22222 ポートに
+   対して scp 接続が可能です。<br>
    $ scp -P 22222 foo.txt bar@dev.cell-hibikino.net:
  </dd>
    

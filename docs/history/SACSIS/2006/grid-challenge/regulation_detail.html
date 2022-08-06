@@ -12,45 +12,45 @@
 </p>
 <p>
 <b><font face="sans serif" size="+2">
-�K��ۑ�ڍ�
+規定課題詳細
 </font></b>
 </p>
 </center>
 
 <hr>
-<b>���F</b>
+<b>問題：</b>
 <p>
-���Ƃ��ė^�����閳���O���tG(V,E)���̃m�[�h�i�����j��2�̃m�[�h�W��L�����R�ɓ������镪�����@�����߂Ă��������D������̃m�[�h�W��L�����R�ɑ�����m�[�h�̏������Ƃ��Ē�o���Ă��炢�܂��D
-�������C
+問題として与えられる無向グラフG(V,E)中のノード（偶数個）を2つのノード集合LおよびRに等分する分割方法を求めてください．分割後のノード集合LおよびRに属するノードの情報を解として提出してもらいます．
+ただし，
 <ul>
-<li>������ɐ��������m�[�h�W��L�����R�ɑ�����m�[�h���͓����łȂ���΂Ȃ�܂���D
-<li>�قȂ�m�[�h�W���ɂ܂�����G�b�W������菭�Ȃ��������@��ǂ����ƒ�`���܂��D�i�قȂ�m�[�h�W���ɂ܂�����}�����ŏ��̕������œK���ƂȂ�܂��D�j
+<li>分割後に生成されるノード集合LおよびRに属するノード数は同じでなければなりません．
+<li>異なるノード集合にまたがるエッジ数がより少ない分割方法を良い解と定義します．（異なるノード集合にまたがる枝数が最小の分割が最適解となります．）
 </ul>
-�^��������́C��Ɍ����I�Ȏ��ԓ��ɍœK�������܂�Ƃ͌���܂���D
-���Z�ł́C�Q���҂̍쐬�����v���O�������^����ꂽ���ԓ��ɂǂꂾ���悢���i�œK�ɋ߂������j�����߂邱�Ƃ��ł��邩�������܂��D
+与えられる問題は，常に現実的な時間内に最適解が求まるとは限りません．
+競技では，参加者の作成したプログラムが与えられた時間内にどれだけよい解（最適に近い分割）を求めることができるかを競います．
 </p>
 
 <hr>
-<b>���̓t�@�C���F</b>
+<b>入力ファイル：</b>
 <p>
-���Ƃ��ė^������O���t�̏��́C���̓t�@�C���Ƃ���
-GCF��̈��̃z�X�g�ipublic IP address�����z�X�g�j��ɒu����܂��D�t�@�C���̓e�L�X�g�t�@�C���ŁCD. S. Johnson�̌`��[1]�ɂ����̃O���t�̏�񂪋L�q����Ă��܂��D�{�`���ł́C1�m�[�h���̏�񂪈ȉ��̏����Ńt�@�C������1�s�ɋL�q����܂��D
+問題として与えられるグラフの情報は，入力ファイルとして
+GCF上の一台のホスト（public IP addressを持つホスト）上に置かれます．ファイルはテキストファイルで，D. S. Johnsonの形式[1]により問題のグラフの情報が記述されています．本形式では，1ノード分の情報が以下の順序でファイル中の1行に記述されます．
 <pre>
-  �m�[�hID �iX���W,Y���W�j�אڂ���m�[�h�� �אڂ���m�[�hID...
+  ノードID （X座標,Y座標）隣接するノード数 隣接するノードID...
 </pre>
 <dl>
-<dt><font color="#000099">�m�[�hID</font>: �m�[�h�̎��ʎq�ŁC�f�[�^�t�@�C�����ł�1����n�܂�C1�������Ă����܂��B
-<dt><font color="#000099">(X���W, Y���W)</font>: 2������ԓ��ɂ�����m�[�h�̈ʒu��\���܂��D
-<dt><font color="#000099">�אڂ���m�[�h��</font>: �m�[�h����G�b�W�ɂ���Č��΂�Ă���m�[�h�̌��ł��D�ǂ̃m�[�h�Ƃ����΂�Ă��Ȃ��ꍇ�A0�ƂȂ�܂��B
-<dt><font color="#000099">�אڂ���m�[�hID</font>: �אڂ���e�m�[�h�̃m�[�hID�ł��D�אڂ���m�[�h���Ɉˑ����邽�߁C�όƂȂ�܂��D
+<dt><font color="#000099">ノードID</font>: ノードの識別子で，データファイル内では1から始まり，1ずつ増えていきます。
+<dt><font color="#000099">(X座標, Y座標)</font>: 2次元空間内におけるノードの位置を表します．
+<dt><font color="#000099">隣接するノード数</font>: ノードからエッジによって結ばれているノードの個数です．どのノードとも結ばれていない場合、0となります。
+<dt><font color="#000099">隣接するノードID</font>: 隣接する各ノードのノードIDです．隣接するノード数に依存するため，可変個となります．
 </dl>
 
-�Ⴆ��
+例えば
 <pre>
    1 (0.502987,0.528829)   8  28 102 162 233 360 393 460 500
 </pre>
-�̓m�[�hID 1 (���W(0.502987,0.528829)) �̃m�[�h��8�̃m�[�h�ƌ��΂�Ă��邱�Ƃ�\���C
-�����̃m�[�hID�� 28, 102, 162, 233, 360, 393, 460, 500 �ł��邱�Ƃ�\���Ă��܂��D
+はノードID 1 (座標(0.502987,0.528829)) のノードが8個のノードと結ばれていることを表し，
+それらのノードIDは 28, 102, 162, 233, 360, 393, 460, 500 であることを表しています．
 </p>
 
 <p>
@@ -59,121 +59,121 @@ GCF��̈��̃z�X�g�ipublic IP address�����z�X�g�j��ɒu����܂��D�t�@�C���̓e
 
 <hr>
 <a name="api">
-<b>�o��API�F</b></a>
+<b>出題API：</b></a>
 <p>
-��<font color="red"><u>�Ԏ�������</u></font>�̕������C������Ă��܂��D�i2006/2/14�j<br>
-��<font color="red">�Ԏ�</font>�̕������C������Ă��܂��D�i2006/01/27�j<br>
-��<font color="red">�Ԏ�</font>�̕������C������Ă��܂��D�i2006/01/18�j
+◎<font color="red"><u>赤字下線部</u></font>の部分が修正されています．（2006/2/14）<br>
+◎<font color="red">赤字</font>の部分が修正されています．（2006/01/27）<br>
+◎<font color="red">赤字</font>の部分が修正されています．（2006/01/18）
 </p>
 
 <p>
-�K��ۑ蕔��̎Q���v���O�����́C�ȉ��̏o��API��p���Ė��̎擾�C�𓚂̔���C���s���Ԃ̌v�����s���K�v������܂��D�o��API��p���邽�߂ɂ́C���s�ψ���p�ӂ��� grid_challenge_api.h �ɂ���ăw�b�_�t�@�C�����C���N���[�h���A�܂������N���ɂ� libgrch.a �������N����K�v������܂��D�Q���҂̊��ňȉ���API���g���ăv���O�������J�����邽�߂�<a href="#trialkit">�������L�b�g</a>���p�ӂ���܂��D
+規定課題部門の参加プログラムは，以下の出題APIを用いて問題の取得，解答の判定，実行時間の計測を行う必要があります．出題APIを用いるためには，実行委員会が用意する grid_challenge_api.h によってヘッダファイルをインクルードし、またリンク時には libgrch.a をリンクする必要があります．参加者の環境で以下のAPIを使ってプログラムを開発するための<a href="#trialkit">お試しキット</a>が用意されます．
 </p>
 
 <p>
-<b>�����擾�pAPI GetProblem()</b>
+<b>●問題取得用API GetProblem()</b>
 
 <dl>
-<dt>����
+<dt>書式
 <dd>int GetProblem(const int problem_number, <font color="red">
 char **filename</font>, char *key);
 
-<dt>�T�v
-<dd>�v���O�����͊J�n����GetProblem()���ĂԂ��Ƃɂ��C�f�[�^�t�@�C���̏ꏊ�ƃL�[��������擾����K�v������D
-�S�v���Z�X��ʂ��Ĉ�̃v���Z�X�݂̂�GetProblem()���ĂԂ��ƁD
+<dt>概要
+<dd>プログラムは開始時にGetProblem()を呼ぶことにより，データファイルの場所とキー文字列を取得する必要がある．
+全プロセスを通して一つのプロセスのみがGetProblem()を呼ぶこと．
 
-<dt>�����Ɩ߂�l
-<dd><font color="#000099">problem_number</font>: ���ԍ����w�肷��D
-<dd><font color="#000099">filename</font>: <font color="red">�f�[�^�t�@�C���̏ꏊ������������ւ̃|�C���^��*filename�ɕԂ����D</font>
-<!--<dd><font color="#000099">key</font>: �L�[������ւ̃|�C���^���Ԃ����D-->
-<dd><font color="#000099">key</font>: <font color="red">�L�[������key����n�܂�̈�ɕԂ����D</font>
-<dd><font color="#000099">return value</font>: ����ɏI�������ꍇ��0�C�����łȂ��ꍇ��1���Ԃ����D
+<dt>引数と戻り値
+<dd><font color="#000099">problem_number</font>: 問題番号を指定する．
+<dd><font color="#000099">filename</font>: <font color="red">データファイルの場所を示す文字列へのポインタが*filenameに返される．</font>
+<!--<dd><font color="#000099">key</font>: キー文字列へのポインタが返される．-->
+<dd><font color="#000099">key</font>: <font color="red">キー文字列がkeyから始まる領域に返される．</font>
+<dd><font color="#000099">return value</font>: 正常に終了した場合は0，そうでない場合は1が返される．
 
-<dt>����
-<dd>GetProblem()�̓v���O�����J�n����1��̂݌Ăяo������(2��ȏ�Ăяo���ƈُ�I�����Ckey�ɂ͋󕶎���ւ̃|�C���^���Ԃ����)�D
-GetProblem()���Ăяo���O�ɗ\�ߕۑ������f�[�^��p���铙���ċ����Ɋւ��鏈�����s���Ă͂Ȃ�Ȃ��D
+<dt>注意
+<dd>GetProblem()はプログラム開始時に1回のみ呼び出すこと(2回以上呼び出すと異常終了し，keyには空文字列へのポインタが返される)．
+GetProblem()を呼び出す前に予め保存したデータを用いる等して求解に関する処理を行ってはならない．
 <font color="red">
-�������p�b�N�ł́C*filename�ɂ́u./01.dat�v���̃J�����g�f�B���N�g�����̃t�@�C��������������ւ̃|�C���^���Ԃ����D
-�\�I�C�����ł̓N���X�^�̓���̃t�@�C��������������ւ̃|�C���^���Ԃ����D
+お試しパックでは，*filenameには「./01.dat」等のカレントディレクトリ内のファイルを示す文字列へのポインタが返される．
+予選，決勝ではクラスタの特定のファイルを示す文字列へのポインタが返される．
 </font>
-�\�I�C�����̃f�[�^�t�@�C����<font color="red"><u>GCF��̑S�ẴN���X�^�ɕۑ������D�Q���҂�1��̃N���X�^��Ńv���O���������s����GetProblem()���Ăяo���K�v������D</u></font>
-�L�[������́u���ԍ��{�J�n�����Ɋւ�����{�������`�F�b�N�p������v�Ƃ����`���ŁC45�����Œ�ł���D
-<dd><font color="red">key�ɂ͏I�[����(\0)���܂߂�46�o�C�g�ȏ�̗̈��p�ӂ��邱�ƁD</font>
+予選，決勝のデータファイルは<font color="red"><u>GCF上の全てのクラスタに保存される．参加者は1台のクラスタ上でプログラムを実行してGetProblem()を呼び出す必要がある．</u></font>
+キー文字列は「問題番号＋開始時刻に関する情報＋正当性チェック用文字列」という形式で，45文字固定である．
+<dd><font color="red">keyには終端文字(\0)を含めた46バイト以上の領域を用意すること．</font>
 </dl>
 </p>
 
 <p>
-<b>���𓚗pAPI AnswerProblem()</b>
+<b>●解答用API AnswerProblem()</b>
 
 <dl>
-<dt>����
+<dt>書式
 <dd>int AnswerProblem(const int problem_number, const char *key,
  const int *belong_to, int *out_edge_cnt,
  double *elapsed_time, char *check_string);
 
-<dt>�T�v
-<dd>�v���O�����͌v�Z���ʂ������Ƃ���AnswerProblem()�ɓn���C�𓚂Ɋւ�����(<font color="red"><u>�W���Ԃ̎}�̖{���C�o�ߎ��ԁC�I�������C�𓚃`�F�b�N�p������</font></u>)���擾����D
-GetProblem()���Ăяo�����v���Z�X�݂̂�AnswerProblem()���Ăяo�����Ƃ��ł���D
+<dt>概要
+<dd>プログラムは計算結果を引数としてAnswerProblem()に渡し，解答に関する情報(<font color="red"><u>集合間の枝の本数，経過時間，終了時刻，解答チェック用文字列</font></u>)を取得する．
+GetProblem()を呼び出したプロセスのみがAnswerProblem()を呼び出すことができる．
 
-<dt>�����Ɩ߂�l
-<dd><font color="#000099">problem_number</font>: ���ԍ����w�肷��D
-<dd><font color="#000099">key</font>: �L�[������ւ̃|�C���^���w�肷��D
-<dd><font color="#000099">belong_to</font>: �O���t���̃m�[�h�̏��������w�肷��D�Ⴆ�΃m�[�h����500�̏ꍇ�C�z�� belong_to[1]�`[500] �ɏ�������W��(1�܂���2)���i�[����D�C���f�b�N�X��1����n�܂邱�Ƃɒ��ӁD
-<dd><font color="#000099">out_edge_cnt</font>: �����Ƃ��ēn���ꂽ�z�� belong_to ��p����AnswerProblem()���v�Z�����W���Ԃ̎}�̖{���ւ̃|�C���^���Ԃ����D
-<dd><font color="#000099">elapsed_time:</font> GetProblem() �Ăяo���ȍ~�̌o�ߎ���(�~���b�P��)�ւ̃|�C���^���Ԃ����D
+<dt>引数と戻り値
+<dd><font color="#000099">problem_number</font>: 問題番号を指定する．
+<dd><font color="#000099">key</font>: キー文字列へのポインタを指定する．
+<dd><font color="#000099">belong_to</font>: グラフ内のノードの所属情報を指定する．例えばノード数が500の場合，配列 belong_to[1]〜[500] に所属する集合(1または2)を格納する．インデックスが1から始まることに注意．
+<dd><font color="#000099">out_edge_cnt</font>: 引数として渡された配列 belong_to を用いてAnswerProblem()が計算した集合間の枝の本数へのポインタが返される．
+<dd><font color="#000099">elapsed_time:</font> GetProblem() 呼び出し以降の経過時間(ミリ秒単位)へのポインタが返される．
 <!--
-<dd><font color="#000099">check_string</font>: �𓚃`�F�b�N�p������ւ̃|�C���^���Ԃ����D-->
-<dd><font color="#000099">check_string</font>: <font color="red">�𓚃`�F�b�N�p������check_string����n�܂�̈�ɕԂ����D</font>
-<dd><font color="#000099">return value</font>: ����ɏI�������ꍇ��0�C�����łȂ��ꍇ��1���Ԃ����D
+<dd><font color="#000099">check_string</font>: 解答チェック用文字列へのポインタが返される．-->
+<dd><font color="#000099">check_string</font>: <font color="red">解答チェック用文字列がcheck_stringから始まる領域に返される．</font>
+<dd><font color="#000099">return value</font>: 正常に終了した場合は0，そうでない場合は1が返される．
 
-<dt>����
-<dd>�m�[�h�̏������Ƃ���1,2�̂�����ł��Ȃ��l��ݒ肵���ꍇ�C<font color="red"><u>�m�[�h������������Ă��Ȃ��ꍇ</u></font>�CGetProblem()���Ăяo���Ă��Ȃ��v���Z�X���Ăяo�����ꍇ�ُ͈�I������(�W���Ԃ̎}�̖{���ƌo�ߎ��Ԃ�0�C�𓚃`�F�b�N�p������Ƃ��ċ󕶎���̃|�C���^���Ԃ����)�D
-�𓚃`�F�b�N�p������́u<font color="red"><u>���ԍ��{�W���Ԃ̎}�̖{���{�o�ߎ��ԁ{�I�������{�������`�F�b�N�p������</u></font>�v�Ƃ����`���ŁC<font color="red"><u>61</u></font>�����Œ�ł���D<font color="red">check_string�ɂ͏I�[����(\0)���܂߂�<u>62</u>�o�C�g�ȏ�̗̈��p�ӂ��邱�ƁD</font>
-�Q���҂͍ŗǂ̉����瓾��ꂽ�𓚃`�F�b�N�p��������o����D
-�v���O�������ŕ�����Ăяo���Ă��\��Ȃ��D
+<dt>注意
+<dd>ノードの所属情報として1,2のいずれでもない値を設定した場合，<font color="red"><u>ノードが等分割されていない場合</u></font>，GetProblem()を呼び出していないプロセスが呼び出した場合は異常終了する(集合間の枝の本数と経過時間は0，解答チェック用文字列として空文字列のポインタが返される)．
+解答チェック用文字列は「<font color="red"><u>問題番号＋集合間の枝の本数＋経過時間＋終了時刻＋正当性チェック用文字列</u></font>」という形式で，<font color="red"><u>61</u></font>文字固定である．<font color="red">check_stringには終端文字(\0)を含めた<u>62</u>バイト以上の領域を用意すること．</font>
+参加者は最良の解から得られた解答チェック用文字列を提出する．
+プログラム内で複数回呼び出しても構わない．
 </dl>
 </p>
 
 <p>
-<b>���o�ߎ��Ԏ擾�pAPI GetElapsedTime()</b>
+<b>●経過時間取得用API GetElapsedTime()</b>
 
 <dl>
-<dt>����
+<dt>書式
 <dd>int GetElapsedTime(const int problem_number, const char *key,
  double *elapsed_time);
 
-<dt>�T�v
-<dd>GetProblem()�Ăяo������̌o�ߎ��Ԃ��擾����D
+<dt>概要
+<dd>GetProblem()呼び出しからの経過時間を取得する．
 
-<dt>�����Ɩ߂�l
-<dd><font color="#000099">problem_number</font>: ���ԍ����w�肷��D
-<dd><font color="#000099">key</font>: �L�[������ւ̃|�C���^���w�肷��D
-<dd><font color="#000099">elapsed_time</font>: GetProblem()�Ăяo���ȍ~�̌o�ߎ���(�~���b�P��)�ւ̃|�C���^���Ԃ����D
-<dd><font color="#000099">return value</font>: ����ɏI�������ꍇ��0�C�����łȂ��ꍇ��1���Ԃ����D
+<dt>引数と戻り値
+<dd><font color="#000099">problem_number</font>: 問題番号を指定する．
+<dd><font color="#000099">key</font>: キー文字列へのポインタを指定する．
+<dd><font color="#000099">elapsed_time</font>: GetProblem()呼び出し以降の経過時間(ミリ秒単位)へのポインタが返される．
+<dd><font color="#000099">return value</font>: 正常に終了した場合は0，そうでない場合は1が返される．
 
-<dt>����
-<dd>�������p�b�N�C�\�I�ł͐������Ԃ��݂����Ȃ����߁C����API���Ăяo���K�v�͖����D
-�܂��C�����ɂ����Ă��o�ߎ��Ԃ��擾����ۂɂ���API�𗘗p���Ȃ��Ă��悢�D
-�Ȃ��CGetProblem()���Ăяo�����}�V���ȊO�ł���API���Ăяo�����ꍇ�C�قȂ�}�V���̃V�X�e�����v��p���Čo�ߎ��Ԃ𑪒肷�邱�ƂɂȂ邽�߁C�~���b�P�ʂ̐��m�Ȍo�ߎ��Ԃ͓����Ȃ��D
+<dt>注意
+<dd>お試しパック，予選では制限時間が設けられないため，このAPIを呼び出す必要は無い．
+また，決勝においても経過時間を取得する際にこのAPIを利用しなくてもよい．
+なお，GetProblem()を呼び出したマシン以外でこのAPIを呼び出した場合，異なるマシンのシステム時計を用いて経過時間を測定することになるため，ミリ秒単位の正確な経過時間は得られない．
 </dl>
 </p>
 
 <hr>
 <a name="trialkit">
-<b>�������L�b�g�F</b></a>
+<b>お試しキット：</b></a>
 <p>
-�Q���҂����O�Ɋe���̊��Ńv���O�����J�����ł���悤�ɂ��邽�߁C�ȉ��̂������L�b�g��p�ӂ��܂����D�������L�b�g�ɂ́C�o��API�C�O���t�������������T���v���v���O�����i����[2]���Q�l�ɂ��č쐬���������Ńv���O�����j�C�T���v�����t�@�C�������܂܂�Ă��܂��D�T���v���v���O�����̓v���O�����̈��ł��D�Q���҂��J������v���O�����́C�o��API��p���Ď��Ԍv���C���̏o�͓��𐳂����s���΂悭�C�K�������T���v���v���O���������ɍ쐬����K�v�͂���܂���D�Ή��v���b�g�t�H�[����x86 Linux�ł��D
+参加者が事前に各自の環境でプログラム開発ができるようにするため，以下のお試しキットを用意しました．お試しキットには，出題API，グラフ分割問題を解くサンプルプログラム（文献[2]を参考にして作成した逐次版プログラム），サンプル問題ファイル等が含まれています．サンプルプログラムはプログラムの一例です．参加者が開発するプログラムは，出題APIを用いて時間計測，解の出力等を正しく行えばよく，必ずしもサンプルプログラムを元に作成する必要はありません．対応プラットフォームはx86 Linuxです．
 </p>
 
 <p>
-�X�V�����F<br>
-AnswerProblem()�̏o�͂�ύX�i��LAnswerProblem()�̐�������<font><u>�Ԏ�������</u></font>�j���܂����D�i2006/2/13�j<br>
-���Ԍv���@�\�̕s����C�����܂����D�i2006/1/27�j
+更新履歴：<br>
+AnswerProblem()の出力を変更（上記AnswerProblem()の説明文の<font><u>赤字下線部</u></font>）しました．（2006/2/13）<br>
+時間計測機能の不具合を修正しました．（2006/1/27）
 </p>
 
 <p>
 <a href="release/grch06trial-060213.tar.gz">
-�������L�b�g�_�E�����[�h</a>�i2006/2/13�Łj
+お試しキットダウンロード</a>（2006/2/13版）
 </p>
 
 <p>
@@ -185,14 +185,14 @@ Institute of Electrical Engineers of Japan, Vol 114-C(4), 1994,
 </p>
 
 <p>
-�������L�b�g�Ɋւ���₢���킹�́C
+お試しキットに関する問い合わせは，
 grid-challenge-sec [at] alab.ip.titech.ac.jp 
-�i" [at] "��"@"�ɒu�������Ă��������D�j�܂ŁD
+（" [at] "を"@"に置き換えてください．）まで．
 </p>
 
 <hr>
 updated: 2006/2/14<br>
-�O���b�h�`�������W2006���s�ψ���
+グリッドチャレンジ2006実行委員会
 <hr>
 </body>
 </html>

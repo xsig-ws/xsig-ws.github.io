@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
-<title>Grid Challenge 2006 MPICH�̃y�[�W</title>
+<title>Grid Challenge 2006 MPICHのページ</title>
 </head>
 
 <body>
@@ -12,83 +12,83 @@
 </p>
 <p>
 <b><font face="sans serif" size="+2">
-Grid Challenge 2006 MPICH�̃y�[�W
+Grid Challenge 2006 MPICHのページ
 </font></b>
 </p>
 </center>
 
 <hr>
-<b>�͂��߂ɁF</b>
+<b>はじめに：</b>
 <p>
-Grid Challenge�Œ񋟂�����(GCF)�ł́A
-�e�N���X�^��Ń��b�Z�[�W�p�b�V���O���C�u����
-MPICH���C���X�g�[������Ă��܂��DMPICH�ɂ��ďڂ�����
-<a href=http://www.mcs.anl.gov/mpi/mpich/>������</a>��
-�������������D���̑��̃c�[���ɂ��ẮA�Q���җp��
-<a href=info.html>�g�b�v�y�[�W</a>���䗗�������B
+Grid Challengeで提供される環境(GCF)では、
+各クラスタ上でメッセージパッシングライブラリ
+MPICHがインストールされています．MPICHについて詳しくは
+<a href=http://www.mcs.anl.gov/mpi/mpich/>こちら</a>を
+ご覧ください．その他のツールについては、参加者用の
+<a href=info.html>トップページ</a>を御覧下さい。
 </p>
 
 <hr>
-<b>���F</b>
-<p>MPICH��p�����v���Z�X�̋N����F32�N���X�^�CSAKURA�N���X�^�ł�
-�֎~����Ă���̂ňȉ��̏��͂����̃N���X�^�ɂ͓��Ă͂܂�܂���D</p>
+<b>注：</b>
+<p>MPICHを用いたプロセスの起動はF32クラスタ，SAKURAクラスタでは
+禁止されているので以下の情報はそれらのクラスタには当てはまりません．</p>
 
 <hr>
-<b>�ݒ���@�F</b>
+<b>設定方法：</b>
 
 <ul>
-<li>�܂�ssh���g���āC�N���X�^�̃Q�[�g�E�F�C�m�[�h����C�N���X�^���̃m�[
-�h�փ��O�C���ł���m�F�E�ݒ���s���܂��D���̂����ɂ��ẮC<a
-href=info-gxp.html>Grid Challenge 2006 GXP�̃y�[�W</a>���Q�Ƃ��Ă�����
-���D
+<li>まずsshを使って，クラスタのゲートウェイノードから，クラスタ内のノー
+ドへログインできる確認・設定を行います．このやり方については，<a
+href=info-gxp.html>Grid Challenge 2006 GXPのページ</a>を参照してくださ
+い．
 
-<li>MPICH�֘A�̃R�}���h�͊e�N���X�^���/home/tau/grch06/bin���ɃC���X
-�g�[������Ă��܂��DGXP�̂��߂ɓ��l�̐ݒ肪�K�v�ƂȂ��Ă��܂����C����
-�s���Ă��Ȃ��ꍇ�C�e�N���X�^��.bashrc, .bash_profile���ňȉ��̐ݒ����
-�Ă��������D
+<li>MPICH関連のコマンドは各クラスタ上の/home/tau/grch06/bin内にインス
+トールされています．GXPのために同様の設定が必要となっていますが，もし
+行っていない場合，各クラスタの.bashrc, .bash_profile内で以下の設定をし
+てください．
 
 <pre>
 export PATH=/home/tau/grch06/bin:$PATH
 </pre>
 
-<li>�Q�l�܂łɁC�e�N���X�^��MPICH�͈ȉ��̂悤��configure����܂����D
+<li>参考までに，各クラスタのMPICHは以下のようにconfigureされました．
 
 <pre>
 export RSHCOMMAND=ssh_no_stricthostkeychecking
 ./configure --prefix=/home/tau/grch06 --with-device=ch_p4 --without-mpe --without-romio
 </pre>
 
-<p>ssh_no_stricthostkeychecking��/home/tau/grch06/bin�ɃC���X�g�[�����Ă�
-��R�}���h�ŁC�ȉ��̂悤�ȃV�F���X�N���v�g(ssh�̃��b�p)�ł��D</p>
+<p>ssh_no_stricthostkeycheckingは/home/tau/grch06/binにインストールしてあ
+るコマンドで，以下のようなシェルスクリプト(sshのラッパ)です．</p>
 <pre>
 #!/bin/bash
 exec ssh -o 'StrictHostKeyChecking no' "$@"
 </pre>
-<p>�m�[�h�փ��O�C������̂�rsh�ł͂Ȃ�ssh���g���悤�ɐݒ肳��Ă���
-���Ƃɒ��ӂ��Ă��������D�����rsh�ɔ�ׂĒx���ł����C�ꕔ�̓�ȃV�O�i��
-�֘A�̋���������邽�߂ɕK�v�������[�u�ł��D</p>
+<p>ノードへログインするのにrshではなくsshを使うように設定されている
+ことに注意してください．これはrshに比べて遅いですが，一部の謎なシグナル
+関連の挙動を避けるために必要だった措置です．</p>
 
 <p>
--o 'StrictHostKeyChecking no'�I�v�V�����́Cssh�����߂Ẵm�[�h�փ��O�C
-�����邽�тɃ��[�U����̊m�F�����߂Ȃ��悤�ɂ��邽�߂̃I�v�V�����ł��D
+-o 'StrictHostKeyChecking no'オプションは，sshが初めてのノードへログイ
+ンするたびにユーザからの確認を求めないようにするためのオプションです．
 </p>
 
 </ul>
 
 <hr>
-<b>machine�t�@�C��</b> 
+<b>machineファイル</b> 
 
-<p>MPI���N������̂ɕK�v��machine�t�@�C���́C�e�N���X�^�� 
-/home/tau/grch06/conf/machine.XXX �Ƃ��ē]�����Ă��܂��̂œK�X�R�s�[�E
-�C�����ėp���Ă��������DXXX�ɂ̓N���X�^�̖��O(tau, chik, ono, xenia,
-matsu�Ȃ�) ������܂��D��������C�J�n���O���_�ł̐����Ă���m�[�h���
-�����ɍ���Ă��܂��D</p>
+<p>MPIを起動するのに必要なmachineファイルは，各クラスタの 
+/home/tau/grch06/conf/machine.XXX として転がっていますので適宜コピー・
+修正して用いてください．XXXにはクラスタの名前(tau, chik, ono, xenia,
+matsuなど) が入ります．いずれも，開始直前時点での生きているノード情報
+を元に作られています．</p>
 
 <hr>
-<b>�e�X�g</b>
-<p>�ȒP�ȃe�X�g�����������PATH���������ݒ肳��Ă��邩���m�F���������ŁC
-/home/tau/grch06/src/mpich-1.2.7p1/examples/basic/�̉��ɂ���T���v���v���O����
-�Ȃǂ𑖂点�Č��Ă��������D���Ƃ��Έȉ��̂悤�ɂ��Ă݂Ă��������D
+<b>テスト</b>
+<p>簡単なテストをしたければPATHが正しく設定されているかを確認したうえで，
+/home/tau/grch06/src/mpich-1.2.7p1/examples/basic/の下にあるサンプルプログラム
+などを走らせて見てください．たとえば以下のようにしてみてください．
 </p>
 <pre>
 istbs000.i.u-tokyo.ac.jp:taue% type --path mpicc
@@ -124,15 +124,15 @@ istbs000.i.u-tokyo.ac.jp:taue%
 </pre>
 
 <hr>
-<b>�g���u��?</b>
+<b>トラブル?</b>
 
-<p>mpicc�܂ł͂ł��邪mpirun�����܂������Ȃ��ꍇ�C������ssh�̔F�؃~�X
-�ł͂Ȃ����Ǝv���܂��D��L�̗�ł���΁Cistbs000����g���m�[�h(istbs001�Ȃ�)
-��ssh�Ń��O�C���ł��邩�ǂ������m���߂Ă݂Ă��������D</p>
+<p>mpiccまではできるがmpirunがうまくいかない場合，多くはsshの認証ミス
+ではないかと思われます．上記の例であれば，istbs000から使うノード(istbs001など)
+へsshでログインできるかどうかを確かめてみてください．</p>
 
 <hr>
 updated: 2006/2/15<br>
-�O���b�h�`�������W2006���s�ψ���
+グリッドチャレンジ2006実行委員会
 <hr>
 </body>
 </html>

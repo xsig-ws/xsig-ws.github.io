@@ -12,80 +12,80 @@
 </p>
 <p>
 <b><font face="sans serif" size="+2">
-�����ڍ�
+決勝詳細
 </font></b>
 </p>
 </center>
 
 <hr>
-<b>�������[���F</b>
+<b>決勝ルール：</b>
 <p>
-�`�[���ɗ^����ꂽ�X���b�g���Ƀv���O���������s���Ă��������D���`�[���Ɋ��蓖�Ă�ꂽ�X���b�g���Ƀv���O���������s���邱�Ƃ͋֎~���܂��D�����C�^����ꂽ�X���b�g���́CGCF��̃N���X�^���L���p�ł��܂��D�X���b�g�̊��蓖�Ăɂ��Ă�<a href="regulation_qr.html#slot">������</a>���Q�Ƃ��Ă��������D
+チームに与えられたスロット内にプログラムを実行してください．他チームに割り当てられたスロット中にプログラムを実行することは禁止します．即ち，与えられたスロット中は，GCF上のクラスタを占有利用できます．スロットの割り当てについては<a href="regulation_qr.html#slot">こちら</a>を参照してください．
 </p>
 <p>
-�󂫎��Ԃɗ\�I���₨�����ł̖����g���ė��K���s�Ȃ����Ƃ͋����܂��D�󂫎��Ԃ̒�`�ɂ��ẮC<a href="regulation_qr.html#usage">������</a>���Q�Ƃ��Ă��������D�������C���������g���ăv���O���������s���邱�Ƃ͋֎~���܂��D
-</p>
-
-<p>
-�������Ƃ���5��̖��f�[�^���p�ӂ���܂��D
-�S�Ă̖��f�[�^�́C�����J�n����GCF��̊e�N���X�^��ɒu����܂��i�N���X
-�^��̔C�ӂ̃m�[�h�ォ��Q�Ɖ\�ł��j�D �Q���҂́C�N���X�^�̔C�ӂ̃m�[�h��Ŗ��擾�pAPI GetProblem()��1�񂾂����s���āC���t�@�C���̕ۑ��ꏊ���擾���Ă��������D 
+空き時間に予選問題やお試し版の問題を使って練習を行なうことは許可します．空き時間の定義については，<a href="regulation_qr.html#usage">こちら</a>を参照してください．ただし，決勝問題を使ってプログラムを実行することは禁止します．
 </p>
 
 <p>
-���1����v�Z���邽�߂̃v���O�����̎��s���ԁi��AnswerProblem() �܂���GetElapsedTime()���o�͂���o�ߎ��ԁj�ɂ�10���Ԃ̐������݂����܂��D10���ȓ��ɉ������߁C���ʂ��o���Ă��������i���L�́u��o���@�v�Q�Ɓj�D 
-�o��API�ł́C�v���O�����̎��s���Ԃ�10���Ԃ𒴂������ǂ������`�F�b�N����@�\�͓��ɐ݂��܂���̂ŁC�e���̃v���O������AnswerProblem() �܂���GetElapsedTime()���Ăяo���ă`�F�b�N���Ă��������D
+決勝問題として5題の問題データが用意されます．
+全ての問題データは，決勝開始時にGCF上の各クラスタ上に置かれます（クラス
+タ上の任意のノード上から参照可能です）． 参加者は，クラスタの任意のノード上で問題取得用API GetProblem()を1回だけ実行して，問題ファイルの保存場所を取得してください． 
 </p>
 
 <p>
-�܂��C�𓚂ƂƂ��Ɍ����ŗp�����v���O�����̃\�[�X�ꎮ����o���Ă��������i���L�́u��o���@�v�Q�Ɓj�D
+問題1題を計算するためのプログラムの実行時間（＝AnswerProblem() またはGetElapsedTime()が出力する経過時間）には10分間の制限が設けられます．10分以内に解を求め，結果を提出してください（下記の「提出方法」参照）． 
+出題APIでは，プログラムの実行時間が10分間を超えたかどうかをチェックする機能は特に設けませんので，各自のプログラムでAnswerProblem() またはGetElapsedTime()を呼び出してチェックしてください．
 </p>
 
-<hr>
-<b>�������F</b>
-
 <p>
-�������́C5��̖��i���ԍ�21�`25�j����Ȃ�܂��D�e���������ꍇ�́C���擾�pAPI GetProblem() �̈����iproblem_number�j�ɖ��ԍ��i21�`25�j���w�肵�Ă��������D���T�C�Y�́C�ł��傫�Ȗ��ŃO���t���̃m�[�h����40,000�ł��D
+また，解答とともに決勝で用いたプログラムのソース一式も提出してください（下記の「提出方法」参照）．
 </p>
 
 <hr>
-<b>�v���O�����̃R���p�C���ƃ����N�F</b>
+<b>決勝問題：</b>
+
 <p>
-�����̏o��API�́C�����J�n���Ɋe�N���X�^�̃R���p�C���m�[�h�Ɉȉ��̒ʂ�u����܂��D�i�\�I�p�o��API�ɏ㏑������܂��D�j�Q���҂͂����̃t�@�C���������N���ėp���Ă��������D
+決勝問題は，5題の問題（問題番号21〜25）からなります．各問題を解く場合は，問題取得用API GetProblem() の引数（problem_number）に問題番号（21〜25）を指定してください．問題サイズは，最も大きな問題でグラフ中のノード数が40,000個です．
+</p>
+
+<hr>
+<b>プログラムのコンパイルとリンク：</b>
+<p>
+決勝の出題APIは，決勝開始時に各クラスタのコンパイルノードに以下の通り置かれます．（予選用出題APIに上書きされます．）参加者はこれらのファイルをリンクして用いてください．
 </p>
 
 <p>
-<b>�o��API</b>
+<b>出題API</b>
 <table border>
 <tr><td>
 <pre>
 
-/home/aida/grch/include/grid_challenge_api.h (�w�b�_) 
-/home/aida/grch/lib/libgrch.a (���C�u����) 
-/home/aida/grch/lib/libcrypto.a (�Í������C�u����) 
+/home/aida/grch/include/grid_challenge_api.h (ヘッダ) 
+/home/aida/grch/lib/libgrch.a (ライブラリ) 
+/home/aida/grch/lib/libcrypto.a (暗号化ライブラリ) 
 </pre>
 </td></tr>
 </table>
 
 <p>
-�����̋󂫎��ԁi<a href="regulation_qr.html#usage">�󂫎��Ԃ̒�`�͂�����</a>�j�ɁC�\�I�����g���ăv���O�����̃e�X�g���s�Ȃ��ۂɂ́C���̌����p���C�u������p���č\���܂���D�����������p�̖��ł̎��s�͋֎~���܂��D
+決勝の空き時間（<a href="regulation_qr.html#usage">空き時間の定義はこちら</a>）に，予選問題を使ってプログラムのテストを行なう際には，この決勝用ライブラリを用いて構いません．ただし決勝用の問題での実行は禁止します．
 </p>
 
 <p>
-C����łɂ�����libcrypto.a��OpenSSL�ɕt���̂��̂ł��邽�߁C�W���I�ȃp�X(/usr/lib��/usr/local/ssl/lib�Ȃ�)�ɂ����łɃC���X�g�[������Ă���\��������܂��D���̏ꍇ�͂ǂ���𗘗p���Ă��\���܂���D
+C言語版におけるlibcrypto.aはOpenSSLに付属のものであるため，標準的なパス(/usr/libや/usr/local/ssl/libなど)にもすでにインストールされている可能性があります．その場合はどちらを利用しても構いません．
 </p>
 
 <hr>
-<b>��o���@�F</b>
+<b>提出方法：</b>
 <p>
-�𓚗pAPI AnswerProblem() �̏o�͂���𓚃`�F�b�N�p������icheck_string�j��5��S�Ă̖��ɂ��ďW�߂ċL�q�����e�L�X�g�t�@�C�����쐬���i�ȉ��̗�Q�Ɓj�Cgrid-challenge-sec [at] alab.ip.titech.ac.jp �i" [at] "��"@"�ɒu�������Ă��������D�j�܂ő��t���Ă��������D��o����e�L�X�g�t�@�C���́C���1�蕪�̉𓚃`�F�b�N�p������i<font color="#cc0099"><b>61����</b></font>�j��1�s�Ɏ��߁C���]���ȉ��s��󔒂͓���Ȃ��悤�ɒ��ӂ��C���[���̓Y�t�t�@�C���Ƃ��Ē�o���Ă��������D�܂����M���郁�[���ɂ́C�K���A�J�E���g���C�`�[�����Ƒ�\�Җ����L�����Ă��������D
+解答用API AnswerProblem() の出力する解答チェック用文字列（check_string）を5題全ての問題について集めて記述したテキストファイルを作成し（以下の例参照），grid-challenge-sec [at] alab.ip.titech.ac.jp （" [at] "を"@"に置き換えてください．）まで送付してください．提出するテキストファイルは，問題1題分の解答チェック用文字列（<font color="#cc0099"><b>61文字</b></font>）を1行に収め，かつ余分な改行や空白は入らないように注意し，メールの添付ファイルとして提出してください．また送信するメールには，必ずアカウント名，チーム名と代表者名を記入してください．
 </p>
 
-��o����e�L�X�g�t�@�C���̗�
+提出するテキストファイルの例
 <table border>
 <tr><td>
 <pre>
-01000000070000001000903837205lndlkebfehhdelbehkckcjldliidmlgp  #���ꂪ1�蕪
+01000000070000001000903837205lndlkebfehhdelbehkckcjldliidmlgp  #これが1題分
 02000000280000001001103839959efmdnmgcpccaabjkbkldmhpbonnikjef
 03000001780000001001703839980dppodknkpmiebppfefcfjnihjfokokpo
            :
@@ -94,43 +94,43 @@ C����łɂ�����libcrypto.a��OpenSSL�ɕt���̂��̂ł��邽�߁C�W���I�ȃp�X(/usr/lib
 </table>
 
 <p>
-���1��������ۂɁC�v���O��������AnswerProblem()������Ăяo���Ă��\���܂���D���̏ꍇ�́C�ł��ǂ��Ǝv���錋�ʁiEdge Cnt���ŏ��̌��ʁj��1�I��Œ�o���Ă��������D���̏ꍇ�C��o���ꂽ���̌v�Z�ɗv�������ԁiAnswerProblem()�ɂ��Z�o���ꂽ�o�ߎ��ԁj���v���O�����̎��s���ԂƂ��܂��D
+問題1題を解く際に，プログラム中でAnswerProblem()を何回呼び出しても構いません．その場合は，最も良いと思われる結果（Edge Cntが最小の結果）を1つ選んで提出してください．この場合，提出された解の計算に要した時間（AnswerProblem()により算出された経過時間）をプログラムの実行時間とします．
 </p>
 
 <p>
-�����ŗp�����v���O�����̃\�[�X�ꎮ���C��L���[���̓Y�t�t�@�C���Ƃ��Ē�o���Ă��������D�W����GCF���ɂȂ��C��ʂɌ��J����Ă��郉�C�u���������e���ŃC���X�g�[�����ėp���Ă���ꍇ�́C���̃��C�u�����܂Œ�o����K�v�͂Ȃ���܂��񂪁C�ψ����قǖ₢���킹���s�Ȃ������ɉ𓚂ɗp�����o�[�W�������m���Ɏ�ɓ���悤�Ƀ��C�u�����͊e���ŕۊǂ��Ă����Ă��������D
+決勝で用いたプログラムのソース一式も，上記メールの添付ファイルとして提出してください．標準のGCF環境にない，一般に公開されているライブラリ等を各自でインストールして用いている場合は，そのライブラリまで提出する必要はなありませんが，委員会が後ほど問い合わせを行なった時に解答に用いたバージョンが確実に手に入るようにライブラリは各自で保管しておいてください．
 </p>
 
 <p>
-���ʒ�o�͂Ȃ�ׂ����₩�ɁC�Ō�̌��ʂ��o�Ă���x���Ƃ�����ȓ��ɍs�Ȃ��Ă��������D
+結果提出はなるべく速やかに，最後の結果が出てから遅くとも一日以内に行なってください．
 </p>
 
 <hr>
 <a name="point">
-<b>���ʂ̌�����@�F</b></a>
+<b>順位の決定方法：</b></a>
 <p>
-�����ł́C�e���ɂ��āC�ȉ��̕��@�ŎQ���҂Ƀ|�C���g�����Z���C�S���ɂ��Ă̍��v�|�C���g����葽���҂���ʂƂ��܂��D
+決勝では，各問題について，以下の方法で参加者にポイントを加算し，全問題についての合計ポイントがより多い者を上位とします．
 <ul>
 <li>
-�Q���҂����o���ꂽEdge Cnt�i�m�[�h������̈قȂ�m�[�h�W���ɂ܂�����G�b�W���j�̂����C�ŗǁi�ŏ��j��Edge Cnt�����߁C�e�Q���҂ɂ́C�u�ŗ�Edge Cnt�v�^�u�����̎Z�o����Edge Cnt�v ���|�C���g�Ƃ��ė^������D����
+参加者から提出されたEdge Cnt（ノード分割後の異なるノード集合にまたがるエッジ数）のうち，最良（最小）のEdge Cntを求め，各参加者には，「最良Edge Cnt」／「自分の算出したEdge Cnt」 がポイントとして与えられる．即ち
 <pre>
-      �Q����i�̒�o����Edge Cnt�FEi
-      �S�Q���҂̒�o����Edge Cnt�̂����ŗǂ̂��́FEbest
+      参加者iの提出したEdge Cnt：Ei
+      全参加者の提出したEdge Cntのうち最良のもの：Ebest
     
-      �Q����i�̃|�C���g ��  Ebest �^ Ei
+      参加者iのポイント ＝  Ebest ／ Ei
 </pre>    
-�Ⴆ�΁C�S���ɂ��čŗǂ�Edge Cnt�����߂邱�Ƃ��ł����Q���҂ɂ́C5�_���^������D
+例えば，全問題について最良のEdge Cntを求めることができた参加者には，5点が与えられる．
 <li>
-�������܂�Ȃ�������肪����ꍇ�C���̖��ɂ����Z�����|�C���g���́C0�_�Ƃ���D
+解が求まらなかった問題がある場合，その問題により加算されるポイント数は，0点とする．
 </ul> 
 
-5��̖��ɂ��^������|�C���g������̎Q���҂���������ꍇ�́C5��S�Ă̖��̎��s���Ԃ̍��v��������������ʂƂ��܂��D
+5題の問題により与えられるポイントが同一の参加者が複数いる場合は，5題全ての問題の実行時間の合計が小さい方を上位とします．
   
 </p>
 
 <hr>
 updated: 2006/3/6<br>
-�O���b�h�`�������W2006���s�ψ���
+グリッドチャレンジ2006実行委員会
 <hr>
 </body>
 </html>
