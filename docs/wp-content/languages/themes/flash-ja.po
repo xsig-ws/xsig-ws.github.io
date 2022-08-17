@@ -1,0 +1,845 @@
+# Translation of Themes - Flash in Japanese
+# This file is distributed under the same license as the Themes - Flash package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-21 14:07:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Flash\n"
+
+#. Description of the theme
+msgid "Flash is free responsive multipurpose WordPress theme – truly a versatile theme perfect for any type of website you want. Like never before, it provides multiple pre-built demos which can be imported in seconds using ThemeGrill Demo Importer Plugin. The theme fully integrates with Flash Toolkit and SiteOrigin’s Page Builder Plugin that makes theme more user-friendly and easy. Additionally, theme features multiple blog layouts, WooCommerce support, multiple header styles, multiple color options etc."
+msgstr "Flash は、フリーのレスポンシブ多目的 WordPress テーマです。– あらゆるタイプのウェブサイトに最適です。これまでにないような、複数のデモを ThemeGrill Demo Importer プラグインを使用して数秒でインポートできます。テーマは Flash Toolkit と SiteOrigin’s Page Builderr プラグインに完全に統合されているので、より使いやすく簡単にできます。さらに、テーマには複数のレイアウト、WooCommerce のサポート、複数のヘッダースタイル、複数の色オプションなどがあります。"
+
+#. Theme Name of the theme
+#: inc/admin/class-flash-theme-review-notice.php:75
+#: inc/admin/class-flash-welcome-notice.php:46
+msgid "Flash"
+msgstr "Flash"
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:137
+msgid "Google Fonts"
+msgstr "Google フォント"
+
+#: inc/extras.php:334
+msgid "Page "
+msgstr "ページ"
+
+#. Template Name of the theme
+msgid "Pagebuilder"
+msgstr "Pagebuilder"
+
+#: template-parts/content-page.php:25 template-parts/content.php:67
+msgid "Pages:"
+msgstr "ページ: "
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "見つかりませんでした"
+
+#: searchform.php:15
+msgctxt "submit button"
+msgid "Search"
+msgstr "検索"
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "検索 &hellip;"
+
+#: searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "検索対象:"
+
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: inc/template-tags.php:77 template-parts/content-page.php:37
+msgid "Edit %s"
+msgstr "%sの編集"
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:59 inc/template-tags.php:67
+msgid ", "
+msgstr "・"
+
+#: inc/meta-boxes.php:57
+msgid "Header Transparency"
+msgstr "ヘッダーの透明度"
+
+#: inc/meta-boxes.php:55 inc/meta-boxes.php:56
+msgid "Select Layout"
+msgstr "レイアウトを選択"
+
+#: inc/meta-boxes.php:47
+msgid "Non Transparent Header"
+msgstr "非透過ヘッダー"
+
+#: inc/meta-boxes.php:42
+msgid "Transparent Header"
+msgstr "透過ヘッダー"
+
+#: inc/meta-boxes.php:34
+msgid "Full Width Center"
+msgstr "全幅・中央"
+
+#. Template Name of the theme
+#: inc/meta-boxes.php:29
+msgid "Full Width"
+msgstr "全幅"
+
+#: inc/meta-boxes.php:14
+msgid "Default Layout"
+msgstr "デフォルトのレイアウト"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:121
+msgid "Select a Page"
+msgstr "ページを選択"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:180
+#: inc/kirki/controls/php/class-kirki-control-typography.php:196
+msgid "Initial"
+msgstr "初期設定"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:179
+msgid "Lowercase"
+msgstr "小文字"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:178
+msgid "Uppercase"
+msgstr "大文字"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:177
+msgid "Capitalize"
+msgstr "先頭大文字"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:176
+#: inc/kirki/controls/php/class-kirki-control-typography.php:192
+msgid "None"
+msgstr "なし"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:173
+msgid "Text Transform"
+msgstr "文字の変形"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:134
+msgid "Text Align"
+msgstr "文字の配置"
+
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:227
+msgid "Limit: %s rows"
+msgstr "上限: %s行"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:77
+msgid "row"
+msgstr "行"
+
+#: inc/kirki/controls/php/class-kirki-control-dimension.php:41
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:138
+msgid "Invalid Value"
+msgstr "無効な値"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Ultra-Bold 900 Italic"
+msgstr "Ultra-Bold 900 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:218
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Ultra-Bold 900"
+msgstr "Ultra-Bold 900"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:217
+msgid "Extra-Bold 800 Italic"
+msgstr "Extra-Bold 800 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:215
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:216
+msgid "Extra-Bold 800"
+msgstr "Extra-Bold 800"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Bold 700 Italic"
+msgstr "Bold 700 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:213
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Semi-Bold 600 Italic"
+msgstr "Semi-Bold 600 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:210
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Semi-Bold 600"
+msgstr "Semi-Bold 600"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:209
+msgid "Medium 500 Italic"
+msgstr "Medium 500 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:208
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:207
+msgid "Normal 400 Italic"
+msgstr "Normal 400 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:205
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:206
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:204
+msgid "Book 300 Italic"
+msgstr "Book 300 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:203
+msgid "Book 300"
+msgstr "Book 300"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:202
+msgid "Light 200 Italic"
+msgstr "Light 200 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:201
+msgid "Light 200"
+msgstr "Light 200"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:200
+msgid "Ultra-Light 100 Italic"
+msgstr "Ultra-Light 100 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:198
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:199
+msgid "Ultra-Light 100"
+msgstr "Ultra-Light 100"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Spacing"
+msgstr "スペース"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Height"
+msgstr "高さ"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:134
+msgid "Size"
+msgstr "サイズ"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:93
+msgid "Variant"
+msgstr "Variant"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:62
+#: inc/kirki/controls/php/class-kirki-control-base.php:133
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:386
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:418
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:443
+#: inc/kirki/controls/views/image.php:37
+#: inc/kirki/field/class-kirki-field-image.php:50
+msgid "Remove"
+msgstr "削除"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:59
+#: inc/kirki/controls/php/class-kirki-control-base.php:132
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:408
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:413
+msgid "No File Selected"
+msgstr "ファイルが選択されていません"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:419
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:421
+msgid "Change File"
+msgstr "ファイルを変更"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:419
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:423
+msgid "Add File"
+msgstr "ファイルを追加"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:376
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:381
+msgid "No Image Selected"
+msgstr "画像が選択されていません"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:387
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:389
+msgid "Change Image"
+msgstr "画像の変更"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:387
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:391
+msgid "Add Image"
+msgstr "画像を追加"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:221
+msgid "Color"
+msgstr "色"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:163
+msgid "Justify"
+msgstr "両端揃え"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: inc/kirki/controls/php/class-kirki-control-typography.php:151
+msgid "Center"
+msgstr "中央"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: inc/kirki/controls/php/class-kirki-control-typography.php:157
+#: inc/kirki/field/class-kirki-field-spacing.php:35
+msgid "Right"
+msgstr "右"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: inc/kirki/controls/php/class-kirki-control-typography.php:145
+#: inc/kirki/field/class-kirki-field-spacing.php:34
+msgid "Left"
+msgstr "左"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: inc/kirki/field/class-kirki-field-spacing.php:33
+msgid "Bottom"
+msgstr "下"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: inc/kirki/field/class-kirki-field-spacing.php:32
+msgid "Top"
+msgstr "上"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:127
+#: inc/kirki/controls/php/class-kirki-control-typography.php:118
+msgid "Letter Spacing"
+msgstr "文字間隔"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:126
+msgid "Font Style"
+msgstr "フォントスタイル"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:125
+#: inc/kirki/controls/php/class-kirki-control-typography.php:110
+msgid "Line Height"
+msgstr "行の高さ"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:124
+msgid "Font Weight"
+msgstr "フォントの太さ"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:123
+#: inc/kirki/controls/php/class-kirki-control-typography.php:102
+msgid "Font Size"
+msgstr "フォントサイズ"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:82
+msgid "Font Family"
+msgstr "フォントファミリー"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr "背景の位置"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:91
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:122
+msgid "Center Bottom"
+msgstr "中央下"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:90
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:121
+msgid "Center Center"
+msgstr "中央"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:89
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:120
+msgid "Center Top"
+msgstr "中央上"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:88
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:119
+msgid "Right Bottom"
+msgstr "右下"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:87
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:118
+msgid "Right Center"
+msgstr "右中央"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:86
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:117
+msgid "Right Top"
+msgstr "右上"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:85
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:116
+msgid "Left Bottom"
+msgstr "左下"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:84
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:115
+msgid "Left Center"
+msgstr "左中央"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:83
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:114
+msgid "Left Top"
+msgstr "左上"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr "背景スクロール"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr "スクロール"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr "固定"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr "背景のサイズ"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr "画像全体を表示"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr "背景全体を覆う"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr "背景の繰り返し"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:139
+#: inc/kirki/controls/php/class-kirki-control-typography.php:181
+#: inc/kirki/controls/php/class-kirki-control-typography.php:197
+msgid "Inherit"
+msgstr "継承"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr "タテに繰り返し"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr "ヨコに繰り返し"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr "すべて繰り返し"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr "繰り返しなし"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:54
+msgid "Background Image"
+msgstr "背景画像"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:48
+msgid "Background Color"
+msgstr "背景色"
+
+#: inc/extras.php:366
+msgid "Search Results for: %s"
+msgstr "「%s」の検索結果"
+
+#: inc/extras.php:364
+msgid "Page NOT Found"
+msgstr "ページが見つかりませんでした"
+
+#: inc/extras.php:344
+msgid "404 Error"
+msgstr "404 エラー"
+
+#: inc/extras.php:339
+msgid "Search results for: "
+msgstr "検索結果: "
+
+#: inc/extras.php:297 inc/extras.php:300 inc/extras.php:310 inc/extras.php:318
+msgid "Y"
+msgstr "Y"
+
+#: inc/extras.php:155
+msgid "Home"
+msgstr "ホーム"
+
+#: inc/extras.php:134
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/extras.php:134
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: inc/extras.php:133
+msgid " Theme: %2$s by %1$s."
+msgstr " Theme: %2$s by %1$s."
+
+#: inc/extras.php:131
+msgid "Copyright %1$s %2$s"
+msgstr "Copyright %1$s %2$s"
+
+#: inc/customizer.php:1067
+msgid "Yellow"
+msgstr "黄色"
+
+#: inc/customizer.php:1058
+msgid "Red"
+msgstr "赤"
+
+#: inc/customizer.php:1049
+msgid "Gray"
+msgstr "グレー"
+
+#: inc/customizer.php:1040
+msgid "Dark"
+msgstr "ダーク"
+
+#: inc/customizer.php:1031
+#: inc/kirki/controls/php/class-kirki-control-base.php:134
+#: inc/kirki/controls/views/image.php:36
+#: inc/kirki/field/class-kirki-field-image.php:49
+msgid "Default"
+msgstr "デフォルト"
+
+#: inc/customizer.php:667
+msgid "Google Font Settings"
+msgstr "Google フォント設定"
+
+#: inc/customizer.php:867
+msgid "Secondary Text Color"
+msgstr "２番目の文字色"
+
+#: inc/customizer.php:846
+msgid "Main Text Color"
+msgstr "メインテキストの色"
+
+#: inc/customizer.php:825
+msgid "Link Color"
+msgstr "リンクの色"
+
+#: inc/customizer.php:799
+msgid "Base Color Scheme"
+msgstr "基本の配色"
+
+#: inc/customizer.php:650
+msgid "Custom CSS"
+msgstr "カスタム CSS"
+
+#: inc/customizer.php:636
+msgid "Advanced Settings"
+msgstr "高度な設定"
+
+#: inc/customizer.php:618
+msgid "Footer Widget Area"
+msgstr "フッターウィジェットエリア"
+
+#: inc/customizer.php:605
+msgid "Footer Settings"
+msgstr "フッター設定"
+
+#: inc/customizer.php:587
+msgid "Page Layout"
+msgstr "固定ページレイアウト"
+
+#: inc/customizer.php:574
+msgid "Page Settings"
+msgstr "固定ページ設定"
+
+#: inc/customizer.php:563
+msgid "Remove next/previous link from post"
+msgstr "投稿から「次へ / 前へ」のリンクを削除"
+
+#: inc/customizer.php:550
+msgid "Remove Author Bio from post"
+msgstr "投稿から投稿者プロフィールを削除"
+
+#: inc/customizer.php:496
+msgid "Single Post Layout"
+msgstr "個別投稿のレイアウト"
+
+#: inc/customizer.php:482
+msgid "Post Settings"
+msgstr "投稿設定"
+
+#: inc/customizer.php:471
+msgid "Remove tag from post meta"
+msgstr "投稿メタ情報からタグを削除"
+
+#: inc/customizer.php:458
+msgid "Remove category from post meta"
+msgstr "投稿メタ情報からカテゴリーを削除"
+
+#: inc/customizer.php:445
+msgid "Remove comment count from post meta"
+msgstr "投稿メタ情報からコメント数を削除"
+
+#: inc/customizer.php:432
+msgid "Remove author from post meta"
+msgstr "投稿メタ情報から投稿者を削除"
+
+#: inc/customizer.php:419
+msgid "Remove date from post meta"
+msgstr "投稿メタ情報から投稿日を削除"
+
+#: inc/customizer.php:399
+msgid "Archive Page Layout"
+msgstr "アーカイブページレイアウト"
+
+#: inc/customizer.php:380
+msgid "Blog Style"
+msgstr "ブログスタイル"
+
+#: inc/customizer.php:367
+msgid "Archive Page Settings"
+msgstr "アーカイブページ設定"
+
+#: inc/customizer.php:330
+msgid "Remove breadcrumbs from page header"
+msgstr "ページヘッダーからパンくずリストを削除"
+
+#: inc/customizer.php:317
+msgid "Page Header Settings"
+msgstr "ページヘッダー設定"
+
+#: inc/customizer.php:306
+msgid "Sticky Header"
+msgstr "上部固定のヘッダー"
+
+#: inc/customizer.php:292
+msgid "Remove Header Cart Icon"
+msgstr "ヘッダーカートアイコンを削除"
+
+#: inc/customizer.php:279
+msgid "Remove Header Search Box"
+msgstr "ヘッダー検索ボタンを削除"
+
+#: inc/customizer.php:260
+msgid "Logo and Menu Position"
+msgstr "ロゴとメニューの位置"
+
+#: inc/customizer.php:247
+msgid "Header Settings"
+msgstr "ヘッダー設定"
+
+#: inc/customizer.php:222
+msgid "Top Header Text Content"
+msgstr "トップヘッダーのテキストコンテンツ"
+
+#: inc/customizer.php:196
+msgid "Top Header Right Content"
+msgstr "トップヘッダーの右コンテンツ"
+
+#: inc/customizer.php:178 inc/customizer.php:204
+msgid "Disable"
+msgstr "無効化"
+
+#: inc/customizer.php:177 inc/customizer.php:203
+msgid "Top Header Text"
+msgstr "トップヘッダーテキスト"
+
+#: inc/customizer.php:176 inc/customizer.php:202
+msgid "Social Menu"
+msgstr "ソーシャルメニュー"
+
+#: inc/customizer.php:170
+msgid "Top Header Left Content"
+msgstr "トップヘッダー左コンテンツ"
+
+#: inc/customizer.php:157
+msgid "Enable Top Header"
+msgstr "トップヘッダーを有効にする"
+
+#: inc/customizer.php:144
+msgid "Top Header Settings"
+msgstr "トップヘッダー設定"
+
+#: inc/customizer.php:133
+msgid "Disable Back to Top Button?"
+msgstr "トップへ戻るボタンを無効にしますか ?"
+
+#: inc/customizer.php:120
+msgid "Disable Preloader?"
+msgstr "プリローダーを無効にしますか ?"
+
+#: inc/customizer.php:109
+msgid "Boxed Layout"
+msgstr "ボックスレイアウト"
+
+#: inc/customizer.php:108
+msgid "Wide Layout"
+msgstr "ワイドレイアウト"
+
+#: inc/customizer.php:102
+msgid "Site Layout"
+msgstr "サイトレイアウト"
+
+#: inc/customizer.php:89
+msgid "General Settings"
+msgstr "一般設定"
+
+#: inc/customizer.php:81
+msgid "Flash Theme Options"
+msgstr "Flash テーマ設定"
+
+#: inc/customizer.php:36
+msgid "Transparent Logo"
+msgstr "透過ロゴ"
+
+#: inc/kirki/core/class-kirki-init.php:368
+msgid "Install Plugin"
+msgstr "プラグインのインストール"
+
+#: inc/admin/class-flash-dashboard.php:101
+msgid "Got theme support question?"
+msgstr "テーマのサポートに関する質問がありますか ?"
+
+#: inc/admin/class-flash-dashboard.php:92
+msgid "Documentation"
+msgstr "ドキュメンテーション"
+
+#: inc/admin/class-flash-welcome-notice.php:26
+#: inc/class-flash-site-library.php:102
+msgid "Get started with Flash"
+msgstr "Flash ではじめてみよう"
+
+#. translators: 1: welcome page link starting html tag, 2: welcome page link
+#. ending html tag.
+#: inc/admin/class-flash-welcome-notice.php:54
+msgid "Welcome! Thank you for choosing Flash! To fully take advantage of the best our theme can offer please make sure you visit our %1$swelcome page%2$s."
+msgstr "ようこそ。Flash! を選んでいただき、ありがとうございます。テーマを最大限活用するには、%1$sウェルカムページ%2$sをご覧ください。"
+
+#: inc/admin/class-flash-notice.php:63 inc/admin/class-flash-notice.php:82
+#: inc/admin/class-flash-welcome-notice.php:81
+msgid "Cheatin&#8217; huh?"
+msgstr "不正な行為です"
+
+#: inc/admin/class-flash-notice.php:59 inc/admin/class-flash-notice.php:78
+#: inc/admin/class-flash-theme-review-notice.php:153
+#: inc/admin/class-flash-theme-review-notice.php:171
+#: inc/admin/class-flash-welcome-notice.php:77
+msgid "Action failed. Please refresh the page and retry."
+msgstr "操作を失敗しました。ページをリフレッシュし、再試行してください。"
+
+#: header.php:59
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#: functions.php:206
+msgid "Add widgets here for footer sidebar 4."
+msgstr "フッターサイドバー４のウィジェットをここに追加"
+
+#: functions.php:204
+msgid "Footer Sidebar 4"
+msgstr "フッターサイドバー 4"
+
+#: functions.php:196
+msgid "Add widgets here for footer sidebar 3."
+msgstr "フッターサイドバー３のウィジェットをここに追加"
+
+#: functions.php:194
+msgid "Footer Sidebar 3"
+msgstr "フッターサイドバー 3"
+
+#: functions.php:186
+msgid "Add widgets here for footer sidebar 2."
+msgstr "フッターサイドバー２のウィジェットをここに追加"
+
+#: functions.php:184
+msgid "Footer Sidebar 2"
+msgstr "フッターサイドバー 2"
+
+#: functions.php:176
+msgid "Add widgets here for footer sidebar 1."
+msgstr "フッターサイドバー１のウィジェットをここに追加"
+
+#: functions.php:174
+msgid "Footer Sidebar 1"
+msgstr "フッターサイドバー 1"
+
+#: functions.php:166
+msgid "Add widgets here for left sidebar."
+msgstr "左サイドバーのウィジェットをここに追加"
+
+#: functions.php:164 inc/meta-boxes.php:24
+msgid "Left Sidebar"
+msgstr "左サイドバー"
+
+#: functions.php:156
+msgid "Add widgets here for right sidebar."
+msgstr "右サイドバーのウィジェットをここに追加"
+
+#: functions.php:154 inc/meta-boxes.php:19
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: functions.php:61
+msgid "Footer"
+msgstr "フッター"
+
+#: functions.php:60
+msgid "Social"
+msgstr "ソーシャル"
+
+#: functions.php:59
+msgid "Primary"
+msgstr "メイン"
+
+#: comments.php:92
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:57 comments.php:79
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:56 comments.php:78
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: comments.php:53 comments.php:75
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: 404.php:29
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "ここには何も見つかりませんでした。以下のリンクまたは検索をお試しください。"
+
+#: 404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "お探しのページが見つかりません。"
+
+#. Author URI of the theme
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#. Author of the theme
+msgid "ThemeGrill"
+msgstr "ThemeGrill"
+
+#. Theme URI of the theme
+msgid "https://themegrill.com/themes/flash"
+msgstr "https://themegrill.com/themes/flash"

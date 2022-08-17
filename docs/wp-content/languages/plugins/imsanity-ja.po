@@ -1,0 +1,283 @@
+# Translation of Plugins - Imsanity - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Imsanity - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-30 06:24:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Imsanity - Stable (latest release)\n"
+
+#: settings.php:633
+msgid "Support"
+msgstr "サポート"
+
+#: settings.php:632
+msgid "FAQ"
+msgstr "FAQ"
+
+#. translators: %s: link to install EWWW Image Optimizer plugin
+#: settings.php:336 settings.php:817
+msgid "Only applies to new image uploads, existing images may be converted with %s."
+msgstr "新規アップロード画像にのみ適用されます。既存の画像は%sプラグインで変換できます。"
+
+#: settings.php:324 settings.php:805
+msgid "Only applies to new image uploads, existing BMP images cannot be converted or resized."
+msgstr "新規アップロード画像にのみ適用され、既存のBMP画像に対して変換やリサイズは行われません。"
+
+#: settings.php:109
+msgid "Please wait..."
+msgstr "お待ちください…"
+
+#: settings.php:107 settings.php:634
+msgid "Leave a Review"
+msgstr "レビューを書く"
+
+#: settings.php:723
+msgid "Resizing..."
+msgstr "リサイズ中..."
+
+#: settings.php:698
+msgid "Start Resizing All Images"
+msgstr "すべての画像のリサイズを開始"
+
+#: settings.php:686
+msgid "It is HIGHLY recommended that you backup your images before proceeding."
+msgstr "変換する前に、画像をバックアップすることを強くお勧めします。"
+
+#: settings.php:676 settings.php:691
+msgid "List View in the Media Library"
+msgstr "メディアライブラリのリストビュー"
+
+#: media.php:109
+msgid "Resize Image"
+msgstr "画像をリサイズ"
+
+#. translators: 1: File-name of the image
+#: libs/utils.php:281
+msgid "OK: %1$s resized to %2$s x %3$s"
+msgstr "OK: %1$s を %2$s x %3$s にリサイズしました"
+
+#. translators: 1: File-name of the image 2: the error message, translated
+#. elsewhere
+#: libs/utils.php:293
+msgid "File size of resized image was larger than the original"
+msgstr "リサイズ後のファイルサイズが元ファイルより大きくなりました"
+
+#. translators: %s: List View in the Media Library
+#: settings.php:690
+msgid "You may also resize 1 or 2 images using %s to verify that everything is working properly before processing your entire library."
+msgstr "また、%sで1枚づつ画像をリサイズすることができるので、ライブラリ全体を処理する前にすべてが正しく機能しているか確認することもできます。"
+
+#: class-imsanity-cli.php:111
+msgid "Finished Resizing!"
+msgstr "リサイズ完了！"
+
+#: settings.php:291 settings.php:767
+msgid "These dimensions are used for Bulk Resizing also."
+msgstr "この値は一括画像リサイズにも使用されます。"
+
+#. translators: 1: File-name of the image 2: the error message, translated
+#. elsewhere
+#: libs/utils.php:293 libs/utils.php:300 libs/utils.php:308 libs/utils.php:315
+msgid "ERROR: %1$s (%2$s)"
+msgstr "エラー: %1$s (%2$s)"
+
+#: settings.php:684
+msgid "WARNING: Bulk Resize will alter your original images and cannot be undone!"
+msgstr "警告: 一括リサイズは元の画像を変更し、元に戻すことはできません !"
+
+#: settings.php:113
+msgid "Image"
+msgstr "画像"
+
+#: settings.php:76 settings.php:78
+msgid "Settings"
+msgstr "設定"
+
+#: settings.php:290 settings.php:298 settings.php:305 settings.php:766
+#: settings.php:775 settings.php:783
+msgid "Max Height"
+msgstr "最大の高さ"
+
+#: settings.php:289 settings.php:297 settings.php:304 settings.php:765
+#: settings.php:774 settings.php:782
+msgid "Max Width"
+msgstr "最大の幅"
+
+#. translators: 1: File-name of the image 2: the error message, translated
+#. elsewhere
+#: libs/utils.php:300
+msgid "Unknown error, resizing function returned the same filename"
+msgstr "不明なエラー、リサイズ関数が同じファイル名を返しました"
+
+#: ajax.php:33
+msgid "Access token has expired, please reload the page."
+msgstr "アクセストークンの有効期限が切れました。ページをリロードしてください。"
+
+#: settings.php:290 settings.php:298 settings.php:305 settings.php:766
+#: settings.php:775 settings.php:783
+msgid "in pixels, enter 0 to disable"
+msgstr "ピクセル単位、0を入力して無効"
+
+#: settings.php:107
+msgid "Resizing Complete"
+msgstr "リサイズの完了"
+
+#. translators: %s: File-name of the image
+#: libs/utils.php:226
+msgid "%s is not writable"
+msgstr "%sは書き込み可能ではありません"
+
+#: ajax.php:23
+msgid "Administrator permission is required"
+msgstr "管理者権限が必要です"
+
+#: imsanity.php:320
+msgid "Imsanity requires the GD library to convert PNG images to JPG"
+msgstr "Imsanity は PNG 画像を JPG に変換するのに GD ライブラリが必要です"
+
+#: imsanity.php:330
+msgid "Unknown image type specified in imsanity_convert_to_jpg"
+msgstr "imsanity_convert_to_jpg で指定された不明な画像タイプ"
+
+#: settings.php:108
+msgid "Resize Selected Images"
+msgstr "選択した画像のサイズを変更する"
+
+#: settings.php:115
+msgid "There are no images that need to be resized."
+msgstr "サイズ変更の必要な画像はありません。"
+
+#: settings.php:114
+msgid "Received an invalid response, please check for errors in the Developer Tools console of your browser."
+msgstr "無効な応答を受け取りました。ブラウザーのデベロッパーツールコンソールでエラーを確認してください。"
+
+#. translators: %s: the image mime type
+#: imsanity.php:354
+msgid "Imsanity was unable to process the %s file. If you continue to see this error you may need to disable the conversion option in the Imsanity settings."
+msgstr "Imsanity は%sファイルを処理できませんでした。このエラーが引き続き表示される場合は、Imsanity 設定で変換オプションを無効にする必要があります。"
+
+#: settings.php:834
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: settings.php:667
+msgid "Bulk Resize Images"
+msgstr "一括画像リサイズ"
+
+#. Plugin Name of the plugin
+#: settings.php:37 settings.php:57 media.php:15
+msgid "Imsanity"
+msgstr "Imsanity"
+
+#: settings.php:295 settings.php:772
+msgid "Images uploaded directly to the Media Library"
+msgstr "メディアライブラリへ直接アップロードされた画像"
+
+#: settings.php:810
+msgid "Convert PNG To JPG"
+msgstr "PNG 形式を JPG 形式へ変換する"
+
+#: settings.php:801
+msgid "Convert BMP To JPG"
+msgstr "BMP 形式を JPG 形式へ変換する"
+
+#: settings.php:310 settings.php:790
+msgid "JPG image quality"
+msgstr "JPG 画像品質"
+
+#: settings.php:737
+msgid "Imsanity settings have been configured by the server administrator. There are no site-specific settings available."
+msgstr "サーバー管理者によって Imsanity の設定が行われています。サイト固有の項目はありません。"
+
+#: settings.php:630
+msgid "Imsanity Settings"
+msgstr "Imsanity 設定"
+
+#. Description of the plugin
+msgid "Imsanity stops insanely huge image uploads"
+msgstr "Imsanity は巨大な画像がアップロードされることを阻止します"
+
+#: settings.php:329
+msgid "Convert PNG to JPG"
+msgstr "PNG 形式から JPG 形式へ変換する"
+
+#: settings.php:320
+msgid "Convert BMP to JPG"
+msgstr "BMP 形式から JPG 形式へ変換する"
+
+#: settings.php:302 settings.php:780
+msgid "Images uploaded elsewhere (Theme headers, backgrounds, logos, etc)"
+msgstr "その他の方法でアップロードされた画像（テーマヘッダー、背景、ロゴなど）"
+
+#: settings.php:287 settings.php:763
+msgid "Images uploaded within a Page/Post"
+msgstr "固定ページ / 投稿でアップロードされた画像"
+
+#. Author URI of the plugin
+msgid "https://ewww.io/"
+msgstr "https://ewww.io/"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/imsanity/"
+msgstr "https://ja.wordpress.org/plugins/imsanity/"
+
+#: settings.php:353
+msgid "Update Settings"
+msgstr "更新設定"
+
+#: settings.php:314 settings.php:794
+msgid "Valid values are 1-100."
+msgstr "有効な値は1〜100です。"
+
+#: settings.php:406
+msgid "Imsanity network settings saved."
+msgstr "Imsanity ネットワーク設定が保存されました。"
+
+#: settings.php:36
+msgid "Imsanity Plugin Settings"
+msgstr "Imsanity プラグイン設定"
+
+#: settings.php:56 settings.php:252
+msgid "Imsanity Network Settings"
+msgstr "Imsanity ネットワーク設定"
+
+#: ajax.php:135 ajax.php:162
+msgid "Missing ID Parameter"
+msgstr "IDパラメータがありません"
+
+#. translators: %s: File-name of the image
+#: class-imsanity-cli.php:86 libs/utils.php:323
+msgid "SKIPPED: %s (Resize not required)"
+msgstr "スキップ: %s (リサイズが不要)"
+
+#: settings.php:280
+msgid "Allow each site to configure Imsanity settings"
+msgstr "各サイト毎に Imsanity の設定を許可する"
+
+#: settings.php:281
+msgid "Use global Imsanity settings (below) for all sites"
+msgstr "すべてのサイトでグローバルな Imsanity 設定 (下記) を使用する"
+
+#: settings.php:277
+msgid "Global Settings Override"
+msgstr "グローバル設定の上書き"
+
+#. translators: %s: the image filename
+#: libs/imagecreatefrombmp.php:35
+msgid "imagecreatefrombmp: %s is not a bitmap!"
+msgstr "imagecreatefrombmp: %s はビットマップではありません"
+
+#. translators: %s: the image filename
+#: libs/imagecreatefrombmp.php:21 libs/imagecreatefrombmp.php:27
+msgid "imagecreatefrombmp: Can not open %s!"
+msgstr "imagecreatefrombmp: %s を開けません"
+
+#. translators: %s: the image filename
+#: libs/imagecreatefrombmp.php:63
+msgid "imagecreatefrombmp: Cannot obtain filesize of %s !"
+msgstr "imagecreatefrombmp: filesize of %s のファイルサイズを取得できません"

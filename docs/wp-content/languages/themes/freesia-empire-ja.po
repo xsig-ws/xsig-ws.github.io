@@ -1,0 +1,784 @@
+# Translation of Themes - Freesia Empire in Japanese
+# This file is distributed under the same license as the Themes - Freesia Empire package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-19 21:42:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Freesia Empire\n"
+
+#. Theme Name of the theme
+#: inc/upgrade-plus/class-customize.php:63
+msgid "Freesia Empire"
+msgstr "Freesia Empire"
+
+#. translators: %s: post title
+#: comments.php:21
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "「%s」への1件のフィードバック"
+
+#: inc/customizer/functions/theme-options.php:89
+msgid "Freesia Options"
+msgstr "Freesia 設定"
+
+#: inc/customizer/freesiaempire-default-values.php:31
+msgid "Search &hellip;"
+msgstr "検索&hellip;"
+
+#: inc/customizer/functions/theme-options.php:172
+msgid "Crop Excerpt length by text"
+msgstr "抜粋をテキストの長さで切り取る"
+
+#: functions.php:150
+msgid "Support Ticket"
+msgstr "サポートチケット"
+
+#: inc/upgrade-plus/class-customize.php:64
+msgid "Upgrade To Plus"
+msgstr "Plus にアップグレード"
+
+#: inc/customizer/functions/theme-options.php:160
+msgid "Display Page Featured Image"
+msgstr "ページのアイキャッチ画像を表示"
+
+#. Template Name of the theme
+msgid "Gallery Template"
+msgstr "ギャラリーテンプレート"
+
+#. Template Name of the theme
+msgid "Corporate Template"
+msgstr "会社テンプレート"
+
+#. Template Name of the theme
+msgid "Contact Template"
+msgstr "お問い合わせテンプレート"
+
+#: single.php:109
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:108
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: single.php:104
+msgid "Next &rarr;"
+msgstr "次へ &rarr;"
+
+#: single.php:103
+msgid "&larr; Previous"
+msgstr "&larr; 前へ"
+
+#: single.php:80
+msgid " "
+msgstr " "
+
+#: searchform.php:19
+msgid "Search ..."
+msgstr "検索 ..."
+
+#: page-templates/gallery-template.php:39 page.php:44 single.php:71
+msgid "Pages:"
+msgstr "固定ページ:"
+
+#: navigation.php:20
+msgid "Next Page &raquo;"
+msgstr "次のページ &raquo;"
+
+#: navigation.php:17
+msgid "&laquo; Previous Page"
+msgstr "&laquo; 前のページ"
+
+#: page-templates/gallery-template.php:52
+#: page-templates/contact-template.php:50 index.php:35 search.php:36
+#: page.php:55 single.php:96
+msgid "No Posts Found."
+msgstr "投稿が見つかりませんでした。"
+
+#: inc/widgets/widgets-functions/testimonials-widgets.php:35
+msgid "Number of Testimonial:"
+msgstr "お客様の声の数:"
+
+#: inc/widgets/widgets-functions/testimonials-widgets.php:27
+msgid "Upload Image"
+msgstr "画像をアップロード"
+
+#: inc/widgets/widgets-functions/testimonials-widgets.php:24
+msgid "Upload Testimonial Background Image"
+msgstr "お客様の声の背景画像をアップロード"
+
+#: inc/widgets/widgets-functions/testimonials-widgets.php:13
+msgid "TF: FP Testimonial"
+msgstr "TF: FP お客様の声"
+
+#: inc/widgets/widgets-functions/testimonials-widgets.php:11
+msgid "Display Testimonial on FrontPage"
+msgstr "お客様の声をフロントページに表示"
+
+#: inc/widgets/widgets-functions/register-widgets.php:76
+msgid "Add WooCommerce Widgets Only"
+msgstr "WooCommerce ウィジェットのみに追加する"
+
+#: inc/widgets/widgets-functions/register-widgets.php:74
+msgid "WooCommerce Sidebar"
+msgstr "WooCommerce サイドバー"
+
+#: inc/widgets/widgets-functions/register-widgets.php:66
+msgid "Shows widgets at Footer Column "
+msgstr "フッターカラムにウィジェットを表示 "
+
+#: inc/widgets/widgets-functions/register-widgets.php:64
+msgid "Footer Column "
+msgstr "フッターカラム "
+
+#: inc/widgets/widgets-functions/register-widgets.php:54
+msgid "Add Contact Form 7 Shortcode using text widgets Ex: [contact-form-7 id=\"137\" title=\"Contact form 1\"]"
+msgstr "Contact Form 7 ショートコードをテキストウィジェットを使って追加できます。例: [contact-form-7 id=\"137\" title=\"Contact form 1\"]"
+
+#: inc/widgets/widgets-functions/register-widgets.php:52
+msgid "Shortcode For Contact Page"
+msgstr "お問い合わせページのショートコード"
+
+#: inc/widgets/widgets-functions/register-widgets.php:45
+msgid "Shows widgets on Contact Page Template."
+msgstr "お問い合わせページテンプレートでウィジェットを表示します。"
+
+#: inc/widgets/widgets-functions/register-widgets.php:43
+msgid "Contact Page Sidebar"
+msgstr "問い合わせページのサイドバー"
+
+#: inc/widgets/widgets-functions/register-widgets.php:36
+msgid "Shows widgets on Front Page. You may use some of this widgets: TF: Featured Recent Work, TF: Testimonial, TF: Slogan"
+msgstr "フロントページでウィジェットを表示します。これらのウィジェットを使えます: TF: おすすめの最近の作品、TF: お客様の声、TF: スローガン"
+
+#: inc/widgets/widgets-functions/register-widgets.php:34
+msgid "Front Page Section"
+msgstr "フロントページセクション"
+
+#: inc/widgets/widgets-functions/register-widgets.php:28
+msgid "Shows widgets on all page."
+msgstr "すべてのページにウィジェットを表示する。"
+
+#: inc/widgets/widgets-functions/register-widgets.php:26
+msgid "Display Contact Info at Header "
+msgstr "ヘッダーに連絡先情報を表示 "
+
+#: inc/widgets/widgets-functions/register-widgets.php:19
+msgid "Shows widgets at Main Sidebar."
+msgstr "メインサイドバーにウィジェットを表示する。"
+
+#: inc/widgets/widgets-functions/register-widgets.php:17
+msgid "Main Sidebar"
+msgstr "メインスライダー"
+
+#: inc/widgets/widgets-functions/testimonials-widgets.php:30
+#: inc/widgets/widgets-functions/post-widgets.php:51
+msgid "Select category"
+msgstr "カテゴリーを選択"
+
+#: inc/widgets/widgets-functions/post-widgets.php:48
+msgid "Show posts from a category"
+msgstr "カテゴリーから投稿を表示"
+
+#: inc/widgets/widgets-functions/post-widgets.php:47
+msgid "Show latest Posts"
+msgstr "最新の投稿を表示"
+
+#: inc/widgets/widgets-functions/post-widgets.php:42
+msgid "Number of Post:"
+msgstr "投稿数:"
+
+#: inc/widgets/widgets-functions/post-widgets.php:36
+msgid "Description:"
+msgstr "説明:"
+
+#: inc/widgets/widgets-functions/post-widgets.php:26
+msgid "Check to hide entry format"
+msgstr "投稿フォーマットを非表示にするにはチェックを入れてください"
+
+#: inc/widgets/widgets-functions/post-widgets.php:13
+msgid "TF: FP Blog Widget"
+msgstr "TF: FP ブログウィジェット"
+
+#: inc/widgets/widgets-functions/post-widgets.php:11
+msgid "Displays Blog Widgets on FrontPage"
+msgstr "フロントページにブログウィジェットを表示"
+
+#: inc/widgets/widgets-functions/portfolio-widgets.php:56
+msgid "Page"
+msgstr "固定ページ"
+
+#: inc/widgets/widgets-functions/portfolio-widgets.php:47
+msgid "Button Url:"
+msgstr "下部の URL:"
+
+#: inc/widgets/widgets-functions/portfolio-widgets.php:41
+msgid "Button Text:"
+msgstr "ボタンのテキスト:"
+
+#: inc/widgets/widgets-functions/post-widgets.php:30
+#: inc/widgets/widgets-functions/portfolio-widgets.php:33
+msgid "Title:"
+msgstr "タイトル:"
+
+#: inc/widgets/widgets-functions/portfolio-widgets.php:27
+msgid "Number of Works:"
+msgstr "作品数:"
+
+#: inc/widgets/widgets-functions/portfolio-widgets.php:7
+msgid "TF: FP Portfolio Widget"
+msgstr "TF: FP ポートフォリオウィジェット"
+
+#: inc/widgets/widgets-functions/portfolio-widgets.php:5
+msgid "Portfolio Widget (Front Page)"
+msgstr "ポートフォリオウィジェット (フロントページ)"
+
+#: inc/widgets/widgets-functions/contactus-widgets.php:62
+msgid "Email ID:"
+msgstr "メール ID:"
+
+#: inc/widgets/widgets-functions/contactus-widgets.php:56
+msgid "Skype ID:"
+msgstr "Skype ID:"
+
+#: inc/widgets/widgets-functions/contactus-widgets.php:50
+msgid "Phone No 2:"
+msgstr "電話番号2:"
+
+#: inc/widgets/widgets-functions/contactus-widgets.php:44
+msgid "Phone No 1:"
+msgstr "電話番号1:"
+
+#: inc/widgets/widgets-functions/contactus-widgets.php:38
+msgid "Address Link:"
+msgstr "住所リンク:"
+
+#: inc/widgets/widgets-functions/contactus-widgets.php:32
+msgid "Address:"
+msgstr "住所:"
+
+#: inc/widgets/widgets-functions/contactus-widgets.php:26
+msgid "Contact Title:"
+msgstr "連絡先タイトル:"
+
+#: inc/widgets/widgets-functions/contactus-widgets.php:13
+msgid "TF: Contact Us"
+msgstr "TF: お問い合わせ"
+
+#: inc/widgets/widgets-functions/contactus-widgets.php:11
+msgid "Display Contact Us Information"
+msgstr "お問い合わせ情報を表示"
+
+#: inc/settings/freesiaempire-common-functions.php:193
+msgid "Search Results"
+msgstr "検索結果"
+
+#: inc/settings/freesiaempire-common-functions.php:191
+msgid "Page NOT Found"
+msgstr "ページが見つかりません"
+
+#: inc/settings/freesiaempire-common-functions.php:180
+msgid "Chats"
+msgstr "チャット"
+
+#: inc/settings/freesiaempire-common-functions.php:178
+msgid "links"
+msgstr "リンク"
+
+#: inc/settings/freesiaempire-common-functions.php:176
+msgid "Quotes"
+msgstr "引用"
+
+#: inc/settings/freesiaempire-common-functions.php:174
+msgid "Status"
+msgstr "ステータス"
+
+#: inc/settings/freesiaempire-common-functions.php:172
+msgid "Videos"
+msgstr "動画"
+
+#: inc/settings/freesiaempire-common-functions.php:170
+msgid "Galleries"
+msgstr "ギャラリー"
+
+#: inc/settings/freesiaempire-common-functions.php:168
+msgid "Images"
+msgstr "画像"
+
+#: inc/settings/freesiaempire-common-functions.php:166
+msgid "Asides"
+msgstr "アサイド"
+
+#: inc/settings/freesiaempire-common-functions.php:164
+msgid "Audios"
+msgstr "音声ファイル"
+
+#: inc/settings/freesiaempire-common-functions.php:162
+msgid "Year: %s"
+msgstr "年: %s"
+
+#: inc/settings/freesiaempire-common-functions.php:160
+msgid "Month: %s"
+msgstr "月: %s"
+
+#: inc/settings/freesiaempire-common-functions.php:158
+msgid "Day: %s"
+msgstr "日: %s"
+
+#: inc/settings/freesiaempire-common-functions.php:155
+msgid "Author: %s"
+msgstr "投稿者: %s"
+
+#: inc/settings/freesiaempire-common-functions.php:80
+msgid "Select layout for this specific Post only"
+msgstr "この特定の投稿のみのレイアウトを選択"
+
+#: inc/settings/freesiaempire-common-functions.php:74
+msgid "Select layout for this specific Page only"
+msgstr "この特定の固定ページのみのレイアウトを選択"
+
+#: inc/settings/freesiaempire-common-functions.php:67
+msgid "Right sidebar Layout"
+msgstr "右サイドバーレイアウト"
+
+#: inc/settings/freesiaempire-common-functions.php:62
+msgid "Left sidebar Layout"
+msgstr "左サイドバーレイアウト"
+
+#: inc/settings/freesiaempire-common-functions.php:52
+msgid "No sidebar Layout"
+msgstr "サイドバーなしレイアウト"
+
+#: inc/settings/freesiaempire-common-functions.php:46
+msgid "Customizer"
+msgstr "カスタマイザー"
+
+#: inc/settings/freesiaempire-common-functions.php:46
+msgid "Default Layout Set in"
+msgstr "デフォルトのレイアウトセット"
+
+#: inc/settings/freesiaempire-common-functions.php:21
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: inc/settings/freesiaempire-common-functions.php:18
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: inc/settings/freesiaempire-common-functions.php:15
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: footer.php:86
+msgid "Powered by:"
+msgstr "Powered by:"
+
+#: footer.php:85
+msgid "Designed by:"
+msgstr "Designed by:"
+
+#: footer.php:85
+msgid "Themefreesia"
+msgstr "Themefreesia"
+
+#: footer.php:86
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/customizer/functions/theme-options.php:225
+msgid "Static Front Page"
+msgstr "固定フロントページ"
+
+#: inc/customizer/functions/theme-options.php:220
+msgid "Navigation"
+msgstr "ナビゲーション"
+
+#: inc/customizer/functions/theme-options.php:215
+msgid "Background Image"
+msgstr "背景画像"
+
+#: inc/customizer/functions/theme-options.php:210
+msgid "Colors"
+msgstr "色"
+
+#: inc/customizer/functions/theme-options.php:202
+msgid "Custom CSS"
+msgstr "カスタム CSS"
+
+#: inc/customizer/functions/theme-options.php:191
+msgid "Enter your custom CSS"
+msgstr "カスタム CSS を入力"
+
+#: inc/customizer/functions/theme-options.php:185
+msgid "Reset all default settings. (Refresh it to view the effect)"
+msgstr "すべてのデフォルト設定をリセット (効果を表示するにはリロードしてください)。"
+
+#: inc/customizer/functions/theme-options.php:148
+msgid "Disable Buttom Social Icons"
+msgstr "下部のソーシャルアイコンを無効化"
+
+#: inc/customizer/functions/theme-options.php:136
+msgid "Disable Top Social Icons"
+msgstr "上部のソーシャルアイコンを無効化"
+
+#: inc/customizer/functions/theme-options.php:124
+msgid "Disable Goto Top"
+msgstr "トップへ移動するボタンを無効化"
+
+#: inc/customizer/functions/theme-options.php:112
+msgid "Disable Stick Menu"
+msgstr "上部固定メニューを無効化"
+
+#: inc/customizer/functions/theme-options.php:100
+msgid "Disable Search Form"
+msgstr "検索フォームを無効化"
+
+#: inc/customizer/functions/theme-options.php:85
+msgid "Disable"
+msgstr "無効化"
+
+#: inc/customizer/functions/theme-options.php:77
+msgid "Enable Custom Header Image"
+msgstr "カスタムヘッダー画像を有効化"
+
+#: inc/customizer/functions/theme-options.php:67
+msgid "Display above Site Title"
+msgstr "サイトタイトルの上に表示"
+
+#: inc/customizer/functions/theme-options.php:66
+msgid "Display below Site Title"
+msgstr "サイトタイトルの下に表示"
+
+#: inc/customizer/functions/theme-options.php:59
+msgid "Display Header Image"
+msgstr "ヘッダー画像を表示"
+
+#: inc/customizer/functions/theme-options.php:48
+msgid "Header Image"
+msgstr "ヘッダー画像"
+
+#: inc/customizer/functions/theme-options.php:44
+msgid "Disable Both"
+msgstr "両方とも無効にする"
+
+#: inc/customizer/functions/theme-options.php:43
+msgid "Show Both"
+msgstr "両方とも表示する"
+
+#: inc/customizer/functions/theme-options.php:42
+msgid "Display Site Logo Only"
+msgstr "サイトロゴのみ表示する"
+
+#: inc/customizer/functions/theme-options.php:41
+msgid "Display Site Title Only"
+msgstr "サイトタイトルのみ表示する"
+
+#: inc/customizer/functions/theme-options.php:34
+msgid "Site Logo/ Text Options"
+msgstr "サイトロゴ / テキストオプション"
+
+#: inc/customizer/functions/theme-options.php:21
+msgid "Site Logo"
+msgstr "サイトロゴ"
+
+#: inc/customizer/functions/theme-options.php:11
+msgid "Site Title & Logo Options"
+msgstr "サイトタイトル & ロゴオプション"
+
+#: inc/customizer/functions/register-panel.php:47
+msgid "Freesia Empire Widgets"
+msgstr "Freesia Empire ウィジェット"
+
+#: inc/customizer/functions/register-panel.php:37
+msgid "Freesia Empire Slider Options"
+msgstr "Freesia Empire スライダーオプション"
+
+#: inc/customizer/functions/register-panel.php:27
+msgid "Freesia Empire Theme Options"
+msgstr "Freesia Empire テーマオプション"
+
+#: inc/customizer/functions/register-panel.php:17
+msgid "Freesia Empire WordPress Settings"
+msgstr "Freesia Empire WordPress 設定"
+
+#: inc/customizer/functions/frontpage-features.php:67
+msgid " Feature #"
+msgstr " 機能の番号"
+
+#: inc/widgets/widgets-functions/portfolio-widgets.php:37
+#: inc/customizer/functions/frontpage-features.php:52
+msgid "Description"
+msgstr "説明"
+
+#: inc/customizer/functions/frontpage-features.php:37
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/customizer/functions/frontpage-features.php:23
+msgid "Disable in Front Page"
+msgstr "フロントページで無効化"
+
+#: inc/customizer/functions/frontpage-features.php:12
+msgid "Display FrontPage Features"
+msgstr "フロントページにおすすめを表示"
+
+#: inc/customizer/functions/featured-content-customizer.php:48
+msgid " Page Slider #"
+msgstr " ページスライダーの番号"
+
+#: inc/customizer/functions/featured-content-customizer.php:35
+msgid "Display Page Slider"
+msgstr "ページスライダーを表示"
+
+#: inc/customizer/functions/featured-content-customizer.php:31
+msgid "Disable Slider"
+msgstr "スライダーを無効化"
+
+#: inc/customizer/functions/featured-content-customizer.php:30
+#: inc/customizer/functions/theme-options.php:84
+msgid "Entire Site"
+msgstr "サイト全体"
+
+#: inc/customizer/functions/featured-content-customizer.php:29
+#: inc/customizer/functions/theme-options.php:83
+msgid "Front Page"
+msgstr "フロントページ"
+
+#: inc/customizer/functions/featured-content-customizer.php:23
+msgid "Enable Slider"
+msgstr "スライダーを有効化"
+
+#: inc/customizer/functions/featured-content-customizer.php:12
+msgid "Slider Settings"
+msgstr "スライダー設定"
+
+#: inc/customizer/functions/design-options.php:151
+msgid "Hide Blog Header"
+msgstr "ブログヘッダーを非表示"
+
+#: inc/customizer/functions/design-options.php:150
+msgid "Show Blog Header"
+msgstr "ブログヘッダーを表示"
+
+#: inc/customizer/functions/design-options.php:134
+msgid "Small Boxed Layout"
+msgstr "小ボックスレイアウト"
+
+#: inc/customizer/functions/design-options.php:133
+msgid "Boxed Layout"
+msgstr "ボックスレイアウト"
+
+#: inc/customizer/functions/design-options.php:132
+#: inc/settings/freesiaempire-common-functions.php:57
+msgid "Full Width Layout"
+msgstr "フル幅レイアウト"
+
+#: inc/customizer/functions/design-options.php:126
+#: inc/customizer/functions/design-options.php:144
+msgid "Design Layout"
+msgstr "デザインレイアウト"
+
+#: inc/customizer/functions/design-options.php:116
+msgid "Hide Entry Meta"
+msgstr "投稿メタ情報を非表示"
+
+#: inc/customizer/functions/design-options.php:115
+msgid "Display Entry Meta"
+msgstr "投稿メタ情報を表示"
+
+#: inc/customizer/functions/design-options.php:110
+msgid "Disable Entry Meta from Blog Page"
+msgstr "ブログページで投稿メタ情報を無効化"
+
+#: inc/customizer/functions/design-options.php:100
+msgid "Hide Button Only"
+msgstr "ボタンのみ隠す"
+
+#: inc/customizer/functions/design-options.php:99
+msgid "Show Button Only"
+msgstr "ボタンのみ表示"
+
+#: inc/customizer/functions/design-options.php:98
+msgid "Hide Entry Format"
+msgstr "投稿フォーマットを非表示"
+
+#: inc/customizer/functions/design-options.php:97
+msgid "Display Entry Format"
+msgstr "投稿フォーマットを表示"
+
+#: inc/customizer/functions/design-options.php:92
+msgid "Disable Entry Format from Blog Page"
+msgstr "ブログページで投稿フォーマットを無効化"
+
+#: inc/customizer/functions/design-options.php:82
+msgid "Blog medium image display"
+msgstr "ブログの中サイズ画像表示"
+
+#: inc/customizer/functions/design-options.php:81
+msgid "Blog large image display"
+msgstr "ブログの大サイズ画像表示"
+
+#: inc/customizer/functions/design-options.php:75
+msgid "Blog Image Display Layout"
+msgstr "ブログの画像表示レイアウト"
+
+#: inc/customizer/functions/design-options.php:65
+msgid "Full Width"
+msgstr "全幅"
+
+#: inc/customizer/functions/design-options.php:64
+msgid "No Sidebar"
+msgstr "サイドバーなし"
+
+#: inc/customizer/functions/design-options.php:63
+msgid "Left Sidebar"
+msgstr "左サイドバー"
+
+#: inc/customizer/functions/design-options.php:62
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: inc/customizer/functions/design-options.php:56
+msgid "Sidebar Layout Options"
+msgstr "スライダーレイアウトオプション"
+
+#: inc/customizer/functions/design-options.php:39
+msgid "Animation Options"
+msgstr "アニメーションオプション"
+
+#: inc/customizer/functions/design-options.php:29
+#: inc/customizer/functions/design-options.php:46
+msgid "OFF"
+msgstr "オフ"
+
+#: inc/customizer/functions/design-options.php:28
+#: inc/customizer/functions/design-options.php:45
+msgid "ON "
+msgstr "オン "
+
+#: inc/customizer/functions/design-options.php:22
+msgid "Responsive Layout"
+msgstr "レスポンシブレイアウト"
+
+#: inc/customizer/functions/design-options.php:11
+msgid "Layout Options"
+msgstr "レイアウトオプション"
+
+#: functions.php:163
+msgid "About Freesia Empire"
+msgstr "Freesia Empire について"
+
+#: functions.php:156 functions.php:157
+msgid "View ThemeFreesia Themes"
+msgstr "ThemeFreesia のテーマを表示"
+
+#: functions.php:153 functions.php:154
+msgid "View Demo"
+msgstr "デモを表示"
+
+#: functions.php:151
+msgid "Forum"
+msgstr "フォーラム"
+
+#: functions.php:147 functions.php:148
+msgid "Theme Instructions"
+msgstr "テーマ手順"
+
+#: functions.php:144 functions.php:145
+msgid "Review Freesia Empire"
+msgstr "Freesia Empire のレビュー"
+
+#: functions.php:55
+msgid "Add Social Icons Only"
+msgstr "ソーシャルアイコンのみ追加"
+
+#: header.php:80 header.php:86 functions.php:54
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: footer.php:95
+msgid "Go to Top"
+msgstr "Go to Top"
+
+#: page-templates/freesiaempire-corporate.php:83 content.php:76
+#: inc/widgets/widgets-functions/post-widgets.php:150
+#: inc/widgets/widgets-functions/portfolio-widgets.php:145
+#: inc/customizer/freesiaempire-default-values.php:24
+#: inc/settings/freesiaempire-functions.php:205
+msgid "Read More"
+msgstr "続きを読む"
+
+#: content.php:64 single.php:85
+msgid ", "
+msgstr "、"
+
+#: content.php:62 single.php:84
+msgid "Category : "
+msgstr "カテゴリー: "
+
+#: content.php:41 single.php:62
+msgid "Comments Off"
+msgstr "コメントは受け付けていません"
+
+#: content.php:41 single.php:62
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: content.php:41 single.php:62
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: content.php:41 single.php:62
+msgid "No Comments"
+msgstr "コメントなし"
+
+#: content.php:40 single.php:61
+msgid "Comment  :"
+msgstr "コメント:"
+
+#: content.php:38 single.php:58
+msgid "Date  :"
+msgstr "日付:"
+
+#: content.php:36 single.php:57
+msgid "Author :"
+msgstr "投稿者:"
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr "現在コメントは受け付けていません。"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:25
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "「%2$s」への%1$s件のフィードバック"
+
+#: 404.php:34
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "こちらには何もありません。検索をお試しください。"
+
+#: 404.php:31
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "お探しのページが見つかりません。"
+
+#. Author URI of the theme
+msgid "https://themefreesia.com"
+msgstr "https://themefreesia.com"
+
+#. Theme URI of the theme
+msgid "https://themefreesia.com/themes/freesia-empire"
+msgstr "https://themefreesia.com/themes/freesia-empire"
+
+#. Author of the theme
+#: footer.php:85
+msgid "Theme Freesia"
+msgstr "Theme Freesia"

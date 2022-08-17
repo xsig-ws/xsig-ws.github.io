@@ -1,0 +1,1174 @@
+<!DOCTYPE html><!-- Panoramic -->
+<html lang="ja-JP">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+
+<!-- MapPress Easy Google Maps バージョン:2.73.2 (http://www.mappresspro.com) -->
+<title>プログラム &#8211; xSIG 2018</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//webfonts.sakura.ne.jp' />
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="xSIG 2018 &raquo; フィード" href="https://xsig.ipsj.or.jp/2018/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/xsig.ipsj.or.jp\/2018\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.4"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://xsig.ipsj.or.jp/2018/wp-includes/css/dist/block-library/style.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mappress-leaflet-css'  href='https://unpkg.com/leaflet@1.7.1/dist/leaflet.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mappress-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/plugins/mappress-google-maps-for-wordpress/css/mappress.css?ver=2.73.2' type='text/css' media='all' />
+<link rel='stylesheet' id='UserAccessManagerLoginForm-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/plugins/user-access-manager/assets/css/uamLoginForm.css?ver=2.2.15' type='text/css' media='screen' />
+<link rel='stylesheet' id='panoramic-site-title-font-default-css'  href='//fonts.googleapis.com/css?family=Kaushan+Script%3A400&#038;ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic-body-font-default-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic&#038;ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic-heading-font-default-css'  href='//fonts.googleapis.com/css?family=Raleway%3A500%2C600%2C700%2C100%2C800%2C400%2C300&#038;ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic-header-standard-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/css/header-standard.css?ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='otb-font-awesome-otb-font-awesome-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/fonts/otb-font-awesome/css/otb-font-awesome.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='otb-font-awesome-font-awesome-min-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/fonts/otb-font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic-style-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/style.css?ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic_customizer_theme_fonts-css'  href='//fonts.googleapis.com/css?family=Kaushan+Script%3Aregular|Raleway%3Aregular%2C100%2C300%2C600%2C700%2C800|Lato%3Aregular%2Citalic%2C100%2C300%2C700%26subset%3Dlatin%2C' type='text/css' media='screen' />
+<link rel='stylesheet' id='mlp_frontend_css-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/plugins/multilingual-press/assets/css/frontend.min.css?ver=1567558928' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='//webfonts.sakura.ne.jp/js/sakurav3.js?fadein=0&#038;ver=3.1.0' id='typesquare_std-js'></script>
+<link rel="https://api.w.org/" href="https://xsig.ipsj.or.jp/2018/wp-json/" /><link rel="alternate" type="application/json" href="https://xsig.ipsj.or.jp/2018/wp-json/wp/v2/pages/24" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://xsig.ipsj.or.jp/2018/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://xsig.ipsj.or.jp/2018/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.4" />
+<link rel="canonical" href="https://xsig.ipsj.or.jp/2018/program/" />
+<link rel='shortlink' href='https://xsig.ipsj.or.jp/2018/?p=24' />
+<link rel="alternate" type="application/json+oembed" href="https://xsig.ipsj.or.jp/2018/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxsig.ipsj.or.jp%2F2018%2Fprogram%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://xsig.ipsj.or.jp/2018/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxsig.ipsj.or.jp%2F2018%2Fprogram%2F&#038;format=xml" />
+<link rel="alternate" hreflang="en-US" href="https://xsig.ipsj.or.jp/2018/en/program/"><link rel="alternate" hreflang="ja-JP" href="https://xsig.ipsj.or.jp/2018/program/"><style type="text/css">
+
+
+/* Minimum slider width */
+.panoramic-slider-container.default .slider .slide img {
+	min-width: 600px;
+}
+	
+
+/* Mobile Menu and other mobile stylings */
+@media only screen and (max-width: 960px) {
+	.main-navigation.translucent {
+		position: relative;
+	}
+	
+	.main-navigation.translucent {
+		background-color: #006489 !important;
+	}
+
+	#main-menu.panoramic-mobile-menu-standard-color-scheme {
+		background-color: #006489;
+	}	
+	
+	.slider-placeholder {
+		display: none;
+	}
+	
+	.header-image .overlay,
+	.panoramic-slider-container.default .slider .slide .overlay {
+		top: 25%;
+    }
+	
+	.panoramic-slider-container.default .prev.top-padded,
+	.panoramic-slider-container.default .next.top-padded{
+		margin-top: -26px;
+	}
+	.header-image .overlay.top-padded,
+	.panoramic-slider-container.default .slider .slide .overlay.top-padded {
+		padding-top: 0;
+	}
+
+	/* Menu toggle button */
+    .header-menu-button {
+	    display: block;
+	    padding: 16px 18px;
+	    color: #FFF;
+	    text-transform: uppercase;
+    	text-align: center;
+	    cursor: pointer;
+	}
+	.header-menu-button .otb-fa.otb-fa-bars {
+    	font-size: 28px;
+		color: #FFFFFF;
+	}
+	
+	/* Menu close button */
+    .main-menu-close {
+        display: block;
+    	background-color: rgba(0, 0, 0, 0.2);
+    	border-radius: 100%;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 26px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 0 6px 0 10px;
+        height: 36px;
+    	width: 36px;
+        line-height: 33px;
+        cursor: pointer;
+    	
+	    -webkit-transition: all 0.2s ease 0s;
+	     -moz-transition: all 0.2s ease 0s;
+	      -ms-transition: all 0.2s ease 0s;
+	       -o-transition: all 0.2s ease 0s;
+	          transition: all 0.2s ease 0s;
+
+    }
+    .main-menu-close:hover .otb-fa {
+    	font-weight: 700 !important;
+	}
+	.main-menu-close .otb-fa-angle-left {
+        position: relative;
+        left: -4px;
+    }
+	
+    .main-navigation ul {
+        display: block;
+    }
+
+    .main-navigation #main-menu {
+        color: #FFFFFF;
+        box-shadow: 1px 0 1px rgba(255, 255, 255, 0.04) inset;
+        position: fixed;
+        top: 0;
+        right: -280px;
+        width: 280px;
+        max-width: 100%;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 70px 0 30px 0;
+        z-index: 100000;
+        height: 100%;
+        overflow: auto;
+        -webkit-transition: right 0.4s ease 0s;
+        -moz-transition: right 0.4s ease 0s;
+        -ms-transition: right 0.4s ease 0s;
+        -o-transition: right 0.4s ease 0s;
+        transition: right 0.4s ease 0s;
+    }
+    #main-menu .menu {
+    	border-top-width: 1px;
+    	border-top-style: solid;
+	}
+    #main-menu.panoramic-mobile-menu-standard-color-scheme .menu {
+    	border-top-color: #FFFFFF;
+	}
+	.main-navigation li {
+        display: block;
+        float: none;
+        position: relative;
+    }
+    .main-navigation li a {
+    	white-space: normal !important;
+    	border-bottom-width: 1px;
+    	border-bottom-style: solid;
+		box-shadow: none;
+		display: block;
+		color: #FFFFFF;
+        float: none;
+        padding: 10px 22px;
+        font-size: 14px;
+        text-align: left;
+  	}
+    #main-menu.panoramic-mobile-menu-standard-color-scheme li a {
+    	border-bottom-color: #FFFFFF;
+	}
+    #main-menu.panoramic-mobile-menu-standard-color-scheme li a:hover {
+    	background-color: rgba(0, 0, 0, 0.2); 
+  	}
+    .main-navigation ul ul a {
+    	text-transform: none;
+  	}
+    .main-navigation ul ul li:last-child a,
+    .main-navigation ul ul li a {
+        padding: 6px 30px;
+        width: auto;
+    }
+    .main-navigation ul ul ul li a {
+        padding: 6px 39px !important;
+    }
+    .main-navigation ul ul ul ul li a {
+        padding: 6px 47px !important;
+    }
+    .main-navigation ul ul ul ul ul li a {
+        padding: 6px 55px !important;
+    }
+
+    .main-navigation ul ul {
+        position: relative !important;
+    	box-shadow: none;
+        top: 0 !important;
+        left: 0 !important;
+        float: none !important;
+    	background-color: transparent;
+        padding: 0;
+        margin: 0;
+        display: none;
+    	border-top: none;
+    }
+	.main-navigation ul ul ul {
+		left: 0 !important;
+	}
+	.menu-dropdown-btn {
+    	display: block;
+    }
+    .open-page-item > ul.children,
+    .open-page-item > ul.sub-menu {
+    	display: block !important;
+    }
+    .open-page-item .otb-fa-angle-down {
+		color: #FFFFFF;
+    	font-weight: 700 !important;
+    }
+    
+    /* 1st level selected item */
+    #main-menu.panoramic-mobile-menu-standard-color-scheme a:hover,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current-menu-item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current_page_item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current-menu-parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current_page_parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current-menu-ancestor > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current_page_ancestor > a {
+		background-color: rgba(0, 0, 0, 0.2) !important;
+	}
+
+	/* 2nd level selected item */
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current-menu-item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current_page_item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current-menu-parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current_page_parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current-menu-ancestor > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current_page_ancestor > a {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	
+	/* 3rd level selected item */
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current-menu-item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current_page_item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current-menu-parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current_page_parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current-menu-ancestor > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current_page_ancestor > a {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+
+}
+
+</style>
+		<style type="text/css" id="wp-custom-css">
+			/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+/* Main Text */
+#sidebar {
+	color: #303030;
+}
+
+#main {
+	color: #303030;
+	font-size: medium;
+}
+
+#header {
+	color: #303030;
+	font-size: medium;
+}
+
+/* h */
+h1, h2, h3, h4, h5, h6 {
+	color: darkslategray;
+	font: FontAwesome;
+	margin: 1em 0 .5em;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: x-large;
+}
+
+#main h3 {
+	margin-top: 50px;
+	border-bottom: solid 1px silver;
+}
+
+h4 {
+	font-size: large;
+}
+
+#main h4 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+h5 {
+	font-size: medium;
+}
+
+h6 {
+	font-size: medium;
+}
+
+/* Text Margin */
+p {
+	text-indent: 1em;
+	text-align: justify;
+	hyphens: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+ul, ol {
+	margin: 10px 0 10px 20px;
+}
+
+/* ul, ol */
+ul {
+	list-style: disc;
+}
+
+ul ul {
+	list-style: circle;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+	margin: 5px 0 5px 1.5em;
+}
+
+/* em, th, dt */
+em {
+	font-style: normal;
+	font-weight: bold;
+	color: maroon;
+}
+
+th, dt {
+	color: darkslategray;
+}
+
+/* a */
+p a, ol a {
+	text-decoration: underline;
+}
+
+#sidebar a {
+	color: royalblue;
+}
+
+a:hover,
+#sidebar a:hover,
+#header a:hover,
+#footer a:hover {
+	color: red;
+}
+
+/* Theme-specific */
+#logo h1 {
+	color: DarkSlateGray;
+	font-size: 26px;
+	line-height: 1.4;
+	font-weight: normal;
+	margin-top: 15px;
+}
+
+#logo h2 {
+	color: gray;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+#menu ul {
+  color: #303030;
+  font-size: 18px;
+	text-transform: none;
+}
+#menu-primary-menu li {
+  color: #303030;
+  font-size: 18px;
+	text-transform: none;
+}
+li.menu-item {
+	color: #303030;
+	font-size: 18px;
+	text-transform: none;
+}
+ul.menu {
+	color: #303030;
+	font-size: 18px;
+	text-transform: none;
+}
+
+li {
+	    text-transform: none;
+	}
+
+#slider .featured-title span,
+.thinkupslider-sc .featured-title span {
+	color: white;
+/* #115172; */
+	font-size: 48px;
+	font-weight: 300;
+	line-height: 1.15;
+}
+
+#slider .featured-excerpt span,
+.thinkupslider-sc .featured-excerpt span {
+	color: white;
+/* #115172; */
+}
+
+/* Logo Table */
+table.logo {
+	margin-left: auto;
+  margin-right: auto;
+	table-layout: fixed;
+	border: none;
+	border-spacing: 0em 3ex;
+	border-collapse: separate;
+}
+
+table.logo td {
+	border: none;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.logo td a img {
+	border: none;
+}
+
+a img {
+border: none;
+}
+
+/* Plain Table */
+table.plain {
+	border: none;
+	width: auto;
+}
+
+table.plain td, table.plain th {
+	border: none;
+	border-bottom: solid 1px silver;
+	empty-cells: hide;
+	text-align: left;
+	vertical-align: top;
+	padding: 5px 10px 0;
+	width: auto;
+	white-space: nowrap;
+}
+
+table.plain th:empty, table.plain td:empty {
+	border: none;
+}
+
+/* Program Table */
+table.prog {
+	border: none;
+	width: 100%;
+}
+
+table.prog td, table.prog th {
+	border: none;
+	border-bottom: solid 1px silver;
+	empty-cells: hide;
+	text-align: left;
+	vertical-align: bottom;
+	padding: 5px 10px 0;
+	width: auto;
+	white-space: normal;
+}
+
+table.prog th.date { 
+	font-size: x-large; 
+	height: 50px; 
+	font-weight: bold; 
+	text-align: left;
+	vertical-align: bottom;
+}
+
+table.prog td.time {
+  vertical-align: top;
+}
+
+table.prog td.session { 
+	font-size: large; 
+	font-weight: bold; 
+	color: darkslategray; 
+}
+
+table.prog td.presentation { 
+	white-space: normal; 
+}		</style>
+		</head>
+
+<body data-rsssl=1 class="page-template-default page page-id-24 page-parent wp-embed-responsive panoramic-page-builders-use-theme-styles">
+
+<a class="skip-link screen-reader-text" href="#site-content">Skip to content</a>
+
+<header id="masthead" class="site-header panoramic-header-layout-standard" role="banner">
+
+    
+<div class="site-container">
+    
+    <div class="branding">
+                    <a href="https://xsig.ipsj.or.jp/2018/" title="xSIG 2018" class="title">xSIG 2018</a>
+            <div class="description">The 2nd. cross-disciplinary Workshop on Computing Systems, Infrastructures, and Programming</div>
+            </div><!-- .site-branding -->
+    
+    <div class="site-header-right">
+        
+                    <div class="info-text">
+            	            </div>
+			<ul class="social-links">
+<li><a href="mailto:x&#115;%69&#103;2&#048;%31%38%40x&#115;&#105;g&#046;%68&#112;c%63.%6a%70" target="_blank" rel="noopener" title="Send us an email" class="social-email"><i class="otb-fa otb-fa-envelope-o"></i></a></li></ul>                
+    </div>
+    <div class="clearboth"></div>
+    
+	    
+</div>
+
+<nav id="site-navigation" class="main-navigation border-bottom " role="navigation">
+	<span class="header-menu-button" aria-expanded="false"><i class="otb-fa otb-fa-bars"></i></span>
+	<div id="main-menu" class="main-menu-container panoramic-mobile-menu-standard-color-scheme">
+		<div class="main-menu-close"><i class="otb-fa otb-fa-angle-right"></i><i class="otb-fa otb-fa-angle-left"></i></div>
+		<div class="main-navigation-inner"><ul id="menu-primary-menu" class="menu"><li id="menu-item-1013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1013"><a href="https://xsig.ipsj.or.jp/2018/about/">about xSIG</a>
+<ul class="sub-menu">
+	<li id="menu-item-1023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1023"><a href="https://xsig.ipsj.or.jp/2018/about/">about xSIG</a></li>
+	<li id="menu-item-1014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1014"><a href="https://xsig.ipsj.or.jp/2018/about/history/">系譜</a></li>
+	<li id="menu-item-1012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012"><a href="https://xsig.ipsj.or.jp/2018/about/kangaeru/">「考える会」</a></li>
+</ul>
+</li>
+<li id="menu-item-1019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1019"><a href="https://xsig.ipsj.or.jp/2018/cf/dates/">Call for &#8230;</a>
+<ul class="sub-menu">
+	<li id="menu-item-1020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1020"><a href="https://xsig.ipsj.or.jp/2018/cf/dates/">重要日程</a></li>
+	<li id="menu-item-1030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1030"><a href="https://xsig.ipsj.or.jp/2018/cf/cfpp/">参加募集</a></li>
+	<li id="menu-item-1021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1021"><a href="https://xsig.ipsj.or.jp/2018/cf/cfp/">Call for Papers</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1024"><a href="https://xsig.ipsj.or.jp/2018/cf/cfp/format/">投稿論文フォーマット</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1028"><a href="https://xsig.ipsj.or.jp/2018/cf/posters/">Call for Posters</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1025"><a href="https://xsig.ipsj.or.jp/2018/cf/cfp/guide/">投稿の手引</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1022"><a href="https://xsig.ipsj.or.jp/2018/cf/call-for-exhibitions/">企業・団体展示募集</a></li>
+</ul>
+</li>
+<li id="menu-item-1026" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-24 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1026"><a href="https://xsig.ipsj.or.jp/2018/program/" aria-current="page">プログラム</a>
+<ul class="sub-menu">
+	<li id="menu-item-1031" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-24 current_page_item menu-item-1031"><a href="https://xsig.ipsj.or.jp/2018/program/" aria-current="page">プログラム</a></li>
+	<li id="menu-item-1027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1027"><a href="https://xsig.ipsj.or.jp/2018/program/talks/">基調講演・招待講演</a></li>
+	<li id="menu-item-1029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1029"><a href="https://xsig.ipsj.or.jp/2018/program/awards/">受賞論文</a></li>
+</ul>
+</li>
+<li id="menu-item-1015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1015"><a href="https://xsig.ipsj.or.jp/2018/org/">組織</a>
+<ul class="sub-menu">
+	<li id="menu-item-1017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1017"><a href="https://xsig.ipsj.or.jp/2018/org/oc-pc/">組織委員会・プログラム委員会</a></li>
+	<li id="menu-item-1016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1016"><a href="https://xsig.ipsj.or.jp/2018/org/young-pc/">ヤング・プログラム委員</a></li>
+	<li id="menu-item-1018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1018"><a href="https://xsig.ipsj.or.jp/2018/org/sponsors/">主催・協賛</a></li>
+</ul>
+</li>
+</ul></div>	</div>
+</nav><!-- #site-navigation -->
+    
+</header><!-- #masthead -->
+
+
+<div id="content" class="site-content site-container ">
+	<a name="site-content"></a>
+        
+                
+    
+	<div id="primary" class="content-area  ">
+		<main id="main" class="site-main" role="main">
+            
+                
+    <header class="entry-header">
+        
+        <h1 class="entry-title">プログラム</h1>        
+    </header><!-- .entry-header -->
+
+
+			
+				
+<article id="post-24" class="post-24 page type-page status-publish hentry">
+
+	<div class="entry-content">
+		<div align="right"><a href="http://easychair.org/smart-program/xSIG2018/" target="_blank">EasyChair Smart Program</a> <span style="font-size: smaller">（abstract 等の追加情報あり．ただし，セッション内の発表順は↓が正しい）</span></div>
+<ul style="font-size: small">
+<li>5/21: ポスター セッションの会場を，5/28 から 5/29 まで Room 1 に常設としました．<br />
+それに伴い，セッション 5C の会場が，Room 2+1 → 2 に変更となりました．</li>
+</ul>
+<p><span style="font-size: larger">Days: 5/28（月），<a href="#29">5/29（火）</a>，<a href="#30">5/30（水）</a></span></p>
+<table class="prog" width="100%" style="border-collapse: separate;border-spacing: 0px 5px">
+<tr>
+<th class="date" colspan="5"><a name="28">5/28（月）</a></th>
+</tr>
+<tr>
+<td class="time">13:30</td>
+<td class="session" colspan="4">受付開始</td>
+</tr>
+<tr>
+<td class="time">14:15</td>
+<td class="session" colspan="2">オープニング</td>
+<td>実行委員長： 田浦 健次朗（東京大学）</td>
+<td>一橋講堂</td>
+</tr>
+<tr>
+<td class="time" rowspan="8">14:30</td>
+<td class="session" colspan="2">2A: 並行性制御</td>
+<td>座長：合田 和生（東京大学）</td>
+<td>一橋講堂</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+林 昌樹, 二間瀬 悠希, 多治見 知紀（名古屋工業大学）, 塩谷 亮太（名古屋大学）, 五島 正裕 (NII), 津邑 公暁（名古屋工業大学）<br />
+<b>トランザクショナルメモリとロックを併用する並行性制御手法</b> (<a href="awards/">OB4</a>)</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+田辺 敬之（筑波大学）, 川島 英之（慶應義塾大学）, 建部 修見（筑波大学）<br />
+<b>並行性制御法 Cicada と並列ログ先行書き込み法 P-WAL の結合</b> (<a href="awards/">OB4</a>)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="3" class="presentation">
+中園 翔, 熊崎 宏樹, 内山 寛之 (NTT)<br />
+<b>InvisibleWriteRule: トランザクションの書込み最適化</b> (<a href="awards/">BR</a>)</td>
+</tr>
+<td class="session" colspan="2">2B: 高効率アプリケーション</td>
+<td>座長：小野 貴継（九州大学）</td>
+<td>Room 4+3</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+辻丸 勇樹, 坂本 龍一, 近藤 正章, 中村 宏（東京大学）<br />
+<b>LPWA 通信を利用する IoT プラットフォーム向けの電力効率を考慮したゲートウェイ配置手法の研究</b> (<a href="awards/">OM2</a>)</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+Hiroaki Honda (Kyushu University, JST-CREST), Takeshi Noro (None)<br />
+<b>Develpment and Performance Evaluation of Configuration Interaction and Complete Active Space SCF Calculation Program by Ruby Scripting Language</b></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="3" class="presentation">
+井手口 裕太, 大野 善之, 石坂 一久 (NEC)<br />
+<b>ベクトルプロセッサによるバイラテラルフィルタの高速化</b></td>
+</tr>
+<tr>
+<td class="time">16:00</td>
+<td class="session" colspan="4">コーヒー ブレイク</td>
+</tr>
+<tr>
+<td class="time" rowspan="2">16:30</td>
+<td class="session" colspan="2">3: <a href="talks#kna">基調講演 A</a></td>
+<td>座長： 川島 英之（慶應義塾大学）</td>
+<td>一橋講堂</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="presentation" colspan="3">田中 譲（北海道大学 名誉教授，物質・材料研究機構 MIリサーチアドバイザー）<br />
+<b>オーグメンテーション： インテグレーションからフェデレーションへ</b></td>
+</tr>
+<tr>
+<td class="time" style="border: none">18:00</td>
+<td style="width: 2em"></td>
+</tr>
+<p><!-- - --></p>
+<tr>
+<th class="date" colspan="5"><a name="29">5/29（火）</a></th>
+</tr>
+<tr>
+<td class="time" rowspan="2">09:30</td>
+<td class="session" colspan="2">4: <a href="talks#iva">招待講演 A</a></td>
+<td>座長：宮澤 慎一（セコム）</td>
+<td>一橋講堂</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="presentation" colspan="3">楠 正憲（Japan Digital Design 株式会社）<br />
+<b>ブロックチェーンの実用化へ向けた課題と、仮想通貨規制を巡る論点</b></td>
+</tr>
+<tr>
+<td class="time">11:00</td>
+<td class="session" colspan="4">ランチ ブレイク</td>
+</tr>
+<tr>
+<td class="time" rowspan="18">12:30</td>
+<td class="session" colspan="4">5: Young Researcher Sessions <span style="font-size: smaller">（発表＋質疑：20分）</span></td>
+</tr>
+<td class="session" colspan="2">5A: データベース</td>
+<td>座長：高野 了成（産業技術総合研究所）</td>
+<td>一橋講堂</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+長門 広洋, 山西 雄大, 鎌田 十三郎, 高木 由美, 太田 能（神戸大学）<br />
+<b>エッジ環境向け分散 key-value ストアと明示的データ分散管理手法</b></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+一瀬 絢衣（お茶の水女子大学）, 竹房 あつ子 (NII)，中田 秀基（産業技術総合研究所）, 小口 正人（お茶の水女子大学）<br />
+<b>Kafka を利用したリアルタイム動画像解析フレームワークのレプリケーションによる性能変化の考察</b> (<a href="awards/">Eff</a>)</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+高城 光平（東北大学）, 上野 雄大, 大堀 淳（東北大学電気通信研究所）<br />
+<b>ML 系言語とストリーミングデータベースの統合</b></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+佐藤 佑紀, 早水 悠登, 合田 和生, 喜連川 優（東京大学）<br />
+<b>Host Managed 方式 SMR 型磁気ディスクドライブの性能エミュレーション環境の構築と入出力トレースを用いた予備実験</b></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="3" class="presentation">
+堀江 悠樹（筑波大学）, 川島 英之（慶應義塾大学）, 建部 修見（筑波大学）<br />
+<b>耐ビザンチン障害性を持つ分散合意手法 PBFT の調査</b></td>
+</tr>
+<td class="session" colspan="2">5B: HW/SW システム</td>
+<td>座長：長谷川 揚平（東芝メモリ）</td>
+<td>Room 4+3</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+中澤 弘樹, 田浦 健次朗（東京大学）<br />
+<b>低レイテンシ SSD をメモリ拡張として利用したときの性能評価</b></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+寺崎 達朗, 田浦 健次朗（東京大学）<br />
+<b>Locality-Aware な戦略に基づく Work Stealing の実装</b></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+井原 央翔, 佐藤 重幸, 田浦 健次朗（東京大学）<br />
+<b>LL(*) 文法に基づくスキャナレス構文解析器の提案</b> (<a href="awards/">Ori</a>)</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+坂本 譲二, 藤枝 直輝, 市川 周一（豊橋技術科学大学）<br />
+<b>高位合成で生成されたプロセッサに対する特殊命令実装の検討</b></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="3" class="presentation">
+魚谷 孝太（東北大学）, 上野 雄大, 大堀 淳（東北大学電気通信研究所）<br />
+<b>Java PathFinder による ML プログラムの捕捉されない例外の検証</b></td>
+</tr>
+<td class="session" colspan="2">5C: GPU &amp; 学習</td>
+<td>座長：成瀬 彰 (NVIDIA)</td>
+<td>Room 2</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+蟹 暁, 朝倉 泉, 増原 英彦, 青谷 知幸（東京工業大学）<br />
+<b>GPGPU プログラム最適化のためのプログラム合成器とその適用手法</b></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+長坂 一生, 富永 浩文, 中村 あすか, 前川 仁孝（千葉工業大学）<br />
+<b>CUDA における JDS 形式疎行列ベクトル積に対するダイナミックパラレリズムの評価</b></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+見村 朔, 遠藤 敏夫（東京工業大学）<br />
+<b>LSTM を用いた映像分類システムの学習順序による高速化</b> (<a href="awards/">Pre</a>)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="3" class="presentation">
+樋口 兼一, 田浦 健次朗（東京大学）<br />
+<b>深層学習フレームワークにおける CPU と GPU の性能解析および最適化</b></td>
+</tr>
+<tr>
+<td class="time">14:10</td>
+<td class="session" colspan="4">コーヒー ブレイク<font style="font-size: smaller">（ポスターの準備を含む）</font></td>
+</tr>
+<tr>
+<td class="time" rowspan="2">15:15</td>
+<td class="session" colspan="2">6: <a href="talks#knb">基調講演 B</a></td>
+<td>座長： 田浦 健次朗（東京大学）</td>
+<td>一橋講堂</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="presentation" colspan="3">Krishnamoorthy, Sriram (Pacific Northwest National Laboratory)<br />
+<b>Scalable Runtime Support for Task-parallel Programs</b></td>
+</tr>
+<tr>
+<td class="time">16:45</td>
+<td class="session" colspan="2"><a href="/2018/program/posters/">7: ポスター セッション</a></td>
+<td>チェア： 藤枝 直輝（豊橋技術科学大学）</td>
+<td rowspan="3" style="text-align: center;vertical-align: middle">Room 3+2+1</td>
+</tr>
+<tr>
+<td class="time">17:45</td>
+<td class="session" colspan="2">表彰式</td>
+<td>PC 委員長： 五島 正裕 (NII)</td>
+</tr>
+<tr>
+<td class="time">18:00</td>
+<td class="session" colspan="3">懇親会</td>
+</tr>
+<tr>
+<td class="time" style="border: none">20:00</td>
+<p><!-- - --></p>
+<tr>
+<th class="date" colspan="5"><a name="30">5/30（水）</a></th>
+</tr>
+<tr>
+<td class="time" rowspan="2">09:30</td>
+<td class="session" colspan="2">8: <a href="talks#ivb">招待講演 B</a></td>
+<td>座長： 井上 弘士（九州大学）</td>
+<td>一橋講堂</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="presentation" colspan="3">田中 宗（早稲田大学 高等研究所）<br />
+<b>量子アニーリングの理論と応用</b></td>
+</tr>
+<tr>
+<td class="time">11:00</td>
+<td class="session" colspan="4">ランチ ブレイク</td>
+</tr>
+<tr>
+<td class="time" rowspan="9">12:30</td>
+<td class="session" colspan="2">9A: データアーキテクチャ</td>
+<td>座長：宮崎 純（東京工業大学）</td>
+<td>一橋講堂</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+Masafumi Oyamada (NEC)<br />
+<b>Adaptive Partial Aggregation Tree </b></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="3" class="presentation">
+渡辺 敬之（筑波大学）, 川島 英之（慶應義塾大学）, 建部 修見（筑波大学）<br />
+<b>Masstree の一括構築法</b> (<a href="awards/">Sig</a>)</td>
+</tr>
+<td class="session" colspan="2">9B: 分散システム</td>
+<td>座長：竹房 あつ子 (NII)</td>
+<td>Room 4+3</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+大黒 晴之（筑波大学）, 川島 英之（慶應義塾大学）, 建部 修見（筑波大学）<br />
+<b>Skew を考慮した MapReduce Shuffle 向け集団通信の設計と評価</b> (<a href="awards/">BM2</a>)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="3" class="presentation">
+佐々木 伽音, 小田 尚輝, 宮澤 航人, 花井 雅人, 山口 実靖（工学院大学）<br />
+<b>TCP BBR と他 TCP の性能公平性に関する一考察</b> (<a href="awards/">OUG</a>)</td>
+</tr>
+<td class="session" colspan="2">9C: ニューラル ネットワーク</td>
+<td>座長：山田 裕（東芝デバイス&amp;ストレージ）</td>
+<td>Room 2+1</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+石井 潤, 坂本 龍一, 近藤 正章（東京大学）<br />
+<b>深層ニューラルネットワークにおけるニューロン毎の量子化ビット幅最適化とそのアクセラレータアーキテクチャ</b></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="3" class="presentation">
+平賀 由利亜, 福岡 久和, 三谷 剛正, 中田 尚, 中島 康彦（奈良先端科学技術大学院大学）<br />
+<b>共有 CNN を用いた高効率な分割推論実行モデル</b> (<a href="awards/">BM1</a>)</td>
+</tr>
+<tr>
+<td class="time">13:30</td>
+<td class="session" colspan="4">コーヒー ブレイク</td>
+</tr>
+<tr>
+<td class="time" rowspan="6">13:45</td>
+<td class="session" colspan="2">10A: データベースシステム</td>
+<td>座長：中園 翔（NTT）</td>
+<td>一橋講堂</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+羅 博明, 早水 悠登, 合田 和生, 喜連川 優（東京大学）<br />
+<b>データベースシステムにおける分析指向問合せ処理のプロセッサ動作モードを考慮した消費エネルギーモデル</b> (<a href="awards/">OM1</a>)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="3" class="presentation">
+中村 泰大（筑波大学）, 川島 英之（慶應義塾大学）, 建部 修見（筑波大学）<br />
+<b>Group Commit: Friend or Foe?</b> (<a href="awards/">Eff</a>)</td>
+</tr>
+<td class="session" colspan="2">10B: プログラム最適化</td>
+<td>座長：大島 聡史（九州大学）</td>
+<td>Room 4+3</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+石田 幸輝, 三浦 瑛絵, 深谷 猛, 岩下 武史（北海道大学）, 中島 浩（京都大学）<br />
+<b>DIA 形式と CRS 形式を組み合わせた Hybrid 形式を用いた疎行列ベクトル積のキャッシュブロッキング</b>  (<a href="awards/">BB4</a>)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="3" class="presentation">
+Senxi Li, Takeshi Iwashita and Takeshi Fukaya (Hokkaido University)<br />
+<b>Enhancement of Algebraic Block Multi-Color Ordering for ILU Preconditioning and Its Performance Evaluation in Preconditioned GMRES Solver</b> (<a href="awards/">BR</a>)</td>
+</tr>
+<tr>
+<td class="time">14:45</td>
+<td class="session" colspan="4">コーヒー ブレイク</td>
+</tr>
+<tr>
+<td class="time" rowspan="6">15:00</td>
+<td class="session" colspan="2">11A: データ処理フレームワーク</td>
+<td>座長：中田 秀基（産業技術総合研究所）</td>
+<td>一橋講堂</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+斎藤 貴文, 善明 晃由（サイバーエージェント）<br />
+<b>ストリーム処理におけるステートフルデータの管理手法</b></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="3" class="presentation">
+松本 拓海（大阪大学）, 山室 健 (NTT), 小笠原 麻斗, 佐々木 勇和, 鬼塚 真（大阪大学）<br />
+<b>探索的データ分析におけるフレームワークの効率化</b></td>
+</tr>
+<td class="session" colspan="2">11B: プログラム開発</td>
+<td>座長：新井 淳也 (NTT)</td>
+<td>Room 4+3</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" class="presentation">
+坪井 良介, 山口 大輔, 倉光 君郎（横浜国立大学）<br />
+<b>NezCC: 言語非依存の PEG パーサジェネレータ</b></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="3" class="presentation">
+Christian Helm and Kenjiro Taura (The University of Tokyo)<br />
+<b>A Tool Supported Approach to Precisely Identify Memory Performance Problems</b></td>
+</tr>
+<tr>
+<td class="time">16:00</td>
+<td class="session" colspan="2">クロージング</td>
+<td>PC 委員長： 五島 正裕 (NII)</td>
+<td>一橋講堂</td>
+</td>
+</tr>
+<tr>
+<td class="time" style="border: none">16:15</td>
+</tr>
+</table>
+<table class="plain" align="right">
+<tr>
+<td></td>
+<td>(BR), etc.</td>
+<td>: <a href="awards/">受賞</a></td>
+</tr>
+</table>
+<dl style="clear: both">
+<dt>NOTICE:</dt>
+<dd style="text-align: justify">xSIG 2018 does not publish any proceedings, and gives the authors an opportunity to get feedback from the xSIG 2018 attendees.  Thus, we expect that acceptance in xSIG 2018 should not preclude subsequent publication in conferences or journals.</dd>
+</dl>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+			</footer><!-- .entry-footer -->
+	
+</article><!-- #post-## -->
+
+				
+			
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+    
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="mlp_widget-3" class="widget mlp_widget"><div class="mlp-language-box mlp_language_box"><ul><li><a rel="alternate" href="https://xsig.ipsj.or.jp/2018/en/program/?noredirect=en_US"><img src="https://xsig.ipsj.or.jp/2018/wp-content/plugins/multilingual-press/assets/images/flags/en.gif" alt="English"> English</a></li><li><a class="current-language-item" href=""><img src="https://xsig.ipsj.or.jp/2018/wp-content/plugins/multilingual-press/assets/images/flags/ja.gif" alt="日本語"> 日本語</a></li></ul></div></aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://xsig.ipsj.or.jp/2018/">
+	<input type="search" class="search-field" placeholder="Search..." value="" name="s" title="Search for:" />
+	<a class="search-submit">
+		<i class="otb-fa otb-fa-search"></i>
+	</a>
+</form></aside><aside id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><h2><span style="font-size: large; font-weight: bold; text-transform: none;">What's New</span></h2>
+<table class="plain">
+<tbody>
+<tr>
+<th colspan="2">2018/06/06</th>
+</tr>
+<tr>
+<td></td>
+<td><a href="/2018/program/talks/">基調講演・招待講演</a> 発表資料（一部）</td>
+</tr>
+<tr>
+<th colspan="2">2018/04/10</th>
+</tr>
+<tr>
+<td></td>
+<td><a href="/2018/org/young-pc#voice">ヤング PC の「声」</a></td>
+</tr>
+<tr>
+<th colspan="2">2018/03/26</th>
+</tr>
+<tr>
+<td></td>
+<td><a href="/2018/program/awards">受賞論文</a> 決定</td>
+</tr>
+<tr>
+<th colspan="2">2018/03/13</th>
+</tr>
+<tr>
+<td></td>
+<th><a href="/2018/program/talks/">基調講演・招待講演</a></th>
+</tr>
+<tr>
+<td></td>
+<td>　田中 譲 先生（北大 名誉教授）</td>
+</tr>
+<tr>
+<td></td>
+<td>　Dr. Krishnamoorthy, Sriram (PNNL)</td>
+</tr>
+<tr>
+<td></td>
+<td>　楠 正憲 氏 (Japan Digital Design)</td>
+</tr>
+<tr>
+<td></td>
+<td>　田中 宗 先生（早稲田）</td>
+</tr>
+</tbody>
+</table></div></aside><aside id="custom_html-5" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><h2><a href="/2018/cf/dates/"><span style="font-size: large;">重要日程</span></a> (JST)</h2>
+<table class="plain">
+<tbody>
+<tr>
+<th colspan="2">2018/05/28（月）～30（水）</th>
+</tr>
+<tr>
+<td></td>
+<td>xSIG 2018 は終了しました</td>
+</tr>
+</tbody>
+</table></div></aside></div><!-- #secondary -->
+    
+        
+
+</div><!-- #content -->
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+	
+	<div class="site-footer-widgets">
+        <div class="site-container">
+        
+                        <ul>
+                <li id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><span style="white-space: nowrap; hyphens: none;">2017-2018 © xSIG Organizing Committee, All rights reserved.</span></div></li>
+            </ul>
+    		    		
+            <div class="clearboth"></div>
+        </div>
+    </div>
+	
+	<div class="site-footer-bottom-bar">
+	
+		<div class="site-container">
+			
+			<div class="site-footer-bottom-bar-left">
+
+             	Theme by <a href="https://www.outtheboxthemes.com" rel="nofollow">Out the Box</a> 
+                
+			</div>
+	        
+	        <div class="site-footer-bottom-bar-right">
+                
+	                            
+	        </div>
+	        
+	    </div>
+		
+        <div class="clearboth"></div>
+	</div>
+	
+</footer><!-- #colophon -->
+
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/js/navigation.js?ver=1.1.25' id='panoramic-navigation-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/js/jquery.carouFredSel-6.2.1-packed.js?ver=1.1.25' id='panoramic-caroufredsel-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/js/jquery.touchSwipe.min.js?ver=1.1.25' id='panoramic-touchswipe-js'></script>
+<script type='text/javascript' id='panoramic-custom-js-extra'>
+/* <![CDATA[ */
+var variables = {"sliderTransitionSpeed":"450"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/js/custom.js?ver=1.1.25' id='panoramic-custom-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/js/skip-link-focus-fix.js?ver=1.1.25' id='panoramic-skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-includes/js/wp-embed.min.js?ver=5.8.4' id='wp-embed-js'></script>
+
+</body>
+</html>
+<!-- Dynamic page generated in 2.085 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2022-08-02 17:10:42 -->
+
+<!-- super cache -->
