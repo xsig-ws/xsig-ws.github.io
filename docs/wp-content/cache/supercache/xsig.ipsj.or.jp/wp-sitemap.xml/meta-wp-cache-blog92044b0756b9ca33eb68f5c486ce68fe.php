@@ -1,0 +1,1 @@
+<?php die(); ?>{"headers":{"Vary":"Vary: Accept-Encoding, Cookie","X-Powered-By":"X-Powered-By: PHP\/7.4.25","Content-type":"Content-type: application\/xml; charset=UTF-8","Last-Modified":"Last-Modified: Tue, 22 Feb 2022 07:04:55 GMT"},"uri":"xsig.ipsj.or.jp\/wp-sitemap.xml","blog_id":"1","post":0,"key":"blogxsig.ipsj.or.jp443\/wp-sitemap.xml"}
