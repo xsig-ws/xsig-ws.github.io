@@ -1,0 +1,1218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-09-17 14:04+0530\n"
+"PO-Revision-Date: 2020-09-17 14:04+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html__;esc_attr;esc_attr__;"
+"esc_attr_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:23 404.php:40 404.php:52
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:24 404.php:41 404.php:53
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"on right or a search?"
+msgstr ""
+
+#: comments.php:36
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: comments.php:44
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:48
+msgid "Edit"
+msgstr ""
+
+#: comments.php:52
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:88 comments.php:112
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:91 comments.php:115
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:92 comments.php:116
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:129
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:133
+msgid "Leave a Reply:"
+msgstr ""
+
+#: comments.php:136
+msgid "Name *"
+msgstr ""
+
+#: comments.php:138
+msgid "Email *"
+msgstr ""
+
+#: comments.php:140
+msgid "Website"
+msgstr ""
+
+#: comments.php:142
+msgid "Comment"
+msgstr ""
+
+#: elvinaa-pro/class-customize.php:77 inc/theme-info.php:229
+msgid "Elvinaa Pro"
+msgstr ""
+
+#: elvinaa-pro/class-customize.php:78
+msgid "Buy Pro Version"
+msgstr ""
+
+#: functions.php:44
+msgid ""
+"You need to update your PHP version to a minimum of 5.6 to run Elvinaa Theme."
+msgstr ""
+
+#: functions.php:45
+msgid "Actual version is:"
+msgstr ""
+
+#: functions.php:45
+msgid "required is"
+msgstr ""
+
+#: functions.php:96
+msgid "Primary"
+msgstr ""
+
+#: functions.php:167 inc/customizer/customizer.php:853
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:169 functions.php:179 functions.php:189 functions.php:199
+#: functions.php:209
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:177
+msgid "Footer Column1"
+msgstr ""
+
+#: functions.php:187
+msgid "Footer Column2"
+msgstr ""
+
+#: functions.php:197
+msgid "Footer Column3"
+msgstr ""
+
+#: functions.php:207
+msgid "Footer Column4"
+msgstr ""
+
+#: functions.php:217
+msgid "Top Left Sidebar"
+msgstr ""
+
+#: functions.php:219
+msgid "Add widget here."
+msgstr ""
+
+#: functions.php:304
+msgid "Search here"
+msgstr ""
+
+#: functions.php:306
+msgid "Search"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:386
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/customizer/customizer.php:42
+msgid "Display Site Title and Tagline"
+msgstr ""
+
+#: inc/customizer/customizer.php:56
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:71 inc/customizer/customizer.php:94
+msgid "Home Background Image"
+msgstr ""
+
+#: inc/customizer/customizer.php:95
+msgid ""
+"This setting will add background image if Background Image was selected "
+"above."
+msgstr ""
+
+#: inc/customizer/customizer.php:111
+msgid "Home Background Content"
+msgstr ""
+
+#: inc/customizer/customizer.php:122
+msgid "ENTER YOUR HEADING HERE"
+msgstr ""
+
+#: inc/customizer/customizer.php:134
+msgid "Heading Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:135
+msgid "heading for the home section"
+msgstr ""
+
+#: inc/customizer/customizer.php:150
+msgid "ENTER YOUR SUBHEADING HERE"
+msgstr ""
+
+#: inc/customizer/customizer.php:162
+msgid "SubHeading Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:163
+msgid "Subheading for the home section"
+msgstr ""
+
+#: inc/customizer/customizer.php:191
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:192
+msgid "Button text for the home section"
+msgstr ""
+
+#: inc/customizer/customizer.php:213
+msgid "Button URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:214
+msgid "Button URL for the home section"
+msgstr ""
+
+#: inc/customizer/customizer.php:234
+msgid "Button 2 Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:235
+msgid "Button 2 text for the home section"
+msgstr ""
+
+#: inc/customizer/customizer.php:255
+msgid "Button 2 URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:256
+msgid "Button 2 URL for the home section"
+msgstr ""
+
+#: inc/customizer/customizer.php:271
+msgid "Background Text Position"
+msgstr ""
+
+#: inc/customizer/customizer.php:294
+msgid "Select Text Position:"
+msgstr ""
+
+#: inc/customizer/customizer.php:297 inc/customizer/customizer.php:880
+#: inc/customizer/data-sanitization.php:64
+#: inc/customizer/data-sanitization.php:213
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/customizer.php:298 inc/customizer/data-sanitization.php:214
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/customizer.php:299 inc/customizer/customizer.php:879
+#: inc/customizer/data-sanitization.php:63
+#: inc/customizer/data-sanitization.php:215
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/customizer.php:315
+msgid "Parallax Scroll"
+msgstr ""
+
+#: inc/customizer/customizer.php:338
+msgid "Enable Parallax Scroll:"
+msgstr ""
+
+#: inc/customizer/customizer.php:339
+msgid ""
+"Choose whether to show a parallax scroll feature for the Home Background "
+"image"
+msgstr ""
+
+#: inc/customizer/customizer.php:354
+msgid "Dark Overlay"
+msgstr ""
+
+#: inc/customizer/customizer.php:378
+msgid "Enable Dark Overlay:"
+msgstr ""
+
+#: inc/customizer/customizer.php:379
+msgid "Choose whether to show a dark overlay over background image"
+msgstr ""
+
+#: inc/customizer/customizer.php:391 inc/customizer/customizer.php:406
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:429
+msgid "Choose Slider or Static Background Image:"
+msgstr ""
+
+#: inc/customizer/customizer.php:430
+msgid ""
+"Choose whether to show a slider with multiple background images to slide or "
+"just a static background image"
+msgstr ""
+
+#: inc/customizer/customizer.php:432
+msgid "Single Background Image"
+msgstr ""
+
+#: inc/customizer/customizer.php:433
+msgid "Slider Images"
+msgstr ""
+
+#: inc/customizer/customizer.php:449
+msgid "Select Slider Category"
+msgstr ""
+
+#: inc/customizer/customizer.php:471
+msgid "Choose Slider Post Category"
+msgstr ""
+
+#: inc/customizer/customizer.php:472
+msgid "Select the category that the slider will show posts from."
+msgstr ""
+
+#: inc/customizer/customizer.php:486 inc/customizer/customizer.php:501
+msgid "Sticky Header Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:524
+msgid "Enable Sticky Header Feature:"
+msgstr ""
+
+#: inc/customizer/customizer.php:525
+msgid "Choose whether to enable a sticky header feature for the site"
+msgstr ""
+
+#: inc/customizer/customizer.php:536 inc/customizer/customizer.php:551
+#: inc/theme-info.php:279
+msgid "Color Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:574
+msgid "Links Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:595
+msgid "Links Hover Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:616
+msgid "Headings Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:637
+msgid "Heading Hover Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:659
+msgid "Buttons Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:680
+msgid "Buttons Hover Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:701
+msgid "Top Menu Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:722
+msgid "Category Blinker Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:735 inc/customizer/customizer.php:750
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:773
+msgid "Enable Author Image Display in Post"
+msgstr ""
+
+#: inc/customizer/customizer.php:794
+msgid "Enable Category Blinker Animation"
+msgstr ""
+
+#: inc/customizer/customizer.php:810
+msgid "Blog Columns Style"
+msgstr ""
+
+#: inc/customizer/customizer.php:833
+msgid "Select Blog Posts Column Style:"
+msgstr ""
+
+#: inc/customizer/customizer.php:836 inc/customizer/data-sanitization.php:85
+msgid "One Column"
+msgstr ""
+
+#: inc/customizer/customizer.php:837 inc/customizer/data-sanitization.php:86
+msgid "Two Columns"
+msgstr ""
+
+#: inc/customizer/customizer.php:876
+msgid "Select sidebar position:"
+msgstr ""
+
+#: inc/customizer/customizer.php:881 inc/customizer/data-sanitization.php:65
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer.php:897
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/customizer/customizer.php:920
+msgid "Post Excerpt Length"
+msgstr ""
+
+#: inc/customizer/customizer.php:936
+msgid "Read More Button"
+msgstr ""
+
+#: inc/customizer/customizer.php:948 inc/template-functions.php:312
+#: template-parts/content-gallery.php:152 template-parts/content.php:132
+msgid "CONTINUE READING..."
+msgstr ""
+
+#: inc/customizer/customizer.php:959
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:975
+msgid "Social Share"
+msgstr ""
+
+#: inc/customizer/customizer.php:998
+msgid "Enable Facebook Share Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:1019
+msgid "Enable Twitter Share Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:1040
+msgid "Enable LinkedIn Share Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:1061
+msgid "Enable Pinterest Share Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:1074
+msgid "Top Bar Icons Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:1089
+msgid "Top Bar Social Icons"
+msgstr ""
+
+#: inc/customizer/customizer.php:1112
+msgid "Enable Facebook Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:1133
+msgid "Facebook Link URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:1155
+msgid "Enable Twitter Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:1176
+msgid "Twitter Link URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:1198
+msgid "Enable Instagram Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:1219
+msgid "Instagram Link URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:1241
+msgid "Enable YouTube Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:1262
+msgid "YouTube Link URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:1284
+msgid "Enable LinkedIn Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:1305
+msgid "LinkedIn Link URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:1327
+msgid "Enable Pinterest Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:1348
+msgid "Pinterest Link URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:1370
+msgid "Enable RSS Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:1391
+msgid "RSS Link URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:1404 inc/customizer/customizer.php:1419
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:1431
+msgid "Copyrights Elvinaa. All Rights Reserved"
+msgstr ""
+
+#: inc/customizer/customizer.php:1442
+msgid "Footer copyright text"
+msgstr ""
+
+#: inc/customizer/customizer.php:1443
+msgid "Copyright text to be displayed in the footer."
+msgstr ""
+
+#: inc/customizer/customizer.php:1458
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/customizer/customizer.php:1481
+msgid "Number of Footer Widgets:"
+msgstr ""
+
+#: inc/customizer/customizer.php:1484 inc/customizer/data-sanitization.php:106
+#: inc/customizer/data-sanitization.php:256
+msgid "3"
+msgstr ""
+
+#: inc/customizer/customizer.php:1485 inc/customizer/data-sanitization.php:107
+#: inc/customizer/data-sanitization.php:257
+msgid "4"
+msgstr ""
+
+#: inc/customizer/customizer.php:1501
+msgid "Footer Colors"
+msgstr ""
+
+#: inc/customizer/customizer.php:1523
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1545
+msgid "Footer Content Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1566
+msgid "Footer Links Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1579 inc/customizer/customizer.php:1594
+msgid "Preloader Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:1617
+msgid "Enable Preloader for site:"
+msgstr ""
+
+#: inc/customizer/customizer.php:1618
+msgid "Choose whether to show a preloader before a site opens"
+msgstr ""
+
+#: inc/customizer/data-sanitization.php:30
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer/data-sanitization.php:31
+msgid "No"
+msgstr ""
+
+#: inc/customizer/data-sanitization.php:127
+#: inc/customizer/data-sanitization.php:170
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/data-sanitization.php:128
+#: inc/customizer/data-sanitization.php:171
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer/data-sanitization.php:148
+msgid "Style 1"
+msgstr ""
+
+#: inc/customizer/data-sanitization.php:149
+msgid "Style 2"
+msgstr ""
+
+#: inc/customizer/data-sanitization.php:192
+msgid ""
+"Header Style1 - This will show full background image as header with menu "
+"over the image"
+msgstr ""
+
+#: inc/customizer/data-sanitization.php:193
+msgid "Header Style2 - This header style will show background image below menu"
+msgstr ""
+
+#: inc/template-functions.php:13 inc/template-functions.php:122
+msgid "Skip to content"
+msgstr ""
+
+#: inc/template-functions.php:86 inc/template-functions.php:154
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/template-functions.php:208 inc/template-functions.php:217
+msgid " | Theme by "
+msgstr ""
+
+#: inc/template-functions.php:208 inc/template-functions.php:217
+msgid "Spiracle Themes"
+msgstr ""
+
+#: inc/template-functions.php:258
+msgid "SEARCH RESULTS"
+msgstr ""
+
+#: inc/template-functions.php:261
+msgid "PAGE NOT FOUND"
+msgstr ""
+
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:72 template-parts/content-page.php:35
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/theme-info.php:135
+msgid "About Elvinaa Theme"
+msgstr ""
+
+#: inc/theme-info.php:135
+msgid "About Elvinaa"
+msgstr ""
+
+#: inc/theme-info.php:135
+msgid "elvinaa-theme-info"
+msgstr ""
+
+#: inc/theme-info.php:135
+msgid "elvinaa_theme_info"
+msgstr ""
+
+#: inc/theme-info.php:148
+msgid "Thank you for using Elvinaa free WordPress theme"
+msgstr ""
+
+#: inc/theme-info.php:150
+msgid ""
+"Elvinaa is simple, clean and elegant blog template for bloggers. Elvinaa is "
+"crafted with a user friendly approach that has a minimalist look. It is "
+"perfect for Freelancers, Writers, Photographers, Bloggers, Magazine, News "
+"Editorial etc. Features includes Responsive Design, Featured Post Slider, "
+"Parallax Background, Left and Right Sidebars, SEO friendly code, Theme "
+"Options, Unlimited Color Settings, Footer Widgets, Sticky Header, 1 Click "
+"Demo Import, Contact Form, Social Sharing etc."
+msgstr ""
+
+#: inc/theme-info.php:162
+msgid "VIEW DEMO"
+msgstr ""
+
+#: inc/theme-info.php:172
+msgid "VIEW DOCUMENTATION"
+msgstr ""
+
+#: inc/theme-info.php:182
+msgid "VIDEO TUTORIALS"
+msgstr ""
+
+#: inc/theme-info.php:192
+msgid "ASK FOR SUPPORT"
+msgstr ""
+
+#: inc/theme-info.php:203
+msgid "RATE OUR THEME"
+msgstr ""
+
+#: inc/theme-info.php:213
+msgid "VIEW CHANGELOGS"
+msgstr ""
+
+#: inc/theme-info.php:222
+msgid "Why should you Buy our PRO version?"
+msgstr ""
+
+#: inc/theme-info.php:227
+msgid "Feature"
+msgstr ""
+
+#: inc/theme-info.php:228
+msgid "Elvinaa Free"
+msgstr ""
+
+#: inc/theme-info.php:234
+msgid "Parallax Background Image"
+msgstr ""
+
+#: inc/theme-info.php:239
+msgid "Favicon, Logo, Title and Tagline Customization"
+msgstr ""
+
+#: inc/theme-info.php:244
+msgid "Customizer Theme Options"
+msgstr ""
+
+#: inc/theme-info.php:249
+msgid "Contact Form"
+msgstr ""
+
+#: inc/theme-info.php:254
+msgid "Post Category Slider"
+msgstr ""
+
+#: inc/theme-info.php:259
+msgid "Built in Social Media Sharing Icons"
+msgstr ""
+
+#: inc/theme-info.php:264
+msgid "Top Social Icons"
+msgstr ""
+
+#: inc/theme-info.php:269
+msgid "2 Column Layout"
+msgstr ""
+
+#: inc/theme-info.php:274
+msgid "Sidebar Options (Full, Left and Right)"
+msgstr ""
+
+#: inc/theme-info.php:284
+msgid "Blog Excerpt Custom Length"
+msgstr ""
+
+#: inc/theme-info.php:289
+msgid "Footer Widget Columns"
+msgstr ""
+
+#: inc/theme-info.php:294
+msgid "Sticky Header Option"
+msgstr ""
+
+#: inc/theme-info.php:299
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: inc/theme-info.php:304
+msgid "1 Click Demo Import"
+msgstr ""
+
+#: inc/theme-info.php:313
+msgid "Breadcrumb Display"
+msgstr ""
+
+#: inc/theme-info.php:318
+msgid "YARRP Related Posts"
+msgstr ""
+
+#: inc/theme-info.php:323
+msgid "Page Sidebar Options (Full, Left and Right)"
+msgstr ""
+
+#: inc/theme-info.php:328
+msgid "600+ Google Fonts"
+msgstr ""
+
+#: inc/theme-info.php:333
+msgid "Default Slider"
+msgstr ""
+
+#: inc/theme-info.php:338
+msgid "Author Widget with Social Icons"
+msgstr ""
+
+#: inc/theme-info.php:343
+msgid "Typography"
+msgstr ""
+
+#: inc/theme-info.php:348
+msgid "Footer Credits Editor"
+msgstr ""
+
+#: inc/theme-info.php:353
+msgid "Header Search"
+msgstr ""
+
+#: inc/theme-info.php:358
+msgid "WooCommerce Ready"
+msgstr ""
+
+#: inc/theme-info.php:363
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: inc/theme-info.php:368
+msgid "Extra Post Formats"
+msgstr ""
+
+#: inc/theme-info.php:373
+msgid "Google Maps"
+msgstr ""
+
+#: inc/theme-info.php:378
+msgid "MailChimp Newsletter Integration"
+msgstr ""
+
+#: inc/theme-info.php:383
+msgid "2 Extra PRO Demos"
+msgstr ""
+
+#: inc/theme-info.php:388
+msgid "Priority Support"
+msgstr ""
+
+#: inc/theme-info.php:395
+msgid "Buy PRO Version"
+msgstr ""
+
+#: inc/theme-info.php:408
+msgid " Please "
+msgstr ""
+
+#: inc/theme-info.php:408
+msgid "rate our theme"
+msgstr ""
+
+#: inc/theme-info.php:409
+msgid ""
+"★★★★★ to help us spread the word. Thank you from the Spiracle Themes team!"
+msgstr ""
+
+#: search.php:27 search.php:68 search.php:103
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-gallery.php:23 template-parts/content.php:23
+msgid "Sticky Post"
+msgstr ""
+
+#: template-parts/content-gallery.php:64
+msgid "Gallery image"
+msgstr ""
+
+#: template-parts/content-gallery.php:97 template-parts/content.php:77
+msgid "Comments"
+msgstr ""
+
+#: template-parts/content-gallery.php:115 template-parts/content.php:95
+msgid "Share on Facebook"
+msgstr ""
+
+#: template-parts/content-gallery.php:120 template-parts/content.php:100
+msgid "Share on Twitter"
+msgstr ""
+
+#: template-parts/content-gallery.php:125 template-parts/content.php:105
+msgid "Share on Linkedin"
+msgstr ""
+
+#: template-parts/content-gallery.php:130 template-parts/content.php:110
+msgid "Pin It"
+msgstr ""
+
+#: template-parts/content-gallery.php:168 template-parts/content-page.php:24
+#: template-parts/content.php:150
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
