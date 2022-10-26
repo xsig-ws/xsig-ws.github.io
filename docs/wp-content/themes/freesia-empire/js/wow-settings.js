@@ -1,1 +1,0 @@
-function equalHeight(t){tallest=0,t.each(function(){thisHeight=jQuery(this).height(),thisHeight>tallest&&(tallest=thisHeight)}),t.height(tallest)}jQuery(document).ready(function(){equalHeight(jQuery(".eq_hight"))}),(new WOW).init();
