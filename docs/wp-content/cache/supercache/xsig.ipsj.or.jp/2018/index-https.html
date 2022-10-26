@@ -1,0 +1,847 @@
+<!DOCTYPE html><!-- Panoramic -->
+<html lang="ja-JP">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+
+<!-- MapPress Easy Google Maps バージョン:2.73.2 (http://www.mappresspro.com) -->
+<title>xSIG 2018 &#8211; The 2nd. cross-disciplinary Workshop on Computing Systems, Infrastructures, and Programming</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//webfonts.sakura.ne.jp' />
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="xSIG 2018 &raquo; フィード" href="https://xsig.ipsj.or.jp/2018/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/xsig.ipsj.or.jp\/2018\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.4"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://xsig.ipsj.or.jp/2018/wp-includes/css/dist/block-library/style.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mappress-leaflet-css'  href='https://unpkg.com/leaflet@1.7.1/dist/leaflet.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mappress-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/plugins/mappress-google-maps-for-wordpress/css/mappress.css?ver=2.73.2' type='text/css' media='all' />
+<link rel='stylesheet' id='UserAccessManagerLoginForm-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/plugins/user-access-manager/assets/css/uamLoginForm.css?ver=2.2.15' type='text/css' media='screen' />
+<link rel='stylesheet' id='panoramic-site-title-font-default-css'  href='//fonts.googleapis.com/css?family=Kaushan+Script%3A400&#038;ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic-body-font-default-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic&#038;ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic-heading-font-default-css'  href='//fonts.googleapis.com/css?family=Raleway%3A500%2C600%2C700%2C100%2C800%2C400%2C300&#038;ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic-header-standard-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/css/header-standard.css?ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='otb-font-awesome-otb-font-awesome-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/fonts/otb-font-awesome/css/otb-font-awesome.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='otb-font-awesome-font-awesome-min-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/fonts/otb-font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic-style-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/style.css?ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic_customizer_theme_fonts-css'  href='//fonts.googleapis.com/css?family=Kaushan+Script%3Aregular|Raleway%3Aregular%2C100%2C300%2C600%2C700%2C800|Lato%3Aregular%2Citalic%2C100%2C300%2C700%26subset%3Dlatin%2C' type='text/css' media='screen' />
+<link rel='stylesheet' id='mlp_frontend_css-css'  href='https://xsig.ipsj.or.jp/2018/wp-content/plugins/multilingual-press/assets/css/frontend.min.css?ver=1567558928' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" href="https://xsig.ipsj.or.jp/2018/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css?ver=f4759c2e" media="all">
+<style data-related="n2-ss-2">div#n2-ss-2 .n2-ss-slider-1{display:grid;position:relative;}div#n2-ss-2 .n2-ss-slider-2{display:grid;position:relative;overflow:hidden;padding:0px 0px 0px 0px;border:0px solid RGBA(62,62,62,1);border-radius:0px;background-clip:padding-box;background-repeat:repeat;background-position:50% 50%;background-size:cover;background-attachment:scroll;z-index:1;}div#n2-ss-2:not(.n2-ss-loaded) .n2-ss-slider-2{background-image:none !important;}div#n2-ss-2 .n2-ss-slider-3{display:grid;grid-template-areas:'cover';position:relative;overflow:hidden;z-index:10;}div#n2-ss-2 .n2-ss-slider-3 > *{grid-area:cover;}div#n2-ss-2 .n2-ss-slide-backgrounds,div#n2-ss-2 .n2-ss-slider-3 > .n2-ss-divider{position:relative;}div#n2-ss-2 .n2-ss-slide-backgrounds{z-index:10;}div#n2-ss-2 .n2-ss-slide-backgrounds > *{overflow:hidden;}div#n2-ss-2 .n2-ss-slide-background{transform:translateX(-100000px);}div#n2-ss-2 .n2-ss-slider-4{place-self:center;position:relative;width:100%;height:100%;z-index:20;display:grid;grid-template-areas:'slide';}div#n2-ss-2 .n2-ss-slider-4 > *{grid-area:slide;}div#n2-ss-2.n2-ss-full-page--constrain-ratio .n2-ss-slider-4{height:auto;}div#n2-ss-2 .n2-ss-slide{display:grid;place-items:center;grid-auto-columns:100%;position:relative;z-index:20;-webkit-backface-visibility:hidden;transform:translateX(-100000px);}div#n2-ss-2 .n2-ss-slide{perspective:1500px;}div#n2-ss-2 .n2-ss-slide-active{z-index:21;}.n2-ss-background-animation{position:absolute;top:0;left:0;width:100%;height:100%;z-index:3;}div#n2-ss-2 .nextend-arrow{cursor:pointer;overflow:hidden;line-height:0 !important;z-index:18;-webkit-user-select:none;}div#n2-ss-2 .nextend-arrow img{position:relative;display:block;}div#n2-ss-2 .nextend-arrow img.n2-arrow-hover-img{display:none;}div#n2-ss-2 .nextend-arrow:FOCUS img.n2-arrow-hover-img,div#n2-ss-2 .nextend-arrow:HOVER img.n2-arrow-hover-img{display:inline;}div#n2-ss-2 .nextend-arrow:FOCUS img.n2-arrow-normal-img,div#n2-ss-2 .nextend-arrow:HOVER img.n2-arrow-normal-img{display:none;}div#n2-ss-2 .nextend-arrow-animated{overflow:hidden;}div#n2-ss-2 .nextend-arrow-animated > div{position:relative;}div#n2-ss-2 .nextend-arrow-animated .n2-active{position:absolute;}div#n2-ss-2 .nextend-arrow-animated-fade{transition:background 0.3s, opacity 0.4s;}div#n2-ss-2 .nextend-arrow-animated-horizontal > div{transition:all 0.4s;transform:none;}div#n2-ss-2 .nextend-arrow-animated-horizontal .n2-active{top:0;}div#n2-ss-2 .nextend-arrow-previous.nextend-arrow-animated-horizontal .n2-active{left:100%;}div#n2-ss-2 .nextend-arrow-next.nextend-arrow-animated-horizontal .n2-active{right:100%;}div#n2-ss-2 .nextend-arrow-previous.nextend-arrow-animated-horizontal:HOVER > div,div#n2-ss-2 .nextend-arrow-previous.nextend-arrow-animated-horizontal:FOCUS > div{transform:translateX(-100%);}div#n2-ss-2 .nextend-arrow-next.nextend-arrow-animated-horizontal:HOVER > div,div#n2-ss-2 .nextend-arrow-next.nextend-arrow-animated-horizontal:FOCUS > div{transform:translateX(100%);}div#n2-ss-2 .nextend-arrow-animated-vertical > div{transition:all 0.4s;transform:none;}div#n2-ss-2 .nextend-arrow-animated-vertical .n2-active{left:0;}div#n2-ss-2 .nextend-arrow-previous.nextend-arrow-animated-vertical .n2-active{top:100%;}div#n2-ss-2 .nextend-arrow-next.nextend-arrow-animated-vertical .n2-active{bottom:100%;}div#n2-ss-2 .nextend-arrow-previous.nextend-arrow-animated-vertical:HOVER > div,div#n2-ss-2 .nextend-arrow-previous.nextend-arrow-animated-vertical:FOCUS > div{transform:translateY(-100%);}div#n2-ss-2 .nextend-arrow-next.nextend-arrow-animated-vertical:HOVER > div,div#n2-ss-2 .nextend-arrow-next.nextend-arrow-animated-vertical:FOCUS > div{transform:translateY(100%);}div#n2-ss-2 .nextend-autoplay{cursor:pointer;z-index:16;line-height:1;}div#n2-ss-2 .nextend-autoplay img{display:block;}div#n2-ss-2 .nextend-autoplay .nextend-autoplay-play{display:none;}div#n2-ss-2 .nextend-autoplay.n2-autoplay-paused .nextend-autoplay-play{display:block;}div#n2-ss-2 .nextend-autoplay.n2-autoplay-paused .nextend-autoplay-pause{display:none;}div#n2-ss-2 .nextend-thumbnail{flex:0 0 auto;overflow:hidden;}div#n2-ss-2 .nextend-thumbnail-default{position:relative;display:flex;flex-direction:column;z-index:10;}div#n2-ss-2 .nextend-thumbnail-inner{position:relative;flex-basis:0;flex-grow:1;scroll-behavior:smooth;scrollbar-width:none;}div#n2-ss-2 .nextend-thumbnail-inner::-webkit-scrollbar{width:0;height:0;background:transparent;}div#n2-ss-2 .nextend-thumbnail-button{position:absolute;display:grid;place-content:center;transition:all 0.4s;cursor:pointer;visibility:hidden;}div#n2-ss-2 .nextend-thumbnail-button *{visibility:visible;}div#n2-ss-2 .nextend-thumbnail-scroller{display:grid;}div#n2-ss-2 .n2-thumbnail-dot{position:relative;}div#n2-ss-2 .n2-thumbnail-dot img{object-fit:cover;max-width:none !important;}div#n2-ss-2 .n2-caption-before{order:-1;}div#n2-ss-2 .n2-caption-overlay{position:absolute;box-sizing:border-box;display:grid;place-content:center;}div#n2-ss-2 .n2-thumbnail-dot-type{position:absolute;left:50%;top:50%;transform:translate3d(-50%,-50%,0);}div#n2-ss-2 .nextend-thumbnail-vertical .nextend-thumbnail-scroller{min-height:100%;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;}div#n2-ss-2 .nextend-thumbnail-vertical .n2-align-content-start{align-content:flex-start;}div#n2-ss-2 .nextend-thumbnail-vertical .n2-align-content-center{align-content:center;}div#n2-ss-2 .nextend-thumbnail-vertical .n2-align-content-end{align-content:flex-end;}div#n2-ss-2 .nextend-thumbnail-vertical .n2-align-content-space-between{align-content:space-between;}div#n2-ss-2 .nextend-thumbnail-vertical .n2-align-content-space-around{align-content:space-around;}div#n2-ss-2 .nextend-thumbnail-vertical .nextend-thumbnail-inner{overflow-y:scroll;}div#n2-ss-2 .nextend-thumbnail-vertical .n2-thumbnail-dot{display:grid;grid-template-columns:auto 1fr;}div#n2-ss-2 .nextend-thumbnail-vertical .nextend-thumbnail-button{width:100%;}div#n2-ss-2 .nextend-thumbnail-vertical .nextend-thumbnail-previous{top:10px;}div#n2-ss-2 .nextend-thumbnail-vertical[data-has-previous="0"] .nextend-thumbnail-previous{transform:translateY(min(-100px,calc(-110%)));opacity:0;}div#n2-ss-2 .nextend-thumbnail-vertical .nextend-thumbnail-next{bottom:10px;}div#n2-ss-2 .nextend-thumbnail-vertical[data-has-next="0"] .nextend-thumbnail-next{transform:translateY(max(100px,calc(110%)));opacity:0;}div#n2-ss-2 .nextend-thumbnail-horizontal{flex-direction:row;}div#n2-ss-2 .nextend-thumbnail-horizontal .nextend-thumbnail-inner{overflow-x:scroll;}div#n2-ss-2 .nextend-thumbnail-horizontal .nextend-thumbnail-scroller{min-width:100%;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;grid-auto-flow:column;grid-auto-columns:min-content;}div#n2-ss-2 .nextend-thumbnail-horizontal .n2-align-content-start{justify-content:flex-start;}div#n2-ss-2 .nextend-thumbnail-horizontal .n2-align-content-center{justify-content:center;}div#n2-ss-2 .nextend-thumbnail-horizontal .n2-align-content-end{justify-content:flex-end;}div#n2-ss-2 .nextend-thumbnail-horizontal .n2-align-content-space-between{justify-content:space-between;}div#n2-ss-2 .nextend-thumbnail-horizontal .n2-align-content-space-around{justify-content:space-around;}div#n2-ss-2 .nextend-thumbnail-horizontal .n2-thumbnail-dot{display:grid;grid-template-rows:auto 1fr;overflow:hidden;}div#n2-ss-2 .nextend-thumbnail-horizontal .nextend-thumbnail-button{height:100%;}div#n2-ss-2 .nextend-thumbnail-horizontal .nextend-thumbnail-previous{left:10px;}div#n2-ss-2 .nextend-thumbnail-horizontal[data-has-previous="0"] .nextend-thumbnail-previous{transform:translateX(min(-100px,calc(-110%))) rotateZ(-90deg);opacity:0;}div#n2-ss-2 .nextend-thumbnail-horizontal .nextend-thumbnail-next{right:10px;}div#n2-ss-2 .nextend-thumbnail-horizontal[data-has-next="0"] .nextend-thumbnail-next{transform:translateX(max(100px,calc(110%))) rotateZ(-90deg);opacity:0;}div#n2-ss-2 .n2-style-443724b8a6c075089f509b7087c2ee39-heading{background: RGBA(0,0,0,0.67);opacity:1;padding:10px 10px 10px 10px ;box-shadow: none;border: 0px solid RGBA(0,0,0,1);border-radius:3px;}div#n2-ss-2 .n2-style-443724b8a6c075089f509b7087c2ee39-heading:Hover, div#n2-ss-2 .n2-style-443724b8a6c075089f509b7087c2ee39-heading:ACTIVE, div#n2-ss-2 .n2-style-443724b8a6c075089f509b7087c2ee39-heading:FOCUS{background: RGBA(0,0,0,0.67);}div#n2-ss-2 .n2-style-df32cb3742fdac43eb0251df7d67c185-simple{background: #242424;opacity:1;padding:3px 3px 3px 3px ;box-shadow: none;border: 0px solid RGBA(0,0,0,1);border-radius:0px;}div#n2-ss-2 .n2-style-462cb0983aca6cda3fc34a0feea6024b-dot{background: RGBA(0,0,0,0);opacity:1;padding:0px 0px 0px 0px ;box-shadow: none;border: 0px solid RGBA(255,255,255,0);border-radius:0px;opacity: 0.4;
+margin: 3px;
+transition: all 0.4s;
+background-size: cover;}div#n2-ss-2 .n2-style-462cb0983aca6cda3fc34a0feea6024b-dot.n2-active, div#n2-ss-2 .n2-style-462cb0983aca6cda3fc34a0feea6024b-dot:HOVER, div#n2-ss-2 .n2-style-462cb0983aca6cda3fc34a0feea6024b-dot:FOCUS{border: 0px solid RGBA(255,255,255,0.8);opacity: 1;}div#n2-ss-2 .n2-ss-slide-limiter{max-width:3000px;}div#n2-ss-2 .n-uc-gY6N2fonXlBx{padding:0px 0px 0px 0px}div#n2-ss-2 .n-uc-4OkHaATPjPy2{padding:0px 0px 0px 0px}div#n2-ss-2 .n-uc-45knYjKVPlFJ{padding:0px 0px 0px 0px}div#n2-ss-2 .n-uc-7Lu4MBaa7zN5{padding:0px 0px 0px 0px}div#n2-ss-2 .n-uc-tJxn1tKRfcmf{padding:0px 0px 0px 0px}div#n2-ss-2 .n-uc-5up2KGDB1Msm{padding:0px 0px 0px 0px}div#n2-ss-2 .n-uc-WItowJSYDJ4L{padding:0px 0px 0px 0px}div#n2-ss-2 .n-uc-uwHBEa1nG8Zq{padding:0px 0px 0px 0px}div#n2-ss-2 .n-uc-4coyZGDsPPOW{padding:0px 0px 0px 0px}div#n2-ss-2-align{max-width:1200px;}div#n2-ss-2 .nextend-arrow img{width: 32px}div#n2-ss-2 .nextend-autoplay img{width: 16px}div#n2-ss-2 .n2-thumbnail-dot img{width:100px;height:60px}@media (min-width: 1200px){div#n2-ss-2 [data-hide-desktopportrait="1"]{display: none !important;}}@media (orientation: landscape) and (max-width: 1199px) and (min-width: 901px),(orientation: portrait) and (max-width: 1199px) and (min-width: 701px){div#n2-ss-2 [data-hide-tabletportrait="1"]{display: none !important;}}@media (orientation: landscape) and (max-width: 900px),(orientation: portrait) and (max-width: 700px){div#n2-ss-2 [data-hide-mobileportrait="1"]{display: none !important;}div#n2-ss-2 .nextend-arrow img{width: 16px}div#n2-ss-2 .nextend-autoplay img{width: 8px}}</style>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='//webfonts.sakura.ne.jp/js/sakurav3.js?fadein=0&#038;ver=3.1.0' id='typesquare_std-js'></script>
+<link rel="https://api.w.org/" href="https://xsig.ipsj.or.jp/2018/wp-json/" /><link rel="alternate" type="application/json" href="https://xsig.ipsj.or.jp/2018/wp-json/wp/v2/pages/12" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://xsig.ipsj.or.jp/2018/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://xsig.ipsj.or.jp/2018/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.4" />
+<link rel="canonical" href="https://xsig.ipsj.or.jp/2018/" />
+<link rel='shortlink' href='https://xsig.ipsj.or.jp/2018/' />
+<link rel="alternate" type="application/json+oembed" href="https://xsig.ipsj.or.jp/2018/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxsig.ipsj.or.jp%2F2018%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://xsig.ipsj.or.jp/2018/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxsig.ipsj.or.jp%2F2018%2F&#038;format=xml" />
+<style type="text/css">
+
+
+/* Minimum slider width */
+.panoramic-slider-container.default .slider .slide img {
+	min-width: 600px;
+}
+	
+
+/* Mobile Menu and other mobile stylings */
+@media only screen and (max-width: 960px) {
+	.main-navigation.translucent {
+		position: relative;
+	}
+	
+	.main-navigation.translucent {
+		background-color: #006489 !important;
+	}
+
+	#main-menu.panoramic-mobile-menu-standard-color-scheme {
+		background-color: #006489;
+	}	
+	
+	.slider-placeholder {
+		display: none;
+	}
+	
+	.header-image .overlay,
+	.panoramic-slider-container.default .slider .slide .overlay {
+		top: 25%;
+    }
+	
+	.panoramic-slider-container.default .prev.top-padded,
+	.panoramic-slider-container.default .next.top-padded{
+		margin-top: -26px;
+	}
+	.header-image .overlay.top-padded,
+	.panoramic-slider-container.default .slider .slide .overlay.top-padded {
+		padding-top: 0;
+	}
+
+	/* Menu toggle button */
+    .header-menu-button {
+	    display: block;
+	    padding: 16px 18px;
+	    color: #FFF;
+	    text-transform: uppercase;
+    	text-align: center;
+	    cursor: pointer;
+	}
+	.header-menu-button .otb-fa.otb-fa-bars {
+    	font-size: 28px;
+		color: #FFFFFF;
+	}
+	
+	/* Menu close button */
+    .main-menu-close {
+        display: block;
+    	background-color: rgba(0, 0, 0, 0.2);
+    	border-radius: 100%;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 26px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 0 6px 0 10px;
+        height: 36px;
+    	width: 36px;
+        line-height: 33px;
+        cursor: pointer;
+    	
+	    -webkit-transition: all 0.2s ease 0s;
+	     -moz-transition: all 0.2s ease 0s;
+	      -ms-transition: all 0.2s ease 0s;
+	       -o-transition: all 0.2s ease 0s;
+	          transition: all 0.2s ease 0s;
+
+    }
+    .main-menu-close:hover .otb-fa {
+    	font-weight: 700 !important;
+	}
+	.main-menu-close .otb-fa-angle-left {
+        position: relative;
+        left: -4px;
+    }
+	
+    .main-navigation ul {
+        display: block;
+    }
+
+    .main-navigation #main-menu {
+        color: #FFFFFF;
+        box-shadow: 1px 0 1px rgba(255, 255, 255, 0.04) inset;
+        position: fixed;
+        top: 0;
+        right: -280px;
+        width: 280px;
+        max-width: 100%;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 70px 0 30px 0;
+        z-index: 100000;
+        height: 100%;
+        overflow: auto;
+        -webkit-transition: right 0.4s ease 0s;
+        -moz-transition: right 0.4s ease 0s;
+        -ms-transition: right 0.4s ease 0s;
+        -o-transition: right 0.4s ease 0s;
+        transition: right 0.4s ease 0s;
+    }
+    #main-menu .menu {
+    	border-top-width: 1px;
+    	border-top-style: solid;
+	}
+    #main-menu.panoramic-mobile-menu-standard-color-scheme .menu {
+    	border-top-color: #FFFFFF;
+	}
+	.main-navigation li {
+        display: block;
+        float: none;
+        position: relative;
+    }
+    .main-navigation li a {
+    	white-space: normal !important;
+    	border-bottom-width: 1px;
+    	border-bottom-style: solid;
+		box-shadow: none;
+		display: block;
+		color: #FFFFFF;
+        float: none;
+        padding: 10px 22px;
+        font-size: 14px;
+        text-align: left;
+  	}
+    #main-menu.panoramic-mobile-menu-standard-color-scheme li a {
+    	border-bottom-color: #FFFFFF;
+	}
+    #main-menu.panoramic-mobile-menu-standard-color-scheme li a:hover {
+    	background-color: rgba(0, 0, 0, 0.2); 
+  	}
+    .main-navigation ul ul a {
+    	text-transform: none;
+  	}
+    .main-navigation ul ul li:last-child a,
+    .main-navigation ul ul li a {
+        padding: 6px 30px;
+        width: auto;
+    }
+    .main-navigation ul ul ul li a {
+        padding: 6px 39px !important;
+    }
+    .main-navigation ul ul ul ul li a {
+        padding: 6px 47px !important;
+    }
+    .main-navigation ul ul ul ul ul li a {
+        padding: 6px 55px !important;
+    }
+
+    .main-navigation ul ul {
+        position: relative !important;
+    	box-shadow: none;
+        top: 0 !important;
+        left: 0 !important;
+        float: none !important;
+    	background-color: transparent;
+        padding: 0;
+        margin: 0;
+        display: none;
+    	border-top: none;
+    }
+	.main-navigation ul ul ul {
+		left: 0 !important;
+	}
+	.menu-dropdown-btn {
+    	display: block;
+    }
+    .open-page-item > ul.children,
+    .open-page-item > ul.sub-menu {
+    	display: block !important;
+    }
+    .open-page-item .otb-fa-angle-down {
+		color: #FFFFFF;
+    	font-weight: 700 !important;
+    }
+    
+    /* 1st level selected item */
+    #main-menu.panoramic-mobile-menu-standard-color-scheme a:hover,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current-menu-item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current_page_item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current-menu-parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current_page_parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current-menu-ancestor > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current_page_ancestor > a {
+		background-color: rgba(0, 0, 0, 0.2) !important;
+	}
+
+	/* 2nd level selected item */
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current-menu-item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current_page_item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current-menu-parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current_page_parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current-menu-ancestor > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current_page_ancestor > a {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	
+	/* 3rd level selected item */
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current-menu-item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current_page_item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current-menu-parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current_page_parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current-menu-ancestor > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current_page_ancestor > a {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+
+}
+
+</style>
+		<style type="text/css" id="wp-custom-css">
+			/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+/* Main Text */
+#sidebar {
+	color: #303030;
+}
+
+#main {
+	color: #303030;
+	font-size: medium;
+}
+
+#header {
+	color: #303030;
+	font-size: medium;
+}
+
+/* h */
+h1, h2, h3, h4, h5, h6 {
+	color: darkslategray;
+	font: FontAwesome;
+	margin: 1em 0 .5em;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: x-large;
+}
+
+#main h3 {
+	margin-top: 50px;
+	border-bottom: solid 1px silver;
+}
+
+h4 {
+	font-size: large;
+}
+
+#main h4 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+h5 {
+	font-size: medium;
+}
+
+h6 {
+	font-size: medium;
+}
+
+/* Text Margin */
+p {
+	text-indent: 1em;
+	text-align: justify;
+	hyphens: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+ul, ol {
+	margin: 10px 0 10px 20px;
+}
+
+/* ul, ol */
+ul {
+	list-style: disc;
+}
+
+ul ul {
+	list-style: circle;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+	margin: 5px 0 5px 1.5em;
+}
+
+/* em, th, dt */
+em {
+	font-style: normal;
+	font-weight: bold;
+	color: maroon;
+}
+
+th, dt {
+	color: darkslategray;
+}
+
+/* a */
+p a, ol a {
+	text-decoration: underline;
+}
+
+#sidebar a {
+	color: royalblue;
+}
+
+a:hover,
+#sidebar a:hover,
+#header a:hover,
+#footer a:hover {
+	color: red;
+}
+
+/* Theme-specific */
+#logo h1 {
+	color: DarkSlateGray;
+	font-size: 26px;
+	line-height: 1.4;
+	font-weight: normal;
+	margin-top: 15px;
+}
+
+#logo h2 {
+	color: gray;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+#menu ul {
+  color: #303030;
+  font-size: 18px;
+	text-transform: none;
+}
+#menu-primary-menu li {
+  color: #303030;
+  font-size: 18px;
+	text-transform: none;
+}
+li.menu-item {
+	color: #303030;
+	font-size: 18px;
+	text-transform: none;
+}
+ul.menu {
+	color: #303030;
+	font-size: 18px;
+	text-transform: none;
+}
+
+li {
+	    text-transform: none;
+	}
+
+#slider .featured-title span,
+.thinkupslider-sc .featured-title span {
+	color: white;
+/* #115172; */
+	font-size: 48px;
+	font-weight: 300;
+	line-height: 1.15;
+}
+
+#slider .featured-excerpt span,
+.thinkupslider-sc .featured-excerpt span {
+	color: white;
+/* #115172; */
+}
+
+/* Logo Table */
+table.logo {
+	margin-left: auto;
+  margin-right: auto;
+	table-layout: fixed;
+	border: none;
+	border-spacing: 0em 3ex;
+	border-collapse: separate;
+}
+
+table.logo td {
+	border: none;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.logo td a img {
+	border: none;
+}
+
+a img {
+border: none;
+}
+
+/* Plain Table */
+table.plain {
+	border: none;
+	width: auto;
+}
+
+table.plain td, table.plain th {
+	border: none;
+	border-bottom: solid 1px silver;
+	empty-cells: hide;
+	text-align: left;
+	vertical-align: top;
+	padding: 5px 10px 0;
+	width: auto;
+	white-space: nowrap;
+}
+
+table.plain th:empty, table.plain td:empty {
+	border: none;
+}
+
+/* Program Table */
+table.prog {
+	border: none;
+	width: 100%;
+}
+
+table.prog td, table.prog th {
+	border: none;
+	border-bottom: solid 1px silver;
+	empty-cells: hide;
+	text-align: left;
+	vertical-align: bottom;
+	padding: 5px 10px 0;
+	width: auto;
+	white-space: normal;
+}
+
+table.prog th.date { 
+	font-size: x-large; 
+	height: 50px; 
+	font-weight: bold; 
+	text-align: left;
+	vertical-align: bottom;
+}
+
+table.prog td.time {
+  vertical-align: top;
+}
+
+table.prog td.session { 
+	font-size: large; 
+	font-weight: bold; 
+	color: darkslategray; 
+}
+
+table.prog td.presentation { 
+	white-space: normal; 
+}		</style>
+		<script>(function(){this._N2=this._N2||{_r:[],_d:[],r:function(){this._r.push(arguments)},d:function(){this._d.push(arguments)}}}).call(window);!function(a){a.indexOf("Safari")>0&&-1===a.indexOf("Chrome")&&document.documentElement.style.setProperty("--ss-safari-fix-225962","1px")}(navigator.userAgent);</script><script src="https://xsig.ipsj.or.jp/2018/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js?ver=f4759c2e" defer async></script>
+<script src="https://xsig.ipsj.or.jp/2018/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider-frontend.min.js?ver=f4759c2e" defer async></script>
+<script src="https://xsig.ipsj.or.jp/2018/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/ss-simple.min.js?ver=f4759c2e" defer async></script>
+<script src="https://xsig.ipsj.or.jp/2018/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Arrow/ArrowImage/Assets/dist/w-arrow-image.min.js?ver=f4759c2e" defer async></script>
+<script src="https://xsig.ipsj.or.jp/2018/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Autoplay/AutoplayImage/Assets/dist/w-autoplay.min.js?ver=f4759c2e" defer async></script>
+<script src="https://xsig.ipsj.or.jp/2018/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Thumbnail/Basic/Assets/dist/w-thumbnail-horizontal.min.js?ver=f4759c2e" defer async></script>
+<script>_N2.r('documentReady',function(){_N2.r(["documentReady","smartslider-frontend","SmartSliderWidgetArrowImage","SmartSliderWidgetAutoplayImage","SmartSliderWidgetThumbnailDefaultHorizontal","ss-simple"],function(){new _N2.SmartSliderSimple('n2-ss-2',{"admin":false,"callbacks":"","background.video.mobile":1,"loadingTime":2000,"alias":{"id":0,"smoothScroll":0,"slideSwitch":0,"scroll":1},"align":"center","isDelayed":0,"responsive":{"mediaQueries":{"all":false,"desktopportrait":["(min-width: 1200px)"],"tabletportrait":["(orientation: landscape) and (max-width: 1199px) and (min-width: 901px)","(orientation: portrait) and (max-width: 1199px) and (min-width: 701px)"],"mobileportrait":["(orientation: landscape) and (max-width: 900px)","(orientation: portrait) and (max-width: 700px)"]},"base":{"slideOuterWidth":1200,"slideOuterHeight":300,"sliderWidth":1200,"sliderHeight":300,"slideWidth":1200,"slideHeight":300},"hideOn":{"desktopLandscape":false,"desktopPortrait":false,"tabletLandscape":false,"tabletPortrait":false,"mobileLandscape":false,"mobilePortrait":false},"onResizeEnabled":true,"type":"auto","sliderHeightBasedOn":"real","focusUser":1,"focusEdge":"auto","breakpoints":[{"device":"tabletPortrait","type":"max-screen-width","portraitWidth":1199,"landscapeWidth":1199},{"device":"mobilePortrait","type":"max-screen-width","portraitWidth":700,"landscapeWidth":900}],"enabledDevices":{"desktopLandscape":0,"desktopPortrait":1,"tabletLandscape":0,"tabletPortrait":1,"mobileLandscape":0,"mobilePortrait":1},"sizes":{"desktopPortrait":{"width":1200,"height":300,"max":3000,"min":1200},"tabletPortrait":{"width":701,"height":175,"customHeight":false,"max":1199,"min":701},"mobilePortrait":{"width":320,"height":80,"customHeight":false,"max":900,"min":320}},"overflowHiddenPage":0,"focus":{"offsetTop":"#wpadminbar","offsetBottom":""}},"controls":{"mousewheel":0,"touch":"horizontal","keyboard":1,"blockCarouselInteraction":1},"playWhenVisible":1,"playWhenVisibleAt":0.5,"lazyLoad":0,"lazyLoadNeighbor":0,"blockrightclick":0,"maintainSession":0,"autoplay":{"enabled":1,"start":1,"duration":8000,"autoplayLoop":1,"allowReStart":0,"pause":{"click":1,"mouse":"0","mediaStarted":1},"resume":{"click":0,"mouse":0,"mediaEnded":1,"slidechanged":0},"interval":1,"intervalModifier":"loop","intervalSlide":"current"},"perspective":1500,"layerMode":{"playOnce":0,"playFirstLayer":1,"mode":"skippable","inAnimation":"mainInEnd"},"bgAnimations":0,"mainanimation":{"type":"crossfade","duration":600,"delay":0,"ease":"easeOutQuad","shiftedBackgroundAnimation":0},"carousel":1,"initCallbacks":function(){new _N2.SmartSliderWidgetArrowImage(this);new _N2.SmartSliderWidgetAutoplayImage(this,1,0.7,0.5);new _N2.SmartSliderWidgetThumbnailDefaultHorizontal(this,{"action":"click","minimumThumbnailCount":1})}})})});</script></head>
+
+<body data-rsssl=1 class="home page-template-default page page-id-12 wp-embed-responsive panoramic-page-builders-use-theme-styles">
+
+<a class="skip-link screen-reader-text" href="#site-content">Skip to content</a>
+
+<header id="masthead" class="site-header panoramic-header-layout-standard" role="banner">
+
+    
+<div class="site-container">
+    
+    <div class="branding">
+                    <a href="https://xsig.ipsj.or.jp/2018/" title="xSIG 2018" class="title">xSIG 2018</a>
+            <div class="description">The 2nd. cross-disciplinary Workshop on Computing Systems, Infrastructures, and Programming</div>
+            </div><!-- .site-branding -->
+    
+    <div class="site-header-right">
+        
+                    <div class="info-text">
+            	            </div>
+			<ul class="social-links">
+<li><a href="mailto:xs%69g&#050;%30%318%40x&#115;&#105;%67%2eh&#112;%63%63&#046;&#106;%70" target="_blank" rel="noopener" title="Send us an email" class="social-email"><i class="otb-fa otb-fa-envelope-o"></i></a></li></ul>                
+    </div>
+    <div class="clearboth"></div>
+    
+	    
+</div>
+
+<nav id="site-navigation" class="main-navigation border-bottom translucent" role="navigation">
+	<span class="header-menu-button" aria-expanded="false"><i class="otb-fa otb-fa-bars"></i></span>
+	<div id="main-menu" class="main-menu-container panoramic-mobile-menu-standard-color-scheme">
+		<div class="main-menu-close"><i class="otb-fa otb-fa-angle-right"></i><i class="otb-fa otb-fa-angle-left"></i></div>
+		<div class="main-navigation-inner"><ul id="menu-primary-menu" class="menu"><li id="menu-item-1013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1013"><a href="https://xsig.ipsj.or.jp/2018/about/">about xSIG</a>
+<ul class="sub-menu">
+	<li id="menu-item-1023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1023"><a href="https://xsig.ipsj.or.jp/2018/about/">about xSIG</a></li>
+	<li id="menu-item-1014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1014"><a href="https://xsig.ipsj.or.jp/2018/about/history/">系譜</a></li>
+	<li id="menu-item-1012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012"><a href="https://xsig.ipsj.or.jp/2018/about/kangaeru/">「考える会」</a></li>
+</ul>
+</li>
+<li id="menu-item-1019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1019"><a href="https://xsig.ipsj.or.jp/2018/cf/dates/">Call for &#8230;</a>
+<ul class="sub-menu">
+	<li id="menu-item-1020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1020"><a href="https://xsig.ipsj.or.jp/2018/cf/dates/">重要日程</a></li>
+	<li id="menu-item-1030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1030"><a href="https://xsig.ipsj.or.jp/2018/cf/cfpp/">参加募集</a></li>
+	<li id="menu-item-1021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1021"><a href="https://xsig.ipsj.or.jp/2018/cf/cfp/">Call for Papers</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1024"><a href="https://xsig.ipsj.or.jp/2018/cf/cfp/format/">投稿論文フォーマット</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1028"><a href="https://xsig.ipsj.or.jp/2018/cf/posters/">Call for Posters</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1025"><a href="https://xsig.ipsj.or.jp/2018/cf/cfp/guide/">投稿の手引</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1022"><a href="https://xsig.ipsj.or.jp/2018/cf/call-for-exhibitions/">企業・団体展示募集</a></li>
+</ul>
+</li>
+<li id="menu-item-1026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1026"><a href="https://xsig.ipsj.or.jp/2018/program/">プログラム</a>
+<ul class="sub-menu">
+	<li id="menu-item-1031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1031"><a href="https://xsig.ipsj.or.jp/2018/program/">プログラム</a></li>
+	<li id="menu-item-1027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1027"><a href="https://xsig.ipsj.or.jp/2018/program/talks/">基調講演・招待講演</a></li>
+	<li id="menu-item-1029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1029"><a href="https://xsig.ipsj.or.jp/2018/program/awards/">受賞論文</a></li>
+</ul>
+</li>
+<li id="menu-item-1015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1015"><a href="https://xsig.ipsj.or.jp/2018/org/">組織</a>
+<ul class="sub-menu">
+	<li id="menu-item-1017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1017"><a href="https://xsig.ipsj.or.jp/2018/org/oc-pc/">組織委員会・プログラム委員会</a></li>
+	<li id="menu-item-1016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1016"><a href="https://xsig.ipsj.or.jp/2018/org/young-pc/">ヤング・プログラム委員</a></li>
+	<li id="menu-item-1018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1018"><a href="https://xsig.ipsj.or.jp/2018/org/sponsors/">主催・協賛</a></li>
+</ul>
+</li>
+</ul></div>	</div>
+</nav><!-- #site-navigation -->
+    
+</header><!-- #masthead -->
+
+	<div class="panoramic-slider-container">
+		<div class="n2-section-smartslider fitvidsignore " data-ssid="2" tabindex="0" role="region" aria-label="Slider"><div id="n2-ss-2-align" class="n2-ss-align" style="margin: 0 auto; max-width: 1200px;"><div class="n2-padding"><div id="n2-ss-2" data-creator="Smart Slider 3" data-responsive="auto" class="n2-ss-slider n2-ow n2-has-hover n2notransition  "><div class="n2-ss-slider-wrapper-outside" style="grid-template-rows:1fr auto"><div class="n2-ss-slider-wrapper-inside">
+        <div class="n2-ss-slider-1 n2_ss__touch_element n2-ow" style="">
+            <div class="n2-ss-slider-2 n2-ow">
+                                                <div class="n2-ss-slider-3 n2-ow" style="">
+
+                    <div class="n2-ss-slide-backgrounds n2-ow-all"><div class="n2-ss-slide-background" data-public-id="1" data-mode="fill"><div class="n2-ss-slide-background-image" data-blur="0" data-opacity="100" data-x="50" data-y="50" data-alt="" data-title=""><picture class="skip-lazy" data-skip-lazy="1"><img src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/03.jpg" alt="" title="" loading="lazy" class="skip-lazy" data-skip-lazy="1"></picture></div><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div><div class="n2-ss-slide-background" data-public-id="2" data-mode="fill"><div class="n2-ss-slide-background-image" data-blur="0" data-opacity="100" data-x="50" data-y="50" data-alt="" data-title=""><picture class="skip-lazy" data-skip-lazy="1"><img src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/01-e1505474924299.jpg" alt="" title="" loading="lazy" class="skip-lazy" data-skip-lazy="1"></picture></div><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div><div class="n2-ss-slide-background" data-public-id="3" data-mode="fill"><div class="n2-ss-slide-background-image" data-blur="0" data-opacity="100" data-x="50" data-y="50" data-alt="" data-title=""><picture class="skip-lazy" data-skip-lazy="1"><img src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/2283676770_6b53f8b77f_b-1024x768.jpg" alt="" title="" loading="lazy" class="skip-lazy" data-skip-lazy="1"></picture></div><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div><div class="n2-ss-slide-background" data-public-id="4" data-mode="fill"><div class="n2-ss-slide-background-image" data-blur="0" data-opacity="100" data-x="50" data-y="50" data-alt="" data-title=""><picture class="skip-lazy" data-skip-lazy="1"><img src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/tokyo_gate_bridge_5-1024x683-e1505475098751.jpg" alt="" title="" loading="lazy" class="skip-lazy" data-skip-lazy="1"></picture></div><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div><div class="n2-ss-slide-background" data-public-id="5" data-mode="fill"><div class="n2-ss-slide-background-image" data-blur="0" data-opacity="100" data-x="50" data-y="50" data-alt="" data-title=""><picture class="skip-lazy" data-skip-lazy="1"><img src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/iphone-desk-laptop-notebook-1024x579.jpg" alt="" title="" loading="lazy" class="skip-lazy" data-skip-lazy="1"></picture></div><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div><div class="n2-ss-slide-background" data-public-id="6" data-mode="fill"><div class="n2-ss-slide-background-image" data-blur="0" data-opacity="100" data-x="50" data-y="50" data-alt="" data-title=""><picture class="skip-lazy" data-skip-lazy="1"><img src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/jp-tokyo-tokyo-station-main-building-night-e1476875079684-1024x307.jpg" alt="" title="" loading="lazy" class="skip-lazy" data-skip-lazy="1"></picture></div><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div><div class="n2-ss-slide-background" data-public-id="7" data-mode="fill"><div class="n2-ss-slide-background-image" data-blur="0" data-opacity="100" data-x="50" data-y="50" data-alt="" data-title=""><picture class="skip-lazy" data-skip-lazy="1"><img src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/der-denker-e1476970031183-1024x335.jpg" alt="" title="" loading="lazy" class="skip-lazy" data-skip-lazy="1"></picture></div><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div><div class="n2-ss-slide-background" data-public-id="8" data-mode="fill"><div class="n2-ss-slide-background-image" data-blur="0" data-opacity="100" data-x="50" data-y="50" data-alt="" data-title=""><picture class="skip-lazy" data-skip-lazy="1"><img src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/1280px-tokyo_sky_tree-1024x686.jpg" alt="" title="" loading="lazy" class="skip-lazy" data-skip-lazy="1"></picture></div><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div><div class="n2-ss-slide-background" data-public-id="9" data-mode="fill"><div class="n2-ss-slide-background-image" data-blur="0" data-opacity="100" data-x="50" data-y="50" data-alt="" data-title=""><picture class="skip-lazy" data-skip-lazy="1"><img src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/review-1024x683-e1505475245795.jpg" alt="" title="" loading="lazy" class="skip-lazy" data-skip-lazy="1"></picture></div><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div></div>                    <div class="n2-ss-slider-4 n2-ow">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" data-related-device="desktopPortrait" class="n2-ow n2-ss-preserve-size n2-ss-preserve-size--slider n2-ss-slide-limiter"></svg><div data-first="1" data-slide-duration="0" data-id="4" data-slide-public-id="1" data-title="03" class="n2-ss-slide n2-ow  n2-ss-slide-4"><div role="note" class="n2-ss-slide--focus" tabindex="-1">03</div><div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-gY6N2fonXlBx" data-sstype="slide" data-pm="default"></div></div></div><div data-slide-duration="0" data-id="5" data-slide-public-id="2" data-title="01" class="n2-ss-slide n2-ow  n2-ss-slide-5"><div role="note" class="n2-ss-slide--focus" tabindex="-1">01</div><div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-4OkHaATPjPy2" data-sstype="slide" data-pm="default"></div></div></div><div data-slide-duration="0" data-id="6" data-slide-public-id="3" data-title="2283676770_6b53f8b77f_b-1024x768" class="n2-ss-slide n2-ow  n2-ss-slide-6"><div role="note" class="n2-ss-slide--focus" tabindex="-1">2283676770_6b53f8b77f_b-1024x768</div><div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-45knYjKVPlFJ" data-sstype="slide" data-pm="default"></div></div></div><div data-slide-duration="0" data-id="7" data-slide-public-id="4" data-title="Tokyo_Gate_Bridge_5-1024x683" class="n2-ss-slide n2-ow  n2-ss-slide-7"><div role="note" class="n2-ss-slide--focus" tabindex="-1">Tokyo_Gate_Bridge_5-1024x683</div><div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-7Lu4MBaa7zN5" data-sstype="slide" data-pm="default"></div></div></div><div data-slide-duration="0" data-id="8" data-slide-public-id="5" data-title="iphone-desk-laptop-notebook-1024x579" class="n2-ss-slide n2-ow  n2-ss-slide-8"><div role="note" class="n2-ss-slide--focus" tabindex="-1">iphone-desk-laptop-notebook-1024x579</div><div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-tJxn1tKRfcmf" data-sstype="slide" data-pm="default"></div></div></div><div data-slide-duration="0" data-id="9" data-slide-public-id="6" data-title="JP-Tokyo-Tokyo-Station-Main-Building-Night-e1476875079684-1024x307" class="n2-ss-slide n2-ow  n2-ss-slide-9"><div role="note" class="n2-ss-slide--focus" tabindex="-1">JP-Tokyo-Tokyo-Station-Main-Building-Night-e1476875079684-1024x307</div><div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-5up2KGDB1Msm" data-sstype="slide" data-pm="default"></div></div></div><div data-slide-duration="0" data-id="10" data-slide-public-id="7" data-title="der-denker-e1476970031183-1024x335" class="n2-ss-slide n2-ow  n2-ss-slide-10"><div role="note" class="n2-ss-slide--focus" tabindex="-1">der-denker-e1476970031183-1024x335</div><div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-WItowJSYDJ4L" data-sstype="slide" data-pm="default"></div></div></div><div data-slide-duration="0" data-id="11" data-slide-public-id="8" data-title="1280px-Tokyo_Sky_tree-1024x686" class="n2-ss-slide n2-ow  n2-ss-slide-11"><div role="note" class="n2-ss-slide--focus" tabindex="-1">1280px-Tokyo_Sky_tree-1024x686</div><div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-uwHBEa1nG8Zq" data-sstype="slide" data-pm="default"></div></div></div><div data-slide-duration="0" data-id="12" data-slide-public-id="9" data-title="review-1024x683" class="n2-ss-slide n2-ow  n2-ss-slide-12"><div role="note" class="n2-ss-slide--focus" tabindex="-1">review-1024x683</div><div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-4coyZGDsPPOW" data-sstype="slide" data-pm="default"></div></div></div>                    </div>
+
+                                    </div>
+            </div>
+        </div>
+        <div class="n2-ss-slider-controls n2-ss-slider-controls-absolute-left-center"><div style="--widget-offset:15px;" class="n2-ss-widget nextend-arrow n2-ow-all nextend-arrow-previous  nextend-arrow-animated-fade" data-hide-mobileportrait="1" id="n2-ss-2-arrow-previous" role="button" aria-label="previous arrow" tabindex="0"><img width="32" height="32" class="skip-lazy" data-skip-lazy="1" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMS40MzMgMTUuOTkyTDIyLjY5IDUuNzEyYy4zOTMtLjM5LjM5My0xLjAzIDAtMS40Mi0uMzkzLS4zOS0xLjAzLS4zOS0xLjQyMyAwbC0xMS45OCAxMC45NGMtLjIxLjIxLS4zLjQ5LS4yODUuNzYtLjAxNS4yOC4wNzUuNTYuMjg0Ljc3bDExLjk4IDEwLjk0Yy4zOTMuMzkgMS4wMy4zOSAxLjQyNCAwIC4zOTMtLjQuMzkzLTEuMDMgMC0xLjQybC0xMS4yNTctMTAuMjkiCiAgICAgICAgICBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIwLjgiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4=" alt="previous arrow"></div></div><div class="n2-ss-slider-controls n2-ss-slider-controls-absolute-right-center"><div style="--widget-offset:15px;" class="n2-ss-widget nextend-arrow n2-ow-all nextend-arrow-next  nextend-arrow-animated-fade" data-hide-mobileportrait="1" id="n2-ss-2-arrow-next" role="button" aria-label="next arrow" tabindex="0"><img width="32" height="32" class="skip-lazy" data-skip-lazy="1" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMC43MjIgNC4yOTNjLS4zOTQtLjM5LTEuMDMyLS4zOS0xLjQyNyAwLS4zOTMuMzktLjM5MyAxLjAzIDAgMS40MmwxMS4yODMgMTAuMjgtMTEuMjgzIDEwLjI5Yy0uMzkzLjM5LS4zOTMgMS4wMiAwIDEuNDIuMzk1LjM5IDEuMDMzLjM5IDEuNDI3IDBsMTIuMDA3LTEwLjk0Yy4yMS0uMjEuMy0uNDkuMjg0LS43Ny4wMTQtLjI3LS4wNzYtLjU1LS4yODYtLjc2TDEwLjcyIDQuMjkzeiIKICAgICAgICAgIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuOCIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPg==" alt="next arrow"></div></div><div class="n2-ss-slider-controls n2-ss-slider-controls-absolute-right-bottom"><div style="--widget-offset:15px;" class="n2-ss-widget n2-style-443724b8a6c075089f509b7087c2ee39-heading nextend-autoplay n2-ow-all nextend-autoplay-image" role="button" aria-label="Play autoplay" data-pause-label="Pause autoplay" data-play-label="Play autoplay" tabindex="0"><img class="nextend-autoplay-play skip-lazy" data-skip-lazy="1" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMS41OCA3LjAzTDUuMzAyIDIuMTY1QzUuMTY1IDIuMDU3IDUuMDE2IDIgNC44NTcgMiA0LjM4NCAyIDQgMi41MDQgNCAzLjEyNXY5Ljc1YzAgLjYyLjM4NCAxLjEyNS44NTcgMS4xMjUuMTYgMCAuMzA4LS4wNTcuNDM2LS4xNTZMMTEuNTggOC45N2MuMjUtLjE5OC40Mi0uNTU4LjQyLS45NyAwLS40MTItLjE3LS43NzMtLjQyLS45N3oiCiAgICAgICAgICBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIwLjgiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4=" alt="Play"><img class="nextend-autoplay-pause skip-lazy" data-skip-lazy="1" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik00IDJ2MTJoM1YySDR6bTUgMHYxMmgzVjJIOXoiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuOCIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPg==" alt="Pause"></div></div></div><div class="n2-ss-slider-controls n2-ss-slider-controls-below"><div data-width-percent="100" class="n2-ss-widget nextend-thumbnail nextend-thumbnail-default nextend-thumbnail-horizontal n2-ow-all" data-hide-mobileportrait="1" style="width:100%;" data-has-next="0" data-has-previous="0"><div class="nextend-thumbnail-inner n2-style-df32cb3742fdac43eb0251df7d67c185-simple "><div class="nextend-thumbnail-scroller n2-align-content-start" style="grid-template-rows:repeat(1, 1fr)"><div class="n2-thumbnail-dot n2-style-462cb0983aca6cda3fc34a0feea6024b-dot " data-slide-public-id="1" role="button" aria-label="03" tabindex="0"><picture class="skip-lazy" data-skip-lazy="1"><img alt="03" src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/03.jpg" width="1024" height="684" loading="lazy" class="skip-lazy" data-skip-lazy="1" /></picture></div><div class="n2-thumbnail-dot n2-style-462cb0983aca6cda3fc34a0feea6024b-dot " data-slide-public-id="2" role="button" aria-label="01" tabindex="0"><picture class="skip-lazy" data-skip-lazy="1"><img alt="01" src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/01-e1505474924299.jpg" width="1000" height="299" loading="lazy" class="skip-lazy" data-skip-lazy="1" /></picture></div><div class="n2-thumbnail-dot n2-style-462cb0983aca6cda3fc34a0feea6024b-dot " data-slide-public-id="3" role="button" aria-label="2283676770_6b53f8b77f_b-1024x768" tabindex="0"><picture class="skip-lazy" data-skip-lazy="1"><img alt="2283676770_6b53f8b77f_b-1024x768" src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/2283676770_6b53f8b77f_b-1024x768.jpg" width="1024" height="768" loading="lazy" class="skip-lazy" data-skip-lazy="1" /></picture></div><div class="n2-thumbnail-dot n2-style-462cb0983aca6cda3fc34a0feea6024b-dot " data-slide-public-id="4" role="button" aria-label="Tokyo_Gate_Bridge_5-1024x683" tabindex="0"><picture class="skip-lazy" data-skip-lazy="1"><img alt="Tokyo_Gate_Bridge_5-1024x683" src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/tokyo_gate_bridge_5-1024x683-e1505475098751.jpg" width="1000" height="299" loading="lazy" class="skip-lazy" data-skip-lazy="1" /></picture></div><div class="n2-thumbnail-dot n2-style-462cb0983aca6cda3fc34a0feea6024b-dot " data-slide-public-id="5" role="button" aria-label="iphone-desk-laptop-notebook-1024x579" tabindex="0"><picture class="skip-lazy" data-skip-lazy="1"><img alt="iphone-desk-laptop-notebook-1024x579" src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/iphone-desk-laptop-notebook-1024x579.jpg" width="1024" height="579" loading="lazy" class="skip-lazy" data-skip-lazy="1" /></picture></div><div class="n2-thumbnail-dot n2-style-462cb0983aca6cda3fc34a0feea6024b-dot " data-slide-public-id="6" role="button" aria-label="JP-Tokyo-Tokyo-Station-Main-Building-Night-e1476875079684-1024x307" tabindex="0"><picture class="skip-lazy" data-skip-lazy="1"><img alt="JP-Tokyo-Tokyo-Station-Main-Building-Night-e1476875079684-1024x307" src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/jp-tokyo-tokyo-station-main-building-night-e1476875079684-1024x307.jpg" width="1024" height="307" loading="lazy" class="skip-lazy" data-skip-lazy="1" /></picture></div><div class="n2-thumbnail-dot n2-style-462cb0983aca6cda3fc34a0feea6024b-dot " data-slide-public-id="7" role="button" aria-label="der-denker-e1476970031183-1024x335" tabindex="0"><picture class="skip-lazy" data-skip-lazy="1"><img alt="der-denker-e1476970031183-1024x335" src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/der-denker-e1476970031183-1024x335.jpg" width="1024" height="335" loading="lazy" class="skip-lazy" data-skip-lazy="1" /></picture></div><div class="n2-thumbnail-dot n2-style-462cb0983aca6cda3fc34a0feea6024b-dot " data-slide-public-id="8" role="button" aria-label="1280px-Tokyo_Sky_tree-1024x686" tabindex="0"><picture class="skip-lazy" data-skip-lazy="1"><img alt="1280px-Tokyo_Sky_tree-1024x686" src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/1280px-tokyo_sky_tree-1024x686.jpg" width="1024" height="686" loading="lazy" class="skip-lazy" data-skip-lazy="1" /></picture></div><div class="n2-thumbnail-dot n2-style-462cb0983aca6cda3fc34a0feea6024b-dot " data-slide-public-id="9" role="button" aria-label="review-1024x683" tabindex="0"><picture class="skip-lazy" data-skip-lazy="1"><img alt="review-1024x683" src="//xsig.ipsj.or.jp/2018/wp-content/uploads/sites/4/slider2/review-1024x683-e1505475245795.jpg" width="1000" height="299" loading="lazy" class="skip-lazy" data-skip-lazy="1" /></picture></div></div></div><div class="nextend-thumbnail-button nextend-thumbnail-previous"><img width="26" height="26" style="width:26px;transform:rotateZ(-90deg);" loading="lazy" class="skip-lazy" data-skip-lazy="1" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxjaXJjbGUgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIG9wYWNpdHk9Ii41IiBmaWxsPSIjMDAwIiBjeD0iMTMiIGN5PSIxMyIgcj0iMTIiLz4KICAgICAgICA8cGF0aCBkPSJNMTMuNDM1IDkuMTc4Yy0uMTI2LS4xMjEtLjI3LS4xODItLjQzNi0uMTgyLS4xNjQgMC0uMzA2LjA2MS0uNDI4LjE4MmwtNC4zOCA0LjE3NWMtLjEyNi4xMjEtLjE4OC4yNjItLjE4OC40MjQgMCAuMTYxLjA2Mi4zMDIuMTg4LjQyM2wuNjUuNjIyYy4xMjYuMTIxLjI3My4xODIuNDQxLjE4Mi4xNyAwIC4zMTQtLjA2MS40MzYtLjE4MmwzLjMxNC0zLjE2MSAzLjI0OSAzLjE2MWMuMTI2LjEyMS4yNjkuMTgyLjQzMi4xODIuMTY0IDAgLjMwNy0uMDYxLjQzMy0uMTgybC42NjItLjYyMmMuMTI2LS4xMjEuMTg5LS4yNjIuMTg5LS40MjMgMC0uMTYyLS4wNjMtLjMwMy0uMTg5LS40MjRsLTQuMzczLTQuMTc1eiIKICAgICAgICAgICAgICBmaWxsPSIjZmZmIi8+CiAgICA8L2c+Cjwvc3ZnPg==" alt="previous arrow"></div><div class="nextend-thumbnail-button nextend-thumbnail-next"><img width="26" height="26" style="width:26px;transform:rotateZ(-90deg);" loading="lazy" class="skip-lazy" data-skip-lazy="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgICA8ZyBmaWxsPSJub25lIj4KICAgICAgICA8Y2lyY2xlIGN4PSIxMyIgY3k9IjEzIiByPSIxMiIgZmlsbD0iIzAwMCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIG9wYWNpdHk9Ii41Ii8+CiAgICAgICAgPHBhdGggZmlsbD0iI2ZmZiIKICAgICAgICAgICAgICBkPSJNMTIuNTY1IDE2LjgyMmMuMTI2LjEyLjI3LjE4Mi40MzYuMTgyLjE2OCAwIC4zMS0uMDYuNDMtLjE4Mmw0LjM4LTQuMTc1Yy4xMjgtLjEyLjE5LS4yNjIuMTktLjQyNCAwLS4xNi0uMDYyLS4zMDItLjE5LS40MjNsLS42NS0uNjIyYy0uMTI1LS4xMi0uMjcyLS4xODItLjQ0LS4xODItLjE3IDAtLjMxNC4wNi0uNDM2LjE4MmwtMy4zMTQgMy4xNi0zLjI1LTMuMTZjLS4xMjYtLjEyLS4yNy0uMTgyLS40My0uMTgyLS4xNjYgMC0uMzEuMDYtLjQzNS4xODJsLS42NjIuNjIyYy0uMTI2LjEyLS4xOS4yNjItLjE5LjQyMyAwIC4xNjIuMDY0LjMwMy4xOS40MjRsNC4zNzMgNC4xNzV6Ii8+CiAgICA8L2c+Cjwvc3ZnPg==" alt="next arrow"></div></div></div></div></div><ss3-loader></ss3-loader></div></div><div class="n2_clear"></div></div>	</div>
+
+<div id="content" class="site-content site-container ">
+	<a name="site-content"></a>
+    
+	<div id="primary" class="content-area  ">
+		<main id="main" class="site-main" role="main">
+            
+            
+			
+				
+<article id="post-12" class="post-12 page type-page status-publish hentry">
+
+	<div class="entry-content">
+		<h3 id="survey">アンケート</h3>
+<ul>
+<li> <a href="http://xsig.hpcc.jp/2018/session-survey/"> セッションごとのアンケート (参加したセッションごとにお答え下さい) </a> </li>
+<li> <a href="http://xsig.hpcc.jp/2018/survey/"> 全体に対するアンケート (最後にお答え下さい) </a></li>
+</ul>
+<h3 id="about">xSIG について</h3>
+<p><em>xSIG</em> (<em>cross</em>-disciplinary workshop on computing <em>S</em>ystems, <em>I</em>nfrastructures, and programmin<em>G</em>) は，<a href="about/history/">JSPP, SACSIS, ACSI</a> の系譜を受け継ぎ，<a href="about/kangaeru/">「考える会」</a> での議論に基づいて，2017年より新たに始まった国内会議です．「クロス シグ」と呼んでください．</p>
+<p>xSIG について，詳しくは，<a href="/about/">このページ</a>，もしくは，<a href="cf/cfp/">論文募集要項</a> をご覧ください．</p>
+
+<p>第2回 xSIG は，2018年5月，東京 にて開催します．</p>
+<table class="plain">
+<tbody>
+<tr>
+<th>期間</th>
+<td>2018/05/28 (月) ～30 (水)</td>
+</tr>
+<tr>
+<th>会場</th>
+<td><a href="http://www.hit-u.ac.jp/hall/" target="_blank">一橋講堂</a>（<a href="http://www.hit-u.ac.jp/hall/file/menu-016/file_01.pdf" target="_blank">アクセス マップ</a>）</td>
+</tr>
+</tbody>
+</table>
+<h3>スポンサー</h3>
+<div align="right">（<!-- a href="cf/call-for-exhibitions/"&gt;募集中</a>，-->先着順）</div>
+<h4 style="font-size: larger;text-align: center"><a href="program#29">懇親会</a>スポンサー</h4>
+<table class="logo">
+<tr>
+<td><a href="http://ddn.co.jp/" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2018/04/DDN-Storage-RedBG.svg" alt="株式会社データダイレクト・ネットワークス・ジャパン" style="width: 30%" /></a></td>
+</table>
+<h4 style="font-size: larger;text-align: center">ゴールド スポンサー</h4>
+<table class="logo">
+<tr>
+<td><a href="http://www1.jp.dell.com/content/topics/topic.aspx/global/products/landing/ja/jp/pub-landing?c=jp&amp;l=ja&amp;cs=jpbsd1" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2018/01/DellEMC_Logo_Prm_Blue_Gry_2spot.ai_-300x54.jpg" alt="デル株式会社" style="width: 80%;border: none" /></a></td>
+<td rowspan="2"><a href="https://www.intel.co.jp/" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2018/03/intSFT_i_blue_rgb.svg" alt="インテル株式会社" style="width: 50%;border: none" /></a></td>
+<tr>
+<td><a href="https://cloud.google.com/?hl=ja" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2018/03/cloud_lockup_horiz-300x79.png" alt="Google Cloud" style="width: 100%;border: none" /></a></td>
+</tr>
+<tr>
+<td><a href="https://engineering.linecorp.com/ja/" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2018/04/TYPE_A-300x105.png" alt="LINE株式会社" style="width: 50%;border: none" /></a></td>
+<td><a href="http://www.adt.co.jp/" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2018/04/logo_sp-300x55.png" alt="株式会社エー・ディ・ティ" style="width: 90%;border: none" /></a></td>
+</tr>
+</table>
+<h4 style="font-size: larger;text-align: center">スポンサー</h4>
+<table class="logo">
+<tr>
+<td><a href="http://www.fixstars.com/ja/" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2017/12/fixstars-logo-300x124.png" alt="株式会社 フィックスターズ" style="width: 95%;border: none" /></a></td>
+<td><a href="https://www.treasuredata.co.jp/" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2018/01/treasure-data-main-logo-0c2687dfe5894365d1cd21b849666fa9073c854d9e0085164d57987fa1f88b5a.svg" alt="" style="width: 60%;border: none" /></a></td>
+<td><a href="https://www.yahoo.co.jp/" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2017/09/fb_y_1500px-300x85-300x85.png" alt="ヤフー株式会社" style="width: 80%;border: none" /></a></td>
+</tr>
+<tr>
+<td><a href="http://www.hpctech.co.jp/" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2018/02/HPCtech_logo_500x130-300x78-300x78.jpg" alt="株式会社 HPC テック" style="width: 80%;border: none" /></a></td>
+<td><a href="https://www.arm.com/products/development-tools/hpc-tools" target="_blank"><img style="width: 60%;border: none" /></a></td>
+<td><a href="https://www.cyberagent.co.jp/" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2018/02/20014_ext_03_0.png" alt="株式会社サイバーエージェント" style="width: 60%;border: none" /></td>
+</tr>
+<tr>
+<td><a href="https://www.preferred-networks.jp/ja/" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2018/04/1-300x68.png" alt="(株)Preferred Networks" style="width: 95%;border: none" /></a></td>
+<td><a href="https://cybozu.co.jp/" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2018/04/logo_cybozu_Square_rgb-300x272.png" alt="サイボウズ株式会社" style="width: 60%;border: none" /></a></td>
+<td><a href="https://www.hpc-sol.co.jp/" target="_blank"><img src="https://xsig.hpcc.jp/wp-content/uploads/2018/04/companyImage-295x300.png" alt="株式会社 HPC ソリューションズ" style="width: 60%;border: none;background-color: black" /></a></td>
+</tr>
+</table>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+			</footer><!-- .entry-footer -->
+	
+</article><!-- #post-## -->
+
+				
+			
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+    
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://xsig.ipsj.or.jp/2018/">
+	<input type="search" class="search-field" placeholder="Search..." value="" name="s" title="Search for:" />
+	<a class="search-submit">
+		<i class="otb-fa otb-fa-search"></i>
+	</a>
+</form></aside><aside id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><h2><span style="font-size: large; font-weight: bold; text-transform: none;">What's New</span></h2>
+<table class="plain">
+<tbody>
+<tr>
+<th colspan="2">2018/06/06</th>
+</tr>
+<tr>
+<td></td>
+<td><a href="/2018/program/talks/">基調講演・招待講演</a> 発表資料（一部）</td>
+</tr>
+<tr>
+<th colspan="2">2018/04/10</th>
+</tr>
+<tr>
+<td></td>
+<td><a href="/2018/org/young-pc#voice">ヤング PC の「声」</a></td>
+</tr>
+<tr>
+<th colspan="2">2018/03/26</th>
+</tr>
+<tr>
+<td></td>
+<td><a href="/2018/program/awards">受賞論文</a> 決定</td>
+</tr>
+<tr>
+<th colspan="2">2018/03/13</th>
+</tr>
+<tr>
+<td></td>
+<th><a href="/2018/program/talks/">基調講演・招待講演</a></th>
+</tr>
+<tr>
+<td></td>
+<td>　田中 譲 先生（北大 名誉教授）</td>
+</tr>
+<tr>
+<td></td>
+<td>　Dr. Krishnamoorthy, Sriram (PNNL)</td>
+</tr>
+<tr>
+<td></td>
+<td>　楠 正憲 氏 (Japan Digital Design)</td>
+</tr>
+<tr>
+<td></td>
+<td>　田中 宗 先生（早稲田）</td>
+</tr>
+</tbody>
+</table></div></aside><aside id="custom_html-5" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><h2><a href="/2018/cf/dates/"><span style="font-size: large;">重要日程</span></a> (JST)</h2>
+<table class="plain">
+<tbody>
+<tr>
+<th colspan="2">2018/05/28（月）～30（水）</th>
+</tr>
+<tr>
+<td></td>
+<td>xSIG 2018 は終了しました</td>
+</tr>
+</tbody>
+</table></div></aside></div><!-- #secondary -->
+    
+        
+
+</div><!-- #content -->
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+	
+	<div class="site-footer-widgets">
+        <div class="site-container">
+        
+                        <ul>
+                <li id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><span style="white-space: nowrap; hyphens: none;">2017-2018 © xSIG Organizing Committee, All rights reserved.</span></div></li>
+            </ul>
+    		    		
+            <div class="clearboth"></div>
+        </div>
+    </div>
+	
+	<div class="site-footer-bottom-bar">
+	
+		<div class="site-container">
+			
+			<div class="site-footer-bottom-bar-left">
+
+             	Theme by <a href="https://www.outtheboxthemes.com" rel="nofollow">Out the Box</a> 
+                
+			</div>
+	        
+	        <div class="site-footer-bottom-bar-right">
+                
+	                            
+	        </div>
+	        
+	    </div>
+		
+        <div class="clearboth"></div>
+	</div>
+	
+</footer><!-- #colophon -->
+
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/js/navigation.js?ver=1.1.25' id='panoramic-navigation-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/js/jquery.carouFredSel-6.2.1-packed.js?ver=1.1.25' id='panoramic-caroufredsel-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/js/jquery.touchSwipe.min.js?ver=1.1.25' id='panoramic-touchswipe-js'></script>
+<script type='text/javascript' id='panoramic-custom-js-extra'>
+/* <![CDATA[ */
+var variables = {"sliderTransitionSpeed":"450"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/js/custom.js?ver=1.1.25' id='panoramic-custom-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-content/themes/panoramic/library/js/skip-link-focus-fix.js?ver=1.1.25' id='panoramic-skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2018/wp-includes/js/wp-embed.min.js?ver=5.8.4' id='wp-embed-js'></script>
+
+</body>
+</html>
+<!-- Dynamic page generated in 2.223 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2022-08-07 21:50:23 -->
+
+<!-- super cache -->

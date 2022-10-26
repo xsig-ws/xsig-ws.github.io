@@ -1,0 +1,1067 @@
+<!DOCTYPE html><!-- Panoramic -->
+<html lang="ja-JP">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+
+<!-- MapPress Easy Google Maps バージョン:2.73.2 (http://www.mappresspro.com) -->
+<title>基調講演・チュートリアル &#8211; xSIG 2019</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//webfonts.sakura.ne.jp' />
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="xSIG 2019 &raquo; フィード" href="https://xsig.ipsj.or.jp/2019/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/xsig.ipsj.or.jp\/2019\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.4"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://xsig.ipsj.or.jp/2019/wp-includes/css/dist/block-library/style.min.css?ver=5.8.4' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='mediaelement-css'  href='https://xsig.ipsj.or.jp/2019/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.16' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://xsig.ipsj.or.jp/2019/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mappress-leaflet-css'  href='https://unpkg.com/leaflet@1.7.1/dist/leaflet.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mappress-css'  href='https://xsig.ipsj.or.jp/2019/wp-content/plugins/mappress-google-maps-for-wordpress/css/mappress.css?ver=2.73.2' type='text/css' media='all' />
+<link rel='stylesheet' id='UserAccessManagerLoginForm-css'  href='https://xsig.ipsj.or.jp/2019/wp-content/plugins/user-access-manager/assets/css/uamLoginForm.css?ver=2.2.15' type='text/css' media='screen' />
+<link rel='stylesheet' id='panoramic-site-title-font-default-css'  href='//fonts.googleapis.com/css?family=Kaushan+Script%3A400&#038;ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic-body-font-default-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic&#038;ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic-heading-font-default-css'  href='//fonts.googleapis.com/css?family=Raleway%3A500%2C600%2C700%2C100%2C800%2C400%2C300&#038;ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic-header-standard-css'  href='https://xsig.ipsj.or.jp/2019/wp-content/themes/panoramic/library/css/header-standard.css?ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='otb-font-awesome-otb-font-awesome-css'  href='https://xsig.ipsj.or.jp/2019/wp-content/themes/panoramic/library/fonts/otb-font-awesome/css/otb-font-awesome.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='otb-font-awesome-font-awesome-min-css'  href='https://xsig.ipsj.or.jp/2019/wp-content/themes/panoramic/library/fonts/otb-font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic-style-css'  href='https://xsig.ipsj.or.jp/2019/wp-content/themes/panoramic/style.css?ver=1.1.25' type='text/css' media='all' />
+<link rel='stylesheet' id='panoramic_customizer_theme_fonts-css'  href='//fonts.googleapis.com/css?family=Bitter%3Aregular%2Citalic%2C700|Roboto%3Aregular%2Citalic%2C100%2C300%2C700%26subset%3Dlatin%2C' type='text/css' media='screen' />
+<link rel='stylesheet' id='mlp_frontend_css-css'  href='https://xsig.ipsj.or.jp/2019/wp-content/plugins/multilingual-press/assets/css/frontend.min.css?ver=1567558928' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://xsig.ipsj.or.jp/2019/wp-content/plugins/jetpack/css/jetpack.css?ver=10.4' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://xsig.ipsj.or.jp/2019/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2019/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='//webfonts.sakura.ne.jp/js/sakurav3.js?fadein=0&#038;ver=3.1.0' id='typesquare_std-js'></script>
+<link rel="https://api.w.org/" href="https://xsig.ipsj.or.jp/2019/wp-json/" /><link rel="alternate" type="application/json" href="https://xsig.ipsj.or.jp/2019/wp-json/wp/v2/pages/28" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://xsig.ipsj.or.jp/2019/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://xsig.ipsj.or.jp/2019/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.4" />
+<link rel="canonical" href="https://xsig.ipsj.or.jp/2019/talks/" />
+<link rel='shortlink' href='https://xsig.ipsj.or.jp/2019/?p=28' />
+<link rel="alternate" type="application/json+oembed" href="https://xsig.ipsj.or.jp/2019/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxsig.ipsj.or.jp%2F2019%2Ftalks%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://xsig.ipsj.or.jp/2019/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxsig.ipsj.or.jp%2F2019%2Ftalks%2F&#038;format=xml" />
+<link rel="alternate" hreflang="en-US" href="https://xsig.ipsj.or.jp/2019/en/talks/"><link rel="alternate" hreflang="ja-JP" href="https://xsig.ipsj.or.jp/2019/talks/"><style type="text/css">
+
+
+/* Minimum slider width */
+.panoramic-slider-container.default .slider .slide img {
+	min-width: 600px;
+}
+	
+
+/* Mobile Menu and other mobile stylings */
+@media only screen and (max-width: 960px) {
+	.main-navigation.translucent {
+		position: relative;
+	}
+	
+	.main-navigation.translucent {
+		background-color: #006489 !important;
+	}
+
+	#main-menu.panoramic-mobile-menu-standard-color-scheme {
+		background-color: #006489;
+	}	
+	
+	.slider-placeholder {
+		display: none;
+	}
+	
+	.header-image .overlay,
+	.panoramic-slider-container.default .slider .slide .overlay {
+		top: 25%;
+    }
+	
+	.panoramic-slider-container.default .prev.top-padded,
+	.panoramic-slider-container.default .next.top-padded{
+		margin-top: -26px;
+	}
+	.header-image .overlay.top-padded,
+	.panoramic-slider-container.default .slider .slide .overlay.top-padded {
+		padding-top: 0;
+	}
+
+	/* Menu toggle button */
+    .header-menu-button {
+	    display: block;
+	    padding: 16px 18px;
+	    color: #FFF;
+	    text-transform: uppercase;
+    	text-align: center;
+	    cursor: pointer;
+	}
+	.header-menu-button .otb-fa.otb-fa-bars {
+    	font-size: 28px;
+		color: #FFFFFF;
+	}
+	
+	/* Menu close button */
+    .main-menu-close {
+        display: block;
+    	background-color: rgba(0, 0, 0, 0.2);
+    	border-radius: 100%;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 26px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 0 6px 0 10px;
+        height: 36px;
+    	width: 36px;
+        line-height: 33px;
+        cursor: pointer;
+    	
+	    -webkit-transition: all 0.2s ease 0s;
+	     -moz-transition: all 0.2s ease 0s;
+	      -ms-transition: all 0.2s ease 0s;
+	       -o-transition: all 0.2s ease 0s;
+	          transition: all 0.2s ease 0s;
+
+    }
+    .main-menu-close:hover .otb-fa {
+    	font-weight: 700 !important;
+	}
+	.main-menu-close .otb-fa-angle-left {
+        position: relative;
+        left: -4px;
+    }
+	
+    .main-navigation ul {
+        display: block;
+    }
+
+    .main-navigation #main-menu {
+        color: #FFFFFF;
+        box-shadow: 1px 0 1px rgba(255, 255, 255, 0.04) inset;
+        position: fixed;
+        top: 0;
+        right: -280px;
+        width: 280px;
+        max-width: 100%;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 70px 0 30px 0;
+        z-index: 100000;
+        height: 100%;
+        overflow: auto;
+        -webkit-transition: right 0.4s ease 0s;
+        -moz-transition: right 0.4s ease 0s;
+        -ms-transition: right 0.4s ease 0s;
+        -o-transition: right 0.4s ease 0s;
+        transition: right 0.4s ease 0s;
+    }
+    #main-menu .menu {
+    	border-top-width: 1px;
+    	border-top-style: solid;
+	}
+    #main-menu.panoramic-mobile-menu-standard-color-scheme .menu {
+    	border-top-color: #FFFFFF;
+	}
+	.main-navigation li {
+        display: block;
+        float: none;
+        position: relative;
+    }
+    .main-navigation li a {
+    	white-space: normal !important;
+    	border-bottom-width: 1px;
+    	border-bottom-style: solid;
+		box-shadow: none;
+		display: block;
+		color: #FFFFFF;
+        float: none;
+        padding: 10px 22px;
+        font-size: 14px;
+        text-align: left;
+  	}
+    #main-menu.panoramic-mobile-menu-standard-color-scheme li a {
+    	border-bottom-color: #FFFFFF;
+	}
+    #main-menu.panoramic-mobile-menu-standard-color-scheme li a:hover {
+    	background-color: rgba(0, 0, 0, 0.2); 
+  	}
+    .main-navigation ul ul a {
+    	text-transform: none;
+  	}
+    .main-navigation ul ul li:last-child a,
+    .main-navigation ul ul li a {
+        padding: 6px 30px;
+        width: auto;
+    }
+    .main-navigation ul ul ul li a {
+        padding: 6px 39px !important;
+    }
+    .main-navigation ul ul ul ul li a {
+        padding: 6px 47px !important;
+    }
+    .main-navigation ul ul ul ul ul li a {
+        padding: 6px 55px !important;
+    }
+
+    .main-navigation ul ul {
+        position: relative !important;
+    	box-shadow: none;
+        top: 0 !important;
+        left: 0 !important;
+        float: none !important;
+    	background-color: transparent;
+        padding: 0;
+        margin: 0;
+        display: none;
+    	border-top: none;
+    }
+	.main-navigation ul ul ul {
+		left: 0 !important;
+	}
+	.menu-dropdown-btn {
+    	display: block;
+    }
+    .open-page-item > ul.children,
+    .open-page-item > ul.sub-menu {
+    	display: block !important;
+    }
+    .open-page-item .otb-fa-angle-down {
+		color: #FFFFFF;
+    	font-weight: 700 !important;
+    }
+    
+    /* 1st level selected item */
+    #main-menu.panoramic-mobile-menu-standard-color-scheme a:hover,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current-menu-item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current_page_item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current-menu-parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current_page_parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current-menu-ancestor > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme li.current_page_ancestor > a {
+		background-color: rgba(0, 0, 0, 0.2) !important;
+	}
+
+	/* 2nd level selected item */
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current-menu-item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current_page_item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current-menu-parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current_page_parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current-menu-ancestor > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul li.current_page_ancestor > a {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	
+	/* 3rd level selected item */
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current-menu-item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current_page_item > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current-menu-parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current_page_parent > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current-menu-ancestor > a,
+	#main-menu.panoramic-mobile-menu-standard-color-scheme ul ul ul li.current_page_ancestor > a {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+
+}
+
+</style>
+
+<!-- Begin Custom CSS -->
+<style type="text/css" id="out-the-box-custom-css">
+a,
+                .header-image .overlay .opacity h1,
+				.header-image .overlay .opacity h2,
+                .panoramic-slider-container.default .slider .slide .overlay .opacity h1,
+				.panoramic-slider-container.default .slider .slide .overlay .opacity h2,
+				.search-btn .otb-fa-search,
+				.site-title a,
+				.widget-area .widget a,
+                .rpwe-title a,
+                .rpwe-block .rpwe-comment,
+				.search-button .otb-fa-search,
+				.info-text em,
+				.woocommerce .woocommerce-breadcrumb a,
+				.woocommerce-page .woocommerce-breadcrumb a,
+				.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,
+				.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+				.color-text,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-icon.elementor-view-default .elementor-icon,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-icon.elementor-view-framed .elementor-icon,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-icon-box.elementor-view-default .elementor-icon,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-icon-box.elementor-view-framed .elementor-icon{color:#996600;}div.wpforms-container form.wpforms-form input[type="text"]:focus,
+				div.wpforms-container form.wpforms-form input[type="email"]:focus,
+				div.wpforms-container form.wpforms-form input[type="tel"]:focus,
+				div.wpforms-container form.wpforms-form input[type="url"]:focus,
+				div.wpforms-container form.wpforms-form input[type="password"]:focus,
+				div.wpforms-container form.wpforms-form input[type="search"]:focus,
+				div.wpforms-container form.wpforms-form select:focus,
+				div.wpforms-container form.wpforms-form textarea:focus,
+				input[type="text"]:focus,
+				input[type="email"]:focus,
+				input[type="tel"]:focus,
+				input[type="url"]:focus,
+				input[type="password"]:focus,
+				input[type="search"]:focus,
+				select:focus,
+				textarea:focus,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-icon.elementor-view-framed .elementor-icon,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-icon-box.elementor-view-framed .elementor-icon{border-color:#996600;}.main-navigation,
+				.main-navigation ul ul,
+				#comments .form-submit #submit,
+				.search-block .search-submit,
+				.no-results-btn,
+				button,
+        		a.button,
+        		.widget-area .widget a.button,
+				.panoramic-page-builders-use-theme-styles .widget_sow-button .ow-button-base a,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-button .elementor-button,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-icon.elementor-view-stacked .elementor-icon,
+				input[type="button"],
+				input[type="reset"],
+				input[type="submit"],
+        		p.woocommerce-store-notice.demo_store,
+				.woocommerce ul.products li.product a.add_to_cart_button,
+				.woocommerce-page ul.products li.product a.add_to_cart_button,
+				.woocommerce ul.products li.product a.button.product_type_simple,
+				.woocommerce-page ul.products li.product a.button.product_type_simple,
+        		.woocommerce button.button,
+				.woocommerce button.button.alt,
+				.woocommerce a.button.alt,
+				.woocommerce-page button.button.alt,
+				.woocommerce input.button.alt,
+				.woocommerce-page #content input.button.alt,
+				.woocommerce .cart-collaterals .shipping_calculator .button,
+				.woocommerce-page .cart-collaterals .shipping_calculator .button,
+				.woocommerce a.button,
+				.woocommerce-page a.button,
+				.woocommerce input.button,
+				.woocommerce-page #content input.button,
+				.woocommerce-page input.button,
+				.woocommerce #review_form #respond .form-submit input,
+				.woocommerce-page #review_form #respond .form-submit input,
+				.woocommerce #respond input#submit.alt.disabled,
+				.woocommerce #respond input#submit.alt.disabled:hover,
+				.woocommerce #respond input#submit.alt:disabled,
+				.woocommerce #respond input#submit.alt:disabled:hover,
+				.woocommerce #respond input#submit.alt:disabled[disabled],
+				.woocommerce #respond input#submit.alt:disabled[disabled]:hover,
+        		
+				.woocommerce button.button:disabled,
+				.woocommerce button.button:disabled[disabled],
+				.woocommerce button.button:disabled:hover,
+				.woocommerce button.button:disabled[disabled]:hover,
+				.woocommerce button.button.alt:disabled,
+				.woocommerce button.button.alt:disabled[disabled],
+				.woocommerce button.button.alt:disabled,
+				.woocommerce button.button.alt:disabled:hover,
+				.woocommerce button.button.alt:disabled[disabled],
+				.woocommerce button.button.alt:disabled[disabled]:hover,
+				.woocommerce button.button,
+				.woocommerce button.button.alt,
+				.woocommerce button.button.alt.disabled,
+				.woocommerce button.button.alt.disabled:hover,
+				.woocommerce a.button.alt,
+				.woocommerce-page button.button.alt,
+				.woocommerce input.button.alt,
+
+        		.widget_search .search-submit,
+				.widget_product_search .search-submit,
+				.wpcf7-submit,
+        		div.wpforms-container form.wpforms-form input[type=submit],
+				div.wpforms-container form.wpforms-form button[type=submit],
+				div.wpforms-container form.wpforms-form .wpforms-page-button,
+        		html #infinite-handle span button,
+				.site-footer-bottom-bar,
+        		.panoramic-page-builders-use-theme-styles .testimonials .sow-slider-base .sow-slide-nav,
+        		.panoramic-page-builders-use-theme-styles .elementor-widget-icon-box.elementor-view-stacked .elementor-icon{background-color:#996600;}.main-navigation.translucent{background-color:rgba(153,102,0, 0.7);}.header-cart-checkout.cart-has-items .otb-fa-shopping-cart{background-color:#996600 !important;}.woocommerce .woocommerce-info,
+        		.woocommerce .woocommerce-message{border-top-color:#996600;}::-moz-selection{background-color:#996600;}::selection{background-color:#996600;}a:hover,
+				.widget-area .widget a:hover,
+                .rpwe-title a:hover,
+                .rpwe-block .rpwe-comment:hover,
+                .search-btn .otb-fa-search:hover,
+				.search-button .otb-fa-search:hover,
+				.site-header .site-top-bar-left a:hover,
+				.site-header .site-top-bar-right a:hover,
+				.site-header .site-header-right a:hover,
+				.woocommerce .woocommerce-breadcrumb a:hover,
+				.woocommerce-page .woocommerce-breadcrumb a:hover,
+				.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active,
+				.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+				.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active,
+				.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active{color:#aa8844;}.main-navigation button:hover,
+				#comments .form-submit #submit:hover,
+				.search-block .search-submit:hover,
+				.no-results-btn:hover,
+				button:hover,
+        		a.button:hover,
+				.widget-area .widget a.button:hover,
+				.panoramic-page-builders-use-theme-styles .widget_sow-button .ow-button-base a.ow-button-hover:hover,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-button .elementor-button:hover,
+				input[type="button"]:hover,
+				input[type="reset"]:hover,
+				input[type="submit"]:hover,
+				.site-header .site-top-bar-right a:hover .header-cart-checkout .otb-fa,
+				.site-header .site-header-right a:hover .header-cart-checkout .otb-fa,
+				.woocommerce input.button.alt:hover,
+				.woocommerce-page #content input.button.alt:hover,
+				.woocommerce .cart-collaterals .shipping_calculator .button,
+				.woocommerce-page .cart-collaterals .shipping_calculator .button,
+				.woocommerce a.button:hover,
+				.woocommerce-page a.button:hover,
+				.woocommerce input.button:hover,
+				.woocommerce-page #content input.button:hover,
+				.woocommerce-page input.button:hover,
+				.woocommerce ul.products li.product a.add_to_cart_button:hover,
+				.woocommerce-page ul.products li.product a.add_to_cart_button:hover,
+				.woocommerce ul.products li.product a.button.product_type_simple:hover,
+				.woocommerce-page ul.products li.product a.button.product_type_simple:hover,
+        		.woocommerce button.button:hover,
+				.woocommerce button.button.alt:hover,
+				.woocommerce a.button.alt:hover,
+				.woocommerce-page button.button.alt:hover,
+				.woocommerce #review_form #respond .form-submit input:hover,
+				.woocommerce-page #review_form #respond .form-submit input:hover,
+        		.widget_search .search-submit:hover,
+				.widget_product_search .search-submit:hover,
+				.wpcf7-submit:hover,
+        		html #infinite-handle span button:hover,
+        		div.wpforms-container form.wpforms-form input[type=submit]:hover,
+				div.wpforms-container form.wpforms-form button[type=submit]:hover,
+				div.wpforms-container form.wpforms-form .wpforms-page-button:hover,
+        		.panoramic-page-builders-use-theme-styles .testimonials .sow-slider-base .sow-slide-nav:hover{background-color:#aa8844;}.site-footer{background-color:#fcf8f0;}.site-header .branding .title{font-family:"Bitter","Helvetica Neue",sans-serif;}h1, h2, h3, h4, h5, h6,
+				h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+				.site-footer-widgets ul li h2.widgettitle,
+    			.header-image .overlay .opacity h1,
+				.header-image .overlay .opacity h2,
+    			.panoramic-slider-container.default .slider .slide .overlay .opacity h1,
+				.panoramic-slider-container.default .slider .slide .overlay .opacity h2,
+    			ul.product_list_widget li .product-title,
+				.woocommerce a.button,
+				.woocommerce-page a.button,
+				.woocommerce a.button.alt,
+				.woocommerce table.cart th,
+				.woocommerce-page #content table.cart th,
+				.woocommerce-page table.cart th,
+				.woocommerce input.button.alt,
+				.woocommerce-page #content input.button.alt,
+				.woocommerce table.cart input,
+				.woocommerce-page #content table.cart input,
+				.woocommerce-page table.cart input,
+				.woocommerce #respond input#submit,
+				.woocommerce a.button,
+				.woocommerce button.button,
+				.woocommerce input.button,
+				button,
+    			a.button,
+    			.widget-area .widget a.button,
+				.panoramic-page-builders-use-theme-styles .widget_sow-button .ow-button-base a,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-button .elementor-button,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+    			html #jp-relatedposts h3.jp-relatedposts-headline,
+				html #infinite-handle span button,
+				html #infinite-handle span button:hover,
+    			div.wpforms-container form.wpforms-form input[type=submit],
+				div.wpforms-container form.wpforms-form button[type=submit],
+				div.wpforms-container form.wpforms-form .wpforms-page-button,
+    			input[type="button"],
+				input[type="reset"],
+				input[type="submit"]{font-family:"Bitter","Helvetica Neue",sans-serif;}h1, h2, h3, h4, h5, h6,
+				h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+    			ul.product_list_widget li .product-title,
+				.site-footer-widgets ul li h2.widgettitle,
+    			.panoramic-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title{color:#664400;}body,
+				.site-header .site-top-bar-left a,
+				.site-header .site-top-bar-right a,
+				.site-header .site-header-right a,
+				.breadcrumbs,
+	            div.wpforms-container form.wpforms-form .wpforms-field-label,
+				div.wpforms-container form.wpforms-form input[type="text"],
+				div.wpforms-container form.wpforms-form input[type="email"],
+				div.wpforms-container form.wpforms-form input[type="tel"],
+				div.wpforms-container form.wpforms-form input[type="url"],
+				div.wpforms-container form.wpforms-form input[type="password"],
+				div.wpforms-container form.wpforms-form input[type="search"],
+				div.wpforms-container form.wpforms-form select,
+				div.wpforms-container form.wpforms-form textarea,
+				input[type="text"],
+				input[type="email"],
+				input[type="tel"],
+				input[type="url"],
+				input[type="password"],
+				input[type="search"],
+				select,
+				textarea,
+				.site-footer-widgets .widget a,
+				.header-image .overlay .opacity p,
+				.panoramic-slider-container.default .slider .slide .overlay .opacity p,
+	            .panoramic-page-builders-use-theme-styles .elementor-widget-text-editor,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description{font-family:"Roboto","Helvetica Neue",sans-serif;}body,
+				.site-header .site-top-bar-left a,
+				.site-header .site-top-bar-right a,
+				.site-header .site-header-right a,
+				.breadcrumbs,
+				.woocommerce .woocommerce-breadcrumb,
+				.woocommerce-page .woocommerce-breadcrumb,
+				.header-image .overlay .opacity p,
+				.panoramic-slider-container.default .slider .slide .overlay .opacity p,
+                .woocommerce ul.products li.product .price,
+				.woocommerce #content ul.products li.product span.price,
+				.woocommerce-page #content ul.products li.product span.price,
+				.woocommerce #content div.product p.price,
+				.woocommerce-page #content div.product p.price,
+				.woocommerce-page div.product p.price,
+				.woocommerce #content div.product span.price,
+				.woocommerce div.product span.price,
+				.woocommerce-page #content div.product span.price,
+				.woocommerce-page div.product span.price,
+				.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+                .woocommerce #reviews #comments ol.commentlist li .meta,
+				#add_payment_method #payment div.payment_box,
+				.woocommerce-checkout #payment div.payment_box,
+                .rpwe-block .rpwe-time,
+				.widget-area .widget h2,
+                .panoramic-page-builders-use-theme-styles .testimonials .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper p,
+               	.panoramic-page-builders-use-theme-styles .elementor-widget-text-editor,
+				.panoramic-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description{color:#443333;}.select2-default{color:rgba(68,51,51, 0.7) !important;}::-webkit-input-placeholder{color:rgba(68,51,51, 0.7);}:-moz-placeholder{color:rgba(68,51,51, 0.7);}::-moz-placeholder{color:rgba(68,51,51, 0.7);}:-ms-input-placeholder{color:rgba(68,51,51, 0.7);}.header-cart-checkout .otb-fa{background-color:#443333;}
+@media (max-width: 960px){.main-navigation.translucent,
+        		#main-menu.panoramic-mobile-menu-standard-color-scheme{background-color:#996600 !important;}}
+</style>
+<!-- End Custom CSS -->
+		<style type="text/css" id="wp-custom-css">
+			/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+/* Main Text */
+
+#main {
+	font-size: medium;
+}
+
+#header {
+	font-size: medium;
+}
+
+/* h */
+h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0 .5em;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: x-large;
+}
+
+#main h3 {
+	margin-top: 50px;
+	border-bottom: solid 1px silver;
+}
+
+h4 {
+	font-size: large;
+}
+
+#main h4 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+h5 {
+	font-size: medium;
+}
+
+h6 {
+	font-size: medium;
+}
+
+/* Text Margin */
+p {
+	text-indent: 1em;
+	text-align: justify;
+	hyphens: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+ul, ol {
+	margin: 10px 0 10px 20px;
+}
+
+/* ul, ol */
+ul {
+	list-style: disc;
+}
+
+ul ul {
+	list-style: circle;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+	margin: 5px 0 5px 1.5em;
+}
+
+/* em, th, dt */
+em {
+	font-style: normal;
+	font-weight: bold;
+	color: maroon;
+}
+
+th, dt {
+	color: #332200;
+}
+
+/* a */
+p a, ol a {
+	text-decoration: underline;
+}
+
+a:hover,
+#sidebar a:hover,
+#header a:hover,
+#footer a:hover {
+	color: red;
+}
+
+/* Theme-specific */
+#logo h1 {
+	font-size: 26px;
+	line-height: 1.4;
+	font-weight: normal;
+	margin-top: 15px;
+}
+
+#logo h2 {
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+#menu ul {
+  font-size: 18px;
+	text-transform: none;
+}
+#menu-primary-menu li {
+  font-size: 18px;
+	text-transform: none;
+}
+li.menu-item {
+	font-size: 18px;
+	text-transform: none;
+}
+ul.menu {
+	font-size: 18px;
+	text-transform: none;
+}
+
+li {
+	    text-transform: none;
+	}
+
+#slider .featured-title span,
+.thinkupslider-sc .featured-title span {
+	color: white;
+/* #115172; */
+	font-size: 48px;
+	font-weight: 300;
+	line-height: 1.15;
+}
+
+#slider .featured-excerpt span,
+.thinkupslider-sc .featured-excerpt span {
+	color: white;
+/* #115172; */
+}
+
+/* Logo Table */
+table.logo {
+	margin-left: auto;
+  margin-right: auto;
+	table-layout: fixed;
+	border: none;
+	border-spacing: 0em 3ex;
+	border-collapse: separate;
+}
+
+table.logo td {
+	border: none;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.logo td a img {
+	border: none;
+}
+
+a img {
+border: none;
+}
+
+/* Plain Table */
+table.plain {
+	border: none;
+	width: auto;
+}
+
+table.plain td, table.plain th {
+	border: none;
+	border-bottom: solid 1px silver;
+	empty-cells: hide;
+	text-align: left;
+	vertical-align: top;
+	padding: 5px 10px 0;
+	width: auto;
+	white-space: nowrap;
+}
+
+table.plain th:empty, table.plain td:empty {
+	border: none;
+}
+
+/* Program Table */
+table.prog {
+	border: none;
+	width: 100%;
+}
+
+table.prog td, table.prog th {
+	border: none;
+	border-bottom: solid 1px silver;
+	empty-cells: hide;
+	text-align: left;
+	vertical-align: bottom;
+	padding: 5px 10px 0;
+	width: auto;
+	white-space: normal;
+}
+
+table.prog th.date { 
+	font-size: x-large; 
+	height: 50px; 
+	font-weight: bold; 
+	text-align: left;
+	vertical-align: bottom;
+}
+
+table.prog td.time {
+  vertical-align: top;
+}
+
+table.prog td.session { 
+	font-size: large; 
+	font-weight: bold; 
+}
+
+table.prog td.presentation { 
+	white-space: normal; 
+}		</style>
+		</head>
+
+<body data-rsssl=1 class="page-template-default page page-id-28 wp-embed-responsive mobile-device panoramic-page-builders-use-theme-styles">
+
+<a class="skip-link screen-reader-text" href="#site-content">Skip to content</a>
+
+<header id="masthead" class="site-header panoramic-header-layout-standard" role="banner">
+
+    
+<div class="site-container">
+    
+    <div class="branding">
+                    <a href="https://xsig.ipsj.or.jp/2019/" title="xSIG 2019" class="title">xSIG 2019</a>
+            <div class="description">The 3rd cross-disciplinary Workshop on Computing Systems, Infrastructures, and Programming</div>
+            </div><!-- .site-branding -->
+    
+    <div class="site-header-right">
+        
+                    <div class="info-text">
+            	            </div>
+			<ul class="social-links">
+<li><a href="mailto:x&#115;i%67201%39&#064;%78%73ig&#046;%68pc&#099;%2e&#106;&#112;" target="_blank" rel="noopener" title="Send us an email" class="social-email"><i class="otb-fa otb-fa-envelope-o"></i></a></li></ul>                
+    </div>
+    <div class="clearboth"></div>
+    
+	    
+</div>
+
+<nav id="site-navigation" class="main-navigation border-bottom " role="navigation">
+	<span class="header-menu-button" aria-expanded="false"><i class="otb-fa otb-fa-bars"></i></span>
+	<div id="main-menu" class="main-menu-container panoramic-mobile-menu-standard-color-scheme">
+		<div class="main-menu-close"><i class="otb-fa otb-fa-angle-right"></i><i class="otb-fa otb-fa-angle-left"></i></div>
+		<div class="main-navigation-inner"><ul id="menu-primary-menu" class="menu"><li id="menu-item-1013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1013"><a href="https://xsig.ipsj.or.jp/2019/about/">xSIG について</a>
+<ul class="sub-menu">
+	<li id="menu-item-1014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1014"><a href="https://xsig.ipsj.or.jp/2019/about/history/">系譜</a></li>
+	<li id="menu-item-1012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012"><a href="https://xsig.ipsj.or.jp/2019/about/kangaeru/">「考える会」</a></li>
+</ul>
+</li>
+<li id="menu-item-1019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1019"><a href="https://xsig.ipsj.or.jp/2019/cf/dates/">Call for &#8230;</a>
+<ul class="sub-menu">
+	<li id="menu-item-1020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1020"><a href="https://xsig.ipsj.or.jp/2019/cf/dates/">重要日程</a></li>
+	<li id="menu-item-1293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1293"><a href="https://xsig.ipsj.or.jp/2019/cf/cfpp/">参加募集</a></li>
+	<li id="menu-item-1021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1021"><a href="https://xsig.ipsj.or.jp/2019/cf/cfp/">Call for Papers</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1024"><a href="https://xsig.ipsj.or.jp/2019/cf/cfp/format/">投稿論文フォーマット</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1231"><a href="https://xsig.ipsj.or.jp/2019/cf/posters/">Call for Posters</a></li>
+	<li id="menu-item-1025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1025"><a href="https://xsig.ipsj.or.jp/2019/cf/cfp/guide/">投稿の手引</a></li>
+	<li id="menu-item-1142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a href="https://xsig.ipsj.or.jp/2019/cf/call-for-exhibitions/">企業・団体展示募集</a></li>
+</ul>
+</li>
+<li id="menu-item-1294" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1294"><a href="https://xsig.ipsj.or.jp/2019/program/">プログラム</a>
+<ul class="sub-menu">
+	<li id="menu-item-1297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1297"><a href="https://xsig.ipsj.or.jp/2019/program/">プログラム</a></li>
+	<li id="menu-item-1295" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28 current_page_item menu-item-1295"><a href="https://xsig.ipsj.or.jp/2019/talks/" aria-current="page">基調講演・チュートリアル</a></li>
+	<li id="menu-item-1296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1296"><a href="https://xsig.ipsj.or.jp/2019/awards/">受賞論文</a></li>
+</ul>
+</li>
+<li id="menu-item-1015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1015"><a href="https://xsig.ipsj.or.jp/2019/org/">組織</a>
+<ul class="sub-menu">
+	<li id="menu-item-1017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1017"><a href="https://xsig.ipsj.or.jp/2019/org/oc-pc/">組織委員会・プログラム委員会</a></li>
+	<li id="menu-item-1016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1016"><a href="https://xsig.ipsj.or.jp/2019/org/young-pc/">ヤング・プログラム委員</a></li>
+	<li id="menu-item-1018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1018"><a href="https://xsig.ipsj.or.jp/2019/org/sponsors/">主催・協賛</a></li>
+</ul>
+</li>
+</ul></div>	</div>
+</nav><!-- #site-navigation -->
+    
+</header><!-- #masthead -->
+
+
+<div id="content" class="site-content site-container ">
+	<a name="site-content"></a>
+        
+                
+    
+	<div id="primary" class="content-area  ">
+		<main id="main" class="site-main" role="main">
+            
+                
+    <header class="entry-header">
+        
+        <h1 class="entry-title">基調講演・チュートリアル</h1>        
+    </header><!-- .entry-header -->
+
+
+			
+				
+<article id="post-28" class="post-28 page type-page status-publish hentry">
+
+	<div class="entry-content">
+		<h3><a name="kna"></a>基調講演 (<a href="../program">5/27</a>，14:30-)</h3>
+<p><!--  --><img style="float: right;width: 20%;margin: 0px 0px 2ex 1em" src="https://xsig.hpcc.jp/2019/wp-content/uploads/sites/6/2019/04/shinoda.png" /></p>
+<dl>
+<dt>講演者</dt>
+<dd><a href="http://www.ks.c.titech.ac.jp/japanese/">篠田　浩一 先生</a>（東京工業大学 教授）
+</dd>
+<dt>題目</dt>
+<dd>深層学習と高性能計算</dd>
+<dt>概要</dt>
+<dd style="text-align: justify">深層学習がブレークしてから10年が経った。その間の進歩は目覚ましく、画像や音声の認識では人間と同等以上の能力をもつに至った。一方で、その開発・実装に必要な計算資源は大きく、それが映像認識などのより大規模なタスクへの適用を妨げている。この問題の解決に向けて深層学習専用の計算機システムを構築する研究開発が盛んになっている。ここでは、その試みの一つとして、我々が現在取り組んでいるプロジェクト、「Co-Designのアプローチによる高速・省資源な深層学習アルゴリズム基盤」を紹介する。機械学習と高性能計算の研究者が共同してアルゴリズムとアーキテクチャーを同時最適化する枠組みの構築を目指す。</dd>
+</dl>
+<h3><a name="iva"></a>チュートリアル A（<a href="../program#25">5/28</a>, 10:00-）</h3>
+<p><img style="float: right;width: 20%;margin: 0px 0px 2ex 1em" src="https://xsig.hpcc.jp/2019/wp-content/uploads/sites/6/2019/04/msyksphinz_logo.jpg" /></p>
+<dl>
+<dt>講演者</dt>
+<dd><a href="http://msyksphinz.hatenablog.com/" target="_blank" rel="noopener noreferrer">msyksphinz さん</a>（ハンドルネーム）（FPGA開発日記 著者）</dd>
+<dt>タイトル</dt>
+<dd>オープンソースCPUアーキテクチャ「RISC-V」を中心に変わる半導体の世界</dd>
+<dt>概要</dt>
+<dd style="text-align: justify">オープンソースソフトウェアに続き、オープンソースのCPUアーキテクチャとしてRISC-Vが注目されています。RISC-V Foundation には、名だたる半導体企業から新進気鋭のベンチャー企業まで、多くのメンバが参入して注目度が高まっています。これまでクローズな傾向のあった半導体業界も、RISC-Vのオープンアーキテクチャの流れに乗り、ソフトウェアのようなオープンソース化の流れが訪れています。RISC-Vを中心とするこれらのオープンハードウェアとそのエコシステムの構築に関して最新動向について解説しながら、半導体開発の業界がどのように変わりつつあるのか、その一端をご紹介します。</dd>
+</dl>
+<h3><a name="ivb"></a>チュートリアル B (<a href="../program#26">5/29</a>, 10:00-)</h3>
+<p><img style="float: right;width: 20%;margin: 0px 0px 2ex 1em" src="https://xsig.hpcc.jp/2019/wp-content/uploads/sites/6/2019/04/imai_self_portrait_real.jpg" /><!-- WANT: 一言紹介文 --></p>
+<dl>
+<dt>講演者</dt>
+<dd><!-- a href="WANT URL" target="_blank" rel="noopener noreferrer"　-->今井 健男 さん（Idein株式会社／国立情報学研究所）</dd>
+<dt>タイトル</dt>
+<dd>深層学習コンパイラの概要と最近の動向</dd>
+<dt>概要</dt>
+<dd style="text-align: justify">深層学習の社会的な普及やそれに伴う応用用途の拡がりに伴い、学習済みの深層ニューラルネット（DNN）を多様なハードウェアに合わせて最適化し実行コードに変換する深層コンパイラが近年利用されるようになった。本講演では深層学習コンパイラの成り立ちから基本的な構成、そして現在の技術開発動向について紹介する。</dd>
+<dt>発表資料</dt>
+<dd><a href="http://xsig.hpcc.jp/2019/wp-content/uploads/sites/6/2019/06/imai_20190529_xSiG_public_s.pdf">PDF</a></dd>
+</dl>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+			</footer><!-- .entry-footer -->
+	
+</article><!-- #post-## -->
+
+				
+			
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+    
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="mlp_widget-3" class="widget mlp_widget"><div class="mlp-language-box mlp_language_box"><ul><li><a rel="alternate" href="https://xsig.ipsj.or.jp/2019/en/talks/?noredirect=en_US"><img src="https://xsig.ipsj.or.jp/2019/wp-content/plugins/multilingual-press/assets/images/flags/en.gif" alt="English"> English</a></li><li><a class="current-language-item" href=""><img src="https://xsig.ipsj.or.jp/2019/wp-content/plugins/multilingual-press/assets/images/flags/ja.gif" alt="日本語"> 日本語</a></li></ul></div></aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://xsig.ipsj.or.jp/2019/">
+	<input type="search" class="search-field" placeholder="Search..." value="" name="s" title="Search for:" />
+	<a class="search-submit">
+		<i class="otb-fa otb-fa-search"></i>
+	</a>
+</form></aside><aside id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><h2><span style="font-size: large; font-weight: bold; text-transform: none;">What's New</span></h2>
+<table class="plain">
+<tbody>
+<tr>
+<th colspan="2">2019/06/01</th>
+</tr>
+<tr>
+<td></td>
+	<td>チュートリアル「深層学習コンパイラの</td>
+</tr>
+<tr>
+<td></td>
+	<td>概要と最近の動向」<a href="/2019/talks/#ivb">資料公開</a></td>
+</tr>
+<tr>
+<th colspan="2">2019/04/16</th>
+</tr>
+<tr>
+<td></td>
+	<td><a href="/2019/program/">プログラム</a>・<a href="/2019/cf/cfpp/">参加募集</a>公開</td>
+</tr>
+<tr>
+<th colspan="2">2019/03/15</th>
+</tr>
+<tr>
+<td></td>
+<td><a href="/2019/awards/">受賞論文</a> 決定</td>
+</tr>
+<tr>
+<th colspan="2">2019/02/12</th>
+</tr>
+<tr>
+<td></td>
+<td><a href="/2019/cf/cfp">一般論文</a>〆切延長</td>
+</tr>
+<tr>
+<th colspan="2">2019/02/01</th>
+</tr>
+<tr>
+<td></td>
+<td><a href="/2019/cf/cfp">一般論文</a>登録開始</td>
+</tr>
+<tr>
+<th colspan="2">2019/01/30</th>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://xsig.hpcc.jp/2019/cf/call-for-exhibitions/">企業・団体展示募集</a>公開</td>
+</tr>
+<tr>
+<th colspan="2">2018/12/04</th>
+</tr>
+<tr>
+<td></td>
+<td>xSIG 2019 サイトオープン</td>
+</tr>
+</tbody>
+</table></div></aside><aside id="custom_html-5" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><h2><a href="/2018/cf/dates/"><span style="font-size: large;">重要日程</span></a></h2>
+<div style="font-size: small">全ての〆切は 23:59 (JST) です</div>
+<table class="plain">
+<tbody>
+
+<tr><th colspan="2"><del style="color: gray">2019/02/11（月祝）</del></th></tr>
+	<tr><th colspan="2"><span style="color: red">2019/02/15（金）</span></th></tr>
+<tr><td></td><td>論文登録〆切</td></tr>
+<tr><th colspan="2"><del style="color: gray">2019/02/15（金）</del></th></tr>
+	<tr><th colspan="2"><span style="color: red">2019/02/20（水）</span></th></tr>
+<tr><td></td><td>論文アップロード〆切</td></tr>
+<tr><th colspan="2">2019/03/15（金）</th></tr>
+<tr><td></td><td>論文採否通知</td></tr>
+<tr><th colspan="2">2019/05/27（月）～05/29（水）</th></tr>
+<tr><td></td><td>xSIG2019は終了しました</td></tr>
+</tbody>
+</table></div></aside></div><!-- #secondary -->
+    
+        
+
+</div><!-- #content -->
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+	
+	<div class="site-footer-widgets">
+        <div class="site-container">
+        
+                        <ul>
+                <li id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><span style="white-space: nowrap; hyphens: none;">2017-2019 © xSIG Organizing Committee, All rights reserved.</span></div></li>
+            </ul>
+    		    		
+            <div class="clearboth"></div>
+        </div>
+    </div>
+	
+	<div class="site-footer-bottom-bar">
+	
+		<div class="site-container">
+			
+			<div class="site-footer-bottom-bar-left">
+
+             	Theme by <a href="https://www.outtheboxthemes.com" rel="nofollow">Out the Box</a> 
+                
+			</div>
+	        
+	        <div class="site-footer-bottom-bar-right">
+                
+	                            
+	        </div>
+	        
+	    </div>
+		
+        <div class="clearboth"></div>
+	</div>
+	
+</footer><!-- #colophon -->
+
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2019/wp-content/themes/panoramic/library/js/navigation.js?ver=1.1.25' id='panoramic-navigation-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2019/wp-content/themes/panoramic/library/js/jquery.carouFredSel-6.2.1-packed.js?ver=1.1.25' id='panoramic-caroufredsel-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2019/wp-content/themes/panoramic/library/js/jquery.touchSwipe.min.js?ver=1.1.25' id='panoramic-touchswipe-js'></script>
+<script type='text/javascript' id='panoramic-custom-js-extra'>
+/* <![CDATA[ */
+var variables = {"sliderTransitionSpeed":"450"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2019/wp-content/themes/panoramic/library/js/custom.js?ver=1.1.25' id='panoramic-custom-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2019/wp-content/themes/panoramic/library/js/skip-link-focus-fix.js?ver=1.1.25' id='panoramic-skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='https://xsig.ipsj.or.jp/2019/wp-includes/js/wp-embed.min.js?ver=5.8.4' id='wp-embed-js'></script>
+
+</body>
+</html>
+<!-- Dynamic page generated in 2.346 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2022-08-03 04:05:18 -->
+
+<!-- super cache -->
