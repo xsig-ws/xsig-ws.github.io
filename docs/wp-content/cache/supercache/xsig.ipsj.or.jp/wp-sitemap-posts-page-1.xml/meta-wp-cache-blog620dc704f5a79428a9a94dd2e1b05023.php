@@ -1,1 +1,0 @@
-<?php die(); ?>{"headers":{"Vary":"Vary: Accept-Encoding, Cookie","X-Powered-By":"X-Powered-By: PHP\/7.4.25","Content-type":"Content-type: application\/xml; charset=UTF-8","Last-Modified":"Last-Modified: Tue, 22 Feb 2022 08:30:59 GMT"},"uri":"xsig.ipsj.or.jp\/wp-sitemap-posts-page-1.xml","blog_id":"1","post":0,"key":"blogxsig.ipsj.or.jp443\/wp-sitemap-posts-page-1.xml"}
