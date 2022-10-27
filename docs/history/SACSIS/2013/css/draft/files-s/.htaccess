@@ -1,4 +1,0 @@
-AuthType	Basic
-AuthName	"SACSIS 2011 Tutorial Slide."
-AuthUserFile	/home/sacsis/html/sac11-tutorial.dat
-require valid-user
