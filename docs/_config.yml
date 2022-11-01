@@ -28,11 +28,12 @@ url: "xsig.ipsj.or.jp"
 github_username:  xsig-ws
 
 # Build settings
-theme: jekyll-theme-minimal
+remote_theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
-
-source: "docs"
+  - remote-theme
+  
+# source: "docs"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
