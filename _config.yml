@@ -20,7 +20,7 @@ description: "renewed home page on github"
 source_link: "https://github.com/t413/SinglePaged"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-#source: "docs"
+source: "docs"
 
 
 ### template colors, used site-wide via css ###
