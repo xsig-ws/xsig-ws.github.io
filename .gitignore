@@ -4,6 +4,7 @@ _site
 .jekyll-metadata
 .ipynb_checkpoints
 vendor
+Gemfile.lock
 #*
 *~
 .DS_Store

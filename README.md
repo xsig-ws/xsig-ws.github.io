@@ -6,17 +6,19 @@
 
 ## ディレクトリ構造
 
-- README.md
-- _config.yml
-- docs
--- _config.yml
--- 2017
---   :
--- 2022
--- 2023
-__ _posts
-__ _layouts
-__ _includes
+```
++ README.md
++ _config.yml
++ docs +
+       + _config.yml
+       + 2017
+       +   :
+       + 2022
+       + 2023
+       + _posts
+       + _layouts
+       + _includes
+```
 
 ## 生成方法
 生成はGithub Pagesのデフォルトで動作する[Jekyll](https://jekyllrb.com/)を用いる。
