@@ -3,6 +3,7 @@ title: "組織"
 bg: grey
 color: white
 fa-icon: check-square-o
+display: false
 ---
 
 ### 組織委員会

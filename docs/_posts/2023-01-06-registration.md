@@ -3,6 +3,7 @@ title: "参加登録"
 bg: blue
 color: white
 fa-icon: check-square-o
+display: false
 ---
 
 ## 参加登録 
