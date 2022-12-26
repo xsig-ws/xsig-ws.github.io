@@ -8,7 +8,6 @@
 
 ```
 + README.md
-+ _config.yml
 + docs +
        + _config.yml
        + 2017
@@ -55,11 +54,7 @@ Github Pages上のビルドには時間がかかること、回数に制限が�
 [ここ](https://jekyllrb.com/docs/installation/)を参考にして
 ほしい。
 
-ローカルでビルドするためにルートディレクトリにも`_config.yml`を用意してある。
-これと`docs/_config.yml`の相違は`source: "docs"`が存在するか
-どうかのみである。
-
-```bundle exec jekyll serve```
+```bundle exec jekyll serve --source docs```
 
 とすると、`_site`以下にサイトが再構成されると同時にローカルなWebサーバが起動
 されるので、localhost:4000で見ることができる。
@@ -77,7 +72,7 @@ wp-content以下にテーマ関係が入っているので、削除すると動�
 作成している。
 
 このテーマは複数のソース・ファイルに記述した内容を一つの長大なHTMLファイルに
-まとめる。ソース・ファイルは`docs/2022-01-XX-XXXXX.md`に存在する。
+まとめる。ソース・ファイルは`docs/_posts/2023-01-XX-XXXXX.md`に存在する。
 `default`というレイアウトを用いている。このレイアウトは指定した年のページのみを
 対象に変換を行い、一つのファイルに纏めてくれる。
 

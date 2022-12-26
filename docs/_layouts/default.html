@@ -19,17 +19,18 @@
     {% for node in site.posts reversed %}
       {% capture y %}{{ node.date | date: "%Y" }}{% endcapture %}
       {% assign yr = y | plus: 0 %}
-      {% if yr == page.year and node.display != false %}
+      {% if yr == page.year and page.lang == node.lang and node.display != false %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
       {% endif %}
     {% endfor %}
+    <!-- <li><a href="{{page.altpage}}"> Lang</a> </li> -->
     </ul></nav>
 
     {% for node in site.posts reversed %}
       {% capture y %}{{ node.date | date: "%Y" }}{% endcapture %}
       {% assign yr = y | plus: 0 %}
-      {% if yr == page.year and node.display != false %}
+      {% if yr == page.year and page.lang == node.lang and node.display != false %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
         <div id="{{id}}" class="section p-{{id}}">
           {% if node.icon %}
