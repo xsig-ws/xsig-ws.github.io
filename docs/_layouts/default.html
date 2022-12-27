@@ -24,8 +24,10 @@
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
       {% endif %}
     {% endfor %}
-    <!-- <li><a href="{{page.altpage}}"> Lang</a> </li> -->
+    {% if page.lang == "en" %} {% assign altlabel = "JP" %} {% else %} {% assign altlabel = "EN" %} {% endif %}
+    <li class="p-alt"><a href="{{page.altpage}}"> {{altlabel}} </a> </li>    
     </ul></nav>
+
 
     {% for node in site.posts reversed %}
       {% capture y %}{{ node.date | date: "%Y" }}{% endcapture %}

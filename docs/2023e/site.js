@@ -27,7 +27,8 @@ $.extend($.easing,
 
         //attatch click listeners
     	navItems.on('click', function(event){
-    		event.preventDefault();
+            if (! $(this).attr("href").startsWith("#"))
+                return;  // for outer link navigation
             var navID = $(this).attr("href").substring(1);
             disableScrollFn = true;
             activateNav(navID);
@@ -59,7 +60,10 @@ $.extend($.easing,
         navItems.each(function(){
             var scrollID = $(this).attr('href').substring(1);
             navs[scrollID] = (settings.activateParentNode)? this.parentNode : this;
-            sections[scrollID] = $(document.getElementById(scrollID)).offset().top;
+            var offset = $(document.getElementById(scrollID)).offset()
+            if (offset != undefined) {
+                sections[scrollID] = offset.top;
+            }
         });
     }
 
