@@ -35,9 +35,10 @@ display: true
 
 
 
-<!-- 
+---
 ### Technical Sponsors
 
+<!-- 
 |主催	|(社) 情報処理学会|	システム・アーキテクチャ研究会|(ARC)|
 | | |ハイパフォーマンスコンピューティング研究会	|(HPC)|
 | | |システムソフトウェアとオペレーティング・システム研究会	|(OS)|
@@ -49,3 +50,13 @@ display: true
 || |リコンフィギャラブルシステム研究専門委員会	|(RECONF)|
 
 -->
+
+| Sponsors	| Information Processing Society of Japan (IPSJ) | SIG System Architecture	|(ARC)| 
+| | | SIG High-Performance Computing	| (HPC)| 
+| | | SIG System Software and Operating System	|(OS)|
+| | | SIG Programming	| (PRO) |
+| Co-Sponsors | IEEE | Computer Society Tokyo/Japan Joint Chapter	| 
+| | Information Processing Society of Japan (IPSJ) |	SIG Database System	(DBS) |
+| | The Institute of Electronics, Information and Communication Engineers (IEICE) | Technical Committee on Computer System	| (CPSY) |
+| | | Technical Committee on Data Engineering	| (DE) |
+| | | Technical Committee on Reconfigurable Systems |(RECONF) |
