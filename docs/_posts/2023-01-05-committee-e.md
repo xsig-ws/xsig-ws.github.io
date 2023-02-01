@@ -61,7 +61,7 @@ display: true
 | |NAKAO, Masahiro |(RIKEN)|
 | |NAKAZAWA, Rina |(IBM Research - Tokyo)|
 | |NAKASHIMA, Kouta |(Fujitsu)|
-| |NAKAZONO, Sho |(-)|
+| |NAKAZONO, Sho |(Yahoo Japan)|
 | |NEMOTO, Jun |(Scalar)|
 | |HAYASAKA, Mitsuo |(Hitachi)|
 | |FUKAI, Takaaki |(National Institute of Advanced Industrial Science and Technology)|
