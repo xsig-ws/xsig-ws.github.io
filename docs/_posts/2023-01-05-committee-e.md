@@ -20,6 +20,7 @@ display: true
 | | TAKIZAWA, Hiroyuki | (Tohoku University) |
 | | TSUMURA, Tomoaki | (Nagoya Institute of Technology) |
 | Local Arrangement | Katsuya Matsubara | (Future University Hakodate) |
+
 ---
 
 ### Program Committee
