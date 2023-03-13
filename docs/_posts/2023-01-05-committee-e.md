@@ -19,7 +19,7 @@ display: true
 | | TAURA, Kenjiro | (The University of Tokyo) |
 | | TAKIZAWA, Hiroyuki | (Tohoku University) |
 | | TSUMURA, Tomoaki | (Nagoya Institute of Technology) |
-| Local Arrangement | Katsuya Matsubara | (Future University Hakodate) |
+| Local Arrangement | MATSUBARA, Katsuya | (Future University Hakodate) |
 
 ---
 
