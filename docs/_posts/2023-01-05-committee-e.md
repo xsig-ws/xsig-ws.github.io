@@ -78,6 +78,10 @@ display: true
 | |YOSHIKAWA, Takahide |(Fujitsu)|
 | |YOSHIMURA, Tsuyoshi |(IBM)|
 | |Thiem Van Chu |(Tokyo Institute of Technology)|
+|Young PC | HIRAYAMA, Yuki   | (University of Tokyo) |
+| | ISHIGURO, Kenta  | (Hosei University) |
+| | OGIWARA, Yushi   | (Keio University) |
+| | SHIIBA, Ryusei   | (The Graduate University for Advanced Studies) |
 
 
 
