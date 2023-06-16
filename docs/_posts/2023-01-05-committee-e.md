@@ -68,7 +68,7 @@ display: true
 | |FUKAI, Takaaki |(National Institute of Advanced Industrial Science and Technology)|
 | |FUKAYA, Takeshi |(Hokkaido University)|
 | |HOSHINO, Tetsuya |(Nagoya University)|
-| |MIZUSHIMA, Kota |(OPT)|
+| |MIZUSHIMA, Kota |(WALC)|
 | |MIYAZAKI, Jun |(Tokyo Institute of Technology)|
 | |YASUGI, Masahiro |(Kyushu Institute of Technology)|
 | |YASUDO, Ryota |(Kyoto University)|
