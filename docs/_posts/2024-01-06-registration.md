@@ -4,7 +4,7 @@ bg: blue
 color: white
 fa-icon: check-square-o
 lang: jp
-year: 2023
+year: 2024
 display: false
 ---
 
