@@ -9,8 +9,9 @@ display: true
 
 ### Organizing Committee
 
-| Organizing Chair | INOUE, Hiroshi | (IBM) | 
-| Organizing Committee | IWASHITA, Takeshi | (Hokkaido University) |
+| Organizing Chair | KOIBUCHI, Michihiro | (National Institute of Informatics) | 
+| Organizing Committee | INOUE, Hiroshi | (IBM) |
+| | IWASHITA, Takeshi | (Hokkaido University) |
 | | ENDO, Toshio | (Tokyo Institute of Technology) |
 | | GODA, Kazuo | (The University of Tokyo) |
 | | GOSHIMA, Masahiro | (National Institute of Informatics) |
@@ -18,9 +19,9 @@ display: true
 | | OGUCHI, Masato | (Ochanomizu University) |
 | | TAURA, Kenjiro | (The University of Tokyo) |
 | | TAKIZAWA, Hiroyuki | (Tohoku University) |
+| | TAKEFUSA, Atsuko | (National Institute of Informatics) |
 | | TSUMURA, Tomoaki | (Nagoya Institute of Technology) |
-| Local Arrangement | MATSUBARA, Katsuya | (Future University Hakodate) |
-| (2023 ver.)
+
 ---
 
 ### Program Committee
