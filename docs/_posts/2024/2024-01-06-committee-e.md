@@ -87,9 +87,8 @@ display: true
 | |NEMOTO, Jun |(Scalar, Inc.)|
 | |SUGIURA, Kento |(Nagoya University)|
 | |HOSHINO, Takashi |(Cybozu Labs, Inc.)|
-
-
 |Young PC |SATAKE, Yuki |(Hokkaido University)|
+
 
 
 
