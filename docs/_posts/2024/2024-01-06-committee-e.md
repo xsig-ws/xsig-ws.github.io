@@ -89,7 +89,7 @@ display: true
 | |HOSHINO, Takashi |(Cybozu Labs, Inc.)|
 
 
-|Young PC |
+|Young PC |SATAKE, Yuki |(Hokkaido University)|
 
 
 
