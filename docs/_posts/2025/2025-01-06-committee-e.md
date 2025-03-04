@@ -91,8 +91,8 @@ display: true
 | | | SIG High-Performance Computing | (HPC)|
 | | | SIG System Software and Operating System |(OS)|
 | | | SIG Programming | (PRO) |
+| | | SIG Database Management System | (DBS) |
+| |The Institute of Electronics, Information and Communication Engineers (IEICE)  | Technical Committee on Reconfigurable Systems | (RECONF) |
 | Co-Sponsors | Institute of Electrical and Electronics Engineers (IEEE) | Computer Society Tokyo/Japan Joint Chapter |
-| Support     | Information Processing Society of Japan (IPSJ) | SIG Database Management System | (DBS) |
-| | The Institute of Electronics, Information and Communication Engineers (IEICE) | Technical Committee on Computer System | (CPSY) |
+| Support | The Institute of Electronics, Information and Communication Engineers (IEICE) | Technical Committee on Computer System | (CPSY) |
 | | | Technical Committee on Data Engineering | (DE) |
-| | | Technical Committee on Reconfigurable Systems | (RECONF) |
