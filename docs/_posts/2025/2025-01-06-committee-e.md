@@ -66,7 +66,7 @@ display: true
 | | IMAKURA, Akira | (University of Tsukuba) |
 | | KOMATSU, Kazuhiko | (Tohoku University) |
 | | FUJII, Akihiro | (Kogakuin University) |
-| | KAWAI, Masatoshi | (Nagoya University) |
+| | KAWAI, Masatoshi | (Tohoku University) |
 | | OOTOMO, Hiroyuki | (NVIDIA) |
 | | SATAKE, Yuki | (Hokkaido University) |
 | | MATSUZAKI, Kiminori | (Kochi University of Technology) |
@@ -82,6 +82,7 @@ display: true
 | | NEMOTO, Jun | (Scalar, Inc.) |
 | | SUGIURA, Kento | (Nagoya University) |
 | | HOSHINO, Takashi | (Cybozu Labs, Inc.) |
+| Young PC | SUGITA, Shu | (The University of Tokyo) |
 
 ---
 
