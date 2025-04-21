@@ -38,7 +38,6 @@ display: true
 | | FUKAI, Takaaki | (AIST) |
 | | YOSHIMURA, Takeshi | (IBM Research - Tokyo) |
 | | TADOKORO, Hidekazu | (KIOXIA) |
-| | TAZAKI, Hajime | (IIJ) |
 | | MATSUBARA, Katsuya | (Future University Hakodate) |
 | | YAMAGUCHI, Saneyasu | (Kogakuin University) |
 | | ANDO, Kota | (Hokkaido University) |
