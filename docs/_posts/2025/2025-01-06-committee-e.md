@@ -15,6 +15,7 @@ display: true
 | | ENDO, Toshio | (Institute of Science Tokyo) |
 | | OGUCHI, Masato | (Ochanomizu University) |
 | | KOIBUCHI, Michihiro | (National Institute of Informatics) |
+| | KOURAI, Kenich | (Kyushu Institute of Technology) |
 | | GODA, Kazuo | (The University of Tokyo) |
 | | GOSHIMA, Masahiro | (National Institute of Informatics) |
 | | TAURA, Kenjiro | (The University of Tokyo) |
