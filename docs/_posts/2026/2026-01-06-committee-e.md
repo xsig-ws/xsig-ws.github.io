@@ -11,6 +11,7 @@ display: true
 
 | Organizing Chair | NAKADA, Hidemoto | (Juntendo University) |
 | Organizing Committee | INOUE, Hiroshi | (IBM) |
+| | IRIE, Hidetsugu | (The University of Tokyo) |
 | | IWASHITA, Takeshi | (Kyoto University) |
 | | ENDO, Toshio | (Institute of Science Tokyo) |
 | | OHSHIMA, Satoshi | (Kyushu University) |
