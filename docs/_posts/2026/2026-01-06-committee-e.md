@@ -36,8 +36,11 @@ display: true
 | Poster Chair | YAMAKI, Hayato | (Meiji University) |
 | Program Secretary | KOIZUMI, Toru | (Nagoya Institute of Technology) |
 | Program Committee |  |  |
+
+<!--
 |  |  |  |
 | Young PC |  |  |
+-->
 
 ---
 
@@ -47,7 +50,7 @@ display: true
 | | | SIG High-Performance Computing | (HPC)|
 | | | SIG System Software and Operating System |(OS)|
 | | | SIG Programming | (PRO) |
-| | | SIG Database Management System | (DBS) |
+| | | SIG Databases and Data Science | (DBS) |
 | |The Institute of Electronics, Information and Communication Engineers (IEICE)  | Technical Committee on Reconfigurable Systems | (RECONF) |
 | Co-Sponsors | Institute of Electrical and Electronics Engineers (IEEE) | Computer Society Tokyo/Japan Joint Chapter |
 | Support | The Institute of Electronics, Information and Communication Engineers (IEICE) | Technical Committee on Computer System | (CPSY) |
