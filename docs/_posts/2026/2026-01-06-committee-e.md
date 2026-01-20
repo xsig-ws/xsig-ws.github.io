@@ -9,7 +9,7 @@ display: true
 
 ### Organizing Committee
 
-| Organizing Chair | NAKADA, Hidemoto | (Juntendo University) |
+| Organizing Chair | TAKEFUSA, Atsuko | (National Institute of Informatics) |
 | Organizing Committee | INOUE, Hiroshi | (IBM) |
 | | IRIE, Hidetsugu | (The University of Tokyo) |
 | | IWASHITA, Takeshi | (Kyoto University) |
@@ -21,7 +21,7 @@ display: true
 | | GODA, Kazuo | (The University of Tokyo) |
 | | GOSHIMA, Masahiro | (National Institute of Informatics) |
 | | TAURA, Kenjiro | (The University of Tokyo) |
-| | TAKEFUSA, Atsuko | (National Institute of Informatics) |
+| | NAKADA, Hidemoto | (Juntendo University) |
 | | TAKIZAWA, Hiroyuki | (Tohoku University) |
 | | TSUMURA, Tomoaki | (Nagoya Institute of Technology) |
 
