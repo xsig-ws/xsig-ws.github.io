@@ -24,6 +24,7 @@ display: true
 | | TAKIZAWA, Hiroyuki | (Tohoku University) |
 | | TSUMURA, Tomoaki | (Nagoya Institute of Technology) |
 | | NAKADA, Hidemoto | (Juntendo University) |
+
 ---
 
 ### Program Committee
