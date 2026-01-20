@@ -21,10 +21,9 @@ display: true
 | | GODA, Kazuo | (The University of Tokyo) |
 | | GOSHIMA, Masahiro | (National Institute of Informatics) |
 | | TAURA, Kenjiro | (The University of Tokyo) |
-| | NAKADA, Hidemoto | (Juntendo University) |
 | | TAKIZAWA, Hiroyuki | (Tohoku University) |
 | | TSUMURA, Tomoaki | (Nagoya Institute of Technology) |
-
+| | NAKADA, Hidemoto | (Juntendo University) |
 ---
 
 ### Program Committee
