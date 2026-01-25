@@ -33,7 +33,7 @@ display: true
 | Program Vice-Chair | AKIYAMA, Soramichi | (Ritsumeikan University) |
 | | NEMOTO, Jun | (Scalar) |
 | | FUJITA, Norihisa | (University of Tsukuba) |
-| Poster Chair | YAMAKI, Hayato | (Meiji University) |
+| Poster Chair | YAMAKI, Hayato | (The University of Electro-Communications) |
 | Program Secretary | KOIZUMI, Toru | (Nagoya Institute of Technology) |
 | Program Committee |  |  |
 
