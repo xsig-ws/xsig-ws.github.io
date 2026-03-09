@@ -84,10 +84,8 @@ display: true
 | | KANETA Yusaku | (Rakuten Mobile, Inc.) |
 | | SUGIURA Kento | (Nagoya University) |
 | | HOSHINO Takashi | (Cybozu Labs, Inc.) |
-<!--
-|  |  |  |
-| Young PC |  |  |
--->
+| Young PC | Hidemasa Kawasaki | (Ritsumeikan University) |
+
 
 ---
 
