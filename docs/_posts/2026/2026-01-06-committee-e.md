@@ -35,56 +35,55 @@ display: true
 | | FUJITA, Norihisa | (University of Tsukuba) |
 | Poster Chair | YAMAKI, Hayato | (The University of Electro-Communications) |
 | Program Secretary | KOIZUMI, Toru | (Nagoya Institute of Technology) |
-| Program Committee | SAKAMOTO Ryuichi | Institute of Science Tokyo |
-|  | SATO Masaya | Okayama Prefectural University |
-|  | FUKAI Takaaki | AIST |
-|  | YOSHIMURA Takeshi | IBM Research - Tokyo |
-|  | TAZAKI Hajime | IIJ |
-|  | MATSUBARA Katsuya | Future University Hakodate |
-|  | YAMAGUCHI Saneyasu | Kogakuin University |
-|  | SUGAYA Midori | Shibaura Institute of Technology |
-|  | ANDO Kota | Hokkaido University |
-|  | OGAWA Shugo | Hitachi |
-|  | SHIBATA Sieya | NEC |
-|  | KADOMOTO Junichiro | The University of Tokyo |
-|  | KOJIMA Takuya | University of Tsukuba |
-|  | KOBAYASHI Ryohei | Institute of Science Tokyo |
-|  | CHU Thiem Van | Institute of Science Tokyo |
-|  | YASUDO Ryota | Kyoto University |
-|  | FUJIEDA Naoki | Aichi Institute of Technology |
-|  | ODAJIMA Tetsuya | Fujitsu |
-|  | UKEZONO Tomoaki | Kindai University |
-|  | UENO Yosuke | RIKEN |
-|  | SUGITA Shu | The University of Tokyo |
-|  | YUKINORI Sato | Toyohashi University of Technology |
-|  | TSUJI Miwako | University of Tsukuba / RIKEN |
-|  | FUKAYA Takeshi | Hokkaido University |
-|  | HOSHINO Tetsuya | Nagoya University |
-|  | SHIMOKAWABE Takashi | The University of Tokyo |
-|  | NAKASHIMA Kouta | Fujitsu |
-|  | NAKAO Masahiro | RIKEN R-CCS |
-|  | MIKI Yohei | The University of Tokyo |
-|  | SATO Kento | RIKEN R-CCS |
-|  | IMAKURA Akira | University of Tsukuba |
-|  | KOMATSU Kazuhiko | Tohoku University |
-|  | FUJII Akihiro | Kogakuin University |
-|  | KAWAI Masatoshi | Tohoku University |
-|  | OOTOMO Hiroyuki | NVIDIA |
-|  | SATAKE Yuki | Hokkaido University |
-|  | NUKADA Akira | University of Tsukuba |
-|  | MATSUZAKI Kiminori | Kochi University of Technology |
-|  | HORIE Michihiro | IBM Japan |
-|  | YASUGI Masahiro | Kyushu Institute of Technology |
-|  | KURAMITSU Kimio | Japan Women's University |
-|  | ONIZUKA Makoto | Osaka University |
-|  | KAWASHIMA Hideyuki | Keio University |
-|  | GODA Kazuo | The University of Tokyo |
-|  | MIYAZAKI Jun | Institute of Science Tokyo |
-|  | NAKAZONO Sho | LY Corporation |
-|  | KANETA Yusaku | Rakuten Mobile, Inc. |
-|  | SUGIURA Kento | Nagoya University |
-|  | HOSHINO Takashi | Cybozu Labs, Inc. |
-
+| Program Committee | SAKAMOTO Ryuichi | (Institute of Science Tokyo) |
+| | SATO Masaya | (Okayama Prefectural University) |
+| | FUKAI Takaaki | (AIST) |
+| | YOSHIMURA Takeshi | (IBM Research - Tokyo) |
+| | TAZAKI Hajime | (IIJ) |
+| | MATSUBARA Katsuya | (Future University Hakodate) |
+| | YAMAGUCHI Saneyasu | (Kogakuin University) |
+| | SUGAYA Midori | (Shibaura Institute of Technology) |
+| | ANDO Kota | (Hokkaido University) |
+| | OGAWA Shugo | (Hitachi) |
+| | SHIBATA Sieya | (NEC) |
+| | KADOMOTO Junichiro | (The University of Tokyo) |
+| | KOJIMA Takuya | (University of Tsukuba) |
+| | KOBAYASHI Ryohei | (Institute of Science Tokyo) |
+| | CHU Thiem Van | (Institute of Science Tokyo) |
+| | YASUDO Ryota | (Kyoto University) |
+| | FUJIEDA Naoki | (Aichi Institute of Technology) |
+| | ODAJIMA Tetsuya | (Fujitsu) |
+| | UKEZONO Tomoaki | (Kindai University) |
+| | UENO Yosuke | (RIKEN) |
+| | SUGITA Shu | (The University of Tokyo) |
+| | YUKINORI Sato | (Toyohashi University of Technology) |
+| | TSUJI Miwako | (University of Tsukuba / RIKEN) |
+| | FUKAYA Takeshi | (Hokkaido University) |
+| | HOSHINO Tetsuya | (Nagoya University) |
+| | SHIMOKAWABE Takashi | (The University of Tokyo) |
+| | NAKASHIMA Kouta | (Fujitsu) |
+| | NAKAO Masahiro | (RIKEN R-CCS) |
+| | MIKI Yohei | (The University of Tokyo) |
+| | SATO Kento | (RIKEN R-CCS) |
+| | IMAKURA Akira | (University of Tsukuba) |
+| | KOMATSU Kazuhiko | (Tohoku University) |
+| | FUJII Akihiro | (Kogakuin University) |
+| | KAWAI Masatoshi | (Tohoku University) |
+| | OOTOMO Hiroyuki | (NVIDIA) |
+| | SATAKE Yuki | (Hokkaido University) |
+| | NUKADA Akira | (University of Tsukuba) |
+| | MATSUZAKI Kiminori | (Kochi University of Technology) |
+| | HORIE Michihiro | (IBM Japan) |
+| | YASUGI Masahiro | (Kyushu Institute of Technology) |
+| | KURAMITSU Kimio | (Japan Women's University) |
+| | ONIZUKA Makoto | (Osaka University) |
+| | KAWASHIMA Hideyuki | (Keio University) |
+| | GODA Kazuo | (The University of Tokyo) |
+| | MIYAZAKI Jun | (Institute of Science Tokyo) |
+| | NAKAZONO Sho | (LY Corporation) |
+| | KANETA Yusaku | (Rakuten Mobile, Inc.) |
+| | SUGIURA Kento | (Nagoya University) |
+| | HOSHINO Takashi | (Cybozu Labs, Inc.) |
 <!--
 |  |  |  |
 | Young PC |  |  |
