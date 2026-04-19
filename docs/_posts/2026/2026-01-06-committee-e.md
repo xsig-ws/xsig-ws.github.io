@@ -85,6 +85,9 @@ display: true
 | | SUGIURA Kento | (Nagoya University) |
 | | HOSHINO Takashi | (Cybozu Labs, Inc.) |
 | Young PC | Hidemasa Kawasaki | (Ritsumeikan University) |
+| | Shinji Yoshida | (Osaka University) |
+| | Reina Sasaki | (Ochanomizu University) |
+| | Shogo Takata | (Tokyo University of Agriculture and Technology) |
 
 
 ---
