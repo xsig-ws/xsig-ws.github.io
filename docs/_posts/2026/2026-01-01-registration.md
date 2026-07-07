@@ -5,7 +5,7 @@ color: white
 fa-icon: check-square-o
 lang: jp
 year: 2026
-display: false
+display: true
 ---
 
 ## 参加登録
