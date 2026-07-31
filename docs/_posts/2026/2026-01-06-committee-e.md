@@ -71,7 +71,6 @@ display: true
 | | KAWAI Masatoshi | (Tohoku University) |
 | | OOTOMO Hiroyuki | (NVIDIA) |
 | | SATAKE Yuki | (Hokkaido University) |
-| | NUKADA Akira | (University of Tsukuba) |
 | | MATSUZAKI Kiminori | (Kochi University of Technology) |
 | | HORIE Michihiro | (IBM Japan) |
 | | YASUGI Masahiro | (Kyushu Institute of Technology) |
