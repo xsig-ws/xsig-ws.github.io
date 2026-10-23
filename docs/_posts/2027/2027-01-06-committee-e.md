@@ -9,7 +9,7 @@ display: true
 
 ### Organizing Committee
 
-| Organizing Chair | TAKEFUSA, Atsuko | (National Institute of Informatics) |
+| Organizing Chair | KOURAI, Kenichi | (Kyushu Institute of Technology) |
 | Organizing Committee | INOUE, Hiroshi | (IBM) |
 | | IRIE, Hidetsugu | (The University of Tokyo) |
 | | IWASHITA, Takeshi | (Kyoto University) |
@@ -17,11 +17,11 @@ display: true
 | | OHSHIMA, Satoshi | (Kyushu University) |
 | | OGUCHI, Masato | (Ochanomizu University) |
 | | KOIBUCHI, Michihiro | (National Institute of Informatics) |
-| | KOURAI, Kenich | (Kyushu Institute of Technology) |
 | | GODA, Kazuo | (The University of Tokyo) |
 | | GOSHIMA, Masahiro | (National Institute of Informatics) |
 | | TAURA, Kenjiro | (The University of Tokyo) |
 | | TAKIZAWA, Hiroyuki | (Tohoku University) |
+| | TAKEFUSA, Atsuko | (National Institute of Informatics) |
 | | TSUMURA, Tomoaki | (Nagoya Institute of Technology) |
 | | NAKADA, Hidemoto | (Juntendo University) |
 

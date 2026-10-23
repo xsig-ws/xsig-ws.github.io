@@ -4,10 +4,10 @@ bg: blue
 color: white
 fa-icon: check-square-o
 lang: jp
-year: 2026
+year: 2027
 display: true
 ---
 
 ## 参加登録
 
-参加登録は[こちら](https://forms.gle/Vafs4rkemKQ2RVTi7)からお願いします。
+TBD
